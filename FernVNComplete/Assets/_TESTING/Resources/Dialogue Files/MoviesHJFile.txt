@@ -1,0 +1,35 @@
+SetLayerMedia(background MovieAuditorium) 
+
+Narrator "The camera fades in to a desolate battlefield. The air is thick with tension as our hero, a weary yet determined swordsman, stands alone against a towering adversary. The clouds darken, rumbling ominously overhead." 
+Narrator "The hero's face is streaked with dirt and sweat, but his eyes burn with resolve." 
+Narrator "In the distance, the faint echo of a cheering crowd can be heard - they believe in him, and he knows it." 
+Narrator "The adversary charges forward with a mighty roar, shaking the ground beneath their feet. The hero's breath quickens, but he doesn't flinch. He digs deep, summoning every ounce of courage left." 
+Narrator "With a quick sidestep, he dodges the blow, narrowly avoiding being crushed." 
+Narrator "The swordsman staggers back, gripping his side, pain coursing through him. The battle isn't just physical anymore - it's emotional. It's mental. He's fought so long, sacrificed so much, and now, it's a test of his heart." 
+Narrator "Later, after the battle, the swordsman sits by a dying campfire, bandaging his wounds." 
+Narrator "His face is etched with exhaustion, but there's a glimmer of peace in his eyes. He's alone now, the weight of his decisions settling on his shoulders." 
+Narrator "It kind of makes you realize that sometimes leadership isn't about being the strongest - it's about having the heart to keep going, no matter what."
+Narrator "The flames flicker weakly, much like the hero's energy. He looks down at his hands - scarred, bruised, but still capable." 
+Narrator "Slowly, he reaches for his pack and pulls out a small pendant, a symbol of his fallen love. He clenches it tightly, as though drawing strength from her memory."  
+Narrator "The hero stands up slowly, stretching his aching limbs. His resolve hardens again. Though battered, he knows his journey isn't over. The road ahead is long, but his heart is strong enough to continue." 
+Narrator "The camera zooms out, showing the hero walking alone down a winding path, his silhouette small against the vast wilderness, but still moving forward." 
+DisableSkip()    
+Narrator "He doesn't stop. He can't stop. He's carrying the hope of many, and that's what fuels him." 
+HideGalleryImage()
+HideDB(-spd 1)
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1) 
+SetLayerMedia(background Movies) 
+EnableSkip() 
+Narrator "Wow, that movie really got to me. It's more than just an action-packed adventure. It's about finding the courage to face your fears, even when the odds are stacked against you." 
+Narrator "I couldn't help but feel inspired by the hero's determination. He wasn't just fighting for himself, but for everyone who believed in him." 
+PlaySFX(OnePoint -v 1)  
+IncreaseCharisma(-st 1) 
+Narrator "It kind of makes you realize that sometimes leadership isn't about being the strongest - it's about having the heart to keep going, no matter what." 
+PlaySFX(OnePoint -v 1)   
+IncreaseEndurance(-st 1) 
+DisableSkip() 
+AdvanceDay() 
+Load(MoviesFile -enqueue true)  

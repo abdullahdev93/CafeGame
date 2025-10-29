@@ -1,0 +1,25 @@
+SetLayerMedia(background Apartment_ALT) 
+PhoneEnabled(false) 
+Narrator "I flipped through the pages, eager to absorb the techniques that would help me initiate, maintain, and elevate social interactions." 
+Narrator "Chapter 1: The Power of Active Listening."
+Narrator "When conversing, it's important to maintain eye contact and nod occasionally to show genuine interest." 
+Narrator "A subtle gesture, a well-timed nod - small actions that make the other person feel heard."
+Narrator "One of the best ways to demonstrate that you're paying attention is to repeat or paraphrase what the other person says." 
+Narrator "Not just copying their words, but truly processing their meaning and reflecting it back." 
+Narrator "'So what you're saying is...' or 'It sounds like you mean...' These phrases show engagement. They show that you care about their thoughts."
+Narrator "Avoid interrupting - let the other person fully express their thoughts and feelings before responding." 
+Narrator "Conversations shouldn't be a competition to speak first but rather a rhythm, a natural exchange where both voices have space to be heard."
+Narrator "As I continued reading, I started to understand - conversation isn't just about words." 
+Narrator "It's about presence, patience, and connection." 
+DisableSkip()   
+PlaySFX(ThreePoints -v 1)      
+IncreaseCharisma(-st 3)     
+Narrator "This was the first step to becoming the kind of person with the Charisma to walk into a room and effortlessly draw people in." 
+ResetFile() 
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1)
+Load(ApartmentStart -enqueue true)  

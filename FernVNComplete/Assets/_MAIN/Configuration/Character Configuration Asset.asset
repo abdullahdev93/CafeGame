@@ -1,0 +1,593 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b081fe6aa043dbb4e948069bccd12cdc, type: 3}
+  m_Name: Character Configuration Asset
+  m_EditorClassIdentifier: 
+  characters:
+  - name: <mainChar>
+    alias: mc
+    characterType: 0
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Benjamin
+    alias: ben
+    characterType: 0
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 72d68798eca17354db4eeb6d95d4a306, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 72d68798eca17354db4eeb6d95d4a306, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Elen
+    alias: e
+    characterType: 0
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Farah
+    alias: f
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: angry
+        Value: {fileID: 21300000, guid: 421412caf0f71eb438815ecf986ff54b, type: 3}
+      - Key: crying
+        Value: {fileID: 21300000, guid: 8167d74aed737bf429424a914b713c26, type: 3}
+      - Key: default
+        Value: {fileID: 21300000, guid: 2d28df6510db34f4ea206c310cd7df16, type: 3}
+      - Key: flirty
+        Value: {fileID: 21300000, guid: aa13ac7e6660b134a862aa6dfa5c92c6, type: 3}
+      - Key: happy
+        Value: {fileID: 21300000, guid: 570f8ecb9e847ba439b35d43b079af25, type: 3}
+      - Key: irritated
+        Value: {fileID: 21300000, guid: e4622bf95ac8c6a4d8b874d94c82a814, type: 3}
+      - Key: laugh
+        Value: {fileID: 21300000, guid: b5c2a49c7c99e2e4e908ab614c3dc570, type: 3}
+      - Key: sad
+        Value: {fileID: 21300000, guid: 2590b60506a03a74c8bda886c78e8bd3, type: 3}
+      - Key: scared
+        Value: {fileID: 21300000, guid: 1953739e0b0e36a48a4462d72b7f8e50, type: 3}
+      - Key: shocked
+        Value: {fileID: 21300000, guid: d3473d8b17aab524da83b9000a1c7061, type: 3}
+      - Key: wideeyes
+        Value: {fileID: 21300000, guid: 9d313049ab2e0ce4cb7f2734e4a2fcee, type: 3}
+      - Key: outfit - sleep\angry
+        Value: {fileID: 21300000, guid: 8fafebca5794fc446aaf306762ca0041, type: 3}
+      - Key: outfit - sleep\crying
+        Value: {fileID: 21300000, guid: d150d63509cb91245a46a41db2f5963c, type: 3}
+      - Key: outfit - sleep\default
+        Value: {fileID: 21300000, guid: 8a18a082163e3ae43ad3504a86177a6f, type: 3}
+      - Key: outfit - sleep\flirty
+        Value: {fileID: 21300000, guid: 1838ccd6f8ff1114cb40bc41ff8035a8, type: 3}
+      - Key: outfit - sleep\happy
+        Value: {fileID: 21300000, guid: ed5ec8706560edc498fd012023df5c80, type: 3}
+      - Key: outfit - sleep\irritated
+        Value: {fileID: 21300000, guid: 410ff0ce0f6152d4392eb29bb60e017d, type: 3}
+      - Key: outfit - sleep\laughing
+        Value: {fileID: 21300000, guid: fc04a7ce5b21b5442b49486740be24b2, type: 3}
+      - Key: outfit - sleep\sad
+        Value: {fileID: 21300000, guid: fa1185f848d53c14e91eef89f60de14e, type: 3}
+      - Key: outfit - sleep\scared
+        Value: {fileID: 21300000, guid: cbf10c25f4dd746488c7ac3d3016be54, type: 3}
+      - Key: outfit - sleep\shocked
+        Value: {fileID: 21300000, guid: a1c7cecb3618e4f40b4ba8e6895f4d3c, type: 3}
+      - Key: outfit - sleep\wideeyes
+        Value: {fileID: 21300000, guid: 839b3c2d9078c0842a2dda88f7765c39, type: 3}
+  - name: Female Student 2
+    alias: fs2
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Generic
+    alias: gen
+    characterType: 2
+    nameColor: {r: 0, g: 0.66599345, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 0}
+    dialogueFont: {fileID: 0}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: Guard
+        Value: {fileID: -1957405950, guid: 6c007007286b401479daf6bba1200421, type: 3}
+      - Key: Girl
+        Value: {fileID: 1080889024, guid: 6c007007286b401479daf6bba1200421, type: 3}
+      - Key: Man
+        Value: {fileID: -964242304, guid: 6c007007286b401479daf6bba1200421, type: 3}
+      - Key: Monk
+        Value: {fileID: 868266631, guid: 6c007007286b401479daf6bba1200421, type: 3}
+  - name: Glo
+    alias: g
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Stella
+    alias: s
+    characterType: 1
+    nameColor: {r: 0.2117647, g: 0.7135895, b: 1, a: 1}
+    dialogueColor: {r: 0.6273585, g: 0.9081655, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: 1
+        Value: {fileID: 21300000, guid: ed192020435d2c9439774a480fe777b6, type: 3}
+      - Key: 2
+        Value: {fileID: 21300000, guid: 5c3adb5570b60bf43b2bddaf8a051ac0, type: 3}
+      - Key: 3
+        Value: {fileID: 21300000, guid: a9c324039990f9242a5a26cb26dba3c9, type: 3}
+      - Key: 4
+        Value: {fileID: 21300000, guid: 95b2f85042a8a1d469269f1f47968ee2, type: 3}
+      - Key: angry 1
+        Value: {fileID: 21300000, guid: a586d246fc8411a43ac65dbdf5b2a146, type: 3}
+      - Key: angry 2
+        Value: {fileID: 21300000, guid: c8e9b62cc49451d499c84b49f7f9ac81, type: 3}
+      - Key: angry 3
+        Value: {fileID: 21300000, guid: dbdf5c18396b9fc4c9d152b5951c345f, type: 3}
+      - Key: angry 4
+        Value: {fileID: 21300000, guid: f2397619edb6b4f43b4e488eb3da52f2, type: 3}
+      - Key: default 1
+        Value: {fileID: 21300000, guid: eb3ec98874af2c7498ec6036d45a6de1, type: 3}
+      - Key: default 2
+        Value: {fileID: 21300000, guid: a39a911b534c79b47bf5faafa29fc259, type: 3}
+      - Key: default 3
+        Value: {fileID: 21300000, guid: c7d284590575c38418c49a6223325c8f, type: 3}
+      - Key: default 4
+        Value: {fileID: 21300000, guid: 40fa2f328fe138e47b3f1921eb761dcb, type: 3}
+      - Key: excited 1
+        Value: {fileID: 21300000, guid: 768bc48268618c64786553bcd8e99be2, type: 3}
+      - Key: excited 2
+        Value: {fileID: 21300000, guid: 7ed6a45d834549343bb60546f1cf6ae4, type: 3}
+      - Key: excited 3
+        Value: {fileID: 21300000, guid: fd57681ccaa0beb41bddab3980559e77, type: 3}
+      - Key: excited 4
+        Value: {fileID: 21300000, guid: 4ef9c95e06d08654686832994eb78dd5, type: 3}
+      - Key: happy 1
+        Value: {fileID: 21300000, guid: 64950878bfc45e448a4d0d649aa1cac3, type: 3}
+      - Key: happy 2
+        Value: {fileID: 21300000, guid: f9707814d4ddfa94bbb9cc457e2af01b, type: 3}
+      - Key: happy 3
+        Value: {fileID: 21300000, guid: 5a858068901890d4d99a74333568c032, type: 3}
+      - Key: happy 4
+        Value: {fileID: 21300000, guid: a106ca94395f704499aeafb9e2ca15db, type: 3}
+      - Key: laugh 1
+        Value: {fileID: 21300000, guid: 52c4f10084c52d4418e4d4d7907eb2d6, type: 3}
+      - Key: Laugh 2
+        Value: {fileID: 21300000, guid: 5e1dc2a37d8348a4099728c9f91b86ec, type: 3}
+      - Key: Laugh 3
+        Value: {fileID: 21300000, guid: f6bc95bbac58abf439a6bfef4dc2efb1, type: 3}
+      - Key: laugh 4
+        Value: {fileID: 21300000, guid: 256591f02e4a17c4b927b1026300ba9e, type: 3}
+      - Key: sad 1
+        Value: {fileID: 21300000, guid: e04e5d720762bef4a87c23916ae60ef8, type: 3}
+      - Key: sad 2
+        Value: {fileID: 21300000, guid: 23626d29fe974a24490ef2e70d4f2ea5, type: 3}
+      - Key: sad 3
+        Value: {fileID: 21300000, guid: 9ab23eac77cff704996c1af1fc79e4a6, type: 3}
+      - Key: sad 4
+        Value: {fileID: 21300000, guid: 72d2b3c377b7c8d47a274bd1d1b3927f, type: 3}
+  - name: Raelin
+    alias: r
+    characterType: 2
+    nameColor: {r: 1, g: 0.55857635, b: 0, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: A1
+        Value: {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+      - Key: A_Scold
+        Value: {fileID: 877658820, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A2
+        Value: {fileID: 371039983, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Blush
+        Value: {fileID: -231494423, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Default
+        Value: {fileID: -831843799, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Embarrassed
+        Value: {fileID: -12134526, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Guilty
+        Value: {fileID: 1799884572, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Happy
+        Value: {fileID: -861763730, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Laugh
+        Value: {fileID: 752875108, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Scared
+        Value: {fileID: 1148731873, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Shocked
+        Value: {fileID: -819501888, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: A_Stern
+        Value: {fileID: 1930344441, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B1
+        Value: {fileID: 2143271235, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B2
+        Value: {fileID: -984643779, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Blush
+        Value: {fileID: 455040721, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Default
+        Value: {fileID: 2079976379, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Embarrassed
+        Value: {fileID: -899087398, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Guilty
+        Value: {fileID: -1818594040, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Happy
+        Value: {fileID: 1731016576, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Laugh
+        Value: {fileID: -810301392, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Scared
+        Value: {fileID: 2089198746, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Scold
+        Value: {fileID: 1533307292, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Shocked
+        Value: {fileID: -1330446141, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+      - Key: B_Stern
+        Value: {fileID: -1720575887, guid: b7ac32c0f1831844eb8ff927eaee3749, type: 3}
+  - name: Mao
+    alias: ma
+    characterType: 3
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Natori
+    alias: na
+    characterType: 3
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Rice
+    alias: ri
+    characterType: 3
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Koharu
+    alias: ko
+    characterType: 3
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Amarya
+    alias: am
+    characterType: 4
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Mei
+    alias: mei
+    characterType: 1
+    nameColor: {r: 0.3864295, g: 0, b: 0.6698113, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: Mei_Straight
+        Value: {fileID: 21300000, guid: 3a676316fc69fa94fb384af69486b3d7, type: 3}
+      - Key: Mei_Clenched
+        Value: {fileID: 21300000, guid: e56e972e683df2942bcec7e8e59ffd1c, type: 3}
+      - Key: Mei_Leaning
+        Value: {fileID: 21300000, guid: 09da8a29e41ec9b458f055b7f3d01898, type: 3}
+      - Key: Mei_Thinking
+        Value: {fileID: 21300000, guid: cc66463c91f435344a8e0240e183fab0, type: 3}
+      - Key: Mei_Cross
+        Value: {fileID: 21300000, guid: 2b50ce3ad17677b44ac1009b0f8bb9aa, type: 3}
+      - Key: Mei_Hip
+        Value: {fileID: 21300000, guid: 2d944ddbad74a2b40ae307275147b992, type: 3}
+      - Key: Mei_Hand_Out
+        Value: {fileID: 21300000, guid: 8df0dbf4b3b5f0a4d88fafe0ba0dc734, type: 3}
+      - Key: Mei_Nervous
+        Value: {fileID: 21300000, guid: eee6c66608347824e9b1890402c688ce, type: 3}
+      - Key: Mei_Open_Arms
+        Value: {fileID: 21300000, guid: 73c38585777cee442aaa4c0a741f91f5, type: 3}
+      - Key: Mei_Peace
+        Value: {fileID: 21300000, guid: cfd057ca4dd7e2747b9b6b6efcf28a97, type: 3}
+      - Key: Mei_Angry
+        Value: {fileID: 21300000, guid: 21ac92aa850b84b4dbd3178f536ae163, type: 3}
+      - Key: Mei_Angry_Tilted
+        Value: {fileID: 21300000, guid: e4fa882cf85d7c54280996874d09ab6e, type: 3}
+      - Key: Mei_Angry_Blush
+        Value: {fileID: 21300000, guid: 61309e49d2c14844b8ea7d3199b42ef3, type: 3}
+      - Key: Mei_Angry_Blush_Tilted
+        Value: {fileID: 21300000, guid: 7dc33d8d57dc2dc47a604ac02e3b7bc4, type: 3}
+      - Key: Mei_Annoyed
+        Value: {fileID: 21300000, guid: fa8dbeaa411c34240a3061a6a2feec13, type: 3}
+      - Key: Mei_Annoyed_Blush
+        Value: {fileID: 21300000, guid: d120e7c623a5c384a91f393356dc7bcf, type: 3}
+      - Key: Mei_Annoyed_Tilted
+        Value: {fileID: 21300000, guid: a6b25ebfb515f8c4d808a2b0f96de6a0, type: 3}
+      - Key: Mei_Annoyed_Blush_Tilted
+        Value: {fileID: 21300000, guid: 1217388531f93d1498987580d8939d04, type: 3}
+      - Key: Mei_Disgusted
+        Value: {fileID: 21300000, guid: c02d7970bc8ec2d48a680ace5b50f2a8, type: 3}
+      - Key: Mei_Disgusted_Blush
+        Value: {fileID: 21300000, guid: d6a59e0fa80f14642a1c29a2b7c62b08, type: 3}
+      - Key: Mei_Disgusted_Tilted
+        Value: {fileID: 21300000, guid: 4bef4db7c47a7424f91e0c168cbc8b33, type: 3}
+      - Key: Mei_Disgusted_Blush_Tilted
+        Value: {fileID: 21300000, guid: d9c3fcbe256455b4f959228aa917d252, type: 3}
+      - Key: Mei_Embarrassed
+        Value: {fileID: 21300000, guid: 3a4fb16018c8bd64ba2c908ce26ef5cc, type: 3}
+      - Key: Mei_Embarrassed_Blush
+        Value: {fileID: 21300000, guid: e2a271ba4f46c2441bc588d25a780aab, type: 3}
+      - Key: Mei_Embarrassed_Tilted
+        Value: {fileID: 21300000, guid: 3aeac46d7b39a7f4ab475efa57aaf846, type: 3}
+      - Key: Mei_Embarrassed_Blush_Tilted
+        Value: {fileID: 21300000, guid: 968ae8c03bf7ee54fac3a3718d388ae6, type: 3}
+      - Key: Mei_Excited
+        Value: {fileID: 21300000, guid: 68aa23fbdeaa5e4448997c86e48f0b8d, type: 3}
+      - Key: Mei_Excited_Blush
+        Value: {fileID: 21300000, guid: 86884eb8b2319284cb91f7c646fdd9e8, type: 3}
+      - Key: Mei_Excited_Tilted
+        Value: {fileID: 21300000, guid: 9354ef11f4a3dce45b18ff9a20365bce, type: 3}
+      - Key: Mei_Excited_Blush_Tilted
+        Value: {fileID: 21300000, guid: eaa07483e21c9e8498722b9e9f54cceb, type: 3}
+      - Key: Mei_Happy
+        Value: {fileID: 21300000, guid: 1ed30d88e5001d14da0cb4a49c6c3851, type: 3}
+      - Key: Mei_Happy_Blush
+        Value: {fileID: 21300000, guid: 7f07ba6130bde57408ff1dd615fd85c9, type: 3}
+      - Key: Mei_Happy_Tilted
+        Value: {fileID: 21300000, guid: 96fdcf83ee2f33a408edc5fc6788f4a5, type: 3}
+      - Key: Mei_Happy_Blush_Tilted
+        Value: {fileID: 21300000, guid: ae7f67b6783e55140b7b158e9583c859, type: 3}
+      - Key: Mei_Laughing
+        Value: {fileID: 21300000, guid: 5684ec1a6193dc44c8c0230298337df9, type: 3}
+      - Key: Mei_Laughing_Blush
+        Value: {fileID: 21300000, guid: e12fc0dfb4c4f394aa1a82b3ea919a18, type: 3}
+      - Key: Mei_Laughing_Tilted
+        Value: {fileID: 21300000, guid: ca3e208a601a96346ae28e62eb084146, type: 3}
+      - Key: Mei_Laughing_Blush_Tilted
+        Value: {fileID: 21300000, guid: d32317b11e26a824dabaf6b37ece547d, type: 3}
+      - Key: Mei_Mischievous
+        Value: {fileID: 21300000, guid: e2698db2fa9950b4b96e1978bd27970f, type: 3}
+      - Key: Mei_Mischievous_Blush
+        Value: {fileID: 21300000, guid: aaffefd305fde734ea82df7f6f71f683, type: 3}
+      - Key: Mei_Mischievous_Tilted
+        Value: {fileID: 21300000, guid: fc4b39dd0212294458819f048670aca8, type: 3}
+      - Key: Mei_Mischievous_Blush_Tilted
+        Value: {fileID: 21300000, guid: ae436dd667fa5944eb95474ab97b7f78, type: 3}
+      - Key: Mei_Neutral
+        Value: {fileID: 21300000, guid: 6f21b77d2ae09ed4eb7e82fde3841b75, type: 3}
+      - Key: Mei_Neutral_Blush
+        Value: {fileID: 21300000, guid: 796eafff4d61c0645abfd6c2513466fb, type: 3}
+      - Key: Mei_Neutral_Tilted
+        Value: {fileID: 21300000, guid: 5a7c351240f372f4fa67e0a3403b0be4, type: 3}
+      - Key: Mei_Neutral_Blush_Tilted
+        Value: {fileID: 21300000, guid: b342b7e1d04e1de498cf5640c0f8d80c, type: 3}
+      - Key: Mei_Relieved
+        Value: {fileID: 21300000, guid: df7b283262730584a953e00d4d988fec, type: 3}
+      - Key: Mei_Relieved_Blush
+        Value: {fileID: 21300000, guid: 108fe6848d2cd8a47bbbae8cca86d817, type: 3}
+      - Key: Mei_Relieved_Tilted
+        Value: {fileID: 21300000, guid: c3ddb5cfc35ac494e83f5467bd0a3bf3, type: 3}
+      - Key: Mei_Relieved_Blush_Tilted
+        Value: {fileID: 21300000, guid: d7f903cfe680da9418bf03721076af06, type: 3}
+      - Key: Mei_Anxious
+        Value: {fileID: 21300000, guid: 7aa7a0520d976e9498a996ea43fab59e, type: 3}
+      - Key: Mei_Anxious_Blush
+        Value: {fileID: 21300000, guid: 6d1faa2ca95b7594cbec011a5a659f29, type: 3}
+      - Key: Mei_Anxious_Tilted
+        Value: {fileID: 21300000, guid: 3308ef8bc1f2f7142902e1e1a6e84019, type: 3}
+      - Key: Mei_Anxious_Blush_Tilted
+        Value: {fileID: 21300000, guid: ade5fe3543176f54aaed765b2ba95333, type: 3}
+      - Key: Mei_Sad
+        Value: {fileID: 21300000, guid: 0d9fbff0216d1b94a9c093d23db168c8, type: 3}
+      - Key: Mei_Sad_Blush
+        Value: {fileID: 21300000, guid: 54c6c1583f32cdd40aabf24579814b11, type: 3}
+      - Key: Mei_Sad_Tilted
+        Value: {fileID: 21300000, guid: 166221d95ea6df74c9d63a7d5b34ebaa, type: 3}
+      - Key: Mei_Sad_Blush_Tilted
+        Value: {fileID: 21300000, guid: 43686dea782f67241ba9a8b624eed1be, type: 3}
+      - Key: Mei_Shock
+        Value: {fileID: 21300000, guid: d16ecaf6d5d32bd46a06f596ca42f8cd, type: 3}
+      - Key: Mei_Shock_Blush
+        Value: {fileID: 21300000, guid: 6a0ddc79ea6c97b46af139b3c93132d4, type: 3}
+      - Key: Mei_Shock_Tilted
+        Value: {fileID: 21300000, guid: 3ad430cda3d03fd4eaf75723a0f5e669, type: 3}
+      - Key: Mei_Shock_Blush_Tilted
+        Value: {fileID: 21300000, guid: dc13f28b7382fe441be1834838ddcb1a, type: 3}
+      - Key: Mei_Blushing
+        Value: {fileID: 21300000, guid: d84a3767e8746374281538f795c776bd, type: 3}
+      - Key: Mei_Blushing_Blush
+        Value: {fileID: 21300000, guid: 57d9c886ddd732d43b2a5977804e4430, type: 3}
+      - Key: Mei_Blushing_Tilted
+        Value: {fileID: 21300000, guid: dd91003e932a80d4aab0c172f2bf443d, type: 3}
+      - Key: Mei_Blushing_Blush_Tilted
+        Value: {fileID: 21300000, guid: 2cc716b30c9f7234298cabf8cd17f03d, type: 3}
+      - Key: Mei_Confused
+        Value: {fileID: 21300000, guid: 0903f389d58daf344b029fa6a2f5ad53, type: 3}
+      - Key: Mei_Confused_Blush
+        Value: {fileID: 21300000, guid: e8523c5d0baa701448f8666ee7573fbc, type: 3}
+      - Key: Mei_Confused_Tilted
+        Value: {fileID: 21300000, guid: 799a7a5b697677945bbb7f60e5b893f0, type: 3}
+      - Key: Mei_Confused_Blush_Tilted
+        Value: {fileID: 21300000, guid: 1f8cc5e097dd6f646b715e94e32c14d5, type: 3}
+      - Key: Mei_Crying
+        Value: {fileID: 21300000, guid: 113e977d9622025418768f3db799b2e7, type: 3}
+      - Key: Mei_Crying_Blush
+        Value: {fileID: 21300000, guid: 82cb8250a9826f24ba32a361b7f8f41a, type: 3}
+      - Key: Mei_Crying_Tilted
+        Value: {fileID: 21300000, guid: 02a7817ebb12b9645ab1c50d605ce3bf, type: 3}
+      - Key: Mei_Crying_Blush_Tilted
+        Value: {fileID: 21300000, guid: 2fd96118f7078e443983e4ddcbf15da5, type: 3}
+      - Key: Mei_Determined
+        Value: {fileID: 21300000, guid: 5013afb3aad75cf49b0c2e3983ebc3e8, type: 3}
+      - Key: Mei_Determined_Blush
+        Value: {fileID: 21300000, guid: 3e081a36d13fbe04fab6ccc8470dbdec, type: 3}
+      - Key: Mei_Determined_Tilted
+        Value: {fileID: 21300000, guid: 1bac5534a2933d04cba07e4ff6e85292, type: 3}
+      - Key: Mei_Determined_Blush_Tilted
+        Value: {fileID: 21300000, guid: 93733af8befeef546b40306c04f329d1, type: 3}
+      - Key: Mei_Scared
+        Value: {fileID: 21300000, guid: b9d750395a2e9144f8a636fd863ced55, type: 3}
+      - Key: Mei_Scared_Blush
+        Value: {fileID: 21300000, guid: 827736beaa5bf7b4882281143127ceff, type: 3}
+      - Key: Mei_Scared_Tilted
+        Value: {fileID: 21300000, guid: fa27960447b974a4cbeb9524e248be84, type: 3}
+      - Key: Mei_Scared_Blush_Tilted
+        Value: {fileID: 21300000, guid: 3b728f1d4ae7e0948a885860cfe3d0a5, type: 3}
+      - Key: Mei_Teasing
+        Value: {fileID: 21300000, guid: 84ada5dc3856d354d81455fe2e90d44b, type: 3}
+      - Key: Mei_Teasing_Blush
+        Value: {fileID: 21300000, guid: 5ec4d931e699985458bba95bd458752d, type: 3}
+      - Key: Mei_Teasing_Tilted
+        Value: {fileID: 21300000, guid: a2eac7a9eba8ae64dae1dd1125df375e, type: 3}
+      - Key: Mei_Teasing_Blush_Tilted
+        Value: {fileID: 21300000, guid: 048b4f364c321254cba14c9e61fe2716, type: 3}
+      - Key: Mei_Think
+        Value: {fileID: 21300000, guid: e74aacee4bbd89a4c96404b8c3bea365, type: 3}
+      - Key: Mei_Think_Blush
+        Value: {fileID: 21300000, guid: f2998815d347023449361c28d49fe3d3, type: 3}
+      - Key: Mei_Think_Tilted
+        Value: {fileID: 21300000, guid: 388f202fefdffd842a8c5202ab5be9f0, type: 3}
+      - Key: Mei_Think_Blush_Tilted
+        Value: {fileID: 21300000, guid: 3196ed2db00291644bc3cd9f652c2b45, type: 3}
+  - name: Alex
+    alias: alex
+    characterType: 2
+    nameColor: {r: 1, g: 0.078431375, b: 0.5764706, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Nina
+    alias: nina
+    characterType: 2
+    nameColor: {r: 0.54509807, g: 0, b: 0, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Simon
+    alias: simon
+    characterType: 2
+    nameColor: {r: 0.25490198, g: 0.4117647, b: 0.88235295, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Mom
+    alias: mom
+    characterType: 2
+    nameColor: {r: 0.6981132, g: 0, b: 0.13962284, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Dad
+    alias: dad
+    characterType: 2
+    nameColor: {r: 0.119615495, g: 0.15979336, b: 0.5660378, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: FirstName
+    alias: firstname
+    characterType: 0
+    nameColor: {r: 1, g: 0, b: 0.009047508, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: Victoria
+    alias: firstname
+    characterType: 0
+    nameColor: {r: 0.36465877, g: 0, b: 0.6320754, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 32c7438e49c02b24bae5e927ab2198f4, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []

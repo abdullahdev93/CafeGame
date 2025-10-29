@@ -1,0 +1,283 @@
+SetLayerMedia(background Mei_Living_Room)        
+
+PhoneEnabled(false)    
+
+Narrator "The moment I arrived to Mei's place, the evening sky swallowed the sunset, leaving behind an ocean of stars shimmering above the suburban area." 
+CreateCharacter(Mei) 
+Narrator "Inside in the living room, Mei sat cross-legged on the couch, wrapped in a soft blanket." 
+Mei.Show() 
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+Narrator "She patted the seat beside her, her lips curving into that familiar half-smile of hers." 
+Narrator "I joined her, and soon the coffin-shaped table in front of us was covered with snacks - popcorn, chips, candy, ice cream - a perfect survival kit for a movie marathon." 
+Narrator "Mei had prepared a lineup of films, ranging from romantic comedy, horror slasher, and murder mystery." 
+Mei.SetSprite("Mei_Straight,Mei_Excited" -spd 1)
+Mei "What are you in the mood for watching?" 
+DisableSkip() 
+FirstName "How about..." 
+
+choice "..." 
+{ 
+	-Romantic Comedy 
+		FirstName "... romantic comedy?" 
+		Mei.SetSprite("Mei_Hip,Mei_Mischievous" -spd 1)
+		Mei "Oh, not a bad pick."
+		Mei "That's a comforting genre - something easygoing after a long day."
+		FirstName "Yeah, it makes me feel all warm and gushy inside."
+		FirstName "Perfect kind of movie for a cozy night." 
+		Narrator "She shrugged." 
+		Mei.SetSprite("Mei_Straight,Mei_Shock" -spd 1)
+		Mei "Can't argue with that."
+		Mei "All right then, romantic comedy it is." 
+		Mei.SetSprite("Mei_Cross,Mei_Neutral" -spd 1)
+		Narrator "She grinned, pleased with the choice." 
+
+	-Horror Slasher 
+		FirstName "... horror slasher?" 
+		Mei.SetSprite("Mei_Hip,Mei_Neutral" -spd 1)
+		Mei "Hmm, bold choice." 
+		Mei.SetSprite("Mei_Cross,Mei_Anxious" -spd 1)
+		Mei "Didn't peg you for the blood-and-gore type." 
+		FirstName "I like horror movies." 
+		FirstName "It's fun to scare yourself every now and then." 
+		Mei.SetSprite("Mei_Leaning,Mei_Excited_Tilted" -spd 1)
+		Mei "Right? There's something weirdly cathartic about them." 
+		Mei.SetSprite("Mei_Cross,Mei_Mischievous" -spd 1)
+		Mei "I just hope you're not a screamer." 
+		FirstName "I don't scare easily." 
+		Mei.SetSprite("Mei_Hip,Mei_Laughing" -spd 1)
+		Mei "Oh, we'll see about that." 
+		Narrator "She smirked mischievously and let out a soft giggle, her eyes glinting with playful challenge." 
+		Narrator "It was hard to tell if she was testing my courage or simply enjoying the idea of watching me flinch."
+
+	-Murder Mystery 
+		FirstName "... murder mystery." 
+		Mei.SetSprite("Mei_Leaning,Mei_Excited_Tilted" -spd 1)
+		Mei "Oh, Hell yeah!" 
+		Mei "To be honest, I was hoping you'd choose that." 
+		Mei "I love murder mysteries." 
+		FirstName "Same." 
+		FirstName "I love the idea of solving mysteries with the protagonists - gathering clues and making theories in the back of my mind." 
+		Mei.SetSprite("Mei_Open_Arms,Mei_Excited" -spd 1)
+		Mei "I know, right? They're so interesting." 
+		Mei.SetSprite("Mei_Thinking,Mei_Neutral" -spd 1)
+		Mei "Sometimes, mind-boggling."  
+		FirstName "Exactly." 
+		Mei "I love trying to figure out who did it before the characters do." 
+		Mei "It's like being part of the investigation yourself." 
+		Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1)
+		Mei "And when you're right, it's even better." 
+		Mei.SetSprite("Mei_Hip,Mei_Excited" -spd 1)
+		Narrator "Her eyes sparkled with excitement as she reached for the remote, already invested in the idea."		
+} 
+
+EnableSkip() 
+Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1)
+Narrator "She opened the DVD case with a satisfying snap, then got up to insert the disc into the player." 
+Narrator "For a few seconds, the screen stayed pitch black before a wave of loud, outdated advertisements began to play - trailers for movies no one remembered." 
+FirstName "This is so nostalgic." 
+FirstName "I haven't watched movies with DVDs in forever." 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1)
+Narrator "Mei chuckled softly and began mashing the skip button, cycling through previews and studio logos until the movie's main menu finally appeared." 
+Narrator "She hovered over the 'Play Movie' option and pressed it, and soon the film began - grainy, stretched across the screen in its classic 720x480 display." 
+Mei.Hide() 
+ClearLayerMedia(background Mei_Living_Room) 
+HideDB(-spd 1) 
+wait(1) 
+
+wait(1)
+Narrator "We laughed at cheesy lines, shared commentary about plot twists, all while devouring the snacks." 
+Narrator "For a while, everything felt light - easy." 
+
+wait(1)
+SetLayerMedia(background Mei_Living_Room) 
+Narrator "When the movie ended, we were transported back to the movie's main menu." 
+Narrator "I checked my phone to look at he time." 
+Mei.Show() 
+Mei.SetSprite("Mei_Cross,Mei_Sad" -spd 1)
+Mei "Have to get going?" 
+FirstName "No, just seeing if we've got time for another movie." 
+Mei.SetSprite("Mei_Straight,Mei_Mischievous" -spd 1)
+Narrator "Her lips curved into a faint grin as she checked at her own phone and nodded."
+Mei "Looks like we do." 
+Mei.SetSprite("Mei_Hand_Out,Mei_Excited_Tilted" -spd 1)
+Mei "Go ahead - pick something from the shelf."
+Narrator "She gestured toward the nearby shelf overflowing with books, vinyls, magazines, and DVDs." 
+
+Narrator "I skimmed along the rows of DVD cases, my fingers brushing over various titles until one caught my eye." 
+Narrator "\"The Arrangement.\"" 
+Narrator "The cover showed people, who I assumed were two lovers standing apart, their faces framed by shadow and rain." 
+FirstName "How about this one?" 
+Mei.SetSprite("Mei_Straight,Mei_Scared" -spd 1)
+Narrator "Mei glanced over, and for a moment, her eyes widened. It was small but noticeable enough to catch my attention." 
+Mei "Oh... that movie. Y-yeah. Sure, if that's what you want to watch." 
+Narrator "Her voice wavered slightly before she looked away." 
+Narrator "The cheerful spark from earlier dimmed, replaced by a quiet unease." 
+FirstName "You all right?" 
+Mei.SetSprite("Mei_Straight,Mei_Relieved" -spd 1)
+Mei "Yeah, I'm fine. I was just... it's nothing." 
+Mei "Let's just watch the movie." 
+Narrator "She tried to sound casual, but something in her tone lingered - a faint crack beneath the calm." 
+Mei.Hide() 
+ClearLayerMedia(background Mei_Living_Room) 
+HideDB(-spd 1) 
+wait(1) 
+
+wait(1)
+Narrator "We snuggled up on the couch and ate what remained of the snacks." 
+
+wait(1)
+SetLayerMedia(background Mei_Living_Room) 
+Movie Character 1 "\"Father, I will not marry Harold! My heart belongs to Damien!\"" 
+Movie Character 2 "\"Damien!? The Farmhand!? Prosperous! You will marry Harold.\"" 
+Movie Character 2 "\"His family is rich, we need this.\"" 
+Movie Character 1 "\"I don't care.\""
+Narrator "The father flips the dinner table, roaring with fury.\"" 
+Natrator "He immediately bounds up to his daughter, almost running." 
+Narrator "He grabbed his daughter by the wrist and hurled her to the floor, kicking her multiple times in the stomach." 
+Narrator "The daughter gagging and gasping." 
+Movie Character 2 "\"I suggested you know your place.\"" 
+Movie Character 2"\"You're my daughter! You will do as your told!\"" 
+Movie Character 2 "\"Why can't you get it through your thick skull?\"" 
+Movie Character 2 "\"I'm trying to help you, help our family, make your life better, make you have a perfect life.\"" 
+Movie Character 2"\"You will marry Harold, am I understood?\"" 
+
+Mei.Show()
+Mei.SetSprite("Mei_Straight,Mei_Sad" -spd 1)
+Narrator "I looked at Mei and noticed a subtle change in her demeanor." 
+Narrator "She seemed distant, as if lost in her thoughts, her gaze fixed on the blanket, her mind clearly elsewhere." 
+DisableSkip()   
+Narrator "I was puzzled." 
+
+choice "..." 
+{
+	-Pause The Movie   
+		Narrator "I paused the movie and set the remote down." 
+		Narrator "Hey, you OK?" 
+		Narrator "For a moment, Mei didn't move." 
+		Narrator "Her fingers fidgeting with the hem of her blanket, her voice barely a whisper." 
+		Narrator "She then looked at me." 
+		PlaySFX(OnePoint -v 1) 
+		Mei "I... I need to tell you something." 
+		Narrator "I sensed the seriousness in Mei's voice." 
+		Narrator "I turned to her, giving my full attention as she drew a shaky breath." 
+
+	-Ask If She's Fine  
+		Narrator "As the movie continued, I tapped Mei's shoulder." 
+		Narrator "Hey, you good?" 
+		Mei.SetSprite("Mei_Straight,Mei_Scared" -spd 1)
+		Narrator "She flitched at my touch." 
+		Mei.SetSprite("Mei_Straight,Mei_Sad" -spd 1)
+		Narrator "She looked at me, but didn't answer right away." 
+		Narrator "Her thumb brushed the edge of the blanket, her lips trembling before she finally spoke." 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "I... I need to tell you something. Could you please pause the movie?" 
+		Narrator "I sensed the seriousness in Mei's voice." 
+		Narrator "I nodded and did as she asked, setting the remote down as she drew a shaky breath."
+
+	-Put Your Arm Around Her  
+		Narrator "As the movie continued, I leaned a little closer to Mei." 
+		Narrator "Something on your mind?" 
+		Mei.SetSprite("Mei_Straight,Mei_Scared" -spd 1)
+		Narrator "As I tried to put my arm around her, she immediately repelled herself." 
+		PlaySFX(ZeroPoints -v 1) 
+		Mei.SetSprite("Mei_Straight,Mei_Angry" -spd 1)
+		Mei "The hell are you doing!?" 
+		Narrator "Her voice cracked through the silence." 
+		Mei.SetSprite("Mei_Straight,Mei_Sad" -spd 1)
+		Narrator "She froze, eyes wide, then sighed deeply." 
+		Mei "Sorry..." 
+		Mei "I just..." 
+		Mei "I... I need to tell you something. Could you please pause the movie?" 
+		Narrator "I sensed the seriousness in Mei's voice." 
+		Narrator "I nodded and did as she asked, setting the remote down as she drew a shaky breath." 	
+} 
+
+EnableSkip() 
+Mei "I can relate to this character." 
+Narrator "Narrator "Her voice faltered slightly." 
+Narrator "Her fingers toyed nervously with the edge of the blanket, shoulders tightening before she spoke again." 
+Mei "My dad was like that too - controlling, strict, always pretending it was for my own good." 
+Mei "He decided how I dressed, how I spoke, expected me to excel in all areas of school, even going as far as to decide who my friends should be." 
+Narrator "He wanted a perfect daughter - quiet, polite, obedient - a polished, well-mannered lady ready to be a trophy wife."
+Mei "But I wasn't her." 
+Mei "And every time I tried to be myself, he... reminded me of that."
+FirstName "Reminded you how?"
+Mei "With lectures. Sometimes... worse."
+Narrator "Her tone was calm, but her hands trembled under the blanket." 
+Narrator "I noticed how she avoided eye contact - how her breathing slowed whenever she mentioned him." 
+FirstName "Did your mom know?"
+Mei "Yeah. She knew." 
+Mei "But she was scared of him." 
+Mei "Standing up to him meant risking everything - so she stayed quiet." 
+Mei "And for a long time, I hated her for that." 
+Mei "He died four years ago." 
+Mei "Mei "My mom was devastated, she was never the same after his death." 
+Mei "I tried to be there for her... but I couldn't pretend to feel the same grief."
+Mei "I should've been sad, but I wasn't." 
+Mei "I felt... free."
+Mei "And every time I think about that, I feel guilty." 
+Mei "I'm some kind of monster for feeling relief."
+Narrator "Her voice cracked on the last word." 
+Mei.SetSprite("Mei_Straight,Mei_Sad" -spd 1) 
+DisableSkip()  
+Narrator "She blinked rapidly, her eyes shimmering." 
+
+choice "..." 
+{
+	-That's Understandable 
+		Narrator "I was initially taken aback, but I swiftly transitioned from shock to empathy." 
+		FirstName "I don't blame you. It's understandable." 
+		FirstName "That doesn't make you cruel, Mei. It makes you human." 
+		FirstName "When someone takes your freedom for years, it's natural to feel relief when it ends." 
+		FirstName "I can sort of relate." 
+		PlaySFX(ThreePoints -v 1) 
+		Mei "Can you?" 
+		Narrator "I told Mei about my parents." 
+		Narrator "Though my parents were never abusive, they were controlling at times." 
+		FirstName "I was never able to be myself until I left home." 
+		Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1)
+		Narrator "She gave a small, fragile smile."
+
+	-That's Messed Up 
+		Narrator "I was taken aback - shocked." 
+		FirstName "That's... kind of messed up, Mei. I mean, I understand your reason for feeling that way but he was still your dad." 
+		PlaySFX(ZeroPoints -v 1) 
+		Mei.SetSprite("Mei_Clenched,Mei_Neutral" -spd 1)
+		Mei "So what if he was!?" 
+		Narrator "Her voice rose, trembling with emotion before she caught herself, guilt flooding her face." 
+		Mei.SetSprite("Mei_Cross,Mei_Sad" -spd 1)
+		Narrator "She leans back takes a breath then sighed." 
+		Mei "Sorry." 
+		Mei "It's just... you don't know what it was like." 
+		Mei "Sure, he raised me, took care of me, and put a roof over my head, but it didn't give him the right to do the things he did." 
+		Mei "Giving someone life doesn't give them the right to destroy it." 
+		Mei.SetSprite("Mei_Straight,Mei_Angry" -spd 1)
+		Mei "It's difficult to be grateful for an asshole." 
+
+	-Have You Tried Talking to Someone? 
+		Narrator "I was initially taken aback, but I swiftly transitioned from shock to empathy." 
+		FirstName "That's... a lot to hold inside." 
+		FirstName "You shouldn't have to go through it alone." 
+		FistName "You have your mother, your friends, and you have me." 
+		FirstName "You also have the option to talk to someone." 
+		FirstName "Have you ever thought about talking to someone?" 
+		PlaySFX(OnePoint -v 1) 
+		Mei.SetSprite("Mei_Cross,Mei_Nuetral" -spd 1)
+		Mei "We can’t afford therapy anymore. Not since I got kicked off my parents' insurance." 
+		Mei "Not since I got kick off my parents' insurance." 
+		Mei.SetSprite("Mei_Cross,Mei_Angry" -spd 1)
+		Mei "Healthcare in this country is such bullshit." 
+		Mei "I tried  therapy once, and it didn't work." 
+		Mei "It wasn't for me." 
+		Narrator "Her voice softened into a whisper, almost like she was talking to herself." 
+} 
+
+EnableSkip()
+Narrator "Without thinking, I reached out and pulled Mei into a hug." 
+Mei.SetSprite("Mei_Straight,Mei_Shock" -spd 1) 
+Narrator "I could feel the weight of everything she'd been holding inside, and I felt like a hug was the most comforting thing that I can do at that moment." 
+DisableSkip()  
+Narrator "She stiffened for a moment - then, slowly, her hands came up to hold me back." 
+
+DisplayRankUpPage(-cn Mei)  
+HideDB(-spd 1) 

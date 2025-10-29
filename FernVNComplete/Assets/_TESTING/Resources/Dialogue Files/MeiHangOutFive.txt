@@ -1,0 +1,351 @@
+SetLayerMedia(background Mei_Neighborhood)        
+
+PhoneEnabled(false)  
+
+Narrator "Mei proposed an urban adventure, eager to discover new sights, flavors, and experiences within the town, I didn't hesitate to agree." 
+Narrator "After I parked outside Mei's place, my fingers tapped lightly on the steering wheel in anticipation." 
+CreateCharacter(Mei) 
+Narrator "The sunlight filtered through the trees, dancing across the dashboard like flickers from a lighthouse beam."
+Narrator "The radio murmured a soft indie tune while I waited for Mei to get out of her house." 
+Narrator "A few minutes later, Mei stepped out of her house and approached my car, adjusting her glasses as she opened the door and let herself in with a small, apologetic smile." 
+Mei.Show() 
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+Mei "I'm ready. Sorry I took so long. My mom wanted to talk to me before I left." 
+DisableSkip() 
+Narrator "There was a faint melancholy in her tone, one that she noticeably tried to brush off." 
+
+choice "..." 
+{
+	-Ask If She's Fine 
+		EnableSkip() 
+		FirstName "Everything OK?" 
+		PlaySFX(TwoPoints -v 1) 
+		Mei.SetSprite("Mei_Cross,Mei_Sad" -spd 1)
+		Mei "Yeah. Just... family stuff."
+		Narrator "Her voice trailed off as her gaze drifted out the window." 
+		Narrator "I knew that she wasn't being honest." 
+		Narrator "The way she avoided eye contact told me enough, but curiosity got the better of me." 
+		FirstName "You sure? You don't sound fine." 
+		Mei.SetSprite("Mei_Cross,Mei_Angry" -spd 1)
+		Mei "I said it's fine."
+		Narrator "Her words cut sharper than she probably intended, a firm edge in her voice that silenced me instantly."
+		Narrator "She sighed afterward, eyes softening as if regretting it." 
+		Mei.SetSprite("Mei_Cross,Mei_Sad" -spd 1)
+		Mei "I just... don't want to talk about it right now." 
+		Mei "I just want to go out and have fun with my friend." 
+		Narrator "I nodded, forcing a small smile." 
+		FirstName "All right." 
+		Narrator "I decided not to press further." 
+		Narrator "She'd tell me when she was ready." 
+
+	-Don't Ask 
+		EnableSkip()  
+		Narrator "Mei seemed distant, her mind wandering elsewhere." 
+		Narrator "Her gaze drifted out the window." 
+		Narrator "I decided not to intrude." 
+		Narrator "Still, something about her silence tugged at me."
+		FirstName "You know... you don't have to say anything now, but if you ever want to talk - I'll listen, OK?" 
+		Mei.SetSprite("Mei_Cross,Mei_Neutral" -spd 1)
+		Narrator "Mei blinked, a bit surprised." 
+		Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1)
+		Narrator "Then, slowly, a soft smile curved her lips - a real one this time, faint but genuine." 
+		Mei "Thanks. I'll remember that." 
+		Mei.SetSprite("Mei_Cross,Mei_Neutral" -spd 1)
+		Narrator "Her smile lingered for a moment before she turned back to the window."  
+		PlaySFX(OnePoint -v 1) 
+} 
+
+EnableSkip() 
+
+Mei.Hide() 
+ClearLayerMedia(background Mei_Neighborhood) 
+HideDB(-spd 1) 
+wait(1) 
+
+Narrator "Once she was settled in, we drove off." 
+Narrator "The familiar hum of the engine filling the silence until Mei started giving directions." 
+Narrator "After about fifteen minutes, the paved streets gave way to a dusty dirt road." 
+Narrator "Before I knew it, the smell of the ocean breeze faintly filled the car."  
+Narrator "As we drove on, I began to notice a structure ahead." 
+Narrator "Then, I spotted it - a lighthouse."
+
+wait(1)
+SetLayerMedia(background Lighthouse)  
+
+Mei.SetSprite("Mei_Arms_Open,Mei_Excited" -spd 1)
+Mei "Welcome to Beacon's Edge, one of Baywood Springs' oldest landmarks." 
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1)
+Mei "It used to guide sailors home, back when this town was just a dot on the coast."  
+Mei "Now, it's... kind of a ghost of its former self." 
+Mei.SetSprite("Mei_Hip,Mei_Mischievous" -spd 1)
+Mei "Legend has it that the lighthouse is haunted by the ghost of its former keeper, Elias Barnaby." 
+Narrator "Are you serious?"  
+Mei.SetSprite("Mei_Hip,Mei_Laughing" -spd 1)
+Narrator "Mei chuckled, her laughter echoing faintly against the wind."     
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1)
+Mei "Maybe. Maybe not." 
+Mei.SetSprite("Mei_Thinking,Mei_Think" -spd 1)
+Mei "Despite the rumors, the lighthouse had never been officially declared haunted, but its eerie reputation gives it character, don't you think?"  
+Narrator "Why start here?" 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1)
+Mei "This place means something to me." 
+Mei "It reminds me of life - a little broken, a little forgotten, but still standing." 
+Mei.SetSprite("Mei_Hand_Out,Mei_Excited_Tilted" -spd 1)
+Mei "Come on, I'll explain once we get to the top." 
+
+Mei.Hide() 
+ClearLayerMedia(background Lighthouse) 
+HideDB(-spd 1) 
+wait(1) 
+
+Narrator "We turned on our phones' flashlights and climbed the spiraling, creaky staircase, each step groaned beneath us."
+Narrator "We chatted and chuckled all the way up until we reached the top, our voices and laughter bouncing off the walls around us." 
+
+wait(1) 
+SetLayerMedia(background Lighthouse_View)  
+
+Narrator "Once we were on top, the view opened up before us - a breathtaking panorama of Baywood Springs, stretching from the coastline to the rolling hills beyond." 
+Narrator "The ocean shimmered under the afternoon sun." 
+Mei "The symbolism here is kind of poetic, isn't it?" 
+Narrator "What do you mean?" 
+Mei "Climbing from the dark toward the light. It reminds me that no matter how heavy things get, there's always something worth reaching for." 
+Narrator "I followed her gaze toward the horizon. She looked peaceful - the wind brushing her hair across her face, her eyes reflecting the sunlight."  
+Mei "You know, I find myself here every now and then, especially when I feel overwhelmed or exhausted." 
+Mei "The view is a comforting escape." 
+Narrator "The scenery is quite breathtaking, maybe I can come here once in a while to soothe myself." 
+Narrator "After a while, we made our way back down and spent the afternoon exploring the streets of Baywood Springs." 
+Mei.Hide() 
+ClearLayerMedia(background Lighthouse_View) 
+HideDB(-spd 1) 
+wait(1) 
+
+Narrator "We wandered through the town's charming streets, colorful murals told stories of the town's fishing roots, while vintage shops and old buildings dotted every corner." 
+Narrator "Mei seemed to come alive as she talked about the town's history - its old myths, the annual festivals, and how the lighthouse once stood as a symbol of hope."
+
+AdvanceDay() 
+
+Narrator "As afternoon approached, we reached a spontaneous decision to attend a musical in a small venue, nestled between a yogurt shop and a flower shop." 
+Narrator "We lined up outside the theatre house, bought our tickets, and walked into the auditorium." 
+
+wait(1) 
+SetLayerMedia(background Theatre_House) 
+Narrator "The dim lights, the hush of the audience, and the sound of the orchestra tuning filled the room with anticipation." 
+Narrator "We listened to the words and melodies of talented actors and musicians." 
+Narrator "They delivered powerful words, enchanting melodies, and mesmerizing dances, immersing us in the magic of the theatrical story-telling." 
+Narrator "Mei leaned forward in her seat, completely immersed."
+Narrator "After the final curtain, the intercom announced that the theater was holding meet-and-greets with the actors." 
+Narrator "Mei, excitedly told me that we should meet the lead actor." 
+Narrator "I smiled." 
+FirstName "Sure." 
+FirstName "He was pretty good." 
+
+Mei.Hide() 
+ClearLayerMedia(background Theatre_House) 
+HideDB(-spd 1) 
+wait(1)  
+
+wait(1) 
+SetLayerMedia(background Theatre_Hall) 
+Narrator "Mei and I joined the line for the lead actor, exchanging things that we liked about the show while anticipating the chance to meet him." 
+FirstName "That performance was amazing. I really enjoyed the acting and choreography." 
+Mei.SetSprite("Mei_Hip,Mei_Excited" -spd 1)
+Mei "The grim atmosphere in the beginning was very captivating." 
+Mei "The lighting and the varying volumes among the characters' voices perfectly set the narrative and mood." 
+Mei.SetSprite("Mei_Leaning,Mei_Excited_Tilted" -spd 1)
+Mei "I want a picture with him and his autograph. You?" 
+Narrator "I'll take the picture." 
+
+Narrator "We finally get to the front." 
+Simon as Theater Actor "H-hiya! Um... come on up." 
+Narrator "Simon's posture was a little stiff, his hands clasped nervously in front of him." 
+FirstName "Hey, there! You were amazing, I really like the way you portrayed the character." 
+Simon as Theater Actor "O-oh, thank you. I, um... I always worry about overdoing it, you know?" 
+Narrator "He chuckled nervously, rubbing the back of his neck as his eyes darted briefly toward the floor before meeting mine again." 
+Narrator "He handed me a pamphlet with slightly trembling fingers." 
+Narrator "The front read: 'Seabrook Playhouse Actor - Simon Eagleguard.'" 
+Narrator "His signature on the pamphlet inside was careful, almost too neat."
+Simon as Theatre Actor "If you liked my performance tonight, feel free to attend my future performances."  
+Simon "What's your name, by the way?"  
+Narrator "I'm $PlayerStats.FirstName." 
+Simon "$PlayerStats.FirstName?" 
+Narrator "He repeated my name like he was trying to memorize it, then paused mid-thought, his brow furrowing slightly."
+Simon "That... sounds familiar for some reason."
+Simon's Assistant "They own Bean Bliss Café. You always order  their drinks during rehearsals."
+Simon "Oh! Right, yes - Bean Bliss! I love the caramel roast you make." 
+Simon "It’s, uh... kind of my go-to drink."
+Narrator "He gave a nervous smile, clearly unsure if he was saying too much, then looked relieved when I laughed."
+FirstName "Well, I'd be honored to have you drop by sometime. First cup's on me."
+Narrator "Simon blinked, caught off guard by the offer, then smiled shyly." 
+Simon "O-oh - thank you. That's... really kind of you."
+Narrator "I noticed Mei watching him with a curious smile, probably picking up on the same nervous energy I did." 
+Narrator "We talked for a few more minutes, his words often trailing off before he quickly tried to find them again." 
+Narrator "Despite his awkwardness, there was something endearing about his honesty." 
+Narrator "I pulled out my phone to take a picture of Mei with Simon." 
+Narrator "She complimented his performance, and he stammered a quiet 'thank you' before giving a small, bashful wave for the camera." 
+Narrator "After taking the picture, Mei and I shook his hand then we made our way to a rooftop bar." 
+Mei.Hide() 
+ClearLayerMedia(background Theatre_Hall) 
+HideDB(-spd 1) 
+wait(1)  
+
+wait(1)  
+SetLayerMedia(background Rooftop_Bar)    
+
+Narrator "After we were sat at our table, the sun started to descend over the skyline, creating a sunset that painted the sky in hues of orange and pink, casting a glow over our faces, casting a glow over Mei's face." 
+Narrator "The waiter arrived moments after we sat down." 
+
+Waiter "Welcome! I hope y'all are doing well! The name's Andy, and I'll be your waiter today." 
+DisableSkip()  
+Waiter "Could I get you started on any drinks?" 
+
+choice "..." 
+{
+	-Red Wine 
+		EnableSkip()  
+		Narrator "A bottle of red wine for us, please." 
+		Waiter "Excellent choice. I'll be back with the wine." 
+		PlaySFX(ThreePoints -v 1) 
+		Mei.SetSprite("Mei_Thinking,Mei_Mischievous" -spd 1)
+		Mei "Red wine, huh? Fancy. Ordering for me like a gentleman — are you trying to score brownie points or something?" 
+		Mei.SetSprite("Mei_Straight,Mei_Laughing" -spd 1)
+		Narrator "She giggles." 
+		FirstName "Maybe I am." 
+
+	-Dark Beer 
+		EnableSkip() 
+		Narrator "Dark beer for the lady and me." 
+		Waiter "Got it. I'll be back with the beers." 
+		PlaySFX(TwoPoints -v 1)  
+		Mei.SetSprite("Mei_Straight,Mei_Confused" -spd 1)
+		Mei "Dark beer? Didn't expect that from you." 
+		Mei.SetSprite("Mei_Straight,Mei_Mischievous" -spd 1)
+		Mei "But I like surprises."
+
+	-Whiskey  
+		EnableSkip()  
+		Narrator "A bottle of whiskey would be nice." 
+		Waiter "Bold choice. I'll be back with the whiskey." 
+		PlaySFX(OnePoint -v 1) 
+		Mei.SetSprite("Mei_Nervous,Mei_Teasing" -spd 1)
+		Mei "I appreciate you ordering for me, but next time, let me pick." 
+		Mei I'm not a huge fan of whiskey." 
+} 
+
+EnableSkip()
+Narrator "We sipped our drinks as the lights of Baywood Springs flickered below." 
+Narrator "The conversation flowed easily - about music, dreams, fears, and everything in between."
+Mei.Hide() 
+ClearLayerMedia(background Theatre_House) 
+HideDB(-spd 1) 
+wait(1)  
+
+AdvanceDay() 
+
+wait(1) 
+SetLayerMedia(background Park)    
+
+Narrator "Eventually, we wandered to the local park under the soft glow of the moonlight." 
+Narrator "The night was alive with the sound of crickets and rustling leaves." 
+Narrator "The air was cool and quiet, carrying the scent of pine and damp earth."  
+Narratir "Mei sat cross-legged in the grass while I sat a nearby bench, we were both gazing up at the stars."
+Narrator "As per Mei - The park was usually bustling with families and picnickers during the day but, unsurprisingly, at this late hour, it was quiet, enveloped in a peaceful stillness." 
+Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1)
+Mei "You know, there's something magical about the park at night." 
+Mei "Nights like this make me feel... small, but in a good way. It's beautiful." 
+Mei "Like I'm part of something vast and kind."
+Narrator "I nodded, watching her trace constellations with her finger." 
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1)
+Mei "You know, we should go camping sometime. Just us, under the stars."
+FirstName "I'd love that."
+
+Mei.SetSprite("Mei_Hip,Mei_Excited" -spd 1)
+Narrator "Mei turned to me, her eyes sparkling with joy and gratitude." 
+Narrator "I smiled." 
+Mei.Hide() 
+ClearLayerMedia(background Theatre_House) 
+HideDB(-spd 1) 
+wait(1)  
+
+Narrator "We spent a few hours at the park, reflecting on the day's adventures, sharing laughter and stories of our favorite moments." 
+Narrator "Before we knew it, I was dropping her off and it was almost midnight." 
+
+wait(1) 
+SetLayerMedia(background Mei_Neighborhood) 
+Narrator "The street was silent except for the rhythmic hum of the engine." 
+
+ 
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1) 
+DisableSkip() 
+Mei "Thanks for today. I really needed this." 
+Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1)
+
+choice "..." 
+{
+	-Hug Her 
+		EnableSkip()
+		Narrator "She hesitated for only a moment before hugging me back, her arms wrapping around me slowly."
+		PlaySFX(TwoPoints -v 1) 
+		Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1)
+		Mei "I'll see you next time." 
+		Narrator "She said softly." 
+		Mei.SetSprite("Mei_Straight,Mei_Excited" -spd 1)
+		Narrator "She smiled - a real, content smile that reached her eyes." 
+		Narrator "Mei opened the door and stepped out slowly, the porch light casting a gentle glow over her as she turned back for one last look." 
+		Narrator "As she stepped out, the sound of her footsteps on the pavement faded as she walked away."  
+		Narrator "I watched her walk up the path to her house, her silhouette fading into the warm light inside her home." 
+		Narrator "I smiled, then drove off." 
+		Mei.Hide() 
+		wait(1)  
+		PlaySFX(TwoPoints -v 1) 
+
+	-Say Goodbye 
+		EnableSkip() 
+		Narrator "Bye, Mei." 
+		Narrator "I had fun today." 
+		PlaySFX(OnePoint -v 1) 
+		Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1)
+		Mei "Same." 
+		Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1)
+		Mei "Take care, OK?" 
+		Narrator "The faint streetlight glow framed her features in soft amber hues, her breath visible in the cool night air." 
+		Narrator "She lingered for a second, her hand resting on the car door like she wanted to say more but couldn't find the words." 
+		Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1)
+		Narrator "She then looked at me and smiled. It was small but genuine." 
+		Narrator "Mei opened the door and stepped out slowly, the porch light casting a gentle glow over her as she turned back for one last look." 
+		Narrator "As she stepped out, the sound of her footsteps on the pavement faded as she walked away."  
+		Narrator "I watched her walk up the path to her house, her silhouette fading into the warm light inside her home." 
+		Narrator "I smiled, then drove off." 
+		Mei.Hide() 
+		wait(1)  
+
+	-Kiss Her 
+		EnableSkip()  
+		Narrator "I locked eyes with Mei, a silent understanding passing between us like a delicate thread of unspoken tension." 
+		Mei.Hide() 
+		ClearLayerMedia(background Theatre_House) 
+		HideDB(-spd 1) 
+		wait(1)  
+		
+		Narrator "My heart raced with anticipation as I leaned in slowly, feeling the warmth of her breath as our lips brushed against each other's in a soft, tentative kiss." 
+		Narrator "She welcomed the intimacy." 
+		Narrator "We stood there for a few seconds, lost in the moment, until Mei gently pulled away." 
+		
+		wait(1) 
+		SetLayerMedia(background Mei_Neighborhood) 
+		Mei.SetSprite("Mei_Straight,Mei_Relieved" -spd 1)
+		Narrator "There was a faint smile on her lips."
+		PlaySFX(ThreePoints -v 1) 
+		Mei "I'll... see you later, $PlayerStats.FirstName." 
+		Narrator "Mei opened the door and stepped out slowly, the porch light casting a gentle glow over her as she turned back for one last look." 
+		Narrator "As she stepped out, the sound of her footsteps on the pavement faded as she walked away."  
+		Narrator "I watched her walk up the path to her house, her silhouette fading into the warm light inside her home." 
+		Narrator "Did I really just...? I kissed Mei." 
+		Narrator "As I drove off, I pressed my lips with my index and ring finger." 
+		Narrator "Do I... Like Mei?" 
+		Mei.Hide() 
+		wait(1)  
+} 
+
+DisableSkip() 
+DisplayRankUpPage(-cn Mei)  
+HideDB(-spd 1) 

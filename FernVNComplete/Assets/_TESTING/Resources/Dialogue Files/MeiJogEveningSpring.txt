@@ -1,0 +1,28 @@
+SetLayerMedia(background Park)  
+
+Narrator "The cool evening air filled my lungs as I jogged along the winding path through the town's local park, my breath steady and controlled."
+Narrator "The setting sun cast long shadows across the path, painting the sky in deep hues of orange and violet."
+Narrator "Crickets had begun their nightly chorus, their rhythmic chirps blending with the steady beat of our footsteps against the pavement."
+Narrator "Beside me, Mei jogged with surprising ease, her dark hair bouncing with each step."
+Mei "You know, I don't usually do runs."
+Narrator "She admitted, shooting me a sideways glance."
+Mei "But I guess this isn't the worst way to get the blood going."
+Narrator "I smirked, picking up my pace slightly."
+Narrator "It's not too late to back out."
+Narrator "She scoffed, matching my stride."
+Mei "Not a chance."
+Narrator "A light breeze carried the scent of night-blooming flowers and cooling earth, refreshing against my skin as the streetlamps flickered in the distance."
+Narrator "By the time we slowed to a walk near the far end of the park, a satisfying ache settled in my legs."
+Narrator "Mei stretched her arms overhead, letting out an exaggerated groan."
+Mei "OK, maybe I'll regret this later... Or maybe I'll just make you get me free tea from your shop to make up for it."
+Narrator "I laughed, wiping the sweat from my forehead as my heartbeat gradually returned to normal."
+Narrator "Despite the fatigue and aches, I felt stronger, faster."
+Narrator "Like my Endurance had just improved."
+
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+Load(ParkLocation -enqueue true)  

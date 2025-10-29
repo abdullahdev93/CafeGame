@@ -1,0 +1,66 @@
+SetLayerMedia(background MovieAuditorium) 
+
+Narrator "The movie opens in a cozy, warmly lit apartment. Two characters, Lily and Jack, sit on opposite ends of the couch." 
+Narrator "The tension between them is noticable - both look worn down by life, their own struggles silently pulling them apart." 
+Narrator "Lily fiddles with a bracelet, lost in thought, while Jack stares blankly at the television, though he's not really watching." 
+Narrator "The air feels heavy, as though they're both afraid to speak the truth." 
+Narrator "Jack sighs, finally breaking the silence." 
+Jack "I'm sorry... I just don't know what to do anymore." 
+Narrator "Lily glances over, her eyes softening. She's been trying so hard to help him through his stress at work, while battling her own personal frustrations." 
+Narrator "But she realizes now, maybe they have both been trying too hard to fix things they can't control." 
+Lily "I know... But we don't have to figure it all out right now. Maybe it's okay if we just... sit with it for a while." 
+Narrator "Jack looks at her, a small flicker of relief crossing his face. They don't have the answers, but they have each other." 
+Narrator "For the first time in a long while, that feels like enough." 
+Narrator "The scene shifts to a montage of the two finding small ways to be there for each other." 
+Narrator "Jack makes Lily coffee as she works late into the night. Lily leaves Jack a small note of encouragement in his briefcase before he heads to work." 
+Narrator "They're not fixing each other's problems, but they're learning how to show up for each other in meaningful ways." 
+Narrator "It wasn't about finding someone to complete them - it was about finding someone to complement them, about growing together and being there for each other, even when things got tough."
+Narrator "Lily walks into the kitchen one morning, exhausted from a night of tossing and turning, but finds Jack waiting with her favorite tea." 
+Narrator "She smiles, realizing that while things aren't perfect, they're finding their rhythm together." 
+Narrator "They have stopped trying to solve each other's problems and started accepting that the support they give is enough." 
+Narrator "The movie later cuts to a rainy evening. Jack and Lily are walking together down a quiet street. The tension from earlier has melted away, replaced by a comfortable silence." 
+Narrator "But as the rain picks up, Lily suddenly stops, her face falling as the weight of the past week catches up to her." 
+Narrator "Jack notices, turning back, and without a word, he takes her hand." 
+Narrator "Lily squeezes Jack's hand, and they continue walking together. The camera lingers on their interlocked fingers, symbolizing how, even when things get rough, they don't let go of each other."  
+Narrator "It's not grand gestures or romantic declarations that define their love - it's the small moments, the quiet support, the simple act of being there." 
+Narrator "Back in the apartment, Jack is sitting on the couch, his head in his hands, clearly overwhelmed." 
+Narrator "Lily walks over, quietly sitting beside him. She doesn't say anything, doesn't try to offer solutions or tell him everything will be okay - she just listens." 
+Narrator "After a while, Jack speaks, his voice raw with emotion." 
+Jack "I just... I don't know how to make this work." 
+Narrator "Lily doesn't rush to respond, doesn't offer advice. She just lets him be heard." 
+Narrator "Her presence is enough to show him he's not alone in this, and that's all he needs in that moment." 
+Narrator "The camera zooms in on Lily's face as she listens intently, her empathy growing as she realizes how much Jack's been carrying." 
+Narrator "Her expression softens as she understands that being present, truly present, is far more powerful than any solution she could offer." 
+Narrator "Toward the end, they're sitting on the couch again, but this time, there's no tension." 
+Narrator "Jack leans into Lily, and she rests her head on his shoulder. The storm of their individual struggles hasn't passed, but they have learned how to weather it together." 
+Narrator "They share a quiet moment, watching the rain outside, and for the first time in a while, there's peace." 
+Narrator "It's not about having all the answers, but about being present for the people you care about."
+Narrator "The camera pans out, showing the two of them curled up together, a small but significant gesture of love." 
+Narrator "No words are spoken, but the connection between them speaks volumes." 
+Narrator "They have come to understand that the strength of their relationship lies not in solving problems, but in simply being there for one another." 
+Narrator "The final shot shows Jack and Lily sitting on the porch, watching the sunrise. They're holding hands, smiling softly at each other." 
+Narrator "They don't know what tomorrow holds, but they have learned that they don't need to." 
+DisableSkip()    
+Narrator "As long as they have each other, they can face anything." 
+HideGalleryImage()
+HideDB(-spd 1)
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1) 
+SetLayerMedia(background Movies) 
+EnableSkip()  
+Narrator "What really hit me was how both characters had their own struggles, but they learned how to support each other instead of trying to fix everything."
+Narrator "It wasn't about finding someone to 'complete' them - it was about growing together and being there for each other, even when things got tough." 
+Narrator "That's a huge lesson - real love is about accepting someone as they are, flaws and all. Real love isn't just about the happy moments - it's about the hard ones too." 
+PlaySFX(OnePoint -v 1)  
+IncreaseEmpathy(-st 1) 
+Narrator "The way they had to put themselves in each other's shoes to understand what the other was going through... It reminded me that sometimes the most important thing we can do for someone is just listen, without judgment." 
+DisableSkip() 
+Narrator "It's not about having all the answers, but about being present for the people you care about." 
+PlaySFX(OnePoint -v 1)   
+IncreaseKindness(-st 1) 
+DisableSkip()     
+AdvanceDay()  
+Load(MoviesFile -enqueue true)    
+

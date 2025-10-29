@@ -1,0 +1,136 @@
+SetLayerMedia(background Mei_Neighborhood)        
+PhoneEnabled(false) 
+
+Narrator "After our last hang out, I have been grappling with an unfamiliar feeling. What am I feeling? Could it be love? Perhaps admiration? I think I..." 
+Mei "Hey!" 
+Narrator "Mei interrupts my thoughts with a joyful shout." 
+Mei "Ready?" 
+Narrator "She smiles as she gets into my car." 
+Mei "I know an incredible spot for our camping adventure." 
+Narrator "I look forward to seeing it. Shall we be off?" 
+Mei "Absolutely!" 
+Narrator "We high-five each other then we drive off. Mei gives me directions to the spot." 
+Narrator "The drive to the forest was filled with animated conversations and laughter, miles passing by unnoticed as Mei described the camping spot and as we made plans for our adventure."  
+Narrator "The closer we got to our destination, the more the landscape transformed, turning into majestic mountains." 
+Narrator "Mei pointed me in the direction of a dirt road and we continued driving for about an hour, surrounding us in towering trees that stretched toward the sky, their leaves creating a canopy that filtered the sunlight, casting a dappled glow on the forest floor." 
+SetLayerMedia(background Campsite)      
+Narrator "Upon reaching our campsite, we were greeted by the soothing sounds of nature - the rustling of leaves, the chirping of birds, and the distant rush of a nearby dip-worthy stream, all creating a magical ambiance." 
+Narrator "We quickly set up the tent, eager to immerse ourselves in the forest's embrace." 
+Mei "Wonderful, isn't it?" 
+Narrator "Yeah." 
+Mei "What should we do first?" 
+Narrator "How about swimming?" 
+Mei "I love swimming. I know just the spot." 
+Narrator "Mei and I walked a trail, following the stream. After walking for about a half-hour, I heard a faint sound of rushing water. No way." 
+Mei "We're nearly there." 
+Narrator "The sound grew louder, hinting at the sight that awaited us." 
+Narrator "We finally stumbled upon the hidden gem - a lake nestled amidst the trees, with a roaring waterfall cascading into its waters. It looked amazing." 
+Narrator "Mei, how did find this place?" 
+Mei "My ex introduced it to me... Before she passed away." 
+Narrator "I'm sorry." 
+Mei "It's fine, it was a long time ago. Anyways, let's get swimming." 
+Narrator "Mei casually lifted her shirt over her head and tossed it in her backpack, revealing a black decorative bra underneath." 
+
+choice "..." 
+{
+	-Look At Her Bra   
+		Narrator "I looked at her bra. A rush of heat flooded my cheeks as I blushed, momentarily caught off guard by the unexpected sight." 
+		Narrator "Mei noticed me staring at her." 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "What?" 
+		Narrator "Nothing!" 
+		Mei "OK?" 
+
+	-Look Away 
+		Narrator "I shifted my gaze toward the waterfall, diverting my eyes from Mei's bra." 
+		PlaySFX(ThreePoints -v 1) 
+		Mei "Isn't the waterfall mesmerizing?" 
+} 
+
+Narrator "Mei removes her pants, tossing them in her backpack before casually flinging her backpack toward a nearby boulder."  
+Narrator "She gestured at me as she ran toward the water." 
+Mei "Come on, let's go!" 
+Narrator "After I undressed, I ran into the water, joining Mei in the water with a joyful shout. After I plunged into the cool waters of the lake, I felt refreshed and invigorated." 
+Narrator "We swam to the base of the waterfall, where the rushing water created a natural massage for our muscles, both of us murmuring." 
+Narrator "This feels nice." 
+Mei "Definitely." 
+Narrator "Mei looked at me with a mischievous glint in her eyes. She playfully splashed me then giggled." 
+
+choice "..." 
+{
+	-Splash Her Back    
+		Narrator "I smiled then swiftly retaliated by splashing her back." 
+		Narrator "What began as playful splashes soon escalated into a full-blown water fight that lasted for several minutes, laughter ringing out as we joyfully soaked each other." 
+		PlaySFX(ThreePoints -v 1) 
+		Narrator "After we stopped, we ll contistinued to laugh." 
+
+	-Is That All You Got? 
+		Narrator "Is that all you got?" 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "I'm just warming up." 
+		Narrator "She giggles." 
+} 
+
+Narrator "After swimming for a while, we decided to swim closer to the waterfall." 
+Narrator "As we approached, we noticed a hidden alcove behind the curtain of water." 
+Mei I never knew there was a small cave here. 
+Narrator "It's beautiful." 
+Narrator "Excited to uncover the hidden sanctuary, we stepped into the alcove, enveloped by the thunderous roar of the waterfall that cocooned us in privacy and tranquility." 
+Narrator "The air was crisp and filled with mist, intensifying the mystical ambiance surrounding us." 
+Narrator "Inside the alcove, we discovered smooth, sittable rocks, inviting us to pause and soak in the breathtaking scene." 
+Narrator "As we sat, a hush fell over us, sharing a moment of quiet awe." 
+Narrator "Our gazes were fixed on the mesmerizing beauty of our find, captivated by the sheer force and grace of the rushing water cascading just beyond the alcove's rocky walls." 
+Narrator "We made a new discovery together, like true adventurers."  
+Narrator "I looked at Mei. She seemed down." 
+Narrator "Mei?" 
+Mei "[Player Name], remember when I told you how my mom wanted to talk to me before I left with you?" 
+Narrator "Yeah." 
+Mei "My mom thinks it would be best if I went to therapy again. I know mental health is important and therapy did help me slightly in the past, but I can't shake this hesitation." 
+Mei "What if I don't see any real progress this time?" 
+Mei "Confronting my feelings is difficult. The last time I went, it didn't seem to make a significant difference, and it was a financial strain on my mom." 
+Mei "I don't want to burden her like that again, and I definitely don't want to go through another cycle of disappointment." 
+
+choice "..." 
+{
+	-I Understand Your Concerns 
+		Narrator "I understand your concerns, and it's completely valid to feel hesitant about starting therapy again, considering your past experiences, but it's important to prioritize your mental health." 
+		Narrator "Have you had an honest conversation with your mom about your worries?" 
+		PlaySFX(ThreePoints -v 1) 
+		Narrator "Mei sighed." 
+
+	-You Should Listen to Your Mother 
+		Narrator "You should listen to your mother. She just wants what's best for you. Don't let past experiences discourage you." 
+		Narrator "It will be difficult and costly, but I'm sure your mother will find a way to make it work." 
+		Narrator "Have you had an honest conversation with your mom about your worries?" 
+		PlaySFX(TwoPoints -v 1) 
+		Narrator "Mei took a deep breath, then let out an exasperated sigh." 
+} 
+
+Mei "I have talked to her about it, but she insists that money isn't a concern, and it obviously is." 
+Mei "We need to remain financially stable to prevent uprooting our lives again." 
+Narrator "I thought you lived here all your life?" 
+Mei "I did. Just not in the same house. We used to live in the hillside area when my dad was working as a surgeon." 
+Mei "When my mom discovered that she wasn't listed as the beneficiary, we couldn't afford to stay at my old house." 
+Mei "My mom was only a teacher, so we had to move to the suburbs. That's when I started therapy. Midway through it, I was removed from my mom's insurance." 
+Mei "We almost lost the house because of it." 
+Narrator "Is that why you like adventures? Do they serve as an escape?" 
+Mei "In a way." 
+Narrator "You know, that's a good thing. It's always good to explore other forms of support, what matters most is finding what works best for you and your overall well-being." 
+Narrator "Adventuring is your therapy." 
+Narrator "I approached Mei, kneeled, and gently placed a comforting hand on her shoulder."  
+Narrator "It's perfectly fine to do things in your own way and take things at your own pace." 
+Narrator "You know yourself best, and whatever you believe is the right path for you, I will fully support it. I'm here to help you in any way I can." 
+Narrator "Mei trembled with pain, tears pouring down her cheeks as she buried her face in my chest, weeping softly." 
+Narrator "We'll talk to your mother together." 
+Narrator "We'll do this together." 
+
+MeiHangOutSixComplete()      
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+AdvanceDay() 
+Load(MeiHangOutSeven -enqueue true) 

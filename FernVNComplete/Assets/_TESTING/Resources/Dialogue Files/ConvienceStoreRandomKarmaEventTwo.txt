@@ -1,0 +1,41 @@
+SetLayerMedia(background Convience_Store_Reference)   
+
+Narrator "As I was about to walk out of the store, I overheard the cashier tell the total for the person behind me." 
+Narrator "I glanced back and saw the person fumbling through their pockets." 
+Stranger "Darn... I'm short on change." 
+Narrator "The cashier gave a patient but expectant look, and for a brief moment, the air felt heavy with sense of awkardness." 
+
+choice "..." 
+{
+	-Pay The Difference 
+		Narrator "Without hesitation, I reached into my own pocket and handed over the difference." 
+		Narrator "I got you." 
+		Narrator "The stranger's face lit up with relief and gratitude, their shoulders visibly relaxing." 
+		Stranger "Thank you so much!" 
+		PlaySFX(OnePoint -v 1)
+		IncreaseKarma(-st 1) 
+		Narrator "No problem." 
+		DecreaseMoney(0.67) 
+		MoneyDownAnim(-md MoneyDeducted)  
+		Narrator "It was just a few coins, but a quiet sense of satisfaction settled in." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseKindness(-st 1) 
+		Narrator "My Kindness felt a little stronger."  
+	
+	-Do Nothing 
+		Narrator "I felt bad for the stranger as I walked out." 
+		Narrator "It wasn't a big deal, but something about it left a small, nagging feeling." 
+		Narrator "I had done anything wrong... But I also missed an opportunity to do something right." 
+} 
+
+HideGalleryImage() 
+HideDB(-spd 1)  
+UIHide() 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+LoadScene(TownMap) 
+		
+
+		   

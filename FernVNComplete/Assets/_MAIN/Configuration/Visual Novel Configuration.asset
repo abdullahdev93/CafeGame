@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2405614a6c1a80a4daba9fe5cb79ad22, type: 3}
+  m_Name: Visual Novel Configuration
+  m_EditorClassIdentifier: 
+  springFile: {fileID: 4900000, guid: 38f544acdc33cee49a9d0774c96ca517, type: 3}
+  summerFile: {fileID: 0}
+  fallFile: {fileID: 0}
+  winterFile: {fileID: 0}
+  springAFile: {fileID: 0}
+  introductionFile: {fileID: 4900000, guid: 7be26a3e97a65cf459fad4233d715d81, type: 3}
+  apartmentFile: {fileID: 4900000, guid: 116908089a6bc8c4396de03dee4f012c, type: 3}
+  apartmentStartM: {fileID: 0}
+  apartmentStartA: {fileID: 0}
+  apartmentStartE: {fileID: 0}
+  parkFile: {fileID: 4900000, guid: 7108f0aeab9d81949ac91b761af0972f, type: 3}
+  mallFile: {fileID: 4900000, guid: 219bce7499853bb489d30ab82c1634a8, type: 3}
+  libraryFile: {fileID: 4900000, guid: 2da56b0588e1b004192dfc6f27e37d61, type: 3}
+  bowlingAlleyFile: {fileID: 4900000, guid: 5f82cac1817f48045adc8c97ca91da72, type: 3}
+  arcadeFile: {fileID: 4900000, guid: a46045770eb82d144bb37ad65c820a36, type: 3}
+  universityFile: {fileID: 4900000, guid: 5b3f39081f85bf740a555f6b9259d18f, type: 3}
+  simonUniversityFile: {fileID: 4900000, guid: cdea43623473d914cae9ce610f14f61c, type: 3}
+  barFile: {fileID: 4900000, guid: de4ad5716b0fea84eb7fa1136ff79ede, type: 3}
+  barEveningFile: {fileID: 4900000, guid: ae22c9dcff39f304fa15e91ea29bd707, type: 3}
+  barAfterDartsFile: {fileID: 4900000, guid: 36d215b178c3e374a8d57cd25cc461aa, type: 3}
+  barAfterAmazingKaraokeFile: {fileID: 4900000, guid: 4b2e4f93c1c50e94ba211576162105fb,
+    type: 3}
+  barAfterGoodKaraokeFile: {fileID: 4900000, guid: c1f4181281dcd6541ae6403353344b66,
+    type: 3}
+  barAfterOKKaraokeFile: {fileID: 4900000, guid: a9a8898162890e542978d9c3577efc44,
+    type: 3}
+  barAfterTerribleKaraokeFile: {fileID: 4900000, guid: 2a46df2a45b3e654cb374b166edd8632,
+    type: 3}
+  barAfterHorrendousKaraokeFile: {fileID: 4900000, guid: 51d07fa2f354b1942888cafa2b716be6,
+    type: 3}
+  moviesFile: {fileID: 4900000, guid: 21b182bd3a8c13944adcbb4782f3fc06, type: 3}
+  moviesHJFile: {fileID: 4900000, guid: fa96cd48fa3fd0f46851351ad01616c3, type: 3}
+  moviesADFile: {fileID: 4900000, guid: b1ac899004dfb0a42bb1722ebccd5217, type: 3}
+  moviesHSFile: {fileID: 4900000, guid: 8ecbace42748c4e4bb9a34b4337bff03, type: 3}
+  moviesFileTwo: {fileID: 4900000, guid: f6e880ecbc7b5ed4e8bedacb5b505cc7, type: 3}
+  moviesFileThree: {fileID: 0}
+  moviesFileFour: {fileID: 0}
+  moviesFileMei: {fileID: 4900000, guid: 3af1c9bd5f062ef44b2bf1f918a23e75, type: 3}
+  meiHangOutOne: {fileID: 4900000, guid: 38f544acdc33cee49a9d0774c96ca517, type: 3}
+  meiHangOutTwo: {fileID: 4900000, guid: b0ecede8d39355e4598327f2de7a9b01, type: 3}
+  meiHangOutThree: {fileID: 4900000, guid: c7a24beaa7fa1904c9d63fdb818ed7bd, type: 3}
+  meiHangOutFour: {fileID: 4900000, guid: 3bc5baeb49635604197897fdbca6b076, type: 3}
+  meiHangOutFive: {fileID: 4900000, guid: 2a91caac750c9684f8e649feddc5826f, type: 3}
+  meiHangOutSix: {fileID: 4900000, guid: e74ef8a491063154f8a3414611b2df6c, type: 3}
+  meiHangOutSeven: {fileID: 4900000, guid: 2754c0b0989efb4459dd7a38c177c15c, type: 3}
+  meiHangOutEight: {fileID: 4900000, guid: 1c0597b148cedc642ba7f5c774d10d51, type: 3}
+  meiHangOutNine: {fileID: 4900000, guid: 864a4f31b590d35428cd5298fb2efefc, type: 3}
+  meiHangOutTen: {fileID: 4900000, guid: b3d36c7fbd47237499a326af158c79bc, type: 3}
+  poolFileMei: {fileID: 4900000, guid: 01d37eacbb20a004985f57b664665e91, type: 3}
+  rehearsalFileMei: {fileID: 4900000, guid: 029db725b390ba043a23eedf50be535a, type: 3}
+  meiJogSpring: {fileID: 4900000, guid: 21e462db0f4566041a9ed7b7e681884e, type: 3}
+  meiJogAfternoonSpring: {fileID: 4900000, guid: cf43e70d3a47ff34eab1cfd30b5bfecf,
+    type: 3}
+  meiEspressoMartini: {fileID: 4900000, guid: 82923c3666aac4d428d4eddf7ce7bcbb, type: 3}
+  meiMargarita: {fileID: 4900000, guid: 2102adf36f12ccd45a04e970e8843631, type: 3}
+  meiOldFashioned: {fileID: 4900000, guid: 4022adf4bd7e1d94eb76d63fab88fcaf, type: 3}
+  meiShotOfTequila: {fileID: 4900000, guid: 39244caa2f47b8143b6023d4388c425a, type: 3}
+  meiRedWine: {fileID: 4900000, guid: 734c896d700cd5e4d9acf82db3cfa62d, type: 3}
+  meiMojito: {fileID: 4900000, guid: 6bc5b3280df76664d8d45795bfb8a94b, type: 3}
+  meiManhattan: {fileID: 4900000, guid: c71f3bbb71412094d9a177873f6066de, type: 3}
+  meiHotToddy: {fileID: 4900000, guid: 2d715f423503cf54fb94a44895099a47, type: 3}
+  meiWhiskeySour: {fileID: 4900000, guid: 5c61a247252d7764294ff2e2bcce8d10, type: 3}
+  meiNegroni: {fileID: 4900000, guid: 0cbde08990502bf4799f6f1126a6392c, type: 3}
+  barNina: {fileID: 4900000, guid: 83a41aca41571f04daae572dae4a8ca6, type: 3}
+  ninaWalkHome: {fileID: 4900000, guid: ef963b7b82f3e5b42aed1b40423413b0, type: 3}
+  ninaHookUp: {fileID: 4900000, guid: bf93fef604f586240879e8148ffe9f8d, type: 3}
+  ninaCompany: {fileID: 4900000, guid: 5847409ef1bd80a4ea1609b64d076863, type: 3}
+  ninaEightIntelligence: {fileID: 4900000, guid: fb958e3394bd7b949959eb3498d22386,
+    type: 3}
+  ninaEightEmpathy: {fileID: 4900000, guid: c252554a248ad33458db8d84f7e06614, type: 3}
+  ninaHangOutOne: {fileID: 4900000, guid: 34de1c271d375564b8d5d8f2f8475521, type: 3}
+  ninaHangOutTwo: {fileID: 4900000, guid: f9a07ff53869be541ada79e2e1cdc82b, type: 3}
+  ninaHangOutThree: {fileID: 4900000, guid: 4ab922ea91da7794bb9257d4ba9bb878, type: 3}
+  ninaHangOutFour: {fileID: 4900000, guid: 3deea3bfc21880843847c2024fcf2b5a, type: 3}
+  ninaHangOutFive: {fileID: 4900000, guid: 6ddfc977cfa725d489931e00fca05cc3, type: 3}
+  ninaHangOutSix: {fileID: 4900000, guid: c57e6695388609e4ba7b4e13f443e6bb, type: 3}
+  ninaHangOutSeven: {fileID: 4900000, guid: 69e1d56a5988c4841b914f8c186bd1e2, type: 3}
+  ninaHangOutEight: {fileID: 4900000, guid: 8e4f5ef04ff15324daf88bcbaa166809, type: 3}
+  ninaHangOutNine: {fileID: 4900000, guid: f84617d44edd8424a95b03397eaf5740, type: 3}
+  ninaHangOutTen: {fileID: 4900000, guid: 942b16d672de51a46af332efabf0a2c4, type: 3}
+  simonArcade: {fileID: 4900000, guid: 743dbc0d12e907d43906e32254c0a48f, type: 3}
+  simonHangOutSix: {fileID: 4900000, guid: 63308aa599c2dfa48aa8ba80ac832b3a, type: 3}
+  simonHangOutSeven: {fileID: 4900000, guid: 85735feb4745c584ea63e9db09886938, type: 3}
+  afterGoodCafeFile: {fileID: 4900000, guid: 0894084e94ded7a40903ada161efb1b1, type: 3}
+  afterGoodCafeALTFile: {fileID: 4900000, guid: ad86d29a0e8f1984b9ace884d9a95f3e,
+    type: 3}
+  convienceStoreFile: {fileID: 4900000, guid: c3070cb75d360a04684717b830da4de9, type: 3}
+  convienceStoreRandomKarmaEvent: {fileID: 4900000, guid: b74befd336ed9104eab22b69aa9cd59c,
+    type: 3}
+  convienceStoreRandomKarmaEventTwo: {fileID: 4900000, guid: e32028a0130df3942abc64eacfef6a9a,
+    type: 3}
+  convienceStoreRandomKarmaEventThree: {fileID: 4900000, guid: ebd19361c42bb5b4b862fa8abb797cea,
+    type: 3}
+  winningLuckBucks: {fileID: 4900000, guid: 7404a57ddbc561943bf0c520e7de4f2c, type: 3}
+  winningRainbowRiches: {fileID: 4900000, guid: 155479112150b9d47bd6c6415f27a6cc,
+    type: 3}
+  winningMegaFortune: {fileID: 4900000, guid: c9fb5baa039eb2b4eb5ec082a48a5b83, type: 3}
+  losingLotteryTicket: {fileID: 4900000, guid: 99d1a42ed2af17c48b621335d2e397eb, type: 3}
+  negroniFile: {fileID: 4900000, guid: b18cf2a3241d8574dab160533acfb4e6, type: 3}
+  redWineFile: {fileID: 4900000, guid: 940b54003023b5d409f5918a5c4b207b, type: 3}
+  mojitoFile: {fileID: 4900000, guid: 65582a151a689514e85fce09678fdd82, type: 3}
+  manhattanFile: {fileID: 4900000, guid: 3a64cb870decc6d4b894ff61ef590009, type: 3}
+  hotToddyFile: {fileID: 4900000, guid: dcb9635d14ef05547af86a30b0b8719c, type: 3}
+  expressoMartiniFile: {fileID: 4900000, guid: f3e4e3a664770ae4e830e67dbbf505b8, type: 3}
+  oldFashionedFile: {fileID: 4900000, guid: b40aa4c22b467eb468585a9eafbe2f46, type: 3}
+  whiskeySourFile: {fileID: 4900000, guid: 2f91fb6abc6b32048b9ea089b6945d0c, type: 3}
+  shotOfTequilaFile: {fileID: 4900000, guid: 0d421f68e63c89a4abd0443120c623cd, type: 3}
+  margaritaFile: {fileID: 4900000, guid: 01b99dd1855bef344b89d019de6b94cd, type: 3}
+  jogMorningSpring: {fileID: 4900000, guid: d54e4483fb4dfeb4eb5cf243277ba67b, type: 3}
+  jogAfternoonSpring: {fileID: 4900000, guid: d4b9087574482e842aac7aa4a680565b, type: 3}
+  jogEveningSpring: {fileID: 4900000, guid: 4ef64a12d51480747af8e63fcdfef5e4, type: 3}
+  simonJogAfternoonSpring: {fileID: 4900000, guid: 13798b978024311439d4b7640e1bd884,
+    type: 3}
+  artOfConversation: {fileID: 4900000, guid: dd667f65480fd624284e8f6b1a6220e0, type: 3}
+  welcomeToBaywoodPARTTWO: {fileID: 4900000, guid: eabd7834ce4fcf74b830dc51eb48b286,
+    type: 3}
+  meiHangOutOnePARTTWO: {fileID: 4900000, guid: d0b060194bf064549828db8d6a8450d2,
+    type: 3}
+  meiHangOutTwoPARTTWO: {fileID: 4900000, guid: 52c81603ab900b64fb400231d6d88d65,
+    type: 3}
+  meiHangOutThreePARTTWO: {fileID: 4900000, guid: fdb785c3575df824da1bffcc1ce9d21a,
+    type: 3}
+  meiHangOutFourPARTTWO: {fileID: 4900000, guid: 24cacb659fd172545b1f5a098fd557bb,
+    type: 3}
+  meiHangOutFivePARTTWO: {fileID: 0}
+  meiHangOutSixPARTTWO: {fileID: 0}
+  meiHangOutSevenPARTTWO: {fileID: 0}
+  meiHangOutEightPARTTWO: {fileID: 0}
+  meiHangOutNinePARTTWO: {fileID: 0}
+  meiHangOutTenPARTTWO: {fileID: 0}
+  alexCritterTrails: {fileID: 4900000, guid: 5739cdc42c0119f4c8769ecaf584358b, type: 3}

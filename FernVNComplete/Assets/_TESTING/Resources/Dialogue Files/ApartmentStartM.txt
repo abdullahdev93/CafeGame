@@ -1,0 +1,42 @@
+SetLayerMedia(background Apartment_ALT) 
+
+PhoneEnabled(true) 
+UIShow() 
+FakeCalendarHide() 
+
+DisableSkip() 
+ShowMC() 
+
+FirstName "It's morning." 
+FirstName "What should I do today?" 
+AutoSave() 
+
+if ($PlayerStats.Pronoun.Subject == he)  
+{
+	FirstName "My pronouns are He / Him." 
+} 
+
+else if ($PlayerStats.Pronoun.Subject == she) 
+{
+	FirstName "My pronouns are She / Her."  
+} 
+
+else if ($PlayerStats.Pronoun.Subject == they) 
+{
+	FirstName "My pronouns are They / Them." 
+} 
+
+wait(1) 
+
+choice "..." 
+{ 
+	-Open Cafe 
+		LoadScene(Cafe)
+
+	-Change Clothes 
+		LoadScene(Closet) 
+
+	-Relax 
+		LoadScene(Apartment) 
+		
+}

@@ -1,0 +1,50 @@
+SetLayerMedia(background Movies)         
+
+Narrator "I'm at the Movie Theater with Mei." 
+
+Narrator "Which movie shoild we watch?" 
+
+choice "Which Movie?" 
+{
+	-The Hero's Journey 
+		DecreaseMoney(50) 
+		Narrator "Wow, that movie really got to me. It's more than just an action-packed adventure. It's about finding the courage to face your fears, even when the odds are stacked against you." 
+		Narrator "I couldn't help but feel inspired by the hero's determination. He wasn't just fighting for himself, but for everyone who believed in him." 
+		PlaySFX(OnePoint -v 1)  
+		IncreaseCharisma(-st 1) 
+		Narrator "It kind of makes you realize that sometimes leadership isn't about being the strongest - it's about having the heart to keep going, no matter what." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseEndurance(-st 1) 
+		Narrator "I looked at Mei, and it seems like she liked the movie." 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseFriendshipA(-fr 1)  
+
+	-The Artist's Imagination 
+		DecreaseMoney(50) 
+		Narrator "I think what hit me the most was how the artist had to learn to trust their creative instincts." 
+		Narrator "At the start, they were afraid of making mistakes or not being good enough, but once they embraced their creativity, they could literally transform their world." 
+		Narrator "Creativity isn't just for artists or writers; it's something we all have, and if we let it guide us, we can find solutions to problems that logic alone can't solve."
+		PlaySFX(OnePoint -v 1)  
+		IncreaseCreativity(-st 1) 
+		Narrator "It's such a powerful message - that sometimes the only limits we have are the ones we put on ourselves."
+		PlaySFX(OnePoint -v 1)   
+		IncreaseInsight(-st 1) 
+		Narrator "I looked at Mei, and it seems like she was interested in the movie." 
+		PlaySFX(TwoPoints -v 1)  
+		IncreaseFriendshipA(-fr 2) 
+	
+	-Heartstrings 
+		DecreaseMoney(50) 
+		Narrator "What really hit me was how both characters had their own struggles, but they learned how to support each other instead of trying to fix everything."
+		Narrator "It wasn't about finding someone to 'complete' them - it was about growing together and being there for each other, even when things got tough." 
+		Narrator "That's a huge lesson - real love is about accepting someone as they are, flaws and all. Real love isn't just about the happy moments - it's about the hard ones too." 
+		PlaySFX(OnePoint -v 1)  
+		IncreaseEmpathy(-st 1) 
+		Narrator "The way they had to put themselves in each other's shoes to understand what the other was going through... It reminded me that sometimes the most important thing we can do for someone is just listen, without judgment." 
+		Narrator "It's not about having all the answers, but about being present for the people you care about." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseKindness(-st 1) 
+		Narrator "I looked at Mei, and it seems like she liked the movie." 
+		PlaySFX(TwoPoints -v 1)  
+		IncreaseFriendshipA(-fr 1)  
+} 

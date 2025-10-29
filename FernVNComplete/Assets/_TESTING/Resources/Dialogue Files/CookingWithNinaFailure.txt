@@ -1,0 +1,134 @@
+SetLayerMedia(background NinaApartment)                
+
+PhoneEnabled(false) 
+
+Narrator "Despite my best efforts, the rice stuck to the bottom of the pot and began to burn." 
+Narrator "When Nina returned, her nose wrinkled as she approached the stove."
+Nina "Oh no... You burnt it!"
+Narrator "I saw the disappointment in her face, then suddenly, it sounded like she was trying to hold back a laugh."
+Nina "OK, Plan B." 
+Narrator "Plan B turned out to be takeout from a nearby Asian restaurant." 
+Narrator "Nina placed the order, and soon we were sitting on the couch with cartons of fried rice, noodles, and dumplings." 
+[Player Name] "I am so sorry." 
+Nina "It's OK." 
+Nina "It's not so bad."  
+Narrator "She said, her chopsticks deftly picking up a dumpling." 
+Nina "Sometimes you have to improvise when things don't go your way." 
+[Player Name] "True." 
+Narrator "I admitted, taking a bite of fried rice." 
+Narrator "But next time, I'm leaving the risotto to you."
+Narrator "I said with slight disappointment, and I'm sure that Nina noticed the pinch of sadness in my tone." 
+Narrator "After we finished eating, Nina pulled out her phone, a mischievous smile tugging at her lips as she waved it slightly." 
+Nina "I know what would make you feel better." 
+Nina "Come on." 
+Narrator "She said, standing and motioning for me to follow her." 
+Nina "Let's watch TwistTok in my room."
+Narrator "I hesitated for a moment, but her enthusiasm was contagious." 
+Narrator "We headed to her bedroom, a cozy and cluttered space, with art supplies and canvases stacked against one wall."
+Narrator "She flopped onto the bed, patting the spot next to her."
+Nina "You have to see this video." 
+Narrator "She said, scrolling through her phone." 
+Nina "It's hilarious." 
+Narrator "I sat down, trying to get comfortable as she played the TwistTok."
+Narrator "It was a cat attempting to jump onto a counter and failing spectacularly." 
+Narrator "Her laughter was infectious, and soon, I found myself laughing just as hard."
+[Player Name] "All right, that one was pretty good."
+Nina "Pretty good? That was gold! Wait - this one's even better." 
+Narrator "We spent the next hour trading reactions, laughing until our sides hurt." 
+Narrator "It felt like we'd known each other forever."
+Narrator "At some point, she leaned her head against my shoulder, her laughter softening into a contented sigh." 
+
+choice"..." 
+{
+	-Allow it and put my arm around her 
+		Narrator "I hesitated for a moment, then slowly lifted my arm and wrapped it gently around her shoulders." 
+		Narrator "She didn't pull away, she leaned in closer, her body relaxing against mine." 
+		Nina "This feels... Nice." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseEmpathy(-st 1)  
+		Narrator "A warm, quiet contentment settled between us as we sat there." 
+		PlaySFX(TwoPoints -v 1)   
+		IncreaseFriendshipC(-fr 2)   
+		Nina "So, what did you think of the videos?" 
+		[Player Name] "They were good."  
+		Narrator "She straightened up, stretching slightly and brushing her hair back." 
+		Nina "Thanks for coming over today." 
+		Nina "It's been a while since I ate takeout with someone and watched a movie."  
+		Nina "It felt... Nice." 
+		[Player Name] "Thanks for inviting me." 
+		Narrator "I began to stand and gather the empty cartons."  
+		Nina "You don't have to throw out the cartons." 
+		[Player Name] "I insist. After everything you did today, it's the least I can do." 
+		Narrator "She walked me to the door, lingering as I stepped into the hallway." 
+		Nina "See you soon?" 
+		Narrator "I gave her a small wave before heading out." 
+		Narrator "As I stepped out, the taste of espresso and vanilla still lingered on my tongue." 
+		Narrator "Walking out of the apartment building, Nina's laughter still echoed in my mind, her gentle touch a quiet reminder of the trust she had given me." 
+		Narrator "What started as a simple invitation to cook and watch a movie had become something more - a shared experience that strengthened our relationship." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		UIHide()
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		wait(1) 
+		AdvanceDay() 
+		Load(ApartmentStart -enqueue true)   
+
+	-Move away 
+		Narrator "I shifted slightly, creating a small gap between us." 
+		Narrator "Nina blinked and straightened up, her cheeks flushing as she quickly glanced at me." 
+		Nina "Oh, sorry. I didn't mean to..." 
+		Narrator "She trailed off, fidgeting slightly with the hem of her shirt." 
+		[Player Name] "No, it's OK."  
+		Narrator "I offered a quick smile to ease the tension." 
+		PlaySFX(OnePoint -v 1)   
+		IncreasePatience(-st 1)   
+		[Player Name] "I just wasn't expecting it, that's all." 
+		Narrator "She nodded, her gaze returning to the screen." 
+		PlaySFX(OnePoint -v 1)  
+		IncreaseFriendshipC(-fr 1)  
+		Narrator "We both focused on the movie, but the unspoken words lingered, leaving the moment feeling awkward." 
+		Nina "So, what did you think of the videos?" 
+		[Player Name] "They were good."  
+		Narrator "She straightened up, stretching slightly and brushing her hair back." 
+		Nina "Thanks for coming over today." 
+		Nina "It's been a while since I ate takeout with someone and watched a movie."  
+		Nina "It felt... Nice." 
+		[Player Name] "Thanks for inviting me." 
+		Narrator "I began to stand and gather the empty cartons."  
+		Nina "You don't have to throw out the cartons." 
+		[Player Name] "I insist. After everything you did today, it's the least I can do." 
+		Narrator "She walked me to the door, lingering as I stepped into the hallway." 
+		Nina "See you soon?" 
+		Narrator "I gave her a small wave before heading out." 
+		Narrator "As I stepped out, the taste of espresso and vanilla still lingered on my tongue." 
+		Narrator "Walking out of the apartment building, Nina's laughter still echoed in my mind, her gentle touch a quiet reminder of the trust she had given me." 
+		Narrator "What started as a simple invitation to cook and watch a movie had become something more - a shared experience that strengthened our relationship." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		UIHide()
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		wait(1) 
+		AdvanceDay() 
+		Load(ApartmentStart -enqueue true)  
+		
+	-Kiss Nina 
+		Narrator "I glanced down at her, her head resting lightly against my shoulder." 
+		Narrator "Before I could overthink it, I tilted my head slightly and brushed a soft kiss against her temple." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCourage(-st 1)   
+		Narrator "She lifted her head to meet my gaze, her eyes wide with a mix of delight and surprise."  
+		Narrator "For a moment, neither of us moved." 
+		Narrator "Then, a faint smile spread across her lips, and she leaned back into me, her hand lightly resting against my chest." 
+		Narrator "Nina lifts her head to look at me again." 
+		Nina "Is that all?" 
+		[Player Name] "Did you have something else in mind?" 
+		Narrator "I teased." 
+		PlaySFX(ThreePoints -v 1)  
+		IncreaseFriendshipC(-fr 3)  
+		Narrator "Nina had a mischievous smirk playing on her lips, her eyes glinting with playful intent as she started unbuckling my pants." 
+		Load(NinaHeadAfterFailure -enqueue true)    
+} 

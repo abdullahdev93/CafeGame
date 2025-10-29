@@ -1,0 +1,19 @@
+SetLayerMedia(background Library) 
+
+Narrator "Which books should I borrow?"  
+
+choice "Which books?"   
+{
+	-Shadows in the Dark 
+		Narrator "I'll borrow Shadows in the Dark." 
+		DecreaseMoney(10) 
+		
+	-The House That Whispers 
+		Narrator "I'll borrow The House That Whispers."  
+
+	-More 
+		Load(Library_HorrorMore -enqueue true) 
+		
+	-Back 
+		Load(LibraryLocation -enqueue true)  
+} 

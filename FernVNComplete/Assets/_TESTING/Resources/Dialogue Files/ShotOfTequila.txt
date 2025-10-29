@@ -1,0 +1,26 @@
+SetLayerMedia(background Bar) 
+
+choice "..." 
+{ 
+	-Invite Someone 
+		ShowFriendInvites() 
+
+	-Drink Alone 
+		Narrator "... A shot of tequila?" 
+		Bartender "Comin' right up."     
+		Narrator "The Tequila had a fiery kick that burned just enough to awaken my inner courage." 
+		Narrator "Bold and fearless, I felt ready to take on anything the night had to offer." 
+		PlaySFX(OnePoint -v 1)      
+		IncreaseCourage(-st 1)    
+		Narrator "With newfound bravery, I jumped into the fray, meeting new faces and trying out some daring activities at the bar." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		wait(1)
+		LoadScene(Bar -enqueue true) 
+		
+	-Back 
+		Load(BarLocation) 
+}

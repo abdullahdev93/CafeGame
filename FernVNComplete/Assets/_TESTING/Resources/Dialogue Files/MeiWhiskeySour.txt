@@ -1,0 +1,47 @@
+SetLayerMedia(background Bar)
+
+Narrator "... A Whiskey Sour."  
+Bartender "Nice choice. Coming right up."  
+Mei "And I'll take a glass of Red Wine."  
+Bartender "Got it."  
+
+Narrator "As the bartender turned away, I leaned casually against the counter and glanced over at Mei."  
+Narrator "Red Wine, as always?"  
+Mei "She gave a little shrug, a small smile tugging at her lips."  
+Mei "What can I say? I like what I like. It's dependable - like me."  
+Narrator "I chuckled."  
+Narrator "Nothing wrong with that." 
+Narrator "Though I thought maybe tonight was the night you'd throw caution to the wind and order something wild."  
+Mei "She raised an eyebrow, amused."  
+Mei "If I wanted something wild, I wouldn't start with alcohol."  
+
+Narrator "The bartender returned and placed our drinks in front of us."  
+Narrator "I picked up my Whiskey Sour, the frothy top and citrus scent inviting."  
+Narrator "I took a sip, letting the sweet and sour taste dance on my tongue before the smooth bite of the whiskey rolled in."  
+Narrator "I sighed in delight."  
+
+Narrator "Mei swirled her wine thoughtfully before taking a sip."  
+Mei "So... you're going with a sour mood tonight?"  
+Narrator "I smirked."  
+Narrator "More like a bold mood." 
+Narrator "Something with a little edge, but still smooth around the edges - like me."  
+Mei "She laughed, shaking her head."  
+Mei "You really just described a drink as your personality, huh?"  
+Narrator "Guilty."  
+
+Narrator "The bar around us buzzed softly with conversation and clinking glasses."  
+Narrator "We fell into easy conversation, trading stories, laughs, and playful teasing between sips."  
+Narrator "Time passed unnoticed, like the ice slowly melting in our glasses."  
+
+Narrator "Eventually, Mei leaned back with a quiet sigh, her glass nearly empty."  
+Mei "Well, Mister Smooth-And-Sour, it's getting late."  
+Narrator "I nodded, finishing the last of my drink."  
+Narrator "Come on, I'll walk you home." 
+
+HideGalleryImage()  
+HideDB(-spd 1)  
+wait(0.75)  
+ClearLayerMedia(background), wait(1)  
+StopSong(), StopAmbience()  
+wait(1)  
+LoadScene(Bar -enqueue true)

@@ -1,0 +1,291 @@
+HideIconsIntroduction() 
+
+FakeCalendarInfo(-se "Spring / 06" -dy "Evening" -wk "Friday" -te "58°F") 
+
+Narrator "As the sun dipped below the horizon, casting golden rays across familiar streets, I sat quietly in the backseat of my parents' car, watching the world blur by."
+Narrator "For as long as I can remember, my parents had a vision for my life." 
+Narrator "College, career, comfort."
+Narrator "And for a while, I believed in that vision too." 
+Narrator "After all, I was their only child - their pride and joy. I didn't want to disappoint them."
+Narrator "My dad, an architect. My mom, a lawyer. Two people who built their lives from scratch and believed that structure, success, and sacrifice were the only paths to happiness."
+Narrator "They wern't cruel. They were passionate, opinionated, and yes, overbearing - but they loved me in their own way."
+Narrator "Still, love can feel suffocating when it comes with conditions. Many conditions." 
+
+Narrator "After high school, I went straight to college, and they were overjoyed."
+Narrator "Each semester, I carried the weight of their expectations on my shoulders." 
+Narrator "I passed my classes, got decent grades. Never partied. Never explored."
+Narrator "I was the child they wanted me to be." 
+Narrator "But with every passing year, I felt myself more and more empty." 
+
+Narrator "I started working part-time at a local café during my second year - mostly to get away from campus, to feel like I had some control."
+Narrator "At first, it was just a job." 
+Narrator "But over time, something changed." 
+Narrator "I loved it. The smell of coffee. The quiet hum of conversation. The sense of community in something so small."
+Narrator "I found joy in memorizing regulars' orders, crafting a perfect cup of coffee, seeing people relax into the atmosphere I helped create."
+
+Narrator "It was there, in that little café off campus, that I started to resent my parents." 
+Narrator "Not because they were bad parents, but because they never asked me what I wanted."
+Narrator "Their love always came with a blueprint." 
+Narrator "And I was done following it." 
+
+Narrator "The lectures and routines started to feel meaningless. I'd stare out of classroom windows and imagine a different life."
+Narrator "One where I didn't have to pretend. One where I could wake up excited about something - not dreading another day of someone else's plan."
+
+Narrator "And so, I dropped out when the current semester ended. Not in rebellion. Not in failure." 
+Narrator "But in quiet, painful clarity." 
+
+Narrator "I wanted something else. Something simple. Something mine."
+Narrator "I wanted to open a café."
+Narrator "Fortunately, I'd been saving up since high school - working part-time jobs, budgeting every dollar." 
+Narrator "I spent weekends sketching menu ideas and researching machines I couldn't afford."
+Narrator "It sounded ridiculous to a lot of people, but to me, it was a future. A real one."
+
+Narrator "Now, after all this time, I was back in the car with my parents, taking me home after finishing another semester of college." 
+Narrator "I had to tell them the truth." 
+Narrator "Will they accept that?" 
+Narrator "I watched the trees blur past. The streets I used to walk. The neighbors' houses still decorated from last season."
+Narrator "Everything was so familiar and yet felt so foreign."
+Narrator "Before I knew it, we were home." 
+Narrator "We got out of the car, walked past the two-door garage, then walked on the concrete path to the front door." 
+Narrator "The sight of the house filled me with a mixed sense of comfort and imprisonment." 
+Narrator "I'm grateful that my parents gave me so much, but I'm tired of doing things their way." 
+DisableSkip()  
+Narrator "It's time for me to start a new chapter of my life. One where I can finally be myself and do what I want to do." 
+
+HideDB(-spd 1) 
+HideGalleryImage()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1)   
+
+FakeAdvanceDay(-fc 105)  
+
+SetLayerMedia(background Bedroom)    
+FakeCalendarInfo(-se "Spring / 07" -dy "Afternoon" -wk "Saturday" -te "60°F")         
+EnableSkip() 
+HideDB(-spd 1) 
+wait(5) 
+Narrator "Today is the day. I have to tell them the truth." 
+Narrator "I have to tell my parents how I feel." 
+Narrator "No more pretending. No more polite nods and vague responses about 'future plans.'" 
+Narrator "I can't hide my feelings forever." 
+Narrator "They're going to find out eventually." 
+Narrator "I stood in front of the mirror, running through every scenario. Would they yell? Would they laugh? Would they be disappointed?"
+Narrator "They're going to want to know why I won't be attending college in the Summer."  
+Narrator "I took a deep breath, collected my thoughts, and prepared for the worse."     
+
+HideDB(-spd 1) 
+HideGalleryImage()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1)    
+
+SetLayerMedia(background LivingRoom)     
+Narrator "I called them into the living room, gesturing them to sit on the sofa across from me." 
+Narrator "The air in the living room felt heavy with tension, my hands clasped tightly on my lap." 
+Narrator "I took a breath." 
+Narrator "Mom, Dad. I haven't been honest with you." 
+Narrator "My parents exchanged a worried glance, their expressions reflecting a mix of curiosity and concern." 
+Narrator "I know that you just want what's best for me, even going as far as to strongly suggest following in your footsteps." 
+Narrator "Either to pursue a career in architecture just like you, Dad." 
+Narrator "Or go into law, just like you both did, Mom." 
+Narrator "I've spent a lot of time thinking about this. The truth is-" 
+Narrator "This is it. I have to tell them. I have to stand up to them." 
+Narrator "The truth is... I went to college for you. Not for me."
+Narrator "I tried. I really tried." 
+Narrator "But I was never happy."
+Narrator "So... I dropped out." 
+Narrator "They both froze."
+Dad "You what?"
+Mom "You dropped out of college? Without telling us?"
+Narrator "I want to do my own thing. I want a simple and fun life." 
+Narrator "I want to open a café."
+Narrator "I could see the disbelief flicker across their faces, quickly replaced by a mixture of shock and disappointment, then anger." 
+Dad "Preposterous! We've sacrificed so much to give you every opportunity to succeed." 
+Dad "Are you saying that's not good enough for you!?" 
+Mom "Are you kidding me? We've worked hard to give you the opportunities we never had." 
+Mom "We paved a perfect road for you to follow, a successful road. Do you think we did all of this just so you could end up making coffee?" 
+Narrator "No, Dad, that's not what I'm saying." 
+Narrator "I appreciate everything you've both done for me, I have, but I need to follow my own path, not the one expected of me." 
+Narrator "And I'm very serious about this, I want to have my own café."
+Narrator "And college is not going to help me accomplish that." 
+Dad "Self-employment is not the best route. You should want a job with benefits." 
+Narrator "There are benefits to being self-employment – flexibility, unlimited earnings, and independence." 
+DisableSkip()  
+Mom "There's also no insurance and no job security. If you ask me, there are no benefits at all!" 
+
+HideDB(-spd 1)
+HideGalleryImage() 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+FakeAdvanceDay(-fc 105)  
+
+FakeCalendarInfo(-se "Spring / 08" -dy "Morning" -wk "Sunday" -te "62°F")     
+
+EnableSkip() 
+SetLayerMedia(background livingRoom) 
+HideDB(-spd 1)  
+wait(5)  
+Mom "Oregon? Are you serious? After everything we've done to put you on the right track, you're just going to throw it all away for some... Small-town coffee shop?"
+Narrator "It's not just a coffee shop. I want to create a place where people come together, where I can craft something that's my own. A place that feels like home to everyone who walks in."
+Mom "That sounds nice, but 'feeling like home' isn't going to pay the bills." 
+Mom "You could have a real career, something secure, like engineering or business." 
+Mom "You can't throw away real opportunities for some dream." 
+
+Dad "Running a café in some small town? Do you really think that's a path to success?" 
+Dad "You could be studying, preparing for a real career, but you want to serve coffee for strangers in the middle of nowhere?"
+Mom "So, what? You'll be the friendly local barista? That's not a career." 
+DisableSkip()  
+Mom "You should be developing real skills and planning for a future that won't rely on tips." 
+
+HideDB(-spd 1)
+HideGalleryImage() 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+
+FakeAdvanceDay(-fc 105)   
+
+FakeCalendarInfo(-se "Spring / 09" -dy "Evening" -wk "Monday" -te "64°F")     
+
+SetLayerMedia(background livingRoom)  
+EnableSkip() 
+HideDB(-spd 1)  
+wait(5)  
+Dad "You're too young to be making these kinds of decisions." 
+Dad "Have you even thought this through? Owning a café isn't just pouring coffee for people."
+Narrator "I know! I have researched everything. I'll handle managing the shop, talking to customers, creating a menu people will love." 
+Narrator "I worked at a café."
+Narrator "I'll build something special, a place where people can find comfort, a second home." 
+Dad "You can't just rely on 'comfort' and 'homey vibes.'" 
+Dad "You need money, you need experience, and, frankly, you need a better plan." 
+Dad "What happens when no one wants to hang out in your 'homey little café'?" 
+Dad "And since when did you work at a café?"
+
+Mom "Have you thought about the long-term? How will you handle managing inventory, dealing with customers, paying bills, and staying open in a place like Baywood Springs?"
+Narrator "Yes, I have thought it all through. Mostly. I have experience." 
+Narrator "And I'll be learning new things every day - more about business, customer service, creating drinks, and building relationships." 
+Narrator "I'm not afraid of hard work, and this is how I want to grow."
+Mom "Learning what? How to make people like you? You'll burn yourself out in no time if you think running a small business is as easy as chatting with customers." 
+DisableSkip()   
+Mom "And who's going to visit this 'cozy café' anyway?" 
+
+HideDB(-spd 1) 
+HideGalleryImage() 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+
+FakeAdvanceDay(-fc 105)  
+
+FakeCalendarInfo(-se "Spring / 10" -dy "Afternoon" -wk "Tuesday" -te "56°F")      
+
+SetLayerMedia(background LivingRoom) 
+
+EnableSkip() 
+HideDB(-spd 1)  
+wait(5)   
+Mom "We have given you so many opportunities. You have people around you who can help you succeed if you'd just stick with something real." 
+Mom "And here you are, choosing this pipe dream." 
+Mom "Do you think running a cafe is going to change people's lives?" 
+Mom "Or are you just trying to avoid responsibility? This fantasy of yours might look exciting now, but reality doesn't revolve around coffee and pastries." 
+Dad "You're romanticizing this. When reality hits, you'll be stuck working all day, barely making enough to keep the lights on." 
+Dad "There's more to life than playing host."
+Narrator "And there's more to life than just making money." 
+DisableSkip()  
+Dad "And what happens when that 'dream' crumbles? You can't build a future on a whim."  
+
+HideDB(-spd 1) 
+HideGalleryImage() 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+
+FakeAdvanceDay(-fc 105)  
+
+FakeCalendarInfo(-se "Spring / 11" -dy "Evening" -wk "Wednesday" -te "58°F")     
+
+SetLayerMedia(background LivingRoom)
+EnableSkip() 
+HideDB(-spd 1)  
+wait(5)    
+Dad "You need to think bigger. You could go anywhere, do anything, but instead, you're willing to settle for... this?" 
+Narrator "Settling? I don't see it that way. I want to start somewhere small, where people know each other and where I can make a difference." 
+Narrator "I'm willing to put in the work, even if it means starting with coffee." 
+Narrator "I'll build connections, one cup at a time." 
+Dad "One cup at a time... You make it sound like a fairytale." 
+Dad "What about stability? Benefits? Retirement? This is your life we're talking about!" 
+Narrator "It is my life, and I want to give it meaning. I want to build something real, something that's mine." 
+Narrator "I'm ready to work harder than I ever have, just to see that dream come true."
+Dad "I just hope you know what you're giving up." 
+
+Mom "Listen - are you sure about this? Are you really willing to give up a stable future, to struggle through opening a café without any guarantee of success?"
+Narrator "Yes, I am. I want to create something with my own hands, something I can be proud of. It's not about guarantees - it's about passion and purpose." 
+DisableSkip()   
+Mom "I only hope you understand what you're giving up. We won't be there to bail you out when things get hard." 
+
+HideDB(-spd 1)
+HideGalleryImage() 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+
+FakeAdvanceDay(-fc 105)  
+
+FakeCalendarInfo(-se "Spring / 12" -dy "Morning" -wk "Thursday" -te "60°F")   
+
+SetLayerMedia(background ParentsHouse)  
+EnableSkip() 
+HideDB(-spd 1)  
+wait(5)   
+Narrator "My parents couldn't bring themselves to accept my decision." 
+Narrator "They continued to press me to reconsider, tried to convince me that I was derailing my future." 
+Narrator "It was after the fourth day that I made a difficult decision." 
+Narrator "I had to leave. Sooner." 
+
+
+Narrator "After stuffing the last box of my belongings in my car, I started the car and let it ran for a few minutes." 
+Narrator "While waiting, I looked at the direction of the garage, facing my parents one final time."  
+Dad "You have one year." 
+Narrator "What?" 
+Dad "You have one year to make your business successful." 
+Mom "We will visit you one year from now and if your business fails, you are to come home and return to college." 
+
+DisplayUITip("Every choice shapes your story. Choose wisely.")
+choice "..."   
+{ 
+	-Fine 
+		HideUITip() 
+		Narrator "Fine." 
+		Dad "We'll see you next year." 
+		Mom "Drive safely, and don't touch your phone while driving."
+
+	-Whatever 
+		HideUITip()  
+		Narrator "Whatever." 
+		Narrator "Even if I'm not very successful in one year, I won't stop trying." 
+		Dad "So be it. You'll be on your own." 
+		Mom "And you'll be cut off." 
+} 
+
+Narrator "As I drove away, I was hesitant to look back, but I had to see it." 
+Narrator "I had to see my childhood home slowly get farther and farther away." 
+Narrator "To be honest, I didn't know how to feel, but what I did know was that I was finally free." 
+DisableSkip() 
+Narrator "Baywood Springs, here I come." 
+
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1)   
+Load(WelcomeToBaywoodPARTONE -enqueue true)  

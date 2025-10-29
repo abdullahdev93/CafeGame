@@ -1,0 +1,123 @@
+SetLayerMedia(background University) 
+
+PhoneEnabled(false)  
+
+Narrator "We parked our cars and made our way along the boardwalk until we reached Bobby's Arcade, a neon-and-saltwater haven."
+Narrator "Simon and I walked in together."
+Narrator "The air carried a jumble of scents - buttery popcorn, spun sugar from cotton candy, the briny bite of ocean spray, and the faint warmth of hot circuitry."
+Narrator "Machines hummed and chimed with retro jingles."
+Narrator "The carpet was patterned with neon starbursts under the dim lights."
+Narrator "Scuffs and stains spoke of years of footsteps and soda spills, while the walls gleamed with rows of claw machines and arcade cabinets."
+Narrator "Strings of garland and dangling cutouts of retro game characters swayed in the cool draft of the air conditioning, giving the place a cluttered, festive look."
+Narrator "Overhead speakers trickled out a haze of unfamiliar pop music, threading through the arcade like a heartbeat."
+Narrator "Almost immediately, Simon slowed near an arcade cabinet whose marquee glowed with the words Star Skipper in laser-blue letters."
+Narrator "He rested a quarter near the start button, claiming the game before it even started playing it."
+Simon "L-l-let's play this one."
+Narrator "His eyes lit with an eager spark."
+Simon "I love Star Skipper. I’ve been playing it ever since I first moved here."
+Simon "Come on, let's play."
+Narrator "He motioned for me to step beside him, smile tugging wider with every word."
+Simon "It'll be fun, promise."
+Simon "And it's pretty straightforward."
+FirstName "All right."
+Narrator "I slid in close, one hand curling around my joystick and the other braced on the control panel, fingers hovering just above my buttons, ready for the flurry of action."
+Simon "Loser buys the popcorn?"
+FirstName "A bet in a game you've mastered?"
+Narrator "I teased, tilting my head at him with a smirk."
+FirstName "Doesn't sound very fair to me."
+Narrator "Simon chuckled."
+Simon "Then we'll call it even - winner gets bragging rights instead."
+FirstName "Oh, so eternal glory is on the table?"
+Narrator "He grinned, boyish and reckless, and flicked the quarter into the slot with a flourish."
+Narrator "The game chirped as the coin went in."
+Simon "Exactly."
+Simon "And eternal shame for the loser."
+Narrator "I arched a brow, my smile tugging wider despite myself."
+FirstName "Big stakes."
+FirstName "Life's too short for small ones."
+Narrator "He shot me a sideways glance, eyes sparking with playful challenge."
+Simon "Ready?"
+FirstName "As I'll ever be."
+Narrator "I slid a quarter into my slot and the machine chimed once again."
+Narrator "Simon leaned in, tapped the two-player button, and the screen flared to life as our ships launched into the starfield."
+Narrator "What began as a friendly match instantly sharpened into playful rivalry, both of us determined to outdo the other even as we laughed side-by-side."
+
+[Star Skipper Mini-Game]
+
+if (winner) 
+{
+Narrator "When the final score tallied in my favor, I couldn't help but smile."
+Narrator "Bragging rights were mine, and the victory felt sweeter than anything at the prize counter."
+FirstName "Well, Simon, looks like I have bragging rights, and you'll be buying the popcorn."
+Narrator "I said it lightly, teasing him."
+Simon "I thought we only agreed to the bragging rights?"
+FirstName "Well, maybe now I want the popcorn."
+Narrator "Simon laughed and shook his head."
+Simon "As you wish." 
+Simon "Enjoy it while it lasts. Next time you won't be so lucky." 
+}
+
+else if (loser) 
+{
+Narrator "The game ended with Simon's ship blazing triumphantly across the screen while mine fizzled out, defeated."
+Narrator "He stood a little taller, the glow of bragging rights unmistakable."
+Simon "Ah, victory. I'll savor this win."
+FirstName "Looks like you're getting that popcorn?"
+Simon "I thought we only agreed to the bragging rights?"
+FirstName "Well, maybe now I want to buy you the popcorn. You deserve it."
+Narrator "He smirked playfully, clearly enjoying my loss."
+FirstName "Don't let it go to your head, champion."
+Simon "Too late."
+Narrator "We drifted through the rest of the arcade, challenging each other at Skee-Ball, whack-a-mole, and even a rhythm game that drew a small crowd." 
+Narrator "Each machine brought more laughter, more teasing, and shared excitement."
+Narrator "Eventually, I bought the popcorn, and we carried it outside, sitting together on a wooden bench."
+Narrator "We sat side-by-side, salt air mixing with the buttery smell as we shared handfuls from the bag."
+Narrator "Simon leaned back, shoulders loose. The competition of the arcade faded into a quiet calm."
+Simon "I... This was exactly what I needed." 
+}
+
+choice "..."
+{
+	-Same 
+		FirstName "Same." 
+		FirstName "It's good to unwind with friends." 
+		Narrator "I gave him a small smile." 
+		Simon "Y yeah..." 
+		Simon "You know, I don’t always give myself breaks like this." 
+		Simon "But with you, it feels easy." 
+
+	-It Was Pretty Fun, Especially With You 
+		FirstName "It was pretty fun, especially with you." 
+		FirstName "You make things more fun." 
+		Narrator "I nudged his arm lightly, and he smiled, blushing." 
+		Simon "Thanks." 
+		Simon "Honestly, I don't always feel like the fun one." 
+		Simon "But tonight, with you, I did." 
+		Narrator "He gave a soft laugh, scratching the back of his neck."
+}
+
+Narrator "The arcade and ocean hummed behind us, and the popcorn dwindled until only kernels remained at the bottom of the bag."
+Narrator "Eventually, Simon stood, brushing the salt and crumbs from his hands."
+Narrator "He gave me a smile - warm and touched with a hint of shyness."
+Simon "This was fun." 
+Simon "I wish I could stay longer, but I've got a class in about an hour."
+Simon "See you soon?"
+FirstName "Definitely."
+Narrator "He nodded, clearly pleased with the response, and walked toward the parking lot."
+Narrator "I stood and tossed the empty bag into a nearby trash can, then walked up the rail of the boardwalk." 
+Narrator "I leaned against the wooden railing and rested my hands on it, looking at the ocean." 
+Narrator "I let my eyes follow the waves as they crashed against the pier." 
+Narrator "After a few minutes, I finally began walking toward my car." 
+Narrator "The ocean kept its rhythm around me, and Simon's laughter lingered in my ears like the tail end of a song." 
+FirstName "I rarely see that side of him." 
+FirstName "I hope to see that carefree Simon again." 
+
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()  
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+AdvanceDay() 
+Load(ApartmentStart -enqueue true)  

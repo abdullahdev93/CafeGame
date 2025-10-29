@@ -1,0 +1,45 @@
+SetLayerMedia(background Bar)
+
+Narrator "... A Hot Toddy."
+Bartender "You got it. One comfort drink coming up."
+Mei "And I'll take a glass of Red Wine."
+Bartender "Wine for you, toddy for you - be right back."
+
+Narrator "I leaned on the counter, feeling the bar's warmth settle in as the low hum of conversation filled the room."
+Narrator "I glanced over at Mei, a grin tugging at my lips."
+Narrator "Red Wine again? You're not tempted by the seasonal specials?"
+Mei "She gave me a look, amused."  
+Mei "I don't need a themed drink to feel festive." 
+Mei "Red wine does the job - no surprises, no regrets."
+Narrator "Fair enough. I guess I'm the one chasing cozy tonight."
+
+Narrator "The bartender returned and placed our drinks in front of us."
+Narrator "The Hot Toddy's warmth drifted up in soft steam - honey, lemon, spice - it smelled like a quiet evening in."
+Narrator "I cupped it in both hands, letting the heat consume my fingers before taking a sip." 
+Narrator "A contently sighed as the warmth of the drink settled in my chest." 
+
+Mei "A Hot Toddy, huh? You planning to read poetry next or just win 'coziest guy in the room'?"
+Narrator "I chuckled, letting the steam warm my face."
+Narrator "What can I say? Some nights call for a little comfort in a cup."
+Mei "She took a sip of her wine, still watching me."
+Mei "It's kind of charming, actually." 
+Mei "Most people try to look cool at bars." 
+Mei "You look like you're just... Being you."
+Narrator "I met her gaze, the warmth of the drink settling in my chest."
+Narrator "Maybe that's what makes it taste even better." 
+
+Narrator "The bar lights cast a soft amber glow as we kept talking."
+Narrator "We covered everything from favorite songs to oddly specific food cravings." 
+
+Narrator "Eventually, Mei set her empty glass down and glanced toward the door."
+Mei "All right, walk me home, [Player Name]?"
+Narrator "I took my last sip of the Hot Toddy then set the glass down."  
+Narrator "Let's go." 
+
+HideGalleryImage()
+HideDB(-spd 1)
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience()
+wait(1)
+LoadScene(Bar -enqueue true)

@@ -1,0 +1,202 @@
+SetLayerMedia(background Bar) 
+
+Narrator "The faint hum of conversations and clinking glasses creating a nice ambiance." 
+Narrator "The scent of wood polish mixed with the sharp tang of alcohol. I ran my fingers along the grooves of the worn counter as I waited for my drink, watching the bartender move quickly and with ease." 
+Narrator "I ordered a drink, gazing around at the faces of strangers lost in their own stories." 
+Narrator "The bartender placed the drink down with a nod and walks away to serve other patreons." 
+Narrator "As the day drifted on, a young woman stepped inside and took the seat next to mine." 
+Narrator "She ordered a drink without much thought, her eyes distant, as if her mind was elsewhere." 
+Narrator "Peaking at her, I noticed her hair was slightly messy and her clothing was well-worn with paint stains." 
+Narrator "She raised her hand gently to get the bartender's attention and he approached her." 
+Nina as Young Woman "Whiskey." 
+Narrator "She whispered calmly." 
+Narrator "I watched her out of the corner of my eye, noticing that her eyes were distant, as if her mind was elsewhere." 
+Narrator "I looked at her." 
+
+choice "..."   
+{ 
+	-Rough Day? 
+		Narrator "Rough day?" 
+		Narrator "She glanced over, her tired eyes meeting mines for a moment before chuckling." 
+		Nina as Young Woman "More like a rough month." 
+		Narrator "Her voice carrying a trace of humor but mostly fatigue." 
+		Narrator "She rubbed her right hand on her glass, each finger noticeably stained with various colors." 
+		Narrator "She took a sip of her drink, likely savoring the burning sensation." 
+		Narrator "I hear that." 
+		Narrator "The woman looked at me again, a bit more curious this time." 
+		Narrator "She shifted in her seat, turning slightly toward me." 
+		Nina as Young Woman "Yeah? What's your story?" 
+		Narrator "Just trying get by with my café." 
+		PlayVoice(CharacterExclamation -v 1) 
+		Nina as Young Woman "Café? Oh, you're that barista." 
+		Narrator "Guilty as charged." 
+		Narrator "I'm [Player Name]." 
+		Narrator "She chuckled." 
+		Nina as Young Woman "I'm Nina."
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipE(-fr 3) 
+		Narrator "She offered a hand, and when I shook it, I could feel the roughness of her fingers."  
+
+	-You OK? 
+		Narrator "You OK?" 
+		Narrator "I asked while tilting my glass in her direction." 
+		Narrator "She glanced over, her tired eyes meeting mines for a moment." 
+		Nina as Young Woman "I... have been better."  
+		Nina as Young Woman "Actually, I don't remember the last time I was better." 
+		Narrator "She rubbed her right hand on her glass, each finger noticeably stained with various colors." 
+		Narrator "She took a sip of her drink, likely savoring the burning sensation." 
+		Narrator "I'm sorry to hear that." 
+		Narrator "The woman looked at me again, a bit curious." 
+		Narrator "She shifted in her seat, turning slightly toward me." 
+		Nina as Young Woman "Why do you ask?" 
+		Narrator "You seem down." 
+		Nina as Young Woman "I guess it's that noticable, huh?" 
+		Narrator "She scans me up and down." 
+		Nina as Young Woman "Haven't seen you before. You new here?" 
+		Narrator "Yeah. I just opened a café here." 
+		Nina as Young Woman "You must be that barista."  
+		Narrator "Guilty as charged." 
+		Narrator "I'm [Player Name]." 
+		Narrator "She hesitated for a moment before sighing, as if debating with herself." 
+		Nina as Young Woman "Nina." 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseFriendshipE(-fr 1)  
+		Narrator "She offered a hand, and when I shook it, I could feel the roughness of her fingers." 
+		
+
+
+	-You Like Whiskey? 
+		Narrator "You like whiskey?" 
+		Narrator "I asked while temporarily pointing at her glass." 
+		Narrator "She glanced over, her tired eyes meeting mines for a moment." 
+		Nina as Young Woman "Wouldn't say I like it."  
+		Narrator "It just helps the most." 
+		Narrator "She rubbed her right hand on her glass, each finger noticeably stained with various colors."  
+		Narrator "She took a sip of her drink, likely savoring the burning sensation." 
+		Narrator "I see." 
+		Narrator "The woman looked at me again, a bit curious." 
+		Narrator "She shifted in her seat, turning slightly toward me." 
+		Nina as Young Woman "What's your prefered drink?" 
+		Narrator "Don't have one."  
+		Narrator "She looked at me." 
+		Nina as Young Woman "Haven't seen you before. You new around here?" 
+		Narrator "Yeah. I just opened a café here." 
+		Nina as Young Woman "Are you that barista?"  
+		Narrator "I am." 
+		Narrator "I'm [Player Name]." 
+		Nina as Young Woman "Nina." 
+		PlaySFX(TwoPoints -v 1) 
+		IncreaseFriendshipE(-fr 2)    
+		Narrator "She went back to sipping her drink."  
+} 
+
+Narrator "How long have you lived here?" 
+Nina "Most of my life." 
+Narrator "What do you do?" 
+Nina "I paint... or at least, I'm trying to." 
+Narrator "I leaned in slightly, intrigued." 
+Narrator "You're an artist?" 
+Narrator "Nina let out a dry laugh, but there was no joy in it." 
+Nina "Yeah. Got my hopes set on art school, but... it's complicated." 
+Narrator "Art school, huh?" 
+Narrator "I raised an eyebrow." 
+Narrator "Sounds exciting. What's stopping you?" 
+Narrator "Nina swirled the whiskey in her glass, staring down into it as if the answer might be floating somewhere in the amber liquid." 
+Nina "Money, for one. It ain't cheap, and I'm barely scraping by as it is." 
+Narrator "Have you asked your parents for hel-?" 
+Nina "Out of the question." 
+Narrator "She quickly interupted, almost like she snapped, but it wasn't angry."  
+Nina "But it's not just money." 
+Narrator "She paused, her voice growing quieter." 
+Nina "Some days, I don't even know if I'm good enough. If all of this is worth it." 
+Narrator "Nina's words caught me off guard. I hadn't expected her to open up so quickly." 
+Narrator "There was a rawness to her voice, suggesting that she had been holding these feelings in for a long time." 
+Narrator "What do you mean?" 
+Narrator "What makes you think you're not good enough?" 
+Narrator "Nina let out a shaky breath." 
+Nina "Because... You know how many people want to be artists?" 
+Nina "It's not easy to get into." 
+Nina "And I was often told by others, even teachers, that my work is promising but very inconsistent." 
+Nina "And the rejection letters from colleges... They pile up." 
+Nina "And trying to get scholarships, don't get me started on that."   
+Nina "Each one feels like confirmation that maybe... I don't have what it takes." 
+Narrator "I watched her closely while taking a sip of my drink, considering my response."  
+
+choice "..."   
+{ 
+	-That's Tough 
+		Narrator "That's tough." 
+		Narrator "I know what it's like to have people that don't believe in you." 
+		Narrator "My parents didn't have faith in me becoming a barista and having a successful business."  
+		Narrator "They probably still don't." 
+		Narrator "Nina glanced at me, surprised." 
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipE(-fr 3) 
+		Nina "Really? I guess it's not just artists then..." 
+		Narrator "I nodded." 
+		Narrator "Everyone has their battles, dreams that other people can't understand." 
+		Narrator "Nina sighed, her eyes softening a little." 
+		Nina "Yeah, but sometimes I wonder if they're right. Maybe I'm just wasting my time..."
+		Narrator "Maybe, but you will never know if you don't try." 
+		Narrator "And trust me, proving people wrong can be... Motivating and a little satisfiying."  
+		Narrator "She chuckled, a weak smile breaking through." 
+		Nina "I guess that's why I still continue. Guess that's something we have in common then." 
+
+	-Don't Give Up 
+		Narrator "Doesn't mean you should give up." 
+		Narrator "Have you thought that maybe those rejections aren't the end? I mean, it doesn't mean you're not talented."
+		Narrator "Sometimes it's just... timing, or maybe they can't see what you see." 
+		Narrator "I know it feels impossible now and you're pushing through a lot right now, but there are people pushing through worse." 
+		PlaySFX(TwoPoints -v 1) 
+		IncreaseFriendshipE(-fr 2)  
+		Narrator "Nina smiled faintly but didn't seem fully convinced." 
+		Nina "But what if I keep failing? What if I'm just not good enough?" 
+		Narrator "Failure's part of the process. You said your work is inconsistent, right? That means there's something there worth working on." 
+		Narrator "Inconsistency isn't a lack of talent, it's just part of the learning curve."
+		Narrator "Nina looked down at her drink, biting her lip, as if she were turning my words over in her mind." 
+		Narrator "You have already got the most important thing: Passion."  
+		Narrator "If you didn't care, you wouldn't be doubting yourself this much." 
+		Narrator "Nina sighed, her expression softening just a little." 
+		Narrator "One step at a time, Nina. Just don't give up yet." 
+		Narrator "She looked up at me, her eyes searching mine, and for a moment, the heaviness seemed to lift." 
+	
+}
+
+Narrator "What do you paint, by the way?" 
+Narrator "Nina's eyes lit up just a bit and she started speaking excitingly."   
+Nina "I paint what I feel. Things I can't put into words. It's... A lot of emotion." 
+Narrator "Anger, sadness, joy, fear... When I can find it. Whatever I feel. My pieces are messy, but meaningful. Well, they're supposed to be."    
+Nina "But that's how life feels to me. You know?" 
+Narrator "Sounds awesome. That kind of honesty takes guts." 
+Nina "Yeah, but lately, it feels like all I have got is the sadness and fear." 
+Nina "Everything else is... Harder to reach."  
+Nina "And art school? It's a dream, but it feels so far away. I'm already drowning in debt, and who's going to want to help some broke artist?" 
+Narrator "There was a brief silence between us, broken only by the sound of glasses clinking and the soft murmur of other patrons."  
+Narrator "The bartender refilled Nina's glass without her asking." 
+Bartender "That one's on the house, Nina." 
+Narrator "She nodded her thanks without really looking up." 
+Narrator "The bartender then left and that's when I broke the silence."  
+Narrator "Why do you keep going then?" 
+Nina "Because... What else is there? I can't not paint. Even on my worst days, when I hate everything I make... I still can't stop." 
+Nina "It's like... A curse. Or maybe a lifeline. I don't know." 
+Narrator "I leaned back in my stool." 
+Narrator "That sounds like passion, not a curse." 
+Nina "Maybe." 
+Narrator "Nina shrugged, but there was a trace of a smile on her lips." 
+Nina "Or maybe I'm just too stubborn to give up." 
+Narrator "Stubbornness can be a good thing." 
+Narrator "Nina chuckled, this time a little lighter." 
+Nina "You sound like you have been through it too." 
+Narrator "I think everyone has their struggles. Yours just happen to come with paint." 
+Narrator "Nina finished her drink, setting the glass down with a soft clink. She turned to face me fully, her gaze more direct now." 
+Nina "Thanks for listening. Most people don't care to hear about the messy parts."  
+Narrator "Everyone's got messy parts. That's what makes us human." 
+Narrator "Nina smiled. This time, her smile actually reached her eyes." 
+
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+Load(NinaHangOutOne -enqueue true) 

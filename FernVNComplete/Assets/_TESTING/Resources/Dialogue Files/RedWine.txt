@@ -1,0 +1,26 @@
+SetLayerMedia(background Bar) 
+
+choice "..." 
+{ 
+	-Invite Someone 
+		ShowFriendInvites() 
+
+	-Drink Alone 
+		Narrator "... Red wine?" 
+		Bartender "Comin' right up."     
+		Narrator "The rich, full-bodied taste of the red wine warmed my soul as much as it warmed my throat." 
+		Narrator "There was a calm and gentle effect, making me feel open-hearted." 
+		PlaySFX(OnePoint -v 1)      
+		IncreaseKindness(-st 1)   
+		Narrator "Embracing this warmth, I decided to connect with the patrons nearby, sharing in some heartfelt conversations." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		wait(1)
+		LoadScene(Bar -enqueue true) 
+		
+	-Back 
+		Load(BarLocation)  
+} 

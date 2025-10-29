@@ -1,0 +1,26 @@
+SetLayerMedia(background Bar) 
+
+choice "..." 
+{ 
+	-Invite Someone 
+		ShowFriendInvites() 
+
+	-Drink Alone 
+		Narrator "... The margarita?" 
+		Bartender "Comin' right up."    
+		Narrator "The Margarita's refreshing zest and tanginess brought a smile to my face with each sip." 
+		Narrator "I felt lighter, my thoughts dancing toward the fun side of things." 
+		PlaySFX(OnePoint -v 1)     
+		IncreaseHumor(-st 1)   
+		Narrator "In good spirits, I decided to strike up a conversation and join in the laughter buzzing around the bar." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		wait(1) 
+		LoadScene(Bar -enqueue true) 
+
+	-Back 
+		Load(BarLocation) 
+}

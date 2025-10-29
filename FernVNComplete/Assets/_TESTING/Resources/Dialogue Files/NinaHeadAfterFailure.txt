@@ -1,0 +1,89 @@
+SetLayerMedia(background NinaApartment)                
+
+PhoneEnabled(false) 
+
+choice "..." 
+{ 
+	-Allow It   
+		Narrator "She then slid them off along with my underwear." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseConfidence(-st 1) 
+		Narrator "Then she went down as I pushed her head down." 
+		
+		Nina "So, what did you think?" 
+		[Player Name] "It was good." 
+		Narrator "She straightened up, stretching slightly and brushing her hair back." 
+		Nina "Thanks for coming over today." 
+		Nina "It's been a while since I had fun with someone." 
+		PlaySFX(TwoPoints -v 1)  
+		IncreaseFriendshipC(-fr 2)    
+		Nina "It felt... Nice." 
+		[Player Name] "Thanks for inviting me." 
+		Narrator "I began to stand and gather the plates." 
+		Nina "You don't have to take the plates." 
+		[Player Name] "I insist. After everything you did today, it's the least I can do." 
+		Narrator "She walked me to the door, lingering as I stepped into the hallway." 
+		Nina "See you soon?" 
+		Nina "Maybe, next time we can do more?"
+		Narrator "I gave her a small wave before heading out." 
+		Narrator "As I stepped out, I couldn't help but realize how easy Nina is."    
+		Narrator "Walking out of the apartment building, Nina's action still on my mind, her tongue's gentle and experienced touch."   
+		Narrator "What started as a simple invitation to cook and watch a movie had become something better."  
+
+	-No 
+		[Player Name] "Wait." 
+		Narrator "Nina froze and she looked at me." 
+		Nina "...Is everything OK?"  
+		[Player Name] "I don't... I don't think I'm ready for something like this." 
+		[Player Name] "I at least want to get to know you." 
+		[Player Name] "Sorry." 
+		PlaySFX(OnePoint -v 1)    
+		IncreaseEmpathy(-st 1)    
+		Narrator "She returned to sitting upright and studied me as if searching for the catch in my words."  
+		Nina "You serious?" 
+		Narrator "I nodded." 
+		Nina "Well, that's... Unexpected. Most people just... Go with it." 
+		Nina "Well, that's on me for wanting to be too quick."  
+		[Player Name] "Do most people really don't want to get to know you?"  
+		Narrator "Her laugh was short, almost bitter, as she tucked a strand of hair behind her ear." 
+		Nina "No, not really." 
+		Nina "And hookups are easy, you know?" 
+		Nina "One time, some asshole just went along with it." 
+		Nina "They didn't care about me, just the moment." 
+		Nina "I guess I got used to that." 
+		Nina "That was during my... Self-destructive phase, after everything that happened with Joseph and Sophia." 
+		Nina "Sorry. I don't even know what I was thinking just now." 
+		PlaySFX(ThreePoints -v 1)  
+		IncreaseFriendshipC(-fr 3)    
+		Nina "You're a good friend, and I don't want to mess that up." 
+		Nina "But, sometimes, I can't help it." 
+		Narrator "I rested a hand on her shoulder."  
+		[Player Name] "Nina, it's OK." 
+		Narrator "She smiled. Then, with a playful nudge to my shoulder, she changed the subject, steering us back to what we were doing." 
+		Nina "So, what did you think of the videos?"
+		[Player Name] "They were good."  
+		Narrator "She straightened up, stretching slightly and brushing her hair back." 
+		Nina "Thanks for coming over today." 
+		Nina "It's been a while since I ate takeout with someone and watched a movie."  
+		Nina "It felt... Nice." 
+		[Player Name] "Thanks for inviting me." 
+		Narrator "I began to stand and gather the empty cartons." 
+		Nina "You don't have to throw out the cartons."  
+		[Player Name] "I insist. After everything you did today, it's the least I can do." 
+		Narrator "She walked me to the door, lingering as I stepped into the hallway." 
+		Nina "See you soon?" 
+		Narrator "I gave her a small wave before heading out." 
+		Narrator "As I stepped out, the taste of espresso and vanilla still lingered on my tongue." 
+		Narrator "Walking out of the apartment building, Nina's laughter still echoed in my mind, her gentle touch a quiet reminder of the trust she had given me." 
+		Narrator "What started as a simple invitation to cook and watch a movie had become something more - a shared experience that strengthened our relationship." 
+} 
+
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+AdvanceDay() 
+Load(ApartmentStart -enqueue true)  

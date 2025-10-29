@@ -1,0 +1,68 @@
+SetLayerMedia(background Public_Pool)          
+
+Narrator "The sun shimmered off the water, casting glistening ripples that danced across the surface of the pool." 
+Narrator "I arrived early and found two loudge chairs for us. I sat down, waiting for Mei to show up." 
+Narrator "About ten minutes later, I saw her approaching, wearing a stylish black two-piece bikini with sunglasses perched on her head." 
+Narrator "The top had a halter neck style with thin, adjustable straps and lacing in the center. The ruffled hem hung below the top. The bottom had laced-up sides that tied together." 
+Narrator "She adjusted her sunglasses while giving me a friendly smile and a wave." 
+
+Mei "Hey, [Player Name]." 
+
+Mei "Ready for a swim?" 
+
+choice "Ready?" 
+{
+	-Hell Yeah! 
+		Narrator "Hell yeah!"  
+		Narrator "Cannonball!" 
+		Narrator "After submerging in the water, an electrifying chill enveloped my body, the cold waters wrapping around me in an icy embrace."   
+		Narrator "I swam up then shivered." 
+		Narrator "Why the hell is it so c-cold?" 
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipA(-fr 3) 
+		Narrator "Mei giggled."  
+		Mei "Come on, it's not that cold."  
+		Narrator "Mei teased, a playful smirk tugging at her lips as she effortlessly walked down the steps into the pool." 
+		Narrator "The cold water barely seemed to faze her. Each step she took was slow and deliberate, her calm demeanor contrasting with my shivering." 
+		Narrator "The sunlight glistened on her skin, droplets of water catching the light like tiny diamonds as she glanced back at me with a raised eyebrow, clearly amused by my hesitation." 
+		Narrator "See? It's not so bad once you're in." 
+		Mei "Ah, the water feels amazing." 
+		Mei "I have been needing this all day." 
+
+	-Bathe In The Sun 
+		Narrator "Later. I want to bathe in the sun for a bit." 
+		Mei "She looked at me for a moment, her expression flickering with slight disappointment before she smiled softly." 
+		IncreaseFriendshipA(-fr 1)    
+		PlaySFX(OnePoint -v 1) 
+		Mei "Oh, OK." 
+		Narrator "Go ahead, though. You can swim, if you want. I'll join you when I'm ready." 
+		Narrator "It was noticeable that Mei seemed dissapointed, but she nodded, turned toward the pool, and walked down the steps into the pool."
+		Narrator "She probably wanted us to dive in together?" 
+		Narrator "Quietly, she walked down the steps, her fingers trailing along the water's surface as she submerged herself before swimming around." 
+		Narrator "After about a half-hour, I finally jump in the cold but refreshing waters." 
+} 
+
+Narrator "After what felt like hours of playful splashing, racing, and floating lazily in the pool while having casual conversations, exhaustion finally began to catch up with us." 
+Narrator "The energetic strokes had slowed to a gentle glide, and the sound of our laughter began to quiet, replaced by the rhythmic lapping of the water against the pool's edge." 
+Narrator "Reluctantly, we both decided it was time to get out. We pulled ourselves out of the pool. My limbs were numb and heavy with fatigue, and I'm sure that hers felt the same." 
+
+Narrator "As we grabbed our towels, a gentle and refreshing breeze swept through the pool area." 
+Narrator "We dried off, I glanced over at Mei, who was toweling off her hair, her usual energetic demeanor softened by the relaxed stillness." 
+Narrator "I felt exhausted but good at the same time." 
+PlaySFX(OnePoint -v 1) 
+IncreaseEndurance(-st 1) 
+Narrator "We exchanged tired smiles, knowing we had made the most of it." 
+Mei "I'll see you later, [Player Name]." 
+Narrator "Same." 
+DisableSkip()  
+Narrator "And with that, we walked out of the public pool together."   
+
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+AdvanceDay() 
+Wait(1)  
+Load(ApartmentStart -enqueue true)    

@@ -1,0 +1,30 @@
+SetLayerMedia(background Park)  
+
+Narrator "The warm afternoon air filled my lungs as I jogged along the winding path through the town's local park, my breath steady and controlled."
+Narrator "The sun hung low in the sky, casting a golden glow over the trees and stretching our shadows along the pavement."
+Narrator "Birds flitted between branches, their chirps mixing with the steady rhythm of our footsteps and the distant laughter of kids playing nearby."
+Narrator "Beside me, Mei jogged with surprising ease, her dark hair bouncing with each step." 
+Mei "You know, I don't usually do runs." 
+Narrator "She admitted, shooting me a sideways glance." 
+Mei "But I guess this isn't the worst way to get the blood going." 
+Narrator "I smirked, picking up my pace slightly." 
+Narrator "It's not too late to back out."
+Narrator "She scoffed, matching my stride." 
+Mei "Not a chance."
+Narrator "The gentle breeze cooled my skin, carrying the fresh scent of blooming flowers and damp earth, invigorating me with every breath."
+Narrator "By the time we slowed to a walk near the far end of the park, a satisfying ache settled in my legs." 
+Narrator "Mei stretched her arms overhead, letting out an exaggerated groan." 
+Mei "OK, maybe I'll regret this later... Or maybe I'll just make you get free tea from your shop to make up for it."
+Narrator "I laughed, wiping the sweat from my forehead as my heartbeat gradually returned to normal."
+Narrator "Despite the fatigue and aches, I felt stronger, faster." 
+PlaySFX(OnePoint -v 1) 
+IncreaseEndurance(-st 1) 
+Narrator "Like my Endurance had just improved."
+
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+Load(ParkLocation -enqueue true)  

@@ -1,0 +1,226 @@
+SetLayerMedia(background NinaApartment)  
+
+PhoneEnabled(false) 
+
+ShowMC()  
+
+Narrator "I walked into the bar, just expecting to get a few drinks - something simple to end the day - when I saw a familiar face in the corner."
+Narrator "It took a second, but there was no mistaking it."
+Narrator "It was Nina."
+Narrator "She was hunched over in the booth, her fingers resting on a sketchpad. A half-finished drink sat beside her."
+Narrator "The warm amber lighting caught strands of her auburn hair, making them shimmer slightly."
+Narrator "Her hair was tied in a loosely made bun, like it was made in a rush - casual, careless, and just a bit crooked."
+Narrator "And her red scarf was knotted too tightly around her neck, almost as if she were holding herself together with it."
+Narrator "I approached her slowly, unsure if she'd remember me."
+FirstName "Hey."
+Narrator "I said casually, as I sat in her booth, across from her."
+Narrator "She didn't look up."
+Nina "Didn't expect to see you here again."
+FirstName "Same. Must be fate."
+Narrator "Nina snorted but didn't smile." 
+Nina "Sure." 
+Narrator "Her voice was steady, detached."
+Nina "Do you need something?"
+Narrator "I hesitated, watching her draw with quick, messy lines."
+Narrator "Her pencil moved with practiced precision."
+
+if ($PlayerSleptWithNina == true)
+{
+	Narrator "She sighed."
+	Nina "Look, I usually don't do repeats."
+	Nina "One night, no strings. That's my rule."
+	Narrator "She wasn't harsh about it - just matter-of-fact. Like someone reciting a boundary they'd said countless times before."
+	Nina "And it was one night of casual sex. It didn't mean anything."
+	FirstName "I wasn't looking for more action. Just thought I'd say hello." 
+	Narrator "She took a sip of her whiskey and tapped the rim twice before speaking."
+	Nina "Well, that was nice of you. You said your hello. Now you can go."
+}
+
+else if ($PlayerSleptWithNina == False)
+{
+	FirstName "You were pretty messed up the other night."
+	FirstName "I just... Wanted to check in. Say hello. See how you were holding up."
+	Narrator "The light from the overhead bulb cast a golden haze over the table, softening the sharp edges of her face."
+	Narrator "Then, quietly - almost grudgingly - she nodded."
+	Nina "Well... I'm still here." 
+	Narrator "She took a sip of her whiskey and tapped the rim twice before speaking."
+	Nina "Well, that was nice of you. You checked in. Now you can go." 
+}
+
+
+Narrator "I stayed quiet for a moment."
+
+choice "..."
+{
+	-Order A Non-Alcoholic Drink [condition: $PlayerStats.Courage > 2]  
+		Narrator "Instead of leaving, I waved the bartender over." 
+		FirstName "Ginger ale, please."
+		Bartender "Ya got it."
+		Narrator "She glanced up slightly, her eyes narrowing."
+		Nina "You're not drinking?"
+		FirstName "Just wanted to start with something non-alcoholic."
+		Narrator "Nina looked back down at her sketchbook, but her pencil didn't move right away." 
+		Nina "This isn't the kind of place you come to stay sober."
+		FirstName "Maybe not."
+		FirstName "But maybe I'm not here for the place."
+		FirstName "Maybe I'm here for the people."
+		FirstName "Maybe I'm here for you."
+		Narrator "Her pencil paused."
+		Nina "You don't know me."
+		FirstName "Not yet."
+		Nina "You don't want to know me."
+		Narrator "She didn't say it with edge or anger."
+		Narrator "She said it like a warning. Like someone who'd been burned too many times and was just trying to save me from the smoke."
+		Narrator "I didn't flinch. I just looked at her and said nothing, and maybe that silence said more than any clever line could."
+		Narrator "Her eyes flicked up for the briefest second before she groaned quietly, flipping to a new page in her sketchpad."
+		Nina "God, you're persistent."
+		FirstName "I've been called worse."
+		Narrator "Nina smirked, but it didn't quite reach her eyes."
+		Nina "That doesn't surprise me. You strike me as someone who collects insults like bottle caps." 
+		Narrator "She returned to drawing as I got my drink and sipped it." 
+		Narrator "We sat in silence for a while, the hum of the bar filling the space between us - low laughter, a clinking glass, a tired voice asking for another round, and a country song playing faintly in the background."
+		Narrator "Eventually, she looked up, her eyes meeting mine with something that resembled curiosity, or maybe just resignation."
+		Nina "Why are you so interested in me?"
+		FirstName "You seem lonely."
+		Nina "Maybe I like to be left alone?"
+		FirstName "If that were really true, you wouldn't be at a bar."
+		FirstName "You'd be alone at home, drinking with nobody watching."
+		Narrator "She didn't say anything at first. Her eyes drifted back to the sketchpad, but her pencil didn't move."
+		Nina "Maybe I just like noise around me?"
+		FirstName "Even if it comes from strangers?"
+		Nina "Strangers are easier. They don't ask too many questions. They don't pretend to care."
+		FirstName "I'm not pretending."
+		Narrator "She let out a slow exhale and reached for her drink again, swirling the ice with a faint clink."
+		Narrator "Then she looked at me - really looked at me."
+		Nina "You're weird, you know that?"
+		FirstName "I guess I am."
+		Nina "But you're... Not the worst company tonight. I guess."
+
+	-Order Her Drink [condition: $PlayerStats.Charisma > 4] 
+		Narrator "I glanced at her half-empty glass, then caught the bartender's eye and gave a subtle wave."
+		FirstName "One margarita, and whatever whiskey she had - a round for both of us."
+		Bartender "Comin' right up."
+		Narrator "Nina's hand paused mid-sketch. Her fingers curled slightly over the pencil, and she looked up, eyes narrowing with quiet suspicion."
+		Nina "You didn't have to do that."
+		FirstName "I know."
+		Narrator "The bartender placed the drinks on the table with a soft clink, and Nina stared at her whiskey like it was some kind of riddle."
+		Nina "Nice try."
+		Narrator "Her tone wasn't angry, but layered - half-defensive, half-curious."
+		Nina "Most people would take that as an excuse to flirt."
+		Nina "Or assume they've earned something."
+		FirstName "I'm not most people."
+		Narrator "She studied me for a long moment."
+		Nina "You don't know me."
+		FirstName "Not yet."
+		Nina "You don't want to know me."
+		Narrator "She didn't say it with edge or anger."
+		Narrator "She said it like a warning. Like someone trying to protect you from something."
+		Narrator "I didn't flinch. I just looked at her and said nothing."
+		Narrator "And maybe that silence said more than any clever line could."
+		Narrator "Her eyes flicked up for the briefest second before she groaned quietly, flipping to a new page in her sketchpad. The motion felt like surrender."
+		Nina "God, you're persistent."
+		Narrator "She sighed, but this time it wasn't annoyed."
+		Nina "Fine."
+		Nina "You bought me a drink. Thanks. Doesn't mean I have to like you."
+		FirstName "Didn't ask you to."
+		FirstName "I'm just a weird person looking to be nice."
+		Narrator "Her lips twitched, almost smiling."
+		Narrator "She picked up the whiskey, studied it for a moment like it might reveal something, then quietly lifted the glass toward me."
+		Nina "Well, to weird choices and strange company." 
+		Narrator "I lifted my glass." 
+		FirstName "Cheers."
+		Narrator "We clinked glasses."
+
+	-Leave
+		Narrator "I gave her a soft smile, then slid out of the booth without saying another word."
+		Narrator "She didn't look up, but her pencil moved slower - less certain, like her thoughts were somewhere else now."
+		Narrator "As I walked away, the sounds of the bar seemed to rise - laughter, the clinking of bottles, and low conversations braided through country music." 
+		Narrator "Something made me turn." 
+		Narrator "She was still there, curled into the corner of the booth but her eyes were on me. Just for a second."
+		Narrator "And when she realized I'd caught her, she looked away quickly. Her attention snapping back to her sketchpad."
+		Narrator "I walked toward a stool at the counter and slid into it." 
+		Load(BarLocation) 
+}
+
+Narrator "A couple of drinks in - some alcoholic, some not - we eased into a rhythm, starting to have a genuine conversation."
+Narrator "We drifted through music tastes, favorite books, weird jobs we'd had, and jokes that didn't always land but still somehow made us laugh."
+Narrator "She even admitted, half-grinning, that she liked horror movies but couldn't watch them alone."
+Narrator "Eventually, Nina set her pencil down."
+Narrator "The scratch of graphite stopped and she closed her sketchbook with a soft thud." 
+Narrator "She leaned back in the booth, eyes unreadable, and rested her hands close together on the table - fingertips tapping idly, like she was building up to something."
+Nina "All right, I want an honest answer."
+Nina "What do you really think of me?"
+Nina "When we first met... I wasn't exactly charming. I was cold, maybe rude, definitely drunk."
+Nina "So tell me - what made you want to stick around? What made you think I was worth even trying to get to know? Seriously. I wanna know."  
+
+choice "..." 
+{ 
+	-You Seem Sad
+		FirstName "Because you seemed sad." 
+		FirstName "The kind of sadness that lingers behind someone's eyes when they think no one's looking." 
+		FirstName "I took a psych class in college - just as an elective - and one thing that stuck with me was how people often give themselves away in the smallest ways." 
+		FirstName "You didn't seem broken... Just like someone caught between wanting to be invisible and secretly hoping someone would notice them." 
+		Narrator "Nina didn't respond immediately. Her fingers traced the rim of her glass, slow and deliberate."
+		Nina "... You're really not good at small talk, are you?" 
+		FirstName "Never claimed to be." 
+		Narrator "She let out a short, dry laugh, then glanced away."
+		Nina "Still... You might not be wrong." 
+		Narrator "She didn't add anything after that." 
+		Narrator "Instead, she changed the subject." 
+		Nina "Wait. You went to college and now work at a cafe?" 
+		FirstName "Never said I graduated." 
+
+	-You Were Real, Honest
+		Narrator "I leaned forward slightly, elbows resting on the table, meeting her eyes."
+		FirstName "Because you were real. Honest. You didn't pretend to be anything you weren't. You didn't sugarcoat things." 
+		FirstName "I like that." 
+		FirstName "Most people put on a mask, but you didn't." 
+		Narrator "She raised an eyebrow, somewhere between amused and skeptical." 
+		Nina "So being a bit of a mess is now an endearing quality now?"    
+		FirstName "No." 
+		FirstName "But being honest about it? That's rare. It says a lot about a person."    
+		Narrator "For a moment, she didn't speak." 
+		Narrator "Then she gave a faint, crooked smile." 
+		Nina "Guess that's one way to stand out." 
+		Narrator "Then, slowly, she relaxed back into the booth." 
+
+	-You Look Like Someone People Overlook Too Quickly
+		FirstName "You look like someone people overlook too quickly." 
+		FirstName "Someone who's used to people not taking enough time to get to know them - being misread, misunderstood, or just ignored."    
+		Narrator "She stiffened - just slightly. The kind of pause that wasn't fear, but something else." 
+		Nina "That's... Presumptuous." 
+		Nina "I don't know whether to roll my eyes or actually believe you." 
+		FirstName "I'm fine with either." 
+		FirstName "Just know I meant it." 
+		Narrator "She shook her head slowly, but there was a smile tugging at her lips." 
+		Nina "You're such a weirdo."
+		FirstName "Yeah, but I'm your weirdo - for the night, at least." 
+		Narrator "She laughed then. Finally, genuinely laughed." 
+} 
+
+Narrator "We stayed like that - drinking, talking in bursts, and stayed in silence - the hours sliding by unnoticed." 
+Narrator "At some point, Nina pulled out her phone and turned the screen toward me, showing her number."
+Nina "Here." 
+Nina "In case I ever... Want company again." 
+Narrator "I chuckled and saved it, trying not to read too much into it." 
+Narrator "But something about the way she offered it - seemed a little awkward, like she wasn't used to giving people her number." 
+Narrator "A soft buzz vibrated across the table as a notification appeared on her screen." 
+Narrator "Nina glanced at the screen, her expression shifting." 
+Nina "My rideshare is here." 
+Narrator "She stood up, slipping her phone into her pocket and grabbing her sketchbook, carefully sliding it into her satchel."  
+Narrator "But before turning away, she lingered for just a moment."     
+Narrator "Her eyes met mine again."  
+Nina "I'll see you around." 
+Narrator "I watched her walk out the door, the bar lights casting a soft gold outline across her scarf and shoulders." 
+Narrator "And just like that - a new friendship had blossomed." 
+Narrator "I smiled to myself then finished the last sip of my drink before heading out into the night."
+
+HideDB(-spd 1) 
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1)   
+AdvanceDay() 
+Load(ApartmentStart) 

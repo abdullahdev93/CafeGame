@@ -1,0 +1,4 @@
+SetLayerMedia(background Bowling)        
+
+ShowMC()   
+Narrator "I'm at the Bowling Alley." 

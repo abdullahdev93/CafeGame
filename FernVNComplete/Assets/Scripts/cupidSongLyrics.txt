@@ -1,0 +1,72 @@
+La, La, La, La-La-La;4.0f 
+La, La-La-La-La, La, La-La-La;4.0f 
+A Hopeless Romantic;4.0f
+All My Life;4.0f
+Surround By Couples;4.0f;
+All The Time;1.0f
+I guess I should Take It;1.0f
+As A Sign;1.0f\n
+Oh Why? Oh Why?;1.0f 
+\nOh Why? Oh Why?;1.0f 
+I'm Feeling Lonely;1.0f 
+Lonely;1.0f 
+Oh, I wish I'd Find A Lover;1.0f 
+That Could Hold Me;1.0f 
+Now, I'm Crying In My Room;1.0f 
+So Skeptical Of Love;1.0f 
+But Still, I want it More;1.0f 
+More More;1.0f 
+I Gave A Second Chance;1.0f 
+To Cupid;1.0f 
+But Now, I'm Left Here;1.0f 
+Feeling Stupid;1.0f 
+Oh, The Way He Makes Me Feel;1.0f 
+That Love Isn't Real;1.0f 
+Cupid Is So Dumb;1.0f 
+I Look For His Arrows;1.0f 
+Every Day;1.0f 
+I Guess He Got Lost;1.0f 
+Or Flew Away;1.0f 
+Waiting Around;1.0f 
+Is A Waste;1.0f 
+Been Counting The Days;1.0f 
+Since November;1.0f 
+Is Loving As Good;1.0f 
+As They Say;1.0f 
+Now, I'm So Lonely;1.0f 
+\nOh, I wish I'd Find A Lover;1.0f 
+\nThat Could Hold Me;1.0f 
+\nNow, I'm Crying In My Room;1.0f 
+\nSo Skeptical Of Love;1.0f 
+\nBut Still, I want it More;1.0f 
+\nMore More;1.0f 
+\nI Gave A Second Chance;1.0f 
+\nTo Cupid;1.0f 
+\nBut Now, I'm Left Here;1.0f 
+\nFeeling Stupid;1.0f 
+\nOh, The Way He Makes Me Feel;1.0f 
+\nThat Love Isn't Real;1.0f 
+\nCupid Is So Dumb;12.0f 
+\n Cupid Is So Dumb;1.0f 
+Ah, Ah;1.0f 
+A Hopeless Girl;1.0f 
+Is Seeking;1.0f 
+Someone Who Will Share;1.0f 
+This Feeling;1.0f 
+I'm A Fool;1.0f 
+A Fool For Love, A Fool For Love;1.0f 
+I Gave A Second Chance To Cupid;1.0f\n
+But Now, I'm Left Here;1.0f\n
+Feeling Stupid;1.0f\n
+Oh, The Way He Makes Me Feel;1.0f\n
+That Love Isn't Real;1.0f\n
+Cupid Is So Dumb;1.0f\n
+\n I Gave A Second Chance;1.0f
+\n To Cupid;1.0f\n
+\n But Now, I'm Left Here;1.0f 
+\n Feeling Stupid;1.0f 
+\n Oh, The Way He Makes Me Feel;1.0f 
+\n That Love Isn't Real;1.0f 
+\n\n Cupid Is So Dumb;1.0f    
+ 
+ 

@@ -1,0 +1,58 @@
+SetLayerMedia(background NinaApartment)         
+
+choice "..." 
+{ 
+	-Brush Her Hair 
+		Narrator "I brushed a stray lock of hair from her face, my fingers lingering against her soft skin as I gently cupped her left cheek."  
+		Narrator " We leaned in simultaneously and our lips softly met." 
+		Narrator "It was just a duck-lipped kiss, but it evolved into a deep and passionate kiss." 
+		Narrator "Nina wrapped her arms around me while our tongues swirled, pulling me closer every few seconds, feeling her breast cushion my body."  
+		Narrator "Without breaking our embrace, Nina began to move backward, leading me into toward her bedroom."  
+		Narrator "We tumbled onto the bed, breaking the embrace." 
+		Narrator "Nina got on top of me, her hands finding the hem of her shirt, pulling it over her head effortlessly, exposing her smooth-cup underwire white bra." 
+		Narrator "Before I knew it, our clothes were off, forgotten on the floor." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		UIHide()
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1) 
+		Narrator "I spend the night and I decided to return to the apartment in the morning." 
+		Narrator "As I walked home, I couldn't help think about my time with Nina. There was something about her raw honesty. I like feel like she's someone on the edge of something." 
+		Narrator "She's not just another artist. She's has a talent - a talent to turn pain into beauty, even if she hasn't fully realized yet." 
+		Narrator "Whatever it was, she was a fighter, even if she didn't know it yet." 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1)  
+		AdvanceDay() 
+		Load(ApartmentStart -enqueue true)   
+		
+	-I Should Leave 
+		Narrator "She leans, her face close to mine."
+		Narrator "I should leave." 
+		Narrator "She retracts." 
+		Nina "You sure?" 
+		Narrator "I nodded." 
+		Nina "All right." 
+		Narrator "As I'm walking out, I quickly turn around to face her." 
+		Narrator "Do you have Picstagram? It would be nice to see you again." 
+		Nina "Y-Yeah. I would like that." 
+		Narrator "Nina and I exchanged usernames before I left back to the apartment." 
+		Narrator "As I walked home, I couldn't help think about my time with Nina. There was something about her raw honesty. I like feel like she's someone on the edge of something." 
+		Narrator "She's not just another artist. She's has a talent - a talent to turn pain into beauty, even if she hasn't fully realized yet." 
+		Narrator "Whatever it was, she was a fighter, even if she didn't know it yet." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		UIHide()
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1)  
+		AdvanceDay() 
+		Load(ApartmentStart -enqueue true)  
+} 
+
+
+

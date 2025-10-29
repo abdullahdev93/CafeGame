@@ -1,0 +1,103 @@
+SetLayerMedia(background inn_night_1), PlaySong(Calm2)
+Raelin.Show(), Raelin.SetPosition(-0.5)
+Raelin.Move(0 -spd 1.5)
+wait(1)
+
+ShowDB(-i true)
+Raelin "Finaly, out of that storm! {c}Now let's just hope they have a room here."
+
+narrator "Stepping out from a room in the far back of the lodge, a tall, gruff man took his place behind the counter."
+
+CreateCharacter("Innkeeper as Generic" -e true), Innkeeper.SetSprite(Man), InnKeeper.SetPosition(1.3), Innkeeper.Move(1)
+
+Innkeeper "That's a nasty storm out there.{c}But I don't need to tell you that, it seems."
+
+Narrator "The man let out a hearty chuckle and offered Raelin a drink." 
+
+Innkeeper "If you came looking for a room, I'm afraid the most I can offer you is a hot drink and seat by the fire tonight."
+
+Raelin.SetSprite("A2,A_Shocked" -spd 1), Raelin.Move(0.1 -spd 1.3), PlayVoice(CharacterExclamation -v 1) 
+Raelin "You mean, you have no vacancies?" 
+StopSFX(CharacterExclamation) 
+
+Innkeeper "I'm afraid not.{a} The last room was taken this morning. I'm afraid I don't have anything else available."
+
+Raelin.SetSprite(A_Scared -l 1 -spd 1) 
+
+Innkeeper "That's right. I'm all booked." 
+
+Stella.FaceRight()
+Innkeeper "Well, I don't want you getting sick, and I know there isn't anywhere else in this village that can house you, so I'll make an exception for tonight and let you sleep in the lounge."
+"I've got some spare blankets and pillows - you won't have the privacy of your own space, but you can warm by the fire and rest for the night at least."
+
+Raelin.SetSprite("B2,B_Blush"), Raelin.Animate(Hop)
+Raelin "Oh, that would just be wonderful! {c}You are too kind, sir!" 
+
+Raelin.SetSprite("")
+Raelin "Wow - thank you, sir. {a} We really would appreciate that."
+
+Innkeeper "I thought you might. There's a restroom around the corner where you can get changed and out of those soaked clothes. Then just make yourselves at home."
+
+Raelin "Thank you." 
+
+Unhighlight(all)
+Narrator "Just then, the doors opened up and the rumble of thunder rang through the open air."
+CreateCharacter("Monk as Generic"), Monk.SetSprite(Monk), Monk.SetPosition(-0.3)
+"Turning their attention to the open doors, they watched as a man clad in robes stepped through."
+Raelin.FaceLeft(), Raelin.SetSprite("B2,B_Default"), Raelin.Move(0.6), Innkeeper.Move(1)
+Sort(Monk Raelin Innkeeper)
+Monk.Show(), Monk.Move(0.1)
+"He closed the doors gently behind him and walked up to the front."
+"Raelin tried but could not discern his face under the shadow of his hood." 
+"He stepped up behind Raelin, giving her a polite nod before turning his attention to the innkeeper."
+
+Highlight(all), Monk.FaceRight()
+Monk as ??? "Good evening, innkeeper. I have a room reserved for <i><color=red>The Order</color></i>."
+
+Innkeeper "Ah, good evening, sir. I've got your key right here."
+
+Narrator "The innkeeper reached under the table and pulled out a small bronze key, handing it to the monk." 
+
+Innkeeper "It's been a while since we've had a guest of your esteemed order."
+
+Narrator "The monk smiled pleasantly at the innkeeper, accepting the key."
+
+Innkeeper "Room 5. It's all prepared and ready for your stay. If there's anything you need, please don't hesitate to ask."
+
+Monk as ??? "Thank you for your hospitality, innkeeper. Your establishment has always been a haven of tranquility for weary travelers. I appreciate your efforts." 
+
+Monk.Move(-0.3), Monk.Hide()
+Narrator "The monk bowed respectfully, taking the key and making his way towards the stairs. Raelin watched, intrigued by the monk's presence." 
+"As if reading her minds, the innkeeper spoke in response to her silent questions."
+
+Raelin.FaceRight(), Raelin.Move(0)
+Innkeeper "Something strange has been going on in the spirit world for quite some time. Monks like him have been keeping the evil spirits at rest for the past few years."
+"You ask me, having him in the inn feels like a harbinger of good luck. {c}Anyway, please make yourselves comfortable. {a} I'll bring you some bedding from the back."
+
+Innkeeper.Move(1.3 -spd 0.7), Innkeeper.Hide()
+Narrator "Intrigued by the presence of the monk, Raelin looked up the stairs after him but soon went to the bathroom to get dressed." 
+
+
+ClearLayerMedia(background), Hide(all), wait(0.5), hideDB(), wait(3)
+SetLayerMedia(background inn_night_3), PlaySong(Departure)
+
+Raelin.SetPosition(1.3), Raelin.Show(), Raelin.Move(0.7)
+
+Raelin "Ah - finally in some dry clothes. It's so much better than being soaked to the bone." 
+
+Raelin "I owe a lot to that kind innkeeper. I was worried I have to spend the night shivering in the rain."  
+
+Monk.Show(), Monk.SetPosition(-0.3), Monk.FaceRight(), Raelin.FaceLeft()
+Monk.Move(0.2), Raelin.Move(1) 
+
+Monk "Greetings, traveler. I couldn't help but overhear your conversation."
+
+Raelin "Oh, hello sir. I'm just enjoying the dryness and warmth of the fire right now."
+
+Raelin "And I'm relieved to be out of the storm. It has been quite an adventure so far."
+
+Monk "Indeed, storms have a way of revealing our inner strength. But it seems that you are seeking something beyond the storm's reach."
+
+Raelin "What do you mean?"
+
+Monk "I am attuned to the spiritual energies that surround us. I sense that you are on a journey to enter the spirit world." 

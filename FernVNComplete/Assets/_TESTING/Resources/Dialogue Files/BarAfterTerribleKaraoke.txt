@@ -1,0 +1,13 @@
+SetLayerMedia(background Bar)        
+
+Narrator "After finishing the song, I hurried off the stage, my heart pounding from nerves and disappointment."
+Narrator "A few scattered claps echoed in the bar, but there was mostly an awkward silence."  
+Narrator "The connection to the music just wasn't there, and I struggled to feel my charisma shine." 
+PlaySFX(OnePoint -v 1)   
+IncreaseCharisma(-st 1)  
+Narrator "Each verse felt like a struggle, and by the end, my voice was strained rather than strong."
+Narrator "The joy of performing was lost somewhere along the way, leaving me feeling a bit defeated." 
+Narrator "The joy of performing was lost somewhere along the way." 
+PlaySFX(ZeroPoints -v 1)    
+Narrator "At least I learned what I need to work on." 
+Load(BarLocation)  

@@ -1,0 +1,46 @@
+SetLayerMedia(background Convience_Store_Reference)   
+
+Narrator "As I stepped away from the register, my eyes caught a bill and a small glint of silver on the counter - forgotten change left behind by the last customer." 
+Narrator "A quick glance revealed the person already heading toward the door, oblivious to what they had left behind." 
+
+choice "..." 
+{
+	-Give Them Back Their Change 
+		Narrator "Without thinking, I grabbed the coins and called out to the person." 
+		Narrator "Hey! You forgot your change!" 
+		Narrator "The stranger turned, momentarily confused before their face lit up." 
+		Stranger "Oh wow, I didn't even notice - thank you!" 
+		PlaySFX(OnePoint -v 1)
+		IncreaseKarma(-st 1) 
+		Narrator "It was a small act, but as I watched the person walk away, I felt a quiet sense of satisfaction." 
+		Narrator "My Kindness felt a little stronger now." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseKindness(-st 1) 
+	
+	-Do Nothing 
+		Narrator "The person was already walking away, unaware." 
+		Narrator "I could call out... But would they even care?" 
+		Narrator "They probably left it behind deliberately." 
+		Narrator "I said nothing and just moved on." 
+		Narrator "It wasn't my problem, after all."
+		Narrator "It wasn't a big deal, but something about it left a small, nagging feeling." 
+		Narrator "I had done anything wrong... But I also hadn't done anything right." 
+		
+	-Pocket The Change 
+		Narrator "They probably didn't care." 
+		IncreaseMoney(1.27) 
+		MoneyUpAnim(-mu MoneyAdded)   
+		Narrator "Without hesitation, I scooped up the change and slipped it into my pocket before walking out of the store."  
+} 
+
+HideGalleryImage() 
+HideDB(-spd 1)  
+UIHide() 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+LoadScene(TownMap) 
+		
+
+		   

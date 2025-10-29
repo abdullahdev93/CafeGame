@@ -1,0 +1,25 @@
+FadeInGame() 
+
+SetLayerMedia(background Park)         
+
+ShowMC()  
+Narrator "I'm at the park." 
+
+choice "..." 
+{ 
+	-Activities 
+		LoadScene(ParkA) 
+
+	-Leave 
+		Narrator "I waved goodbye to the cashier."
+		Cashier "Have a nice day." 
+		Cashier "Hope to see you again." 
+		HideGalleryImage() 
+		HideDB(-spd 1)  
+		UIHide() 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1) 
+		RandomKarmaEvent() 
+}

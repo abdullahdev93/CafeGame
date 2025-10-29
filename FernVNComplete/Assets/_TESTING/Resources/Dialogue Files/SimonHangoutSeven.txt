@@ -1,0 +1,246 @@
+SetLayerMedia(background University)
+
+PhoneEnabled(false)
+
+Narrator "The late afternoon sun dipped low over the rolling hills as I drove into Simon's driveway."
+Narrator "Simon's house was a grand, ivy-covered estate nestled on the hillside of Baywood Springs."
+Narrator "From the front, the home looked as though it belonged on the cover of an architectural magazine."
+Narrator "A winding driveway curved gently uphill, flanked by manicured hedges and tall, stately pines."
+Narrator "The façade was a mixture of dark wood paneling and sleek stonework, punctuated by enormous windows that reflected the amber sky."
+Narrator "A trio of wide stone steps led up to an oversized front door, framed by twin lanterns and hanging ivy."
+Narrator "I walked up to the door and rang the doorbell."
+Narrator "The door creaked open, revealing Simon with his soft smile but edged with a flicker of nervous energy."
+Simon "G-G-Good e-even - uh, hey, $PlayerStats.FirstName."
+FirstName "Hi, Simon."
+Simon "C-Come on in. M-Make yourself at h-home."
+Simon "W-We're nearly f-f-finished m-making d-d-dinner."
+Narrator "As I walked in, Simon leaned in and whispered."
+Simon "J-Just a h-heads up - s-something you should know - m-my m-mum... she can be, uh... a lot sometimes."
+
+choice "..."
+{
+	-I've Dealt With Worse
+		FirstName "Don't worry, Simon. I've dealt with worse."
+		FirstName "Moms who interrogate you before appetizers, family members who stare you down like you're a suspect - it's not my first dinner rodeo."
+		Narrator "Simon gave a small chuckle, clearly relieved."
+		Simon "S-Sounds like y-you'll do just fine, then."
+
+	-I'm Sure Everything Will Be Fine
+		FirstName "It's all right. I'm sure everything will be fine."
+		FirstName "I know how to carry myself, and I'm not here to cause any waves."
+		Narrator "Simon looked at me with a hint of gratitude but also concern."
+		Simon "Th-That's g-good. Just... she's, um, not the easiest person to impress."
+		Simon "J-Just be yourself - b-but maybe, uh, like... The best version of that."
+
+	-OK...
+		FirstName "OK..."
+		Narrator "I blinked, a bit thrown by the sudden warning."
+		Narrator "My voice came out more puzzled than tense - less worried, more curious about what exactly he meant."
+		Narrator "Simon shot me a sidelong glance and hesitated, likely sensing my confusion."
+		Simon "S-Sorry, didn't mean to m-make it sound scary or anything. I-I just thought you should know, that's all."
+		Narrator "I nodded slowly, eyebrows slightly furrowed. I wasn't sure what I was walking into, but I was definitely intrigued."
+}
+
+Narrator "Simon then spoke under his breath."
+Simon "Sh-she also d-doesn't l-like surprises... or, uh... p-people who are t-too... d-different."
+Narrator "I then looked forward, stepping back to follow Simon, and that's when I started to truly notice the interior."
+Narrator "The foyer was quite breathtaking."
+Narrator "A grand, curved staircase swept upward like a ribbon, its banisters gleaming under the soft glow of ceiling lights."
+Narrator "At the center, an ornate chandelier dangled from the towering ceiling, casting intricate shadows across the walls and polished floorboards."
+Narrator "A pair of vintage chairs flanked a side table topped with a lamp and a small arrangement of plants."
+Narrator "As we walked through the hall, I caught Simon glancing at me. Almost like he wanted to say something else but didn't."
+Narrator "As we passed the sweeping staircase and ventured deeper into the home, the soft clinking of dishes and a warm aroma hinted at the kitchen ahead."
+Narrator "Simon's pace became slower, his steps cautious, as if preparing for something."
+Narrator "In the kitchen, bathed in amber light, stood a woman."
+Narrator "She wore a dark burgundy dress."
+
+Narrator "Her hair was pinned up with immaculate precision, and not a strand dared fall out of place."
+Simon "Mum, thi-thi-this is $PlayerStats.FirstName."
+Narrator "His voice was warm but slightly strained."
+Narrator "She gave a slow, measured nod, her smile poised and polite."
+Victoria as Simon's Mom "Lovely to meet you at last. I do hope dinner's to your liking."
+Victoria "Just needs a few more minutes."
+Victoria "Simon, why don't you show $PlayerStats.FirstName through to the dining room?"
+Narrator "She gestured to where I assume was the direction to the room."
+Victoria "I'll be through in a minute."
+Narrator "Simon nodded and gestured me to follow him."
+
+Narrator "The dining room also looked like something out of a magazine."
+Narrator "A long table stretched beneath a series of ceiling lights that scattered warm light across crystal glasses and delicate China."
+Narrator "Everything was meticulously arranged, from the silverware to the folded napkins."
+Narrator "Simon and I took our seats across from each other while his mom sat regally at the head of the table."
+Narrator "The scent of roasted chicken, sliced carrots, and herbed potatoes wafted through the air."
+FirstName "Dinner smells amazing, ma'am."
+Victoria as Simon's Mom "How flattering. Let's hope the taste lives up to the aroma, shall we?"
+Narrator "She chuckled."
+Victoria "And do call me Victoria. No need to stand on ceremony."
+Narrator "She leaned back in her chair."
+Victoria "So."
+Victoria "Simon tells me you're a café owner."
+Narrator "I nodded with a confident smile."
+FirstName "Yeah, it's something I started a while back. It's small but steadily growing."
+Victoria "You must have quite the head for business."
+Victoria "Where did you do your business education? Which university?"
+FirstName "Oh, I don't have a degree. I dropped out of college. It just wasn't for me."
+FirstName "I left to pursue something that I was genuinely passionate about."
+Narrator "Victoria's gaze flickered, just for a moment."
+Victoria "Drop out of university?"
+Victoria "I see."
+Victoria "I imagine it's rather demanding, especially without a formal business education."
+FirstName "I worked at a café in the past, so I have a lot of hands-on experience."
+FirstName "And I took a couple of online courses, which also helped."
+Victoria "Online courses? How... Modern."
+Narrator "Simon then chimed in."
+Simon "Th-They're r-really good with p-people, M-Mum. That's, uh, one of $PlayerStats.FirstName's b-best strengths."
+Simon "Th-They even helped with m-my Hamlet project. W-Wouldn't have ace it without them."
+Victoria "Ah, yes. You did mention that."
+Victoria "I must say, I am curious - where did you find the time to help Simon? I'd have thought the café would keep you rather tied up."
+FirstName "I always make time for friends."
+
+if ($PlayerStats.HasStaff == true)
+{
+	FirstName "Thankfully, I've got a good team at the café - people who run things when I'm not there."
+	FirstName "Because of them, I get to step away. Spending time with people I care about, enjoying life - those things matter too."
+}
+
+FirstName "If something's important enough, I'll close the café for a day or two. That's the beauty of owning it - I didn't build it just to work nonstop."
+FirstName "I genuinely enjoy what I do, but I also believe life's meant to be lived. That means taking time to connect with friends, recharge, and just enjoy the moments that matter."
+Victoria "So you simply clock in when it suits-"
+Simon "$PlayerStats.FirstName's c-café is, um, it's brilliant. Y-You should st-stop by s-sometime, Mum."
+Victoria "Hmm."
+Victoria "I'll give it some thought."
+Narrator "A moment later, the stove chimed, indicating that the food was finally ready."
+Victoria "Ah, sounds like the food's ready."
+Victoria "Simon, could you bring the food over?"
+Simon "O-Of course, M-Mum."
+Narrator "She watched Simon leave the room, then slowly turned her gaze back to me, her polite smile gradually dissolving."
+Narrator "Her eyes pinned me in place, sharp and assessing."
+Victoria "May I ask - do you truly like for my son? What exactly are your intentions toward him?"
+FirstName "I like him. He's a great friend."
+Victoria "Simon's always been rather sensitive."
+Victoria "He tends to place his trust where it's not always earned."
+Victoria "You both appear to have grown close, but he's rarely kept friends who weren't equally driven."
+Victoria "Simon needs people who challenge him, who elevate him - not those who might lead him astray."
+Victoria "Simon's worked hard to forge his path, and I'd be rather troubled if his associations began to undermine him - both in career and in life."
+Victoria "And perhaps, if you truly like Simon, you'll ask yourself whether being so closely involved is truly in his best interests."
+Victoria "Not every acquaintance opens doors, you know."
+Victoria "Simon's future depends on the company he keeps."
+Victoria "And do forgive me if I'm being a touch forward, but I'm not wholly convinced you're quite what he needs."
+Narrator "The implication hit like a slap in the face."
+Victoria "Food for thought, as they say."
+
+Narrator "As Simon returned with the food, she swiftly reclaimed her polite smile, sliding it back into place like a well-rehearsed mask."
+Narrator "As Simon served the food, I took a sip of water, looking at Victoria."
+Narrator "The rest of dinner passed with a civil, if somewhat tense, rhythm."
+Narrator "Victoria maintained her composed façade, asking me more questions about myself and asking Simon about his classes."
+Narrator "Simon tried to keep the conversation light, offering stories from our previous hangouts and from his rehearsals."
+Narrator "Eventually, dessert arrived - a beautifully plated custard tart topped with berries."
+Narrator "It was delicate and rich; however, it was difficult to fully enjoy with the tension hovering in the room like fog."
+Narrator "Still, I made sure to compliment it, earning a small, cool nod from Victoria."
+Narrator "After the final forkful was cleared and the table was tidied, Simon offered to walk me out."
+Simon "I-I'll w-walk $PlayerStats.FirstName out."
+Narrator "I waved at Victoria."
+FirstName "Thanks for dinner."
+Victoria "Of course, and I do hope this evening's given you something to mull over."
+Narrator "She kept her polite smile."
+Narrator "The evening air had cooled, and the stars had begun to appear in the sky as we stepped outside."
+Narrator "Simon and I walked slowly toward my car, the gravel crunching softly beneath our shoes."
+Simon "$PlayerStats.FirstName..."
+Narrator "I looked over at him."
+Simon "I, um... I heard everything."
+Narrator "His face was tense - not angry, just serious."
+Simon "Wh-What she said - about you. I h-heard all of it. I was just in the hallway."
+Simon "Th-That's wh-why it took me a b-bit to, um, get the food."
+Simon "Sh-She's m-made me d-drop a lot of friends b-before, but n-not this time. I d-don't care what she thinks."
+Simon "I c-care about y-you."
+Simon "A-And our f-friendship... y-you've been there for me in w-ways n-no one else has."
+Simon "In w-ways sh-she's n-never really understood."
+FirstName "Simon..."
+
+choice "..."
+{
+	-I Care About Our Friendship Too
+		FirstName "I care about our friendship too."
+		FirstName "You're my best friend, Simon."
+		FirstName "You've always been kind, honest, and loyal - and when I'm around you, I don't feel like I have to pretend to be anything I'm not. You make me feel seen."
+		FirstName "Sure, we've chosen different paths but that doesn't mean we can't still be friends."
+		FirstName "I don't care what your mom thinks either."
+		FirstName "You get to decide who matters to you, Simon. That choice is yours - not hers."
+		Narrator "Simon's lips trembled, but then he smiled - a small, genuine smile that softened his features."
+		Simon "R-right."
+		Simon "I'll see you next time."
+		FirstName "Hell yeah!"
+
+	-I Don't Think We Should Be Friends Anymore
+		FirstName "Simon, I... I don't think we should be friends anymore."
+		Narrator "His face crumpled. Whatever breath he had drawn froze in his chest."
+		FirstName "It's not because I don't care. I do. You're one of the most genuine people I've ever met."
+		FirstName "But tonight made me realize how different our worlds are."
+		FirstName "Your mom... she's always going to see me as a threat."
+		FirstName "And I can't keep putting you in a position where you constantly have to defend me."
+		Simon "Oh..."
+		Narrator "His voice was barely a whisper. The moonlight glinted off his glassy eyes, pooling quietly in the corners."
+		FirstName "You deserve peace. You deserve to pursue your dreams without worrying about how others might judge you based on your company."
+		Narrator "Simon looked down, his hands clenching slightly at his sides."
+		Simon "I understand."
+		Narrator "He took a slow breath, then nodded."
+		Narrator "As he turned to walk away, I stood there for a second too long, heart heavy, wishing I had the words to soften what I'd said."
+		FirstName "Simon..."
+		Narrator "He paused, but didn't look back."
+		FirstName "I hope you know... I'll always root for you. Even from a distance."
+		Narrator "Simon stood still for a heartbeat, then nodded once more, this time tighter, and continued walking."
+		Narrator "The door closed behind him, quiet but final."
+		Narrator "I sighed, then slowly made my way to the car."
+		Narrator "As I sat behind the wheel, I stared out at the empty street, wondering if I'd made the right decision - or simply the one that hurt the least."
+		
+		HideGalleryImage()
+		HideDB(-spd 1)
+		UIHide()
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience()
+		wait(1)
+		AdvanceDay()
+		Load(ApartmentStart -enqueue true)
+}
+
+Narrator "Simon took a step back, then turned as if to walk away."
+Narrator "But after only a few paces, he suddenly stopped."
+Narrator "He stood there, frozen, shoulders rising with a held breath."
+FirstName "Simon?"
+Narrator "Then without another word, he turned and walked back - fast, like a thought had just broken free."
+Narrator "He reached me, eyes flicking between mine - nervous, searching for something."
+Narrator "Then, suddenly, like something snapped loose inside him, Simon lunged forward."
+Narrator "He cupped both sides of my neck and kissed me - passionately."
+Narrator "The kiss was tentative, delicate - like he was afraid I might disappear."
+Narrator "But it deepened, slowly, like something long buried had finally surfaced."
+Narrator "When he pulled back, he lingered for a second, his breath mixing with mine."
+FirstName "Simon..."
+Narrator "My heart was still catching up to what had just happened. My breath shallow."
+Narrator "I blinked, stunned, the warmth of his hands still lingering at my neck."
+FirstName "Wait... Simon - does your mom know?"
+Narrator "He shook his head, slowly."
+Simon "N-No... I-I haven't told her. I d-don't even know if she'd want to know."
+Narrator "There was a vulnerability in his voice that cut deeper than any of his stutters ever could."
+Simon "I w-was scared. Still am, honestly."
+Simon "B-But I couldn't leave tonight without letting you know how I f-feel."
+FirstName "OK."
+FirstName "I should go."
+FirstName "I'll see you later."
+Narrator "Simon smiled - the same soft smile he gave when meeting him at the door."
+Narrator "Only this time, there was no nervous energy."
+Narrator "I then drove off into the night."
+Narrator "My fingers curled around the steering wheel and my pulse thundered in my ears."
+FirstName "Did that really just happen?" 
+DisableSkip() 
+FirstName "Holy shit."
+
+HideGalleryImage()
+HideDB(-spd 1)
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience()
+wait(1)
+AdvanceDay()
+Load(ApartmentStart -enqueue true)

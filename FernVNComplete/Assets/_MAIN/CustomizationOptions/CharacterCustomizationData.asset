@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3c248b792044142b0f311f13a2c16b, type: 3}
+  m_Name: CharacterCustomizationData
+  m_EditorClassIdentifier: 
+  customizationCategories:
+  - categoryName: HAIR
+    options:
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    selectedColor: {r: 0.10980392, g: 0.10980392, b: 0.10980392, a: 1}
+  - categoryName: HIGHLIGHTS
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    selectedColor: {r: 0.58431375, g: 0.27058825, b: 0.20784314, a: 1}
+  - categoryName: EYES
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    selectedColor: {r: 0.41960785, g: 0.26666668, b: 0.13725491, a: 1}
+  - categoryName: BODY
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    selectedColor: {r: 0.81960785, g: 0.63529414, b: 0.5411765, a: 1}
+  - categoryName: EYEBROWS
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    selectedColor: {r: 0.10980392, g: 0.10980392, b: 0.10980392, a: 1}
+  - categoryName: NOSE
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    selectedColor: {r: 0.84705883, g: 0.7176471, b: 0.6156863, a: 1}
+  - categoryName: MOUTH
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    selectedColor: {r: 0.8784314, g: 0.6745098, b: 0.6156863, a: 1}
+  - categoryName: FRECKLES
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    selectedColor: {r: 0.54509807, g: 0.36862746, b: 0.36862746, a: 1}
+  - categoryName: FACIAL
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    selectedColor: {r: 0.10980392, g: 0.10980392, b: 0.10980392, a: 1}
+  - categoryName: GLASSES
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    selectedColor: {r: 0.10980392, g: 0.10980392, b: 0.10980392, a: 1}
+  - categoryName: MAKEUP
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    selectedColor: {r: 0.92156863, g: 0.7921569, b: 0.69803923, a: 1}
+  - categoryName: SCARS
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    selectedColor: {r: 0.95686275, g: 0.7607843, b: 0.7607843, a: 1}
+  - categoryName: TATTOOS
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    selectedColor: {r: 0, g: 0, b: 0, a: 1}
+  - categoryName: EARS
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    selectedColor: {r: 0.81960785, g: 0.63529414, b: 0.5411765, a: 1}
+  - categoryName: TAILS
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    selectedColor: {r: 0.59607846, g: 1, b: 0.59607846, a: 1}
+  - categoryName: HORNS
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    selectedColor: {r: 0.69803923, g: 0.13333334, b: 0.13333334, a: 1}
+  - categoryName: CLOTHES
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    selectedColor: {r: 1, g: 0.64705884, b: 0, a: 1}
+  - categoryName: HATS
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    - {fileID: 21300000, guid: 6474f566e0fdab842a710d7ae9d88503, type: 3}
+    selectedColor: {r: 0.5019608, g: 0, b: 0.1254902, a: 1}
+  - categoryName: ACCESSORIES
+    options:
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: -539901293, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    - {fileID: 21300000, guid: f53834a36f1a3d94694ad00e6f717492, type: 3}
+    selectedColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
+  - categoryName: SKINTONE
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    selectedColor: {r: 0.81960785, g: 0.63529414, b: 0.5411765, a: 1}
+  - categoryName: HEAD
+    options:
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 371039983, guid: 418997cd131ebf84fac6b738543fe03f, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    - {fileID: 21300000, guid: 9ce9bd3d4dda2a2469d6633d4b3b0d67, type: 3}
+    selectedColor: {r: 0.81960785, g: 0.63529414, b: 0.5411765, a: 1}

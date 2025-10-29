@@ -1,0 +1,43 @@
+SetLayerMedia(background Bar)
+
+Narrator "... A Manhattan."  
+Bartender "Classic. Coming right up."  
+Mei "I'll take a glass of Red Wine."  
+Bartender "Got it."  
+
+Narrator "As the bartender moved to prepare our drinks, I rested my forearm on the counter and glanced at Mei, a small smile playing on my lips."  
+Narrator "Red Wine again? Thought I might finally see you branch out."  
+Mei "She smirked, brushing her short hair behind her ear."  
+Mei "Frequently branching out is for people still searching." 
+Mei "I already know who I am." 
+Mei "And I already know what I like."  
+Narrator "Fair point."  
+Narrator "And Red Wine does suit you."  
+Mei "She eyed me over the rim of her glass as the bartender slid our drinks across the bar."  
+Mei "And you? A Manhattan? That's got old spirit written all over it."  
+Narrator "I picked up the glass, the deep amber catching the light as I took a slow sip."  
+Narrator "The smooth burn of rye and the hint of sweet vermouth settled in my throat."  
+Narrator "There's just something about this one - it hits just right."  
+Mei "She swirled her wine, watching me."  
+Mei "So you're a speakeasy cocktail lounge kind of guy now?"  
+Narrator "Only if you promise to roll your eyes at me every time I say something cool."  
+Mei "She laughed softly, taking a sip."  
+Mei "Careful, you're dangerously close to being charming."  
+Narrator "I raised my glass in mock salute."  
+Narrator "Then I'm exactly where I meant to be."  
+
+Narrator "The bar hummed with soft conversation and the clink of glasses." 
+Narrator "We talked, losing track of time between sips and shared glances."  
+Narrator "The night mellowed around us, but neither of us seemed in a rush to let it end."  
+Narrator "Eventually, with a quiet sigh and the final sip of her wine, Mei leaned toward me."  
+Mei "All right, classic man. It's getting late. Walk me home?"  
+Narrator "I smiled, finishing the last of my Manhattan."  
+Narrator "Of course."   
+
+HideGalleryImage()  
+HideDB(-spd 1)  
+wait(0.75)  
+ClearLayerMedia(background), wait(1)  
+StopSong(), StopAmbience()  
+wait(1)  
+LoadScene(Bar -enqueue true)  

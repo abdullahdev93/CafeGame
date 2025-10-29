@@ -1,0 +1,28 @@
+SetLayerMedia(background Rehearsal_Garage) 
+
+PhoneEnabled(false) 
+
+EnableSkip() 
+Narrator "I stayed at Mei's place a little longer than expected, the conversation flowing effortlessly as my headache faded."  
+Narrator "Between laughter and quiet pauses, I learned pieces of who she was - her passion for music, her love for rainy nights, and her love for collecting old records just to study their imperfections." 
+
+Narrator "Eventually I left, slipped into my car, and began the quiet drive home."
+Narrator "On the drive home, I realized her melodies were fragments of feelings she couldn't bring herself to say out loud in normal conversation." 
+Narrator "Every lyric, every note carried the same elements: pain, hope, and the struggle to heal." 
+Narrator "I thought about how easily she smiled and laughed, how confidently she performed, and wondered how much of that was real." 
+Narrator "There was definitely more to Mei than she let on." 
+Narrator "But do I want to know?"
+Narrator "Would I think of her differently when I know her completely?" 
+DisableSkip()   
+Narrator "The thought lingered throughout the drive." 
+
+MeiHangOutThreeComplete() 
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1) 
+AdvanceDay() 
+Load(ApartmentStart -enqueue true) 

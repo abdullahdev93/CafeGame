@@ -1,0 +1,44 @@
+SetLayerMedia(background Bar)
+
+Narrator "... A shot of tequila."
+Bartender "Comin' right up." 
+Bartender "Lime and salt?"
+Narrator "Wouldn't have it any other way."
+Mei "And I'll take a glass of Red Wine."
+Bartender "Got it."
+Narrator "As the bartender left to prepare our drinks, I leaned against the counter and shot Mei a smirk." 
+Narrator "Red wine? Fancy. Should I start calling you 'Madame Wu' from now on?"
+Narrator "She rolled her eyes, resting her elbow on the counter." 
+Mei "Very funny, Mr. [Last Name]." 
+Mei "You know, some of us like to actually taste our drinks instead of just downing it." 
+Narrator "Hey, tequila has depth. It's like... An experience."
+Narrator "She smirked, lifting her glass slightly." 
+Mei "But tequila is more of a party drink. If I'm taking shots, I want loud music, dancing, and confetti."
+Narrator "I chuckled as the bartender slid our drinks in front of us." 
+Narrator "I picked up my shot, licking the salt off my finger before downing the tequila in one go." 
+Narrator "The familiar burn trailed down my throat, sharp and unapologetic." 
+Narrator "I bit into the lime, the sour tang cutting through the heat of the alcohol." 
+Narrator "A slow exhale followed as the warmth settled in my chest." 
+Narrator "Nothing like a shot to make you feel energized."
+Narrator "She swirled her wine, inhaling the aroma before taking a slow, contented sip." 
+Mei "Now this is a drink."
+Narrator "I smirked, setting my lime wedge down." 
+Narrator "You sure you don't want a shot?" 
+Narrator "She scoffed." 
+Narrator "She swirled her wine before taking another slow, contented sip." 
+Mei "I'll stick with a drink that doesn't try to set my throat on fire, thanks."
+Narrator "Suit yourself."
+Mei "But if a dance floor magically appears, you better be ready to keep up."
+Narrator "I chuckled." 
+Narrator "The bar hummed with low chatter and country music as we talked, our conversation flowing effortlessly between sips, sarcasm, and laughter." 
+Narrator "Time slipped away, blending into the warmth of our drinks and the steady rhythm of the evening." 
+Narrator "Eventually, as the bar's lively buzz began to die down, we exchanged a glance over our near-empty glasses." 
+Narrator "And with a final sip, we knew it was time to call it a night." 
+
+HideGalleryImage()
+HideDB(-spd 1)
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience()
+wait(1)
+LoadScene(Bar -enqueue true)

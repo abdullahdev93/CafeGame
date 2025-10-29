@@ -1,0 +1,607 @@
+SetLayerMedia(background Park)  
+
+if ($Season == Spring && $Weather == Sunny && $ActivityPhase == Morning)  
+{ 
+    Narrator "The crisp morning sun peeked over the trees as I jogged along the paved path in the town's local park, my breath visible in the lingering cool air." 
+    Narrator "Golden light filtered through pine branches and scattered across empty picnic tables, casting long, soft shadows on the path." 
+    Narrator "Beside me, Mei jogged with surprising ease, her short, dark hair catching the golden morning light with every stride." 
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == Sunny && $ActivityPhase == Afternoon)  
+{ 
+    Narrator "The warm air filled my lungs as I jogged along the concrete path through the town's local park, my breath steady and controlled." 
+    Narrator "The sun hung high in the sky, casting a golden glow through the trees, stretching our shadows playfully across the pavement." 
+    Narrator "Beside me, Mei jogged with surprising ease, her short, dark hair gleaming under the midday sun as we moved in rhythm." 
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == Sunny && $ActivityPhase == Evening)   
+{ 
+    Narrator "By the time I reached the park, the cool air settled onto the pavement."  
+    Narrator "Lamp posts glowed in steady pools of gold, their light casting gentle halos through the branches above as I jogged into the quiet night." 
+    Narrator "Beside me, Mei jogged with surprising ease, her silhouette glowing softly under the warm halo of the streetlamps." 
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+}
+
+else if ($Season == Spring && $Weather == Cloudy && $ActivityPhase == Morning) 
+{ 
+    Narrator "A quiet hush settled over the park as I jogged through the morning mist, the mild Spring air cooled against my skin." 
+    Narrator "The overcast sky gave everything a muted calm, and my shadow barely followed me beneath the diffused light." 
+    Narrator "Beside me, Mei jogged with surprising ease, her hair dampened slightly by the mist, strands swaying gently with each step." 
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == Cloudy && $ActivityPhase == Afternoon) 
+{ 
+    Narrator "The mild Spring air filled my lungs as I jogged along the concrete path through the town's local park, my breath steady and controlled." 
+    Narrator "Gray clouds hung low overhead, casting everything in soft light as a few distant figures sat beneath trees or wandered near the playground." 
+    Narrator "Beside me, Mei jogged with surprising ease, her dark hair dull against the muted sky, her movements calm and steady." 
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills." 
+} 
+
+else if ($Season == Spring && $Weather == Cloudy && $ActivityPhase == Evening) 
+{ 
+    Narrator "The clouds hung thick and heavy above the park as I jogged beneath the dim sky, the air cool and quiet around me."  
+    Narrator "Lamp posts glowed faintly through the haze, their light diffused against the low gray ceiling that blanketed the town." 
+    Narrator "Beside me, Mei jogged with surprising ease, her features softly lit by the pale glow of the overcast sky and scattered lamp light." 
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills." 
+} 
+
+else if ($Season == Spring && $Weather == Rainy && $ActivityPhase == Morning) 
+{ 
+    Narrator "A cold drizzle tapped against my body as I jogged along the paved trail, my breath fogging in front of me." 
+    Narrator "Puddles collected near the curbside benches and tree roots, while the playground equipment stood slick and silent in the rain." 
+    Narrator "Beside me, Mei jogged with surprising ease, her short hair slick with rain, droplets trailing down her cheeks as she kept her pace." 
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills." 
+} 
+
+else if ($Season == Spring && $Weather == Rainy && $ActivityPhase == Afternoon) 
+{ 
+    Narrator "Cool raindrops tapped against me as I jogged along the winding path through the town's local park, my breath steady and controlled." 
+    Narrator "Water clung to the bark of nearby trees, and the occasional drip from overhead branches kept the rhythm of the rain alive with every step." 
+    Narrator "Beside me, Mei jogged with surprising ease, rain tracing along her hair as she moved without complaint, water splashing beneath our feet." 
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == Rainy && $ActivityPhase == Evening)  
+{ 
+    Narrator "Rain fell steadily under the night sky, soaking the trees and pavement as I jogged through the near-empty park."  
+    Narrator "Streetlights shimmered in puddles, and droplets danced in their glow as if the rain itself had a rhythm of its own." 
+    Narrator "Beside me, Mei jogged with surprising ease, the rain glistening in her hair under the soft streetlight glow."  
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+}
+
+
+else if ($Season == Spring && $Weather == Windy && $ActivityPhase == Morning) 
+{ 
+    Narrator "The wind howled low through the trees as I jogged through the morning chill, my breath quick and sharp in the cool air." 
+    Narrator "Loose petals and leaves danced across the trail, carried like whispers on the breeze." 
+    Narrator "Beside me, Mei jogged with surprising ease, the wind teasing strands of her hair as she pressed forward unfazed."  
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == Windy && $ActivityPhase == Afternoon) 
+{ 
+    Narrator "A brisk wind whipped through the park as I jogged past benches and bare picnic tables, tugging at my clothes and quickening my breath." 
+    Narrator "Leaves spiraled across the pavement while nearby flagpoles clanked rhythmically and tree branches creaked above." 
+    Narrator "Beside me, Mei jogged with surprising ease, her hair tossing in the wind like a flag as she moved with quiet determination."  
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == Windy && $ActivityPhase == Evening) 
+{ 
+    Narrator "Wind rushed through the trees as I jogged through the darkened park, each gust carrying the scent of wet bark and grass."  
+    Narrator "Lamp light wavered in the breeze while branches overhead whispered and swayed, casting fleeting shadows across the pavement." 
+    Narrator "Beside me, Mei jogged with surprising ease, her hair fluttering in the breeze, catching glints of lamp light between shadows."  
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == SunnyAndCloudy && $ActivityPhase == Morning) 
+{
+    Narrator "The soft morning sun peeked between passing clouds as I jogged through the fresh Spring air, light catching the dew still clinging to leaves." 
+    Narrator "Shadows flickered gently along the path, like the park itself hadn’t fully woken up yet." 
+    Narrator "Beside me, Mei jogged with surprising ease, her dark hair catching soft rays of sun each time they slipped through the clouds."  
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == SunnyAndCloudy && $ActivityPhase == Afternoon) 
+{
+    Narrator "The air was warm and light as I jogged along the path through the park, my breath steady and controlled." 
+    Narrator "Sunlight slipped between drifting clouds, casting gentle beams through the trees and painting patches of gold across the pavement." 
+    Narrator "Beside me, Mei jogged with surprising ease, her short hair flickering between light and shadow as the clouds played with the sun above us."  
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Spring && $Weather == SunnyAndCloudy && $ActivityPhase == Evening) 
+{
+    Narrator "Night had settled in, and the last traces of daylight were gone, leaving only the hum of lamplight across the quiet park paths."  
+    Narrator "Clouds drifted lazily overhead, tinted faintly by the glow of the streetlamps as I passed rows of empty benches and picnic tables." 
+    Narrator "Beside me, Mei jogged with surprising ease, her form briefly illuminated by flickering lamplight beneath the slowly drifting clouds."  
+    Narrator "She wore a lightweight zip-up hoodie over a faded band tee, black athletic leggings with subtle skull patterns near the ankles, and scuffed sneakers that looked like they'd seen more mosh pits than treadmills."
+} 
+
+else if ($Season == Summer && $Weather == Sunny && $ActivityPhase == Morning)
+{
+    Narrator "The early summer sun peeked through the leaves as I jogged along the sun-drenched path, warmth already rising from the pavement." 
+    Narrator "The park was quiet, just the chirp of birds and the rustle of sprinklers turning on in the distance." 
+    Narrator "Beside me, Mei jogged with surprising ease, her short, dark hair bouncing with each stride." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Sunny && $ActivityPhase == Afternoon)
+{
+    Narrator "The heat beat down as I jogged through the open park path, sweat gathering quickly at my brow." 
+    Narrator "The distant sound of sprinklers, cicadas, and kids playing in the splash pad echoed around us." 
+    Narrator "Beside me, Mei jogged with surprising ease, her dark hair clinging slightly to her forehead." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Sunny && $ActivityPhase == Evening)
+{
+    Narrator "The sky glowed orange and pink as I jogged beneath the lengthening shadows of the trees." 
+    Narrator "The air still held warmth, but the sun was dipping low behind the rooftops across the park." 
+    Narrator "Beside me, Mei jogged with surprising ease, her silhouette lit by the final golden light of day." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Cloudy && $ActivityPhase == Morning)
+{
+    Narrator "A soft gray haze covered the sky as I jogged through the quiet park, the summer air still warm despite the clouds overhead." 
+    Narrator "Dew lingered on the benches and blades of grass, clinging to my shoes with each step." 
+    Narrator "Beside me, Mei jogged with surprising ease, her movements steady and focused." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Cloudy && $ActivityPhase == Afternoon)
+{
+    Narrator "Clouds muted the sun but not the heat as I jogged through the park, the air thick and humid." 
+    Narrator "The scent of warm earth and sunbaked concrete filled the air." 
+    Narrator "Beside me, Mei jogged with surprising ease, unbothered by the heat." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Cloudy && $ActivityPhase == Evening)
+{
+    Narrator "The sky was dim and pale gray as we jogged beneath the thick clouds, streetlights flickering on early." 
+    Narrator "A gentle breeze moved through the trees, and the park felt still and spacious." 
+    Narrator "Beside me, Mei jogged with surprising ease, her gaze scanning the dusky trail ahead." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Rainy && $ActivityPhase == Morning)
+{
+    Narrator "A warm summer drizzle fell as I jogged through the misty park, the trail slick but manageable." 
+    Narrator "Birds chirped through the light rainfall, and puddles reflected the overcast sky." 
+    Narrator "Beside me, Mei jogged with surprising ease, raindrops clinging to her shoulders and arms." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Rainy && $ActivityPhase == Afternoon)
+{
+    Narrator "Rain came down in steady sheets as I jogged, the trail washed clean beneath our feet." 
+    Narrator "Everything around us shimmered with motion—the leaves, the puddles, the sky." 
+    Narrator "Beside me, Mei jogged with surprising ease, her tank top darkened slightly from the rain." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Rainy && $ActivityPhase == Evening)
+{
+    Narrator "The rain had eased into a soft patter as we jogged beneath the cloudy twilight sky." 
+    Narrator "Streetlights reflected in the puddles, and the distant sound of frogs echoed from the trees." 
+    Narrator "Beside me, Mei jogged with surprising ease, the occasional droplet trailing down her cheek." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Windy && $ActivityPhase == Morning)
+{
+    Narrator "A dry breeze pushed against me as I jogged through the open trail, stirring dust and pollen into the air." 
+    Narrator "Wind rustled the branches above and fluttered the edges of trail maps pinned to wooden signs." 
+    Narrator "Beside me, Mei jogged with surprising ease, her hair lifting with every gust." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Windy && $ActivityPhase == Afternoon)
+{
+    Narrator "The wind cut through the summer heat like a fan as I jogged beneath swaying trees and fluttering park banners." 
+    Narrator "Leaves tumbled across the concrete, racing beside us." 
+    Narrator "Beside me, Mei jogged with surprising ease, her hair tossed by the wind like she was leading the way." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == Windy && $ActivityPhase == Evening)
+{
+    Narrator "The wind had picked up by nightfall, rustling the trees as I jogged beneath the whirring streetlamps." 
+    Narrator "Dust and flower petals spiraled in the air, trailing behind us as we moved." 
+    Narrator "Beside me, Mei jogged with surprising ease, her silhouette sharp against the darkening sky." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == SunnyAndCloudy && $ActivityPhase == Morning)
+{
+    Narrator "Pale sunlight flickered between drifting clouds as I jogged the winding path through the town park." 
+    Narrator "The breeze was mild, and the scent of cut grass lingered in the air." 
+    Narrator "Beside me, Mei jogged with surprising ease, her dark hair catching streaks of light with every stride." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == SunnyAndCloudy && $ActivityPhase == Afternoon)
+{
+    Narrator "Sunbeams slipped through the clouds, dotting the pavement with patches of warmth as I jogged along the trail." 
+    Narrator "The shadows moved like water, and the air carried the scent of wildflowers and sunscreen." 
+    Narrator "Beside me, Mei jogged with surprising ease, her tank top fluttering gently in the shifting breeze." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+}
+
+else if ($Season == Summer && $Weather == SunnyAndCloudy && $ActivityPhase == Evening)
+{
+    Narrator "The last light of day flickered in and out between slow-moving clouds as I jogged beneath the dimming sky." 
+    Narrator "The park was quiet, lit only by the golden pools beneath each lamp post." 
+    Narrator "Beside me, Mei jogged with surprising ease, her shadow stretching and shrinking with every flicker of light." 
+    Narrator "She wore a loose-cut black tank top with a vintage punk logo, high-waisted running shorts with mesh panels, and beat-up canvas sneakers scribbled with lyrics and doodles in silver ink."
+} 
+
+else if ($Season == Fall && $Weather == Sunny && $ActivityPhase == Morning)
+{
+    Narrator "The golden sun filtered through turning leaves as I jogged along the chilled park path, breath rising faintly in the crisp air." 
+    Narrator "Fallen leaves crunched beneath my shoes with every step." 
+    Narrator "Beside me, Mei jogged with surprising ease, her short hair tucked under a knit beanie." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Sunny && $ActivityPhase == Afternoon)
+{
+    Narrator "The late afternoon sun warmed the pavement, contrasting the cool breeze that rustled through the amber canopy above." 
+    Narrator "Leaves spiraled lazily to the ground around us." 
+    Narrator "Beside me, Mei jogged with surprising ease, her cheeks tinged slightly red from the wind." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Sunny && $ActivityPhase == Evening)
+{
+    Narrator "The sun dipped low behind the trees, casting long shadows across the park's quiet trails." 
+    Narrator "Cool air clung to the ground, and the last golden rays flickered between branches." 
+    Narrator "Beside me, Mei jogged with surprising ease, her breath faintly visible in the cooling dusk." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Cloudy && $ActivityPhase == Morning)
+{
+    Narrator "Thick gray clouds hung low as I jogged through the leaf-strewn trail, my breath misting the chilly air." 
+    Narrator "The park smelled of wet bark and distant chimney smoke." 
+    Narrator "Beside me, Mei jogged with surprising ease, her expression calm beneath her beanie." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Cloudy && $ActivityPhase == Afternoon)
+{
+    Narrator "Gray light filtered through the trees as I jogged, the sky heavy and unmoving." 
+    Narrator "Leaves rustled in clumps around the trail's edge." 
+    Narrator "Beside me, Mei jogged with surprising ease, hood up, her breath steady in the chill." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Cloudy && $ActivityPhase == Evening)
+{
+    Narrator "Evening crept in early under the thick clouds as I jogged, the path dim despite the still-active lamps." 
+    Narrator "The trees creaked in the wind, leaves scattering across the path." 
+    Narrator "Beside me, Mei jogged with surprising ease, her silhouette shifting between shadows and light." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Rainy && $ActivityPhase == Morning)
+{
+    Narrator "Cold rain fell in steady drops as I jogged along the muddy trail, each step kicking up flecks of wet leaves." 
+    Narrator "The air smelled of pine needles and soaked soil." 
+    Narrator "Beside me, Mei jogged with surprising ease, her flannel clinging damp to her sides." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Rainy && $ActivityPhase == Afternoon)
+{
+    Narrator "Rain spattered against the fallen leaves as I jogged beneath the nearly bare trees." 
+    Narrator "The park was quiet, save for the soft rhythm of water hitting the path." 
+    Narrator "Beside me, Mei jogged with surprising ease, droplets slipping off the brim of her beanie." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Rainy && $ActivityPhase == Evening)
+{
+    Narrator "The rain had become a misty drizzle by evening, fog rolling over the trail as we jogged beneath dim lamp light." 
+    Narrator "Puddles reflected the faded orange glow of the park lights." 
+    Narrator "Beside me, Mei jogged with surprising ease, her footsteps silent in the slick leaves." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Windy && $ActivityPhase == Morning)
+{
+    Narrator "Cold wind pushed through the trees as I jogged along the leaf-covered trail, my eyes squinting against the gusts." 
+    Narrator "Branches creaked and rustled above like whispers." 
+    Narrator "Beside me, Mei jogged with surprising ease, her scarf fluttering behind her." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Windy && $ActivityPhase == Afternoon)
+{
+    Narrator "Wind scattered leaves across the trail in every direction as I jogged beneath the fading golden canopy." 
+    Narrator "Every few steps felt like running through a kaleidoscope of orange and red." 
+    Narrator "Beside me, Mei jogged with surprising ease, her hair whipped sideways in the gusts." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == Windy && $ActivityPhase == Evening)
+{
+    Narrator "Leaves spiraled through the air as the wind picked up beneath the dimming sky, swirling past lamp-lit trails." 
+    Narrator "The breeze tugged at my sleeves and chilled the sweat on my neck." 
+    Narrator "Beside me, Mei jogged with surprising ease, her flannel rippling like a cape." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == SunnyAndCloudy && $ActivityPhase == Morning)
+{
+    Narrator "Patches of sun filtered between drifting clouds as I jogged along the winding trail, frost still clinging to shaded benches." 
+    Narrator "Birdsong echoed faintly beneath the rustling of branches." 
+    Narrator "Beside me, Mei jogged with surprising ease, her breath puffing faintly in the chill." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == SunnyAndCloudy && $ActivityPhase == Afternoon)
+{
+    Narrator "Sunlight drifted in and out of the clouds as I jogged beneath the canopy of red and gold, shadows shifting across the trail." 
+    Narrator "The breeze stirred the trees gently, sending down the occasional flutter of leaves." 
+    Narrator "Beside me, Mei jogged with surprising ease, her gaze focused and steady." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Fall && $Weather == SunnyAndCloudy && $ActivityPhase == Evening)
+{
+    Narrator "As twilight settled, clouds drifted lazily through the darkening sky above the park." 
+    Narrator "The last of the sunlight glinted against the wet leaves and dim lamp glow." 
+    Narrator "Beside me, Mei jogged with surprising ease, her shadow flickering across the pavement beneath the trees." 
+    Narrator "She wore a dark flannel tied over a long-sleeve athletic top, ripped black joggers, and fingerless gloves. Her boots weren’t ideal for running—but they made a statement."
+}
+
+else if ($Season == Winter && $Weather == Sunny && $ActivityPhase == Morning)
+{
+    Narrator "The pale winter sun cast long shadows across the frosty park as I jogged through the frozen stillness." 
+    Narrator "Ice clung to the edges of benches and bark, sparkling faintly beneath the light." 
+    Narrator "Beside me, Mei jogged with surprising ease, her breath rising in soft clouds." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Sunny && $ActivityPhase == Afternoon)
+{
+    Narrator "The low sun gleamed off patches of snow as I jogged along the icy path, careful with every step." 
+    Narrator "Children’s laughter echoed in the distance as they played in what remained of the morning frost." 
+    Narrator "Beside me, Mei jogged with surprising ease, cheeks flushed from the cold." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Sunny && $ActivityPhase == Evening)
+{
+    Narrator "The last orange glow of sunset lit the snow-covered trail as I jogged through the chilled dusk." 
+    Narrator "Lamplight flickered on, casting long beams across the frozen path." 
+    Narrator "Beside me, Mei jogged with surprising ease, her silhouette edged in amber light." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Cloudy && $ActivityPhase == Morning)
+{
+    Narrator "The sky was a dull sheet of gray as I jogged past icy puddles and brittle grass." 
+    Narrator "Everything felt muted beneath the cold light of the cloud cover." 
+    Narrator "Beside me, Mei jogged with surprising ease, her breath fogging the air." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Cloudy && $ActivityPhase == Afternoon)
+{
+    Narrator "The cloudy sky pressed down low over the town as I jogged across slick pavement." 
+    Narrator "Branches hung heavy with old frost, and the scent of chimney smoke lingered." 
+    Narrator "Beside me, Mei jogged with surprising ease, her steps measured and confident." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Cloudy && $ActivityPhase == Evening)
+{
+    Narrator "The wind carried a bitter chill as I jogged through the nearly empty park, the sky above a dull, uniform gray." 
+    Narrator "Frost gathered around the base of lamp posts, glowing faintly under the pale light." 
+    Narrator "Beside me, Mei jogged with surprising ease, her face wrapped in a scarf." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Rainy && $ActivityPhase == Morning)
+{
+    Narrator "Cold rain drizzled steadily as I jogged through the fogged park path, puddles growing slick with icy water." 
+    Narrator "Bare branches swayed above, dripping steadily." 
+    Narrator "Beside me, Mei jogged with surprising ease, rain beading on her hood." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Rainy && $ActivityPhase == Afternoon)
+{
+    Narrator "The rain fell in quiet sheets as I jogged beneath heavy clouds, the path soaked and shimmering." 
+    Narrator "Everything smelled of wet stone and pine." 
+    Narrator "Beside me, Mei jogged with surprising ease, her boots splashing lightly through shallow puddles." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Rainy && $ActivityPhase == Evening)
+{
+    Narrator "Rain pattered on my hood as I jogged past dim streetlights and empty benches." 
+    Narrator "The world was soaked and silent, save for the soft splashes of our footsteps." 
+    Narrator "Beside me, Mei jogged with surprising ease, her scarf pulled tight beneath her chin." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Windy && $ActivityPhase == Morning)
+{
+    Narrator "Cold wind lashed against me as I jogged across the frost-bitten park, cheeks stinging with every gust." 
+    Narrator "The trees groaned above, their bare limbs rattling." 
+    Narrator "Beside me, Mei jogged with surprising ease, scarf wrapped snugly around her face." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Windy && $ActivityPhase == Afternoon)
+{
+    Narrator "The wind never let up as I jogged, leaves tumbling in spirals and snow dust kicked from the edges of the trail." 
+    Narrator "My breath came in quick bursts, the air sharp and dry." 
+    Narrator "Beside me, Mei jogged with surprising ease, unfazed by the chill." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == Windy && $ActivityPhase == Evening)
+{
+    Narrator "Wind roared between the buildings bordering the park, and I jogged with my head low, eyes squinting against the cold." 
+    Narrator "Snowflakes danced sideways across the lamplight." 
+    Narrator "Beside me, Mei jogged with surprising ease, her puffer vest flaring slightly in the wind." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == SunnyAndCloudy && $ActivityPhase == Morning)
+{
+    Narrator "Soft light filtered through pale clouds as I jogged through the frozen path, the world muted and still." 
+    Narrator "Frost lined the benches and playground railings." 
+    Narrator "Beside me, Mei jogged with surprising ease, her breath puffing gently in the cold." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == SunnyAndCloudy && $ActivityPhase == Afternoon)
+{
+    Narrator "The sun drifted behind thin clouds, casting a pale glow across the icy path as I jogged." 
+    Narrator "Children bundled in coats passed by with snowballs in hand." 
+    Narrator "Beside me, Mei jogged with surprising ease, her boots crunching on salt-dusted pavement." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+}
+
+else if ($Season == Winter && $Weather == SunnyAndCloudy && $ActivityPhase == Evening)
+{
+    Narrator "Evening descended slowly beneath streaks of thin cloud, and I jogged past quiet trees glowing under golden lamp halos." 
+    Narrator "The air had the bite of oncoming snow." 
+    Narrator "Beside me, Mei jogged with surprising ease, her beanie pulled low and scarf tucked close." 
+    Narrator "She wore a thick hoodie under a fitted black puffer vest, thermal-lined leggings, and waterproof boots. A knit beanie sat crooked on her head, and her gloves peeked out from her sleeves."
+} 
+
+if ($ActivityPhase == Afternoon) 
+{ 
+    Narrator "Birds flitted between branches, their chirps harmonizing with the steady rhythm of our footsteps and the distant laughter of kids playing nearby."  
+} 
+
+else if ($ActivityPhase == Evening) 
+{  
+    Narrator "Crickets had begun their nightly chorus, their rhythmic chirps blending with the steady beat of our footsteps against the pavement."
+} 
+
+Mei "You know, I don't usually do runs."  
+Narrator "She admitted, throwing me a sideways glance." 
+Mei "But I guess this isn't the worst way to get the blood going." 
+
+if ($PlayerStats.Charisma >= 4)   
+{
+    Narrator "I grinned as I nudged her playfully with my elbow." 
+    Narrator "You're just lucky I didn't turn this into a race." 
+} 
+
+if ($FriendshipStats.Mei >= 10)
+{
+    Narrator "She jogged ahead a few steps, then glanced back with a teasing smirk."
+    Mei "Last one to the bench has to wear mismatched socks for a week." 
+    Mei "And the other gets to pick."
+    Narrator "I barked out a laugh and kicked up my pace. No way was I letting her win that easily."
+}
+
+else if ($FriendshipStats.Mei >= 8)
+{
+    Narrator "She bumped my shoulder lightly as she passed me by."
+    Mei "Careful. Wouldn't want you to pull something trying to keep up."
+    Narrator "I grinned and jogged faster, and she actually laughed."
+}
+
+
+else if ($FriendshipStats.Mei >= 6) 
+{ 
+    Narrator "She rolled her eyes but matched my pace without missing a beat."   
+    Mei "Please. If this was a race, you'd still be catching your breath behind me."  
+    Narrator "We both laughed."  
+} 
+
+else if ($FriendshipStats.Mei >= 4)
+{
+    Narrator "She rolled her eyes, her pace steady."
+    Mei "If you're trying to impress me, you'll need more than that." 
+}
+
+
+else if ($FriendshipStats.Mei >= 2) 
+{
+    Narrator "She rolled her eyes, gaze fixed ahead." 
+    Mei "If you say so." 
+} 
+
+else if ($FriendshipStats.Mei < 2)
+{
+    Narrator "She gave me a side glance, and kept jogging without missing a step."
+    Mei "Ha." 
+}
+
+Narrator "By the time we slowed to a walk near the far end of the park, a satisfying ache settled into my legs."  
+Narrator "Mei stretched her arms overhead with a groan, letting the light breeze brush past her." 
+
+
+if ($FriendshipStats.Mei >= 10)
+{
+    Mei "OK, new plan - you buy me new music, and I pretend I'm impressed by your stamina. Win-win."  
+    Narrator "I laughed, still catching my breath."  
+    Narrator "Deal." 
+    Narrator "But you'd better sell the act convincingly."
+}
+
+else if ($FriendshipStats.Mei >= 8)
+{
+    Mei "All right, I'll admit it - that was a little fun." 
+    Mei "But not an activity that I would frequently want to do."
+    Narrator "I grinned, wiping sweat from my brow." 
+}
+
+else if ($FriendshipStats.Mei >= 6) 
+{ 
+    Mei "OK, maybe I'll regret this later... Or maybe I'll guilt you into getting me free tea from your shop."  
+    Narrator "I smiled, wiping sweat from my brow, my heartbeat steadying."  
+    Narrator "Sure." 
+} 
+
+else if ($FriendshipStats.Mei >= 4)
+{
+    Mei "Not bad. I expected it to be more difficult." 
+    Narrator "At least we survived." 
+    Narrator "I started massaging my calves." 
+} 
+
+else if ($FriendshipStats.Mei >= 2)
+{
+    Mei "Well... That was something."
+    Narrator "I wiped the sweat from my brow, catching my breath."
+    Narrator "Yeah. Definitely." 
+} 
+
+else if ($FriendshipStats.Mei < 2)
+{
+    Mei "Never. Want. To do this. Again." 
+    Narrator "She said while trying to catch her breath."
+    Narrator "I wiped the sweat from my brow, trying to catch my breath too." 
+} 
+
+Narrator "Despite the aches, I felt stronger."  
+PlaySFX(OnePoint -v 1) 
+IncreaseEndurance(-st 1)    
+Narrator "Like my Endurance had just improved." 
+PlaySFX(ThreePoints -v 1) 
+IncreaseFriendshipA(-fr 3) 
+Narrator "And maybe... Something else had become stronger, too."  
+
+HideGalleryImage()  
+HideDB(-spd 1)  
+wait(0.75)  
+ClearLayerMedia(background), wait(1)  
+StopSong(), StopAmbience()  
+wait(1)  
+Load(ParkLocation -enqueue true)  

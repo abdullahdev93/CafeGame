@@ -1,0 +1,28 @@
+SetLayerMedia(background Park)  
+
+Narrator "The warm afternoon air filled my lungs as I jogged along the winding path through the town's local park, my breath steady and controlled."
+Narrator "The sun hung low in the sky, casting a golden glow over the trees and stretching our shadows along the pavement."
+Narrator "Birds flitted between branches, their chirps mixing with the steady rhythm of our footsteps and the distant laughter of kids playing nearby."
+Narrator "Beside me, Simon jogged with an awkward but determined pace, his arms a little stiff, his breath coming in uneven spurts."
+Simon "Y-you know, I d-don't usually... D-do this."
+Narrator "He admitted between breaths, shooting me a nervous glance."
+Simon "But, uh... I g-guess this... Is fine? M-maybe?"
+Narrator "I smirked, picking up my pace slightly."
+Narrator "It's not too late to back out."
+Narrator "Simon let out a breathy chuckle - part amusement, part exhaustion."
+Simon "N-no way. I w-will finish this... Even if I c-collapse dramatically at the end."
+Narrator "A light breeze stirred the scent of fresh grass and sun-warmed pavement."
+Narrator "By the time we slowed to a walk near the far end of the park, a satisfying ache settled in my legs."
+Narrator "Simon bent over, hands on his knees, gasping for breath."
+Simon "O-okay, maybe... Maybe n-next time... We c-can do, uh, l-less... Running?"
+Narrator "I laughed, wiping the sweat from my forehead as my heartbeat gradually returned to normal."
+Narrator "Despite the fatigue and aches, I felt stronger, faster."
+Narrator "Like my Endurance had just improved."
+
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+Load(ParkLocation -enqueue true)  

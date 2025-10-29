@@ -1,0 +1,40 @@
+SetLayerMedia(background MovieAuditorium) 
+
+Narrator "The scene opens in a small, cluttered studio. The walls are lined with half-finished canvases and sketches scattered across the floor. Our artist, a young visionary with paint-streaked hands, sits at an easel, staring blankly at a blank canvas." 
+Narrator "The brush in her hand hovers uncertainly. The sound of ticking fills the room, each second amplifying the pressure she feels." 
+Narrator "The artist bites her lip, nervous, as she attempt a few brushstrokes. She pauses, staring at the work, her frustration growing." 
+Narrator "She tosses the brush aside and crumples a piece of paper, the fear of failure overwhelming her desire to create." 
+Narrator "In her mind, she sees the path of success slowly slipping away - art galleries she'll never get into, masterpieces she'll never complete." 
+Narrator "Bills pile up on the table nearby, a harsh reminder of the real-world pressures." 
+Narrator "The artist's confidence fades with every passing moment." 
+Narrator "Later in the movie, it cuts to the artist standing in front of a window at night, the city lights twinkling in the distance." 
+Narrator "A soft sigh escapes her lips as she looks out into the world, feeling small in the face of her creative struggle." 
+Narrator "Suddenly, the camera zooms into her reflection in the window, distorting into a vibrant explosion of colors and shapes, representing the imaginative world trapped inside them." 
+Narrator "At the start, she was afraid of making mistakes or not being good enough, but once she embraced her creativity, she could literally transform her world."
+Narrator "The scene transitions into a surreal, dreamlike sequence. The artist now floats in a world of swirling colors, where her brushstrokes paint the skies and her ideas reshape the very landscape around her." 
+Narrator "The artist sees her once-feared mistakes turn into abstract, breathtaking beauty." 
+Narrator "The artist stands in front of a small group of people at a gallery. Her painting hangs proudly behind her, bold and full of life. The audience is captivated, not just by the artwork, but by the story behind it." 
+Narrator "The artist speaks, her voice filled with newfound confidence." 
+Narrator "It cuts to shots of the audience members, each one reflecting on their own creative blocks and personal struggles." 
+Narrator "The artist's journey resonates deeply with them, inspiring them to see their own limitations in a different light. It's no longer about what they can't do, but what they can do, if they just trust themselves." 
+DisableSkip() 
+Narrator "The final shot is of the artist back at her easel, but this time, the hesitation is gone. The canvas is blank again, but the artist smiles, knowing that it's not an obstacle anymore - it's an opportunity." 
+HideGalleryImage()
+HideDB(-spd 1)
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1) 
+SetLayerMedia(background Movies) 
+EnableSkip()   
+Narrator "I think what hit me the most was how the artist had to learn to trust their creative instincts." 
+Narrator "At the start, they were afraid of making mistakes or not being good enough, but once they embraced their creativity, they could literally transform their world." 
+Narrator "Creativity isn't just for artists or writers; it's something we all have, and if we let it guide us, we can find solutions to problems that logic alone can't solve."
+PlaySFX(OnePoint -v 1)  
+IncreaseCreativity(-st 1) 
+Narrator "It's such a powerful message - that sometimes the only limits we have are the ones we put on ourselves."
+PlaySFX(OnePoint -v 1)   
+IncreaseConfidence(-st 1) 
+DisableSkip()   
+AdvanceDay() 
+Load(MoviesFile -enqueue true)   

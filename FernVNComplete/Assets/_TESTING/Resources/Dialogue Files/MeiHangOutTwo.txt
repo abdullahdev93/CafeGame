@@ -1,0 +1,215 @@
+SetLayerMedia(background Library)      
+
+PhoneEnabled(false)    
+
+wait(1) 
+
+EnableSkip() 
+Narrator "As I made my way to the library, I contemplated on which genres would be best to read." 
+Narrator "If Mei is working there today, she could give me great recommendations." 
+Narrator "The moment I stepped inside, the scent of old pages and wood polish greeted me." 
+Narrator "The air felt calm, almost sacred - the kind of quiet that makes you lower your voice without even thinking about it."
+Narrator "One of the librarians looked up from the front desk and offered me a gentle smile before leaning forward slightly." 
+Narrator "She whispered to me." 
+Librarian "Greetings! Welcome to Whispering Pages. Looking for anything in particular?" 
+FirstName "Hello." 
+FirstName "Actually... is Mei working here today?" 
+CreateCharacter(Mei) 
+Librarian "Why, yes, she is. May I ask who you are?" 
+FirstName "I'm a friend. She stops by my café frequently." 
+Librarian "Ah, you must be $PlayerStats.FirstName - the owner of Bean Bliss." 
+Librarian "Mei talks about your café." 
+Librarian "She says it's her favorite place to unwind after work." 
+Narrator "I blushed, feeling a little honored." 
+Narrator "The librarian smiled and reached for her small radio." 
+Narrator "After a soft buzz of static, she spoke quietly into it, asking where Mei was." 
+
+Librarian "She's in the Horror section right now, organizing the shelves." 
+Librarian "It's upstairs, between Fantasy and Romance." 
+FirstName "Thank you." 
+Narrator "As I climbed the stairs to the Horror section, the faint creak of wood echoed under my steps along with the quiet hum of the air conditioner and the subtle rustle of turning pages." 
+Narrator "I then saw her between towering shelves, diligently organizing books from a cart." 
+Narrator "She turned, brushing a strand of hair from her face, and when she saw me, her face lit up with a smile as I approached." 
+
+Mei.Show() 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+Mei "Hey there!" 
+Narrator "She whispered loudly, her voice playful but still mindful of the fact that she's in a library."  
+Mei "What brings you here today?" 
+FirstName "Just browsing. Thought I'd see if you had any good recommendations."  
+Mei.SetSprite("Mei_Thinking,Mei_Think" -spd 1) 
+Mei "Hmm... what genres?" 
+
+choice "..." 
+{ 
+	-Surprise Me 
+		FirstName "Surprise me." 
+		Mei.SetSprite("Mei_Leaning,Mei_Happy_Tilted" -spd 1) 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseConfidence(-st 1)   
+		Narrator "Her eyes lit up with excitement." 
+		Mei "I'll be right back." 
+		Mei.Move(1.5 -spd 4.0) 
+		Narrator "She walked around the section, her movements quick and sure, like she already knew exactly where to look." 
+		Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+		Narrator "A moment later, she returned with a small stack of books — Dark Fantasy, Gothic literature, and a few Young Adult novels with well-worn spines."  
+		Mei.SetSprite("Mei_Hand_Out,Mei_Happy_Tilted" -spd 1) 
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipA(-fr 3) 
+		Mei "Here! These should keep you busy for a while."  
+		Narrator "As she spoke, she shared bits of trivia about each author, how certain passages made her cry, and which ones she rereads every fall."  
+
+	-Any 
+		FirstName "Any." 
+		Mei.SetSprite("Mei_Leaning,Mei_Excited_Tilted" -spd 1) 
+		Mei "Hmm... Well, I need to have an idea of what you like."
+		FirstName "I like all types of stories." 
+		PlaySFX(OnePoint -v 1)   
+		IncreasePatience(-st 1) 
+		Mei.SetSprite("Mei_Leaning,Mei_Annoyed_Tilted" -spd 1) 
+		Mei "I'll be right back." 
+		Mei.Move(1.5 -spd 4.0) 
+		Narrator "She walked around the section, her movements slow and uncertain, like she was trying to find good options." 
+		Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+		Narrator "A moment later, she returned with a small stack of books — Dark Fantasy, Gothic literature, and a few Young Adult novels with well-worn spines." 
+		Narrator "She even took a few books from the cart." 
+		Mei.SetSprite("Mei_Hand_Out,Mei_Neutral_Tilted" -spd 1) 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseFriendshipA(-fr 1) 
+		Mei "I think you'll like these. They'll keep you busy for a while." 
+		
+	-... 
+		Narrator "I shrugged." 
+
+}
+  
+Mei.SetSprite("Mei_Hip,Mei_Sad" -spd 1) 
+Narrator "She tucked a loose strand of hair behind her ear, her voice softening." 
+Narrator "Her gaze wandered over the rows of books."
+Mei "You know... I love libraries." 
+Mei "But people give them so much crap these days."  
+Mei "\"Libraries are dead, everything's digital now.\"" 
+Mei "\"Nobody likes physical books anymore.\""
+Mei "\"Why go to the library if you could just search everything online.\"" 
+Mei.SetSprite("Mei_Cross,Mei_Annoyed" -spd 1) 
+Mei "Bullshit." 
+Mei "There are benefits to going to the library. They're quiet, peaceful... a safe space for anyone who needs it." 
+Mei "They give people access to knowledge, even for those that can't afford fancy devices, internet, or subscriptions."  
+Mei "And there are a lot of people that prefer physical books." 
+Mei "And the community here-"  
+Narrator "She gestured around the area."  
+Mei "-it's real." 
+Mei "You see faces, smiles, hear laughter between the shelves." 
+Mei "You don't get that scrolling through a screen."  
+
+choice "..." 
+{
+	-You're Right, Libraries Are Underrated 
+		FirstName "You're right, libraries aren't given enough credit." 
+		FirstName "They're not just quiet places to borrow books - they're spaces where people can connect, share ideas, spark passions, and find inspiration." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCreativity(-st 1)        
+		FirstName "Each shelf holds a piece of humanity's imagination, just waiting to be rediscovered." 
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipA(-fr 3) 
+		Mei.SetSprite("Mei_Cross,Mei_Excited" -spd 1) 
+		Mei "Thank you! I'm glad someone gets it." 
+		Mei "There's something magical about being surrounded by so many stories - every book is a doorway into world of adventure or a new way of thinking." 
+		Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1) 
+		Mei "Libraries have always been a safe haven for me when things got rough at home." 
+		Mei "I'd sit between the shelves for hours, pretending the stories were pieces of a different life I could live." 
+		Mei "Books just bring people together." 
+		Mei.SetSprite("Mei_Hand_Out,Mei_Happy_Tilted" -spd 1) 
+		Mei "Like how this brought us together." 
+		Narrator "Mei passes me a book." 
+		Narrator "It's the same book that she was reading at the café the first time we met." 
+		Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1) 
+		Mei "We did meet because I was a reading this book at your café."
+		FirstName "I'm looking forward to reading this." 
+		FirstName "You know, let's hang out somewhere. It'd be nice to hang out somewhere outside of our workplaces." 
+		Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1) 
+		Mei "I would like that." 
+
+	-Digital is Better 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseIntelligence(-st 1)   
+		FirstName "I get what you're saying - libraries are cool and all - but you can't deny that digital is better."  
+		FirstName "Digital has its perks - you can carry an entire library in your pocket and read all the stories you want." 
+		FirstName "On any device. Anywhere, anytime."
+		PlaySFX(OnePoint -v 1) 
+		IncreaseFriendshipA(-fr 1) 
+		Mei.SetSprite("Mei_Cross,Mei_Determined" -spd 1) 
+		Mei "Yes, digital is convenient, but it's not the same." 
+		FirstName "How so?" 
+		Mei.SetSprite("Mei_Cross,Mei_Neutral" -spd 1) 
+		Mei "For starters, physical books don't need charging battery life, unlike devices." 
+		Mei "And a real book can be easily shared, borrowed, or donated, which is nearly impossible with digital books."  
+		Mei "And there's just something about holding a book — the texture, the smell of the pages — it just hits different." 
+		Mei "Books aren't just about stories, they're about connection." 
+		Mei "Books are meant to be shared, discussed, loved — something digital formats can never quite capture." 
+		Mei "They're also easier on the eyes." 
+		FirstName "Fair points." 
+		Mei "Real books just bring people together." 
+		Mei.SetSprite("Mei_Hand_Out,Mei_Happy_Tilted" -spd 1) 
+		Mei "Like how this brought us together." 
+		Narrator "Mei passes me a book." 
+		Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1) 
+		Mei "We did meet because I was a reading this book at your café."
+		Narrator "It's the same book that she was reading at the café the first time we met." 
+		FirstName "I'm looking forward to reading these books." 
+		FirstName "You know, let's hang out somewhere. It'd be nice to hang out somewhere outside of our workplaces." 
+		Mei "I would like that." 
+	
+	-I'm not much of a Reader 
+		FirstName "Honestly... I'm not into reading books. I'm not much of a reader." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCourage(-st 1) 
+		Mei.SetSprite("Mei_Cross,Mei_Sad" -spd 1) 
+		Mei "At least you're honest." 
+		Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1) 
+		Mei "Still, I'm glad you're giving it a shot." 
+		Mei "Reading helps more than people realize - it can calm your mind, spark ideas, even change your perspective on some things." 
+		Mei "It improves your well-being." 
+		Mei "And real books just bring people together." 
+		PlaySFX(TwoPoints -v 1) 
+		IncreaseFriendshipA(-fr 2) 
+		Mei.SetSprite("Mei_Hand_Out,Mei_Happy_Tilted" -spd 1) 
+		Mei "Like how this brought us together." 
+		Narrator "Mei passes me a book." 
+		Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1) 
+		Mei "We did meet because I was a reading this book at your café."
+		Mei "Give it a try. It might surprise you." 
+		Narrator "It's the same book that she was reading at the café the first time we met." 
+		FirstName "All right, I'll give it a chance." 
+		FirstName "You know, let's hang out somewhere. It'd be nice to hang out somewhere outside of our workplaces." 
+		Mei "Sure. I'd like that." 
+} 
+
+Narrator "As our conversation began to wind down, Mei's eyes drifted toward the ceiling, as though tracing a thought that floated somewhere beyond the shelves and rows of books."
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1)
+Mei "You know, stories are like songs." 
+FirstName "Yeah?" 
+Mei "Yeah. Each story has its own rhythm, its own way of reaching people."
+FirstName "You sound like someone who's thought about that a lot."
+Mei "Maybe because I want to do the same - with music." 
+Mei "Writing lyrics, creating melodies..." 
+FirstName "An aspiring songwriter, huh? That's pretty cool." 
+Narrator "Her smile widened, shy but proud."
+Mei "If you want, you could come to my place to watch me rehearse with my band." 
+FirstName "Wait, you're in a band?" 
+Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1) 
+Mei "Hell yeah, I am."
+Mei "We're a rock band." 
+Mei "Still small, still local... but one day, we're going to be blow up."
+Narrator "Her eyes lit up with a spark of pride." 
+FirstName "That sounds cool." 
+FirstName "Sure, I can stop by and watch your rehearsal." 
+Mei.SetSprite("Mei_Hip,Mei_Neutral" -spd 1) 
+Mei "Awesome." 
+Mei "I'll give you a heads-up next time we rehearse." 
+Mei "Don't flake on me, OK?"  
+DisableSkip() 
+Mei "It'd be awesome to have you there." 
+
+DisplayRankUpPage(-cn Mei)  
+HideDB(-spd 1) 

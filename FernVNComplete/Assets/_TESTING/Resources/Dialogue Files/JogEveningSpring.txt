@@ -1,0 +1,25 @@
+SetLayerMedia(background Park) 
+
+choice ".." 
+{
+	-Invite Someone 
+		ShowFriendInvites() 
+
+	-Run Alone 
+		Narrator "The cool evening air filled my lungs as I jogged along the winding path through the town's local park, my breath steady and controlled."
+		Narrator "The setting sun painted the sky in streaks of orange and pink, casting a soft glow over the gently swaying trees."
+		Narrator "Crickets had begun their nightly chorus, their chirps blending with the rhythmic sound of my footsteps against the pavement."
+		Narrator "A light breeze drifted through the park, carrying the faint scent of blooming flowers and the lingering warmth of the sunbaked earth."
+		Narrator "By the time I slowed to a walk near the far end of the park, a satisfying ache settled in my legs."
+		Narrator "I wiped the sweat from my forehead as my heartbeat gradually steadied, the first stars beginning to flicker in the sky."
+		Narrator "Despite the fatigue and aches, I felt stronger, faster."
+		Narrator "Like my Endurance had just improved." 
+}
+
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+Load(ParkLocation -enqueue true)  

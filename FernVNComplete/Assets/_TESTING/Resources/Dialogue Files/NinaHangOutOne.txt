@@ -1,0 +1,82 @@
+SetLayerMedia(background Bar)         
+
+Narrator "Later that night, the conversation between Nina and I had softened as we finished our last drinks." 
+Narrator "I noticed that Nina was a little buzzed, her steps slightly uneven as she stood from the bar stool." 
+Narrator "You good?" 
+Narrator "I stood beside her in case she fell." 
+Nina "Yeah, I'm fine." 
+Narrator "There was a slight slur in her words." 
+Nina "Guess I had a little more than I realized." 
+Narrator "Noticing the late hour and the way she swayed just a bit, I decided to..." 
+
+choice "..."  
+{ 
+	-Walk Her Home 
+		Narrator "Come on, I'll walk you home." 
+		Narrator "Nina hesitated for a moment but nodded." 
+		Nina "All right. I'm not far." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1)  
+		Load(NinaWalkHome -enqueue true)  
+		
+
+	-Call Her a Rideshare 
+		Narrator "I'll call you a Drift." 
+		Nina "That's fine. Yeah." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1)  
+		SetLayerMedia(background BaywoodSpringsNight)    
+		Narrator "I ordered a Drift and stayed by her side, waiting for the driver." 
+		Nina "Thanks... for tonight. I didn't really expect to talk to anyone, let alone... Everything else."  
+		Narrator "She glanced at me, her lips curving into a small, sincere smile." 
+		Narrator "Same." 
+		Narrator "I leaned against a lamppost." 
+		Narrator "But I'm glad we did. You're easy to talk to." 
+		Narrator "Nina gave a half-laugh." 
+		Nina "Not sure about that. I usually just ramble about art and life..." 
+		Nina "I'm a bit of a mess." 
+		Narrator "Well, it's better than being a pretender." 
+		Narrator "It's refreshing to hear someone speak very honestly." 
+		Narrator "Plus, everyone's got their messes... Shit, even I'm little bit of a mess, I'm just good at keeping it hidden." 
+		Nina "Guess that's true." 
+		Narrator "She paused, then her voice lowered a little." 
+		Nina "You know, it's weird. I thought I would feel more... Awkward after everything, but this just feels... Natural." 
+		Narrator "I have been told that I'm easy to talk to."  
+		Narrator "I glanced down at my phone, checking the location of her Drift driver before turning back to her." 
+		Narrator "By the way, do you use Picstagram? I would like to see some of your art... And, well, stay in touch." 
+		Narrator "Nina blinked in surprise." 
+		Nina "Yeah, I have one." 
+		Nina "But I warn you - most of my posts are just pictures of half-finished paintings and my cat." 
+		Narrator "Sounds like the best kind of content." 
+		Narrator "She laughed." 
+		Narrator "Nina pulled out her phone and opened the app, her thumb scrolling for a moment before she showed me her profile." 
+		Narrator "After the exchange, the notification for the Drift ride popped up on my screen." 
+		Narrator "Looks like your driver's almost here." 
+		Narrator "Nina sighed, glancing down the street." 
+		Nina "Well, I guess this is it... For tonight."  
+		Narrator "As the car pulled up, I walked her to the door and opened it for her." 
+		Narrator "She gave me one last smile before sliding into the backseat." 
+		Narrator "Before, I knew it, the car faded into the darkness of the night." 
+		Narrator "I started to walk back to the apartment." 
+		Narrator "As I walked home, I couldn't help think about my time with Nina. There was something about her raw honesty. I like feel like she's someone on the edge of something." 
+		Narrator "She's not just another artist. She's has a talent - a talent to turn pain into beauty, even if she hasn't fully realized yet." 
+		Narrator "Whatever it was, she was a fighter, even if she didn't know it yet." 
+		Narrator "Another thought came to mind - I probably should have gotten a ride for myself."  
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		UIHide()
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1)  
+		AdvanceDay() 
+		Load(ApartmentStart -enqueue true) 
+} 

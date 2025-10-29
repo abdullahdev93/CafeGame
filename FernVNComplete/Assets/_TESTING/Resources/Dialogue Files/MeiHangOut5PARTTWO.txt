@@ -1,0 +1,28 @@
+Mei.Hide() 
+ClearLayerMedia(background Mei_Living_Room) 
+HideDB(-spd 1) 
+wait(1)         
+
+PhoneEnabled(false) 
+
+EnableSkip()
+Narrator "As I turned the corner, the town lights of Baywood Springs glowed softly ahead."
+Narrator "For the first time in a while, I found myself thinking about my parents - not with anger, but with something else." 
+Narrator "Maybe Mei was right about finding light in the darkness." 
+Narrator "Maybe I'd been holding onto shadows for too long."
+Narrator "Mei had a difficult childhood, yet somehow she still managed to find peace with her mom." 
+Narrator "If she can do it - and she had it worse than me - maybe I can, too."
+Narrator "Maybe I could try too - not to forget, but to forgive." 
+DisableSkip() 
+Narrator "The thought lingered as I drove, the rhythm of the engine blending with the soft hum of the wind." 
+
+MeiHangOutFiveComplete()     
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+AdvanceDay() 
+Load(ApartmentStart -enqueue true) 

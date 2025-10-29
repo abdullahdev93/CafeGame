@@ -1,0 +1,51 @@
+SetLayerMedia(background Bar)
+
+Narrator "...An Espresso Martini."  
+Bartender "Good choice." 
+Bartender "One Espresso Martini coming up."  
+Mei "I'll take a glass of red wine."  
+Bartender "You got it."  
+
+Narrator "As the bartender moved to prepare our drinks, I leaned casually against the counter, catching Mei's eye with a grin."  
+Narrator "Going with the usual, huh?"  
+Mei "She rested her elbow on the counter, giving me a dry look."  
+Mei "Hey, it's the safest choice."  
+Mei "For me, that is." 
+Mei "I don't want to make the same mistakes twice." 
+Narrator "Tequila-related mistakes?"  
+Mei "She pointed at me."  
+Mei "One bad night with tequila and you start making choices your sober self wouldn't even text back."  
+Narrator "That's... Oddly specific."  
+Mei "She shook her head, smirking."  
+Mei "Like I said - wine is safer for me and for everyone around me." 
+Narrator "All right then." 
+
+Narrator "The bartender slid our drinks over with practiced ease."  
+Narrator "I picked up the Espresso Martini, admiring the glossy crema on top before taking a sip."  
+Narrator "Smooth, rich, just the right balance of coffee and kick - it was the kind of drink that made you feel sharper with every taste."  
+Narrator "Mei swirled her wine and took a sip with a satisfied sigh."  
+Mei "Now this is a drink."  
+Narrator "I chuckled and raised my glass slightly."  
+Narrator "You know, I didn't peg you for a Red Wine enthusiast."  
+Mei "She smiled, her tone light."  
+Mei "I like the flavor." 
+Mei "And I like someone who doesn't make me feel judged when I order it."  
+Narrator "She smiled." 
+Narrator "I took another sip, the Espresso Martini settling warm and velvety."  
+Narrator "Honestly? I get the appeal. I just want something warm today."  
+Narrator "Mei's expression softened, just for a second."  
+Mei "Glad someone finally does."  
+
+Narrator "The bar buzzed softly with conversation and country music, a mellow backdrop to our back-and-forth."  
+Narrator "We talked - about little things, strange memories, even things we didn't always share with others."  
+Narrator "Time blurred as our drinks slowly emptied, our laughter blending into the rhythm of the evening."  
+Narrator "Eventually, as the energy in the room began to fade, we exchanged a glance over our near-empty glasses."  
+Narrator "With quiet smiles, we knew it was time to call it a night." 
+
+HideGalleryImage()  
+HideDB(-spd 1)  
+wait(0.75)  
+ClearLayerMedia(background), wait(1)  
+StopSong(), StopAmbience()  
+wait(1)  
+LoadScene(Bar -enqueue true)

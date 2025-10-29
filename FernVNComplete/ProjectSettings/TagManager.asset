@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SkipButton
+  - BlueberrySmoothie
+  - CoffeeMachine
+  - StrawberrySmoothie
+  - BananaSmoothie
+  - SeasonDayText
+  - Blueberries
+  - Strawberries
+  - Bananas
+  - CoffeeBeans
+  - CupOfCoffee
+  - WhippedCoffee
+  - CupStack
+  - EmptyCup
+  - SprinkleShaker
+  - WhipCream
+  - EarningsText
+  - CustomersServed
+  - CustomersNotServed
+  - MoneyFromPrices
+  - MoneyFromTips
+  - TotalMoney
+  - FastestTimeServed
+  - SlowestTimeServed
+  - ExitTheCafeGame
+  - PlayerStats
+  - SpawnManager
+  - ActivityText
+  - StartingHour
+  - HourOne
+  - HourTwo
+  - HourThree
+  - HourFour
+  - HourFive
+  - HourSix
+  - WeatherIcon
+  - AllMoney
+  - EndGameMenu
+  - DayOfWeekText
+  - CalendarTemplate
+  - CalendarMockTemplate
+  - PersonalityTraits
+  - Likes
+  - Dislikes
+  - Hobbies
+  - Insecurities
+  - RandomObservations
+  - GuiltyPleasures
+  - DisplayText
+  - DisplayTextBox
+  - TemperatureText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - UI - Live2D
+  - UI - Model3D
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

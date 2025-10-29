@@ -1,0 +1,163 @@
+SetLayerMedia(background Cafe_Background_A)
+PlaySong(Veil -v 0.4 -loop true)
+PlayAmbience(CafeAmbience -v 0.4) 
+FirstTimeMeetingMei(true) 
+
+Narrator "As I continuously served coffee and treats to various patrons, I found myself lost in the comforting aroma of freshly brewed coffee and freshly baked goods."
+
+Narrator "Today was going well. The café was filled with the gentle hum of conversations while soft and smooth jazzical music played."
+Narrator "Some new faces and some familiar faces, but there was one face that stood out - a person I have seen before countless times." 
+Narrator "They always sat alone at a table near the counter, engrossed in a book while sipping tea." 
+Narrator "Intrigued by their serene and mysterious presence, I decided to take a fifteen-minute break when things got slow to strike up a conversation." 
+Narrator "Still in uniform and with a friendly smile, I approached their table." 
+DisableSkip() 
+
+HideDB(-spd 1) 
+StopSong(), StopAmbience() 
+DisableInteractionBeforeCutscene(5) 
+PlayCutscene(-cs "MeiFirstEncounter") 
+UnlockCutscene(MeiFirstEncounter) 
+PlaySong(Veil -v 0.4 -loop true)
+PlayAmbience(CafeAmbience -v 0.4)  
+
+Narrator "What Should I Do?" 
+
+DisplayUITip("Social Stats increase based on your choice of interaction.")
+
+CreateCharacter(Mei)
+
+choice "..." 
+{
+	-Greet Them
+		HideUITip() 
+		ShowMC() 
+		EnableSkip() 
+		FirstName "Hello, there."
+		FirstName "The vibe in here must make that book more captivating."
+		FirstName "I noticed that you have been reading the same book in here lately. Is it good enough to keep you away from the world outside?"
+		PlaySFX(OnePoint -v 1)
+		IncreaseCharisma(-st 1) 
+		Narrator "They looked up, surprised but not unwelcoming." 
+		Mei.Show() 
+		Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+		PlaySFX(ThreePoints -v 1)
+		IncreaseFriendshipA(-fr 3)   
+		Mei as Familiar Person "Yes, it's quite captivating." 
+		Mei as Familar Person "I love coming in here to chill for a few hours on my days off."
+		Mei as Familar Person "It's a nice café. Do your parents own it?"
+
+	-Ask How They Are
+		HideUITip() 
+		ShowMC() 
+		EnableSkip()  
+		FirstName "Hello, there. Satisfied? Anything you need? Enjoying your book with the ambience?"
+		PlaySFX(OnePoint -v 1)
+		IncreaseKindness(-st 1) 
+		Narrator "They looked up, surprised but not unwelcoming."
+		Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+		Mei.Show()
+		PlaySFX(TwoPoints -v 1)
+		IncreaseFriendshipA(-fr 2) 
+		Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1)
+		Mei as Familiar Person "Yes, I am."
+		Mei as Familar Person "I'm OK at the moment."
+		Mei as Familar Person "It's a charming café. I love coming in here to chill for a few hours on my days off. Are your parents the owners?"
+} 
+
+EnableSkip() 
+FirstName "It's mine. I recently moved here." 
+Mei.SetSprite("Mei_Cross,Mei_Neutral" -spd 1)
+Mei as Familiar Person "That's impressive." 
+Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1)
+Mei as Familar Person "I'm glad we finally have a good coffee shop here. It gives me more reasons to stay." 
+FirstName "It's a nice town. Are you a local?" 
+Mei as Familar Person "I lived here for all my life. I love Baywood Springs." 
+Mei as Familiar Person "There's so much to do here." 
+Mei as Familar Person "Not to mention all the fairs and special events that we have each year."
+
+FirstTimeMeetingMei(false) 
+FirstName "Sounds like there's always something happening."  
+FirstName "I'm $PlayerStats.FirstName." 
+Mei.SetSprite("Mei_Hip,Mei_Excited" -spd 1)
+Mei "I'm Mei."
+
+FirstName "Pleasure's mine." 
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1)
+Narrator "I said as I pulled the extra chair and sat with her."  
+FirstName "I'm already falling for this place." 
+FirstName "Good scenery, a café on the oceanside, vibrant trees... What's not to like?" 
+
+Mei.SetSprite("Mei_Straight,Mei_Laughing" -spd 1)
+Mei "Exactly!" 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1)
+Mei "And the people here can be pretty interesting, too." 
+
+FirstName "Do you work around here?"   
+Mei.SetSprite("Mei_Straight,Mei_Mischievous" -spd 1)
+Mei "Yeah, I'm a librarian at Whispering Pages."
+Mei "I love books. I can get lost in them for hours." 
+
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1)
+FirstName "So that explains the book. What are you reading?" 
+FirstName "If you don't mind me asking."  
+Mei.SetSprite("Mei_Cross,Mei_Laughing" -spd 1) 
+DisableSkip()  
+Mei "It's a horror novel. Psychological stuff. Makes you question what's real." 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1)
+
+choice "..." 
+{ 
+	-I Like That 
+		FirstName "I like that. Stories that mess with your head a little." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseCharisma(-st 1) 
+		Mei.SetSprite("Mei_Cross,Mei_Teasing" -spd 1)
+		Mei "Same here. They make you think. They linger." 
+		PlaySFX(ThreePoints -v 1)
+		IncreaseFriendshipA(-fr 3) 
+		Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1)
+		Narrator "She smiled and sat her tea down." 
+		
+	-Doesn't Sound Like My Cup of Tea 
+		FirstName "Doesn't sound like my cup of tea." 
+		FirstName "I'm not a big fan of horror." 
+		Mei.SetSprite("Mei_Straight,Mei_Sad" -spd 1) 
+		FirstName "Especially things that mess with your head." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseCourage(-st 1) 
+		FirstName "But that's just me." 
+		PlaySFX(TwoPoints -v 1)
+		IncreaseFriendshipA(-fr 2)  
+		Mei "It's not for everyone." 
+		Narrator "She sat her tea down."
+} 
+
+EnableSkip() 
+Mei.SetSprite("Mei_Thinking,Mei_Think" -spd 1) 
+Mei "What made you want to come here?" 
+FirstName "I wanted something new. Something more." 
+Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1)
+Mei "Fresh start, huh? I respect that." 
+Mei.SetSprite("Mei_Leaning,Mei_Mischievous_Tilted" -spd 1)
+Mei "You know, being new here, you must be feeling a bit lost." 
+Mei "But I know all the cool spots, hidden gems, local hangouts." 
+Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1) 
+Mei "How about I show you around sometime? I can give you one of my socials." 
+FirstName "That would be awesome. I'd really appreciate that." 
+Mei.SetSprite("Mei_Hip,Mei_Laughing" -spd 1)
+Narrator "We exchanged info, and somehow, the conversation kept flowing." 
+Narrator "Then suddenly, a chime from the counter reminded me that break time was over." 
+Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1)
+Narrator "I stood up reluctantly." 
+FirstName "Duty calls." 
+FirstName "But I'll catch you later, Mei." 
+Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1)
+Narrator "She nodded and smiled." 
+Mei.Move(1.5 -spd 4.0) 
+Narrator "As I walked back to the counter, a smile tugged at my lips." 
+Mei.Hide() 
+DisableSkip()   
+Narrator "Just like that, I made a new friend today." 
+DisableSkip() 
+HideDB(-spd 1) 
+DisplayRankUpPage(-cn Mei) 

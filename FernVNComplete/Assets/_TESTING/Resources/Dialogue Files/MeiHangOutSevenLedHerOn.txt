@@ -1,0 +1,136 @@
+SetLayerMedia(background Campsite)        
+PhoneEnabled(false) 
+
+Narrator "We hiked back to the campsite; the golden hues of the setting sun painted the Oregon forest." 
+Narrator "The campfire crackled merrily, casting dancing shadows on our faces as we roasted marshmallows and ate crunchy trail mix, while sharing stories and laughs, all under the vast starlit sky." 
+Narrator "A night in the Oregon forest was magical." 
+Narrator "The air was filled with the earthy scents of pine and cedar wafting through the air, carried on by gentle evening breezes." 
+Narrator "Gradually, Mei slowly returned to her joyful self. As we sat by the campfire, we occasionally glanced up at the twinkling stars above." 
+Mei "[Player Name], thanks. For earlier."  
+Narrator "Anything for you..." 
+
+choice "..." 
+{ 
+	-You're My Best Friend 
+		Narrator "You're my best friend. I'll always be there for you." 
+		PlaySFX(ZeroPoints -v 1) 
+		Mei "Are you certain that I'm just a friend? Last I checked, friends don't typically kiss each other." 
+		Narrator "Mei seemed upset." 
+		Narrator "I did some thinking and I have come to realize that I'm unsure of my feelings. I'm trying to figure out how I feel about you." 
+		Mei "I understand." 
+
+	-I Like You  
+		Narrator "I like you. You mean a lot to me." 
+		PlaySFX(TwoPoints -v 1) 
+		Narrator "Mei smiles." 
+} 
+
+Narrator "There's Orion's belt." 
+
+Narrator "I pointed up, tracing the constellation." 
+
+Mei "Do you believe in zodiac signs?" 
+
+choice "..." 
+{
+	-Absolutely  
+		Narrator "Absolutely. Many people invalidate zodiac signs, but there's a lot of truth to them."
+		PlaySFX(ThreePoints -v 1) 
+		Mei "Right?" 
+
+	-Somewhat  
+		Narrator "Somewhat. Zodiac signs are not always accurate." 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "That's true." 
+		
+	-Of Course, Not 
+		Narrator "Of course, not. Most of them are bullshit." 
+		PlaySFX(ZeroPoints -v 1)  
+		Mei "But there's some truth to them." 
+
+} 
+
+Mei "What's your zodiac sign?"
+Narrator "I'm a(n) [Zodiac Sign Based on Player's Birthday]."
+Mei "Cool."  
+Narrator "Mei looked at me intently."
+Mei "Narrator."
+Narrator "Yeah?"
+Mei "I'm glad that you suggested this camping trip. It's been a while since I have been out in the forest. The last time I was here, I was with Freya." 
+Mei "Oh, shit, I'm sorry. I know that we shouldn't bring up exes." 
+Narrator "She looked down." 
+
+choice "..." 
+{
+	-Let Mei Talk About Her Ex  
+		Narrator "What was she like?" 
+		Narrator "Mei's head snapped up; her eyes widened like she was surprised by the approval to talk about Freya."
+		PlaySFX(ThreePoints -v 1) 
+		Mei "She was great. She was my first true friend. We kept our relationship a secret during high school because I knew my dad wouldn't approve of it. "
+		Mei "When Freya found me, I was in a much darker place. She brought so much light into my life." 
+		Mei "She nurtured my love for adventures and granted me unwavering support. I'll admit that I wasn't the best person at the time, I didn't deserve her." 
+		Mei "Despite the challenges we faced, Freya was always by my side." 
+		Narrator "Mei looked at the ground. "
+		Mei "She died five years ago. She was in an accident." 
+		Mei "Freya was riding the bus and a drunk asshole rammed into it, causing the bus to flip over, killing half of the passengers, including the her." 
+		Narrator "Do you miss her?"
+		Mei "Some days. I think about her on some days. This is the first time in years that I talked about her." 
+		Narrator "Mei sighs."
+		Mei "I feel better after getting that out of my chest." 
+
+	-Change the Subject 
+		Narrator "Let's change the subject." 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "Y-Yeah. Right."
+		<input> "You mentioned that your mother is a teacher. What grade level does she teach?"
+		Mei "She teaches fourth-grade. She's been a teacher for two decades. My mom is the best. She's done so much for me." 
+		Mei "After my dad passed away, she had to work two jobs to make ends meet, and I could see how exhausted my mom was every time she came home." 
+		Mei "I couldn't bear to see her like that, so I got a job as a librarian to help her with the bills and lesson her workload."
+		Narrator "That's good, Mei. That was selfless of you." 
+		Mei "The best part, she didn't try to mold me into something I wasn't. She encouraged me to be my own person." 
+		Mei "She's always been incredibility supportive of my dreams." 
+		Mei "Don't get me wrong, working at the library is great, but I yearn to pursue a music career with my band. Music is where my passion lies." 
+		Narrator "Better than my parents."
+		Narrator "I told Mei about my parents."
+		Mei "Well then. That really sucks." 
+		Narrator "Yeah."
+		Mei "At least you're finally away. You're finally able to break away and be your own person." 
+		Mei "Although, when you think about it, we can never truly be our own person entirely." 
+		Mei "We all pick up some things from our parents. I may have developed my own identity, but I did pick up some of my gothic interests from my mom." 
+		Narrator "I noticed." 
+		Narrator "We both laughed."
+		Mei "And my punctuality from my dad." 
+
+} 
+
+Narrator "Mei and I continued to talk well into the night, our words flowing freely until fatigue finally caught up with us." 
+Narrator "We crawled into the tent then drifted off to sleep. As we were both lying down. I looked at Mei, her eyes were already closed." 
+
+choice "..." 
+{
+	-Hold Her Hand  
+		Narrator "I held her hand in mine, our hands becoming warm as our fingers intertwined." 
+		PlaySFX(ThreePoints -v 1) 
+		Narrator "It evoked a smile from her as she rested."  
+
+	-Turn to Your Side 
+		Narrator "Goodnight, Mei." 
+		PlaySFX(OnePoint -v 1) 
+		Mei "Night." 
+		Narrator "I turned to my side then closed my eyes." 
+
+} 
+
+Narrator "Birds chirped rhythmically as dawn approached, sunlight filtering through the trees, casting a warm glow on the walls of the tent." 
+Narrator "We awoke refreshed and began packing up our belongings. Once everything was neatly stowed away in my car, we drove back into town along the winding roads."  
+
+MeiHangOutSevenComplete()       
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+AdvanceDay() 
+Load(ApartmentStart -enqueue true)  

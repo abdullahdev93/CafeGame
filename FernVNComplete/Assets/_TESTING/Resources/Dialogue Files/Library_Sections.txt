@@ -1,0 +1,18 @@
+SetLayerMedia(background Library) 
+
+Narrator "Which section should I go to?" 
+
+choice "Which Section Should I Go To?"   
+{
+	-Horror  
+		Load(Library_Horror -enqueue true) 
+		
+	-Adventure 
+		Narrator "I'll borrow The House That Whispers." 
+
+	-More 
+		Load(Library_HorrorMore -enqueue true) 
+		
+	-Back 
+		Load(LibraryLocation -enqueue true) 
+} 

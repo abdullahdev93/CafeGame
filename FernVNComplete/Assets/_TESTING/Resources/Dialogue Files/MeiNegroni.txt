@@ -1,0 +1,49 @@
+SetLayerMedia(background Bar)
+
+Narrator "... A Negroni."  
+Bartender "Ooh, classy. Coming right up."  
+Mei "I'll take a glass of Red Wine."  
+Bartender "Coming right up."  
+
+Narrator "As the bartender left to prepare our drinks, I leaned against the counter and shot Mei a sideways glance."  
+Narrator "Still loyal to the Red Wine?"  
+Mei "She smiled, resting her elbow on the bar."  
+Mei "It's rich, smooth, and has depth. Kind of like me."  
+Narrator "I smirked."  
+Narrator "So what does that say about me ordering a Negroni?"  
+Mei "She narrowed her eyes, feigning deep thought."  
+Mei "Refined. Complicated. A little dramatic."  
+Narrator "I chuckled."  
+Narrator "If you say so."  
+
+Narrator "The bartender returned and slid our drinks across the counter."  
+Narrator "I picked up the short glass, the ruby-red cocktail catching the light just right."  
+Narrator "One sip brought a mix of bitterness from the Campari, smoothness from the vermouth, and the sharp bite of gin." 
+
+Narrator "Mei took a sip of her wine, then looked at me over the rim of her glass."  
+Mei "OK, I have got to admit... That drink suits you."  
+Narrator "I arched a brow."  
+Narrator "Oh? How so?"  
+Mei "Despite it's flaws, it's got presence." 
+Mei "Doesn't try too hard - but it leaves an impression."  
+Narrator "I smiled slowly, setting the glass back down."  
+Narrator "That's probably the nicest thing anyone's ever said about a cocktail... Or me."  
+Mei "Don't let it go to your head."  
+
+Narrator "The warm light of the bar bathed everything in gold." 
+Narrator "Around us, the atmosphere buzzed with quiet chatter and the occasional burst of laughter."  
+Narrator "We talked for a while- about everything and nothing." 
+Narrator "The kind of conversations that made the time disappear."  
+
+Narrator "Eventually, Mei gave a small stretch and nudged her empty glass forward."  
+Mei "All right, Cocktail Lover, I think that's my cue to head out."  
+Narrator "I knocked back the last sip of my Negroni and stood up beside her."  
+Narrator "Then let me do the gentlemanly thing and walk you home." 
+
+HideGalleryImage()  
+HideDB(-spd 1)  
+wait(0.75)  
+ClearLayerMedia(background), wait(1)  
+StopSong(), StopAmbience()  
+wait(1)  
+LoadScene(Bar -enqueue true)

@@ -1,0 +1,53 @@
+SetLayerMedia(background Bar)
+
+Narrator "... A Mojito."  
+Bartender "Nice choice. Minty fresh comin' right up."  
+Mei "I'll take a glass of Red Wine."  
+Bartender "You got it."  
+
+Narrator "As the bartender moved to prepare our drinks, I leaned against the counter and gave Mei a curious glance."  
+Narrator "Red wine again? Not even tempted by something new tonight?"  
+Mei "She rested her elbow on the bar, shooting me a half-smile."  
+Mei "I have experienced enough 'adventures' in a glass, thanks." 
+Mei "I'll stick to what I know won't betray me."  
+Narrator "I chuckled."  
+Narrator "So wine's the safe zone?"  
+Mei "Exactly. It doesn't lie to you, doesn't hit you out of nowhere, and doesn't convince you to text your ex at 2 AM."  
+Narrator "I grinned, nodding as the bartender returned with our drinks."  
+Narrator "The Mojito sparkled with crushed ice and fresh mint, while her wine gleamed dark and rich in the low bar lighting."  
+
+Narrator "I took a refreshing sip, the mix of mint and lime hitting just right."  
+Narrator "Mei swirled her glass, savoring a long sip."  
+Mei "Now this is a drink."  
+Narrator "I raised an eyebrow, smirking."  
+Narrator "I mean, yeah... Red wine is good."  
+Narrator "Smooth, classic... But kind of overrated, don't you think?"  
+Mei "She gasped, hand over her chest."  
+Mei "Excuse you?"  
+Narrator "I laughed."  
+Narrator "Don't get me wrong, it's solid."  
+Narrator "Just... Feels a bit serious for a night like this."  
+Mei "She raised an eyebrow, swirling her glass with a smirk."  
+Mei "Maybe I like a little seriousness."  
+Mei "And some class." 
+Narrator "I chuckled, letting the minty coolness of my mojito linger before speaking again."  
+Narrator "You make it look good, I'll give you that."  
+Mei "She tilted her head, eyes twinkling."  
+Mei "Careful. Say a few more things like that and I might start thinking you're trying to impress me."  
+Narrator "I took another sip, my grin lingering behind the rim of the glass."  
+Narrator "Who says I'm not?" 
+
+
+Narrator "The bar's mellow chatter blended with soft music as we eased into conversation."  
+Narrator "We went from teasing to talking about books, favorite smells, and whether ghosts would actually be chill roommates."  
+Narrator "Time passed without either of us noticing, our drinks slowly emptying between laughter and thoughtful silences."  
+Narrator "Eventually, the bar began to quiet, and we exchanged a glance that said the same thing."  
+Narrator "With one last sip, we stood up, and left." 
+
+HideGalleryImage()  
+HideDB(-spd 1)  
+wait(0.75)  
+ClearLayerMedia(background), wait(1)  
+StopSong(), StopAmbience()  
+wait(1)  
+LoadScene(Bar -enqueue true)

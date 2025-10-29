@@ -1,0 +1,19 @@
+if ($PlayerCheckedPhone == True) 
+{ 
+	Narrator "After a while, I put my phone back on the nightstand, closed my eyes, and tried to drift off." 
+	HideDB(-spd 1) 
+	HideGalleryImage() 
+	HideDB(-spd 1) 
+	wait(0.75) 
+	ClearLayerMedia(background), wait(1) 
+	StopSong(), StopAmbience() 
+	wait(1) 
+	AdvanceDay() 
+	Load(ApartmentStart) 
+} 
+
+if ($PlayerCheckedPhone == False) 
+{  
+	Narrator "Maybe now's a good time to get familiar with it. Messing around with it for a bit would help me relax." 
+	Load(WelcomeToBaywoodTRANSITION) 
+}  

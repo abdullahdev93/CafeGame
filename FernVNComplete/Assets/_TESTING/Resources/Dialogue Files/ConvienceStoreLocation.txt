@@ -1,0 +1,26 @@
+SetLayerMedia(background Convience_Store_Reference)  
+
+Cashier "Welcome to Corner Goods." 
+Cashier "Take a look around and see what you like." 
+
+ShowMC()    
+Narrator "What should I do?"  
+
+choice "..." 
+{
+	-Look Around 
+		LoadScene(ConvenientStore)  
+		
+	-Leave 
+		Narrator "I waved goodbye to the cashier."
+		Cashier "Have a nice day." 
+		Cashier "Hope to see you again." 
+		HideGalleryImage() 
+		HideDB(-spd 1)  
+		UIHide() 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1) 
+		RandomKarmaEvent()      
+} 

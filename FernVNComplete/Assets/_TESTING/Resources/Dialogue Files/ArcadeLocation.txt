@@ -1,0 +1,4 @@
+SetLayerMedia(background Arcade)        
+
+ShowMC()   
+Narrator "I'm at the arcade." 

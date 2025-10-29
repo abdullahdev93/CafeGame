@@ -1,0 +1,4 @@
+SetLayerMedia(background Mall)        
+
+ShowMC() 
+Narrator "I'm at the mall." 

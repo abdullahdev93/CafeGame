@@ -1,0 +1,3 @@
+SetLayerMedia(background Library)        
+
+Narrator "I asked one of the librarians about Mei and was told which section she was working in." 

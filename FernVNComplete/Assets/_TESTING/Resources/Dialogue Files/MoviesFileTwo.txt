@@ -1,0 +1,42 @@
+SetLayerMedia(background Movies)         
+
+Narrator "I'm at the Movie Theater." 
+
+Narrator "Which movie shoild I watch?" 
+
+choice "Which Movie?" 
+{
+	-Laughter Is the Best Medicine 
+		DecreaseMoney(50)  
+		Narrator "That movie was hilarious! But more than that, it reminded me how great humor can be." 
+		Narrator "It wasn't just about getting a few laughs - it showed how humor can bring people together, even when things aren't going so well." 
+		Narrator "The way those characters turned a failing comedy club into something special, just by making people laugh, was amazing."  
+		PlaySFX(OnePoint -v 1)  
+		IncreaseHumor(-st 1) 
+		Narrator "It's a reminder that sometimes, all it takes to ease a tense situation is a good joke or a lighthearted moment." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCharisma(-st 1)    
+		
+
+	-The Marathon 
+		DecreaseMoney(50) 
+		Narrator "That movie really left an impression on me. It wasn't just about running a marathon; it was about pushing yourself, even when everything in you wants to quit." 
+		Narrator "Watching the main character get back up after every setback really hit home - sometimes it's not about how fast you reach your goals, but how determined you are to keep going." 
+		PlaySFX(OnePoint -v 1)  
+		IncreaseEndurance(-st 1) 
+		Narrator "And it wasn't just about personal achievement either. The way the community came together to support him, even when he felt like giving up, was amazing." 
+		Narrator "It showed that sometimes, having people who believe in you is the push you need to go that extra mile. It made me realize that no matter how tough things get, we don't have to face it alone." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseLoyalty(-st 1)  
+	
+	-The Waiting Game 
+		DecreaseMoney(50) 
+		Narrator "That movie was intense! It wasn't about fast-paced action or wild plot twists - it was about patience, and how sometimes waiting is the hardest part." 
+		Narrator "Watching the characters try to stay calm, think things through, and not panic under pressure really made me think about how important it is to have control over your mind, even when everything around you feels chaotic." 
+		PlaySFX(OnePoint -v 1)  
+		IncreasePatience(-st 1) 
+		Narrator "It was like a mental game, being too hasty could cause everything to fall apart." 
+		Narrator "It made me realize how valuable it is to think things through before acting." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseIntelligence(-st 1)   
+} 

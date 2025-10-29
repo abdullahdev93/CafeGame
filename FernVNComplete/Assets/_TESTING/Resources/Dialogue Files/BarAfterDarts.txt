@@ -1,0 +1,12 @@
+SetLayerMedia(background Bar)        
+
+Narrator "That was a fun game of darts!" 
+Narrator "After finishing the round of darts, I stepped back with a sense of accomplishment, feeling my patience sharpened with each careful aim." 
+PlaySFX(OnePoint -v 1)  
+IncreasePatience(-st 1)  
+Narrator "The game had pushed me to focus intensely, making each throw a test of precision and control." 
+Narrator "With each dart, I felt my confidence growing, learning to trust their skills, and adjust for the subtle shifts in the board's distance and the weight of the darts in my hand." 
+PlaySFX(OnePoint -v 1)   
+IncreaseConfidence(-st 1)  
+Narrator "By the end, my skills have slightly increased." 
+Load(BarLocation)  

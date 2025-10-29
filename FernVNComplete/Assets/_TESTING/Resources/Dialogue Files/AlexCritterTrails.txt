@@ -1,0 +1,109 @@
+SetLayerMedia(background Apartment_ALT)          
+
+PhoneEnabled(false) 
+
+Narrator "My phone buzzed with another a message from Alex." 
+
+Alex "You better be online, [Player Name]. I just set up the cutest park area, and I need someone to appreciate my masterpiece." 
+
+Narrator "Smiling, I turned on my laptop and sent a quick reply." 
+
+Narrator "All right, I'm logging in. Don't start without me!" 
+
+Narrator "Moments later, the familiar whimsical music of Critter Trails filled the air." 
+
+Narrator "I navigated my avatar to my mailbox, collecting a few gifts Alex had sent earlier - custom wallpapers and way too many peaches." 
+
+Narrator "Alex's island, Critter Cove, appeared on my screen as I accepted her invite." 
+
+Narrator "The game transitioned into the loading screen, complete with little animated critters hopping across the screen." 
+Narrator "A few seconds later, I arrived, greeted by Alex's avatar, waving frantically by the airport." 
+
+Narrator "Alex video called me and I answered." 
+
+Alex "About time!" 
+
+Narrator "I got my avatar to shrug playfully in response." 
+
+Alex "What took you so long? Did you stop to take a nap or something?" 
+Narrator "She teased, her voice playful and filled with mock irritation." 
+Narrator "Sorry, I was busy." 
+Narrator "She guided me through her meticulously designed island." 
+Narrator "We passed through a flower-lined path leading to an outdoor café with wooden chairs." 
+Narrator "Nearby, a park area was set up with cherry blossom trees, complete with benches and swings." 
+Narrator "I have to admit, this is the cutest thing I have ever seen." 
+
+Narrator "Awesome!" 
+Narrator "But where's the fishing spot you promised me?" 
+Narrator "I asked, grinning." 
+Alex "Follow me." 
+Narrator "Alex's avatar span in a circle before running toward the beach." 
+Narrator "We spent the next hour fishing, catching everything from tiny guppies to a rare rainbow trout that Alex claimed was hers but somehow ended up in my net." 
+Alex "You totally stole that from me! It was mine!" 
+Narrator "She exclaimed, laughing through her pretend outrage." 
+Alex "How?"  
+
+choice "..."  
+{
+	-It's Skill  
+		Narrator "It's called skill, Alex."
+		Narrator "Maybe you have heard of it?" 
+		Narrator "I teased, watching her avatar bounce around in mock frustration." 
+		Alex "Oh, skill, huh? Last I checked, skill doesn't involve RNG."
+		Narrator "Her tone was laced with mock indignation, but I could hear her laughing." 
+		Narrator "It's not my fault the all mighty trout chose me." 
+		Alex "Next time, I'm keeping all the bait to myself." 
+		Narrator "She said playfully, and we both burst out laughing." 
+
+	-It's Just Luck 
+		Narrator "It's just luck, Alex." 
+		Narrator "You know, the kind that only happens to the truly blessed." 
+		Narrator "I said with a dramatic flourish, my avatar performing a bow emote." 
+		Alex "Blessed, huh?" 
+		Narrator "Her avatar stomped the ground, and I could hear her laughing through the headset." 
+		Alex "At least luck doesn't mean skill." 
+		Narrator "Hey, sometimes it's better to be lucky than good." 
+		Narrator "Besides, you had your share of lucky catches too!" 
+		Narrator "We went back to fishing, the competition between us heating up even more as we joked about luck versus skill." 
+} 
+
+Narrator "We moved on to a bug-catching competition, darting through her forested area, swinging nets and laughing hysterically whenever we missed a butterfly or accidentally bonked each other on the head." 
+
+Alex "All right, I have one more thing to show you." 
+Alex "You're going to love it." 
+
+Narrator "She led me to a secluded corner of the island, where a makeshift stage was set up." 
+Narrator "A crowd of her villagers sat in front of it, clapping in unison." 
+Narrator "Alex's avatar jumped on stage and did a goofy dance routine using the in-game emotes." 
+Narrator "The villagers cheered wildly, and I couldn't help but laugh." 
+
+Narrator "Well, well, I guess you win the award for most entertaining island." 
+
+Narrator "We sat in the island's cafe afterward, our avatars eating imaginary sandwiches while we chatted about everything and nothing." 
+Narrator "The in-game sky turned from bright blue to a deep, starry purple, and I could hear Alex's laughter in my headset as we exchanged jokes and stories." 
+
+Alex "Thanks for hanging out." 
+Alex "It's always more fun with you here." 
+
+Narrator "I smiled." 
+Narrator "Anytime." 
+
+Narrator "My island next time?" 
+
+Alex "All right!" 
+Alex "But you better have a decent fishing spot." 
+Narrator "She laughed." 
+
+Narrator "More time passed, filled with more laughter, critter-catching antics, and the kind of easy friendship that made even the simplest games unforgettable." 
+DisableSkip()   
+Narrator "We eventually saved our progress and watched our screens faded to black and we said our goodbyes." 
+
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+AdvanceDay() 
+Wait(1)  
+Load(ApartmentStart -enqueue true)    

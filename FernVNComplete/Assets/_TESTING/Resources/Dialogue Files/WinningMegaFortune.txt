@@ -1,0 +1,18 @@
+SetLayerMedia(background Convience_Store_Reference)        
+
+Cashier "Wow! Congradulations."
+
+Narrator "Adter scratching off the ticket, revealing a victory beneath the silver dust, my heart skipped a beat, and a smile spread across my face." 
+Narrator "The realization hit me like a wave - I had just scratched a winning lottery ticket." 
+Narrator "The air seemed lighter, and I stood slightly taller, my confidence soaring with the thrill of possibility." 
+PlaySFX(OnePoint -v 1)  
+IncreaseConfidence(-st 1) 
+Narrator "After taking the risk, a spark of courage ignited within me." 
+PlaySFX(OnePoint -v 1)  
+IncreaseCourage(-st 1)  
+Narrator "My charisma hightened, charged by the fact that big fortune had smiled upon me." 
+PlaySFX(OnePoint -v 1)   
+IncreaseCharisma(-st 1) 
+IncreaseMoney(10000)  
+Narrator "Thank you universe! 
+LoadScene(ConvenientStore)   

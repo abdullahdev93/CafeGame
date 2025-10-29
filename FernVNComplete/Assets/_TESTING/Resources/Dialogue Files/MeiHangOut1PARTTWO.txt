@@ -1,0 +1,14 @@
+SetLayerMedia(background Cafe_Background_A)
+Narrator "Hopefully, our chance encounter will blossom into a budding friendship." 
+DisableSkip() 
+Narrator "It's true what they say, connections can be found in the unlikeliest of places, like a small café." 
+
+HideGalleryImage()
+HideDB(-spd 1)
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience()
+wait(1)
+AdvanceDay()
+Load(ApartmentStart) 

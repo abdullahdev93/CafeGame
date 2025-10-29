@@ -1,0 +1,113 @@
+input "What is your name?" 
+
+$playerName = <input> 
+
+$player.charm = 0 
+$player.kindness = 0 
+$player.patience = 0 
+$player.courage = 0 
+$player.confidence = 0 
+$player.intelligence = 0 
+$player.strength = 0 
+$player.humor = 0 
+$player.diligence = 0 
+$Mei.friendship = 0 
+
+Narrator "I messaged Mei, asking if she wanted to hang out today." 
+Narrator "She responded a few minutes later." 
+Mei "Sure." 
+Mei "My mom is away at a conference out of state." 
+Mei "I could definitely use the company." 
+Narrator "I drove to Mei's place, parked my car in the usual spot, then walked on the steps to knock on the door. She opened the door, her face lit up with joy."  
+Mei "Hey~." 
+Narrator "She greeted me with a warm hug, we kissed, then we settled in the living room." 
+Mei "Let's talk." 
+Narrator "We talked for hours. As nightfall approached, I decided to spend the night at Mei's place." 
+Narrator "It was getting late and I was too tired to drive home." 
+Mei "So, what should we do?" 
+<input> "How about we play a game?" 
+Narrator "Mei's eyes lit up with glee." 
+Mei "I know just the game." 
+Narrator "Mei hurried out of the living room, leaving me alone for a few minutes." 
+Narrator "When she returned, she was carrying a board game named Twilight Realm Estates." 
+Narrator "With her gothic charm and love for all things dark and mysterious, it shouldn't have surprised me that she would suggest that game." 
+<input> "How do you play?" 
+Mei "Twilight Realm Estates is a game where you invest in properties like haunted mansions, eerie hotels, mystical witch huts, shadowy taverns, enchanting night markets, and ancient crypts, using magic to protect your investments." 
+Mei "But beware, the realm is teeming with Fortuity and Colony Crate cards that can alter your fate. The rules are simple..." 
+Narrator "Mei patiently explained the rules to me, breaking down the game's mechanics." 
+Narrator "It seemed a bit complex with the many rules, but with her guidance, I quickly grasped the fundamentals." 
+<input> "Sounds like fun. Let's play." 
+Narrator "The game started innocently enough, teasing each other about who would dominate the board." 
+Narrator "Mei, with her strategic mind, quickly started buying up properties and setting up clever trades to gain an advantage." 
+Narrator "Determined not to lose, I countered with my own tactics, buying properties strategically and building eerie hotels to maximize my earnings." 
+Narrator "As the game progressed, our playful banter turned into intense negotiations and competitive strategies." 
+Narrator "Mei, with a mischievous glint in her eye, used the cards to enhance her dark magic spells to throw me off balance, sending me to The Abyss and making me pay hefty fees." 
+Narrator "Not to be outdone, I used the cards to enhance my Curse Reversal spells to protect my investments and turn the tide in my favor." 
+Narrator "Hours flew by as we rolled the dice, bought and traded properties, enhanced and countered spells, and navigated the treacherous twists and turns of Twilight Realm Estates." 
+Narrator "Laughter filled the room as we playfully argued over who owned the most haunted mansions or whose ancient crypt was the most valuable." 
+Narrator "It was now Mei's turn. She rolled the dice then moved her pawn to a Colony Crate space. She gleefully drew the card." 
+Mei "Ohh. It's a make-your-own-rule card." 
+Narrator "She smirked." 
+Mei "How about this - every time I land on your shadowy taverns, instead of paying you, I give you a kiss instead?" 
+
+
+
+choice "..." 
+{
+	-All Right. 
+		<input> "All right. Bet." 
+		PlaySFX(ThreePoints -v 1) 
+		$Mei.friendship += 3 
+		$player.charm  += 1 
+
+	-You Can't Bribe Me   
+		<input> "You can't bribe me out of victory." 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "Rules are rules~." 
+		$Mei.friendship += 2 
+		$player.courage  += 1  
+} 
+
+Narrator "A few turns later, Mei landed on one of my shadowy taverns." 
+Narrator "She leaned in for a kiss." 
+Narrator "I smiled and did the same." 
+Narrator "She gently rested one hand on my wrist, her other hand tenderly resting on my cheek." 
+Narrator "I wrapped my arms around Mei's back, drawing her closer, savoring her unique taste and scent." 
+Narrator "I trembled as I felt Mei's tongue slide into my mouth, gently intertwining with mine." 
+Narrator "A sensation that initially caught me by surprise, but I quickly grew accustomed to it." 
+Narrator "Our bodies were pressed together tightly, the warmth between us escalating as the kiss deepened." 
+Narrator "Mei started to moan, her soft moans added to the allure of the moment, heightening the intimacy between us." 
+Narrator "We break away a moment later." 
+Mei "<input>?"
+<input> "Yes?" 
+Mei "Is it strange that the thing on my mind right now is not the game?" 
+Mei "But to continue kissing you, again and again?" 
+<input> "I feel the same." 
+Narrator "We continued to make out, leading us to forgot the game entirely." 
+Mei "I felt you for a moment..." 
+Narrator "Mei and I stood there for a moment, gazing into each other's eyes." 
+Mei "I love you." 
+<input> "I love you too."  
+Narrator "Mei stood up then extended her hand to me." 
+
+choice "..." 
+{
+	-I'm Not Ready  
+		<input> "I love you, but I'm not ready." 
+		PlaySFX(OnePoint -v 1) 
+		Mei "Oh. I'm sorry. I didn't realize that I was coming in hot." 
+		<input> "But we can still make out through." 
+		Mei "Yay." 
+		Narrator "Mei sat back down and we continued to make out for a few more minutes." 
+		Narrator "Mei and I cuddled on the couch until we decided to go to sleep." 
+		$Mei.friendship += 1 
+		$player.courage += 1 
+
+	-Let's Do This 
+		Narrator "I nodded and I took it without hesitation." 
+		PlaySFX(ThreePoints -v 1)  
+		Narrator "With a gentle tug, she gently lifted me off the couch, guiding me to her bedroom." 
+		Narrator "Mei and I spend the rest of the night in her bedroom." 
+		$Mei.friendship += 3 
+		$player.charm += 1  
+} 

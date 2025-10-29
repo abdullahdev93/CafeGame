@@ -1,0 +1,15 @@
+SetLayerMedia(background Library) 
+
+Narrator "Which books should I borrow?"   
+
+choice "Which books?"   
+{
+	-The Faceless Man 
+		Narrator "I'll borrow The Faceless Man." 
+		
+	-The Sleepers  
+		Narrator "I'll borrow The Sleepers."   
+		
+	-Back  
+		Load(Library_Horror -enqueue true)  
+} 

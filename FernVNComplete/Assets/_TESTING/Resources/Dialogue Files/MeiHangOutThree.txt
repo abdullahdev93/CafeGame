@@ -1,0 +1,354 @@
+SetLayerMedia(background Rehearsal_Garage) 
+
+PhoneEnabled(false) 
+
+Narrator "I drove through the suburban streets, passing numerous houses until I arrived at Mei's house." 
+Narrator "I parked near the curb then got out of the car." 
+Narrator "I climbed the porch steps then rang the doorbell, hearing muffled guitar notes echo faintly from the nearby garage."
+Narrator "This would be my first time seeing a live band rehearsal. The thought brought a mix of curiosity and excitement." 
+CreateCharacter(Mei) 
+Mei.Show() 
+Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+Narrator "The door creaked open, and behind it was Mei." 
+Mei.SetSprite("Mei_Straight,Mei_Relieved" -spd 1)
+Narrator "A faint smile crossed her lips." 
+Mei "$PlayerStats.FirstName, you made it. Come on in." 
+Narrator "I nodded then entered the home." 
+Mei.Hide() 
+ClearLayerMedia(background Rehearsal_Garage) 
+HideDB(-spd 1) 
+wait(1) 
+
+wait(1) 
+
+wait(1)
+SetLayerMedia(background Rehearsal_Garage) 
+Narrator "I stepped inside, greeted by a cozy yet chaotic living room - empty pizza boxes, soda cans, and notebooks scattered across the coffee table." 
+Narrator "The air was thick with a warm, woody, and slightly sweet aroma." 
+FirstName "What's that smell?" 
+Mei.Show() 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0)  
+Mei "Sandalwood incense." 
+Mei "It's delightful, isn't it?" 
+Mei "It's comforting." 
+Mei "My mom picked it out. She says it clears bad energy." 
+DisableSkip()   
+Mei "I say it intensifies the artistic spirit." 
+
+choice "..." 
+{
+	-Where Is Your Mother? 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseEmpthay(-st 1) 
+		FirstName "Where is your mother?" 
+		FirstName "I would like to meet her." 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseFriendshipA(-fr 1) 
+		Mei.SetSprite("Mei_Hip,Mei_Sad" -spd 1)
+		Mei "She's at work." 
+		Mei "She's always working late." 
+		Mei.SetSprite("Mei_Hip,Mei_Excited" -spd 1)
+		Narrator "Her face softened, but she quickly smiled again." 
+		Mei "But hey, at least I get the place to myself most days." 
+		Mei "Gives me time to write, read, and be as loud as I want."
+
+	-She Has Good Taste
+		PlaySFX(OnePoint -v 1)
+		IncreasePatience(-st 1)
+		Narrator "That's a lovely scent. Your mom's got great taste - I can see where you get it from."
+		PlaySFX(TwoPoints -v 1)
+		IncreaseFriendshipA(-fr 2) 
+		Mei.SetSprite("Mei_Hip,Mei_Shock" -spd 1)
+		Mei "She's the reason I'm goth." 
+		Mei "Back in the '90s, she wore black lipstick, fishnets, and those big platform boots." 
+		Mei.SetSprite("Mei_Hip,Mei_Laughing" -spd 1)
+		Narrator "Mei laughed, her eyes lighting up as nostalgia softened her tone."
+		Mei "She always said it wasn't about rebelling - it was about expression. Guess that stuck with me." 
+		Narrator "Her smile lingered for a moment, genuine and warm, before she playfully nudged my arm." '
+		Mei.SetSprite("Mei_Cross,Mei_Neutral" -spd 1)
+		Mei "Now it's my turn to keep the legacy alive."
+	
+	-Sandalwood Is A Great Choice
+		PlaySFX(OnePoint -v 1)
+		IncreaseIntelligence(-st 1)
+		Narrator "Sandalwood is an excellent choice." 
+		FirstName "It's warm, grounding - like the scent of old temples and rainy mornings."
+		FirstName "It's said to have calming and uplifting effects - used for meditation, healing, even inspiration." 
+		FirstName "People believe it connects the senses to creativity."
+		PlaySFX(ThreePoints -v 1)
+		IncreaseFriendshipA(-fr 3) 
+		Mei.SetSprite("Mei_Leaning,Mei_Mischievous_Tilted" -spd 1)
+		Mei "I know." 
+		Mei "That's exactly why I light it when we write music." 
+		Mei "It helps me focus - and feel every note." 
+		Mei.SetSprite("Mei_Hip,Mei_Think" -spd 1)
+		Narrator "Her gaze drifted toward the faint wisp of incense smoke curling through the air, her expression momentarily distant."
+		Mei "Sometimes when I'm overwhelmed, I light it, close my eyes, and just... breathe." 
+		Mei "It's like my mind relaxes, you know?"
+		FirstName "That actually makes a lot of sense." 
+		Mei "Every song starts with sandlewood." 
+} 
+
+EnableSkip() 
+Mei "Oh, my band is in the garage." 
+Mei "Come on, I'll introduce you to everyone." 
+Mei.Move(1.5 -spd 4.0) 
+
+Narrator "As we walked down the hallway to the garage, I could already hear faint guitar riffs and rhythmic tapping from drums." 
+Mei.Hide()  
+Narrator "The closer we got, the stronger the vibration felt." 
+
+
+Mei.Show() 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0)  
+Narrator "When stepped inside the garage, I saw wires coiled like snakes, a small amp hummed in the corner, and posters of punk and indie bands plastered the walls." 
+Narrator "And there was a makeshift stage, where three other people stood, adjusting their instruments."
+Mei "Hey, guys. I'm back." 
+Mei "This is $PlayerStats.FirstName."
+Narrator "Most eyes turned toward me." 
+Narrator "One waved casually, one nodded while tuning their instrument, and one just looked at me while adjusting pedals." 
+Narrator "A tall man stood near an amp, his black hair unkempt and hanging over his eyes." 
+Narrator "Stickers covered the strap of his well-worn bass - some old, some new." 
+Narrator "He flashed a grin that made it clear he didn't take himself - or anything - too seriously." 
+Mei "This is Jacob, our bassist." 
+Mei.SetSprite("Mei_Hand_Out,Mei_Happy_Tilted" -spd 1)
+Mei "We've been friends since middle school." 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1)
+Mei "He's a bit of a goof, but he got rhythm running through his veins." 
+Jacob "Heyo. Nice to meet ya!" 
+Narrator "Behind the drum kit sat a woman with long jet-black hair tied in a loose ponytail." 
+Narrator "She quietly tapped the edge of her snare with one drumstick, lost in her own rhythm." 
+Narrator "A strand of hair slipped over her eyes, and she brushed it back with a faint, shy smile." 
+Mei.SetSprite("Mei_Hand_Out,Mei_Happy_Tilted" -spd 1)
+Mei "And this is Lily, our drummer." 
+Narrator "She barely looked up at me." 
+Mei.SetSprite("Mei_Hip,Mei_Happy" -spd 1)
+Mei "She's a little shy, but once she plays those drums, she's unstoppable." 
+Lily "..." 
+Narrator "In the far corner, a guy with a messy ponytail tuned his electric guitar." 
+Narrator "His jacket was littered with punk and metal patches, along with one ironic Critter Trails pin that stood out." 
+Narrator "He looked up briefly, eyes sharp but welcoming." 
+Mei.SetSprite("Mei_Hand_Out,Mei_Happy_Tilted" -spd 1)
+Mei "And this is Doug, our lead guitarist." 
+Doug "Pleasure." 
+Mei "He's the perfectionist of the group." 
+Doug "I like things done right. Is that a crime?" 
+Mei.SetSprite("Mei_Hip,Mei_Excited" -spd 1)
+Mei "Though he'll deny it." 
+Narrator "She giggled." 
+Mei "And I'm the vocalist." 
+Narrator "She pointed her thumbs toward herself, then swept her arms wide in theatrical flair." 
+Mei.SetSprite("Mei_Open_Arms,Mei_Happy" -spd 1)
+Mei "Together, we are Midnight Ghosts." 
+Narrator "The band members raised their fists in mock triumph, laughter filling the space." 
+Narrator "Even Lily cracked a small smile." 
+Mei "Get ready for a show~." 
+Mei.SetSprite("Mei_Straight,Mei_Happy" -spd 1) 
+Mei.Move(1.5 -spd 4.0) 
+Narrator "Mei made her way to the makeshift stage." 
+Mei.Hide() 
+Narrator "She was now standing at the center, adjusting her posture and mic with practiced confidence." 
+Narrator "She then tapped on the mic, creating a rhythmic beat while doing a mic check." 
+Narrator "The rehearsal started slow - tuning, strumming, testing levels." 
+Narrator "Then, suddenly, sound exploded through the garage like a storm breaking loose." 
+Narrator "The bass rumbled, drums cracked, and Mei's voice sliced through it all - fierce." 
+Narrator "As the band launched into various songs, I found myself mesmerized by the emotion and energy pouring from each verse." 
+Narrator "Each verse reverberating through the garage." 
+Narrator "Each song's lyrics spoke of pain, rejection, acceptance, and love." 
+Mei.Hide() 
+ClearLayerMedia(background Rehearsal_Garage) 
+HideDB(-spd 1) 
+wait(1) 
+
+wait(1) 
+
+wait(1)
+Narrator "I closed my eyes, allowing myself to be swept away by the haunting melodies." 
+Narrator "The songs were dark, but catchy." 
+Narrator "Then there was one song that stood out to me." 
+Narrator "It was a slow build into something explosive." 
+Mei.SetSprite("Mei_Straight,Mei_Neutral" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0) 
+Mei "\"Tears fall like rain, in this void I roam... A broken heart, a shattered home.\""
+Mei "\"I'm drowning in the ocean of my fears... The pain cuts deep with each passing year.\"" 
+Mei "\"But through the scars, I'll rise above... Healing begins, in the arms of love.\"" 
+Mei "\"Through the echoes of torment, I find my voice... Breaking the chains, making my choice.\"" 
+Mei "\"No longer a captive, I'll break free... from the ghosts that once haunted me.\"" 
+Mei "\"A journey from darkness to light... reborn through pain, I find my sight.\"" 
+Narrator "Mei's voice wavered on the last line." 
+Narrator "When the song ended, the garage fell silent. No amps. No chatter." 
+Mei.Show() 
+SetLayerMedia(background Rehearsal_Garage) 
+wait(1) 
+
+Narrator "I opened my eyes to find everyone looking at me." 
+DisableSkip()   
+Mei "So, what did you think?" 
+
+choice "..." 
+{
+	-Amazing 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseKindness(-st 1) 
+		Narrator "That was amazing." 
+		FirstName "The way you all played - the music felt alive." 
+		FirstName "I liked how each song told a story." 
+		FirstName "If I had to give one bit of feedback, maybe balance the vocals a bit more with the instruments - there were a few moments where your voice got swallowed by the guitar." 
+		PlaySFX(TwoPoints -v 1) 
+		IncreaseFriendshipA(-fr 2) 
+		Mei.SetSprite("Mei_Leaning,Mei_Excited_Tilted" -spd 1)
+		Mei "Hell yeah!" 
+		Mei "Constructive feedback and compliments? You're definitely welcome back." 
+		Mei.SetSprite("Mei_Hip,Mei_Confused" -spd 1)
+		Narrator "The tension melted as laughter and high fives filled the room." 
+		Narrator "Jacob whooped, Doug twirled his guitar pick between his fingers, and Lily grinned, her drumsticks tapping against her knees." 
+		Mei "That's a wrap, everyone! Great session today." 
+		Mei "See you all next week!" 
+		Narrator "She turned back to me, her eyes still bright with adrenaline." 
+		Mei.SetSprite("Mei_Cross,Mei_Determined" -spd 1)
+		Mei "Thanks for coming, $PlayerStats.FirstName. Having someone actually listen helps us get better." 
+		Narrator "Everyone started packing up, still buzzing with post-performance energy - the kind that lingered long after the music stopped." 
+	
+	-It Was All Right 
+		Narrator "It was all right." 
+		FirstName "Don't get me wrong, I liked the songs." 
+		FirstName "You definitely have something special here - the lyrics are powerful, and Mei's voice carries real emotion." 
+		FirstName "But I think you could push the energy of some bridges - some songs felt like they wanted to burst open but were held back a little." 
+		FirstName "Maybe experiment with a stronger bass build-up or a drum fill before the final chorus to give it that extra punch?" 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseCourage(-st 1) 
+		Narrator "The band members exchanged thoughtful glances, their concern shifting into focus rather than doubt." 
+		Mei.SetSprite("Mei_Thinking,Mei_Think" -spd 1)
+		Mei "Noted." 
+		Mei.SetSprite("Mei_Cross,Mei_Happy" -spd 1)
+		Mei "That's actually good advice." 
+		Mei "We've been debating that part for weeks." 
+		Jacob "Yeah, heavier bridges could make the endings hit harder." 
+		Doug "See, told you guys we needed a second opinion!" 
+		Narrator "Lily nodded." 
+		Narrator "I smiled as they fell into discussion, their earlier worry replaced by a surge of creative energy." 
+		PlaySFX(ThreePoints -v 1)
+		IncreaseFriendshipA(-fr 3) 
+		Mei "Looks like we've got some worked to do." 
+		Mei.SetSprite("Mei_Cross,Mei_Determined" -spd 1) 
+		Mei "Thanks, $PlayerStats.FirstName - honesty like that helps us grow." 
+		Mei "All right, that's a wrap for today, everyone. Great work." 
+		Mei "See you all next week!"
+} 
+
+EnableSkip() 
+Mei.SetSprite("Mei_Nervous,Mei_Sad" -spd 1) 
+Narrator "While the others continued packing, Mei lingered near her mic stand, tapping it absentmindedly." 
+Narrator "The faint, rhythmic thump echoed through the room - almost like a heartbeat." 
+Narrator "I suddenly felt the urge to step away for a moment." 
+FirstName "Hey, where's the bathroom?"  
+Mei.SetSprite("Mei_Hip,Mei_Sad" -spd 1) 
+Mei "Down the hall to the right." 
+Mei.Hide() 
+ClearLayerMedia(background Rehearsal_Garage) 
+HideDB(-spd 1) 
+wait(1) 
+
+wait(1) 
+
+SetLayerMedia(background Rehearsal_Garage) 
+wait(1) 
+Narrator "After doing my business, I was walking down the hall to return to the garage." 
+Narrator "I reached for the door knob, preparing to open the door, but at the moment, the door swung open, hitting my head." 
+Narrator "I stumbled back and winced." 
+Mei.Show() 
+Mei.SetSprite("Mei_Leaning,Mei_Disgusted_Tilted" -spd 1) 
+Mei "Oh my god! $PlayerStats.FirstName, I'm so sorry! Are you OK?!"
+Narrator "I rubbed my forehead."
+Narrator "I'm fine. I think." 
+Mei.SetSprite("Mei_Hand_Out,Mei_Crying_Tilted" -spd 1) 
+Narrator "Mei helped me off the floor, her hands trembling slightly."
+Mei "You sure? I'll grab an ice pack." 
+Mei "I'll walk you to the living room." 
+Mei.Hide() 
+ClearLayerMedia(background Rehearsal_Garage) 
+HideDB(-spd 1) 
+wait(1) 
+
+wait(1) 
+
+wait(1) 
+SetLayerMedia(background Rehearsal_Garage) 
+Mei.Show() 
+Mei.SetSprite("Mei_Nervous,Mei_Scared" -spd 1) 
+Mei "Sit down. I'll be right back." 
+Mei.Move(1.5 -spd 4.0) 
+Narrator "As she walked off to her kichen, I looked around the cluttered living room." 
+Narrator "Actually looked this time." 
+Narrator "Besides the mess, there were paintings of forests, family photos with smiles that looked a bit too posed, and stacks of magazines." 
+Narrator "The one on top read \"The Long Goodbye - Letting Go And Moving Forward.\"" 
+Narrator "I continued to look around the room."
+Narrator "It seemed charming despite the mess, with velvet drapes framing the windows and antique furnishings adding to the ambiance." 
+Mei.SetSprite("Mei_Hand_Out,Mei_Anxious_Tilted" -spd 1), Mei.SetPosition(1.3), Mei.Move(0.5 -spd 4.0)  
+Narrator "Mei then came back, she placed a homemade ice pack gently on my head and sat beside me." 
+Narrator "The sudden cold made me flinch, and she retreated her hand just a little." 
+FirstName "That's cold." 
+Mei "I know, just hold still."  
+Mei.Hide() 
+Narrator "She once again gently placed the ice pack on my head." 
+Narrator "The chill seeped through my skin with a soft sting, followed by a wave of relief." 
+Mei "Better?" 
+DisableSkip()  
+Mei "Do you have a headache?" 
+
+choice "..." 
+{
+	-I'm Fine 
+		Narrator "Just a slight one, but I'll live." 
+		FirstName "I've had worse headbutts with doors before."
+		FirstName "Honestly, it's nothing. I'm more embarrassed than hurt." 
+		Narrator "I forced a small chuckle, trying to play it off, though the dull ache throbbed behind my forehead."
+		Mei "You sure? I can get you painkillers."
+		FirstName "No, really. I'll be fine." 
+		Mei.SetSprite("Mei_Cross,Mei_Neutral" -spd 1)
+		Narrator "She gave me a skeptical look before finally sitting back beside me, leaving me to hold the ice pack myself."
+		PlaySFX(TwoPoints -v 1)
+		IncreaseFriendshipA(-fr 2)
+		Mei "If you say so." 
+		Mei.SetSprite("Mei_Cross,Mei_Sad" -spd 1)
+		Mei "I'd feel terrible if your first band visit ended with a concussion." 
+		FirstName "I'll be fine. Thanks." 
+		Narrator "The silence between us lingered for a couple of seconds before either of us spoke again." 
+	
+	-Looking At You Makes It Better
+		PlaySFX(OnePoint -v 1)
+		IncreaseCharmisma(-st 1)
+		FirstName "Yeah, but looking at you is making my headache go away."
+		FirstName "You've got some kind of healing aura or something - better than any ice pack."
+		Narrator "I grinned, hoping the light humor masked the faint warmth spreading across my face."
+		PlaySFX(OnePoint -v 1)
+		IncreaseFriendshipA(-fr 1)
+		Mei "Is that so? I'll add miracle worker to my résumé then." 
+		Mei.SetSprite("Mei_Cross,Mei_Neutral" -spd 1)
+		Narrator "She smirked, brushing a loose strand of hair from her face as she leaned back, leaving me to hold the ice pack myself."
+		Mei "Guess that means you're officially under my care until you're fully healed."
+		FirstName "Are you sure that's a good idea? I might fake another injury just to get more treatment." 
+		Mei.SetSprite("Mei_Cross,Mei_Excited" -spd 1)
+		Narrator "She laughed."
+		Narrator "Her laughter faded into a silence, and we booth looked at each other." 
+} 
+
+EnableSkip() 
+Mei.Show() 
+Narrator "We just sat there as the soft scent of sandalwood filled the room once again." 
+Narrator "I had fun today! That was my first time seeing a band rehearsal." 
+Mei.SetSprite("Mei_Cross,Mei_Relieved" -spd 1)
+Mei "I'm glad." 
+Mei "You know... it'd be great if you could come by every Friday to watch us practice." 
+Mei "I'd really appreciate it." 
+Mei "It helps having someone around for feedback." 
+Mei "It helps having someone who listens, not just hears the noise." 
+Narrator "I smiled." 
+DisableSkip() 
+FirstName "If I can make the time, I'd love to." 
+Mei.Hide() 
+ClearLayerMedia(background Rehearsal_Garage) 
+HideDB(-spd 1) 
+wait(1)  
+
+DisplayRankUpPage(-cn Mei)  
+HideDB(-spd 1) 

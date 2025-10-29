@@ -1,0 +1,35 @@
+input "What is your name?" 
+
+$playerName = <input> 
+
+$player.charm = 0 
+$player.kindness = 0 
+$player.patience = 0 
+$player.courage = 0 
+$player.confidence = 0 
+$player.intelligence = 0 
+$player.strength = 0 
+$player.humor = 0 
+$player.diligence = 0 
+$Mei.friendship = 0 
+
+$player.LedMeiOn = false 
+
+Narrator "Tonight was the music festival. As I prepared for the festival, a myriad of emotions and thoughts swirled within me." 
+Narrator "I was excited for the event but there was something that was conflicting me." 
+Narrator "Do I like Mei as something more or do I just simply cherish our friendship?" 
+Narrator "I have never met someone like her before, she's quite unique and she's a great person." 
+
+
+choice "..." 
+{
+	-I Love Her 
+		Narrator "I took a breath, pulling out my phone to scroll through pictures of Mei and I together, reminiscing on our memories." 
+		Narrator "At that moment, clarity washed over me, I finally understood how I truly felt." 
+		Load(MeiRomance -enqueue true)
+
+	-She's My Best Friend 
+		Narrator "I took a breath, pulling out my phone to scroll through pictures of Mei and I together, looking back at everything." 
+		Narrator "At that moment, clarity washed over me, I finally understood how I truly felt." 
+		Load(MeiFriendLedHerOn -enqueue true)   
+} 

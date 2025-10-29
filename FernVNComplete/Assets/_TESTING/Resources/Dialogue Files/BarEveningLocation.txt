@@ -1,0 +1,33 @@
+SetLayerMedia(background Bar)        
+
+ShowMC()   
+Narrator "What should I do?" 
+
+choice "What Should I Do?"   
+{
+	-Play Darts 
+		HideGalleryImage() 
+		HideDB(-spd 1)  
+		UIHide() 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1) 
+		LoadScene(DartsGame) 
+		
+	-Karaoke  
+		HideGalleryImage() 
+		HideDB(-spd 1)  
+		UIHide() 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1) 
+		LoadScene(KaraokeGame)  
+		
+		
+	-Get A Drink 
+		PhoneEnabled(false)   
+		Narrator "I sat down and asked for a drink." 
+		Load(BarNina -enqueue true)  
+} 

@@ -1,0 +1,26 @@
+SetLayerMedia(background Bar) 
+
+choice "..." 
+{ 
+	-Invite Someone 
+		ShowFriendInvites() 
+
+	-Drink Alone 
+		Narrator "... Hot toddy?" 
+		Bartender "Comin' right up."   
+		Narrator "The Hot Toddy's comforting warmth, with a pinch of honey and a touch of spice, felt like a gentle embrace." 
+		Narrator "Each sip seemed to open my heart a little more, making me feel connected to everyone around me." 
+		PlaySFX(OnePoint -v 1)         
+		IncreaseEmpathy(-st 1)     
+		Narrator "Moved by this warmth, I decided to join in some meaningful conversations, listening to stories." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		wait(1)
+		LoadScene(Bar -enqueue true) 
+		
+	-Back 
+		Load(BarLocation)  
+} 

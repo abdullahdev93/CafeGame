@@ -1,0 +1,261 @@
+SetLayerMedia(background NinaApartment)  
+
+PhoneEnabled(false) 
+
+ShowMC()  
+
+Narrator "I knocked on her door."
+Narrator "As I knocked, it felt strange."  
+HideDB(-spd 1) 
+PlayCutscene(-cs "Fantasy Landscape") 
+Narrator "It was strange how something so small could make my heart race. A tap of knuckles against wood, and suddenly, I was nervous."
+Narrator "It had been a month since I last saw her. Since the bonfire. Since we kissed."
+Narrator "I wondered if rehab changed her."
+Narrator "Would she still be the same Nina I fell in love with?" 
+Narrator "Or would she be someone entirely different?
+Narrator "Then I heard her voice, muffled through the door but unmistakably hers."
+Nina "Come in~."
+Narrator "I smiled despite myself and turned the knob."
+Narrator "The door creaked open, and I stepped inside her apartment."
+Narrator "Nina's apartment looked... Different."
+Narrator "Cleaner. Warmer. Still a little cluttered but cleaner."
+Narrator "The easel still stood by the window, but the painting on it now was something new."
+Narrator "A few canvases leaned against the wall in a neat, organized stack. Books were arranged on the shelves, mugs had proper coasters, and the scent of dried herbs and citrus drifted around the apartment."
+Narrator "Nina moved around the kitchenette, rushing to put something together, almost like she wasn't quite sure what to do."
+Narrator "She wore a blouse and a pair of leggings, her hair tied up messily, a smear of blue paint still on her cheek."
+Narrator "She then stood by the stove, pouring tea into separate mismatched cups onto a tray."
+Nina "Want some tea?" 
+Nina "I... Uh, made three different kinds. Couldn't decide which you'd like best."
+Narrator "She set the tray of teas down on the kitchen counter with a soft clatter, moving a little too fast. In front of me, a row of mismatched mugs stood in a crooked line, like little offerings."
+Nina "And I may have burned the first kettle. Just a little."
+Narrator "She gave a nervous laugh and tugged at the hem of her shirt, eyes scanning the mugs like she was waiting for me to take one."
+Narrator "Well, what are the options?"
+Nina "Lemon & Sage, Orange & Fennel, Rosemary & Rose Petal."
+Narrator "I smiled and stepped closer, deciding which one to pick. I took my time, knowing she'd notice my choice."
+
+choice "..."
+{ 
+	-Lemon & Sage
+		Narrator "I'll take the Lemon & Sage."
+		Narrator "I lifted the mug with the yellow hue and took a careful sip."
+		Narrator "Warm citrus and earth hit my tongue - clean and comforting."
+		Nina "Yeah."
+		Nina "My Nonna used to make it for me when I had trouble sleeping." 
+		Nina "Or if I was stressed."
+		Nina "It helps you relax." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseKindness(-st 1) 
+		Narrator "She smiled, but there was something tender in her eyes. A memory brushing the edge of her voice." 
+		Nina "I guess I wanted to offer it in case you were feeling stressed too. I know that running a business is not easy."
+		Narrator "Then I guess it's doing its job." 
+		PlaySFX(TwoPoints -v 1) 
+		IncreaseFriendshipC(-fr 2)   
+		Narrator "Nina smiled." 
+		
+	-Orange & Fennel
+		Narrator "I'll try the Orange & Fennel."
+		Narrator "I picked the mug with the stronger scent - something citrusy and sharp."
+		Narrator "One sip in and the fennel surprised me, but not in a bad way."
+		Narrator "This one's... Bold."
+		Nina "Yeah. It's kind of aggressive, right? That's what I like about it."
+		Nina "It's the kind of tea you drink when you're trying to wake the hell up."
+		Nina "Or maybe when you're trying to taste something that bites back."
+		Narrator "Sounds like you." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCourage(-st 1) 
+		Nina "Rude."
+		Nina "But fair." 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseFriendshipC(-fr 1)   
+		Narrator "We both laughed." 
+		
+	-Rosemary & Rose Petal
+		Narrator "I think I'll go with Rosemary & Rose Petal."
+		Narrator "I picked the mug with the floral aroma and took a slow sip. It was delicate and rich."
+		Narrator "Not bad."
+		Nina "Yeah. It's kind of a weird combo. Sweet and sharp, but it works. I didn't think you'd pick that one."
+		Narrator "I like trying new things." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseConfidence(-st 1) 
+		Nina "You know, I only started drinking that tea when I quit..."
+		Nina "It's a good replacement."
+		Narrator "I'm glad you were able to find something that helps, and its pretty good too!"
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipC(-fr 3)  
+		Nina "And I'm glad you like it." 
+
+}
+
+Narrator "She took one of the other teas then went to the living room to sit on the couch, softly patting the cushion beside her while looking at me and giving me a small nod - inviting me to sit next to her."
+Narrator "When I did, there was an awkward silence, like she wasn't sure what to do with the space between us."
+Narrator "She sipped her tea, and I sipped mine. For a while, we just listened to the sound of wind brushing against the window."
+Nina "So?"
+Narrator "She started brushing her thumbs."
+Nina "How have you been? Anything new?"
+Narrator "You OK?"
+Nina "Yeah."
+Narrator "She paused for a moment."
+Nina "No."
+Nina "Sorry, I... I've never really done this before."
+Narrator "This?"
+Nina "This... Girlfriend thing. Being lovey-dovey, trusting someone. I usually just drank, made jokes, hooked up with someone who didn't ask questions, and that was it."
+Nina "But you? You're different."
+Narrator "She hesitated."
+Nina "You're my first real relationship."
+Nina "And I don't want to mess it up."
+Nina "I don't want to let you down."
+
+choice "..."
+{ 
+
+	-Kiss Her 
+		Narrator "I leaned in - slowly, carefully - leaving room for her to pull away if she wanted to."
+		Narrator "She didn't."
+		Narrator "Our lips met. It was a simple but sweet kiss."
+		Narrator "When we finally pulled apart, she didn't let go."
+		Narrator "Her forehead rested against mine, our breath mingling in the silence between us."
+		Nina "...That was scary."
+		Narrator "Why?"
+		Nina "Because I've never had a kiss mean something before. Not like that."
+		Nina "I never thought I'd have something real."
+		Nina "After Joesph, I didn't think anyone would ever actually... Like me for me."
+		Nina "It feels scary, but I want this." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCharisma(-st 1)  
+		Nina "You actually, genuinely want me."
+		Nina "You see me. Even the parts of me that I've spent years trying to hide."
+		Narrator "I put my hand on her thigh."
+		Narrator "I want this too, Nina. All of it."
+		Narrator "Do you believe me now?"
+		Nina "... Yeah."
+		Narrator "Her breath shook, but her hand slid into mine."
+		Narrator "I love you, Nina."
+		PlaySFX(TwoPoints -v 1) 
+		IncreaseFriendshipC(-fr 2)   
+		Nina "I love you too, [Player Name]."
+		Narrator "We kissed again." 
+		
+	-Reach For Her Hand 
+		Narrator "I reached for her hand and held it gently, my thumb brushing across her knuckles."
+		Narrator "You don't have to be perfect, Nina."
+		Narrator "I didn't fall for some perfect version of you. I fell for you. The messy, brilliant, sarcastic, stubborn you." 
+		Narrator "A small breath escaped her lips. Not quite a laugh. Not quite a sigh. Just something unguarded." 
+		Nina "You make it sound so easy." 
+		Narrator "She glanced down at our hands, her fingers tightening slightly around mine." 
+		Nina "I've spent so long putting up a wall to protect myself, to keep myself from getting hurt. I knew if I kept things simple, not too deep, I would be OK." 
+		Nina "But with you... I don't know, it's different. It is deep." 
+		Nina "And that scares me." 
+		Narrator "She looked back up, eyes glassy." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseEmpathy(-st 1)  
+		Nina "But I want this. I want to be seen by someone who actually sees me. Even the ugly parts." 
+		Narrator "I gave her hand a gentle squeeze." 
+		Narrator "Then let me keep seeing you. All of you. No filters. No edits." 
+		Narrator "For a long moment, she didn't speak." 
+		Narrator "Then, with a quiet smile, she leaned her head against my shoulder." 
+		Nina "OK." 
+		Narrator "I love you, Nina." 
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipC(-fr 3) 
+		Nina "I love you too, [Player Name]." 
+		Narrator "We kissed." 
+} 
+
+Narrator "Well... That was the first time your lips didn't tasted like alcohol." 
+Narrator "She snickered."  
+Nina "Wow. How romantic." 
+Narrator "She then grinned." 
+Nina "After rehab, I stopped drinking. I planned on telling you today, but I guess my breath beat me to it." 
+Narrator "She let out a small laugh - half embarrassment, half relief." 
+Narrator "I set my mug down and reached over, brushing a strand of hair from her face." 
+Narrator "I'm proud of you." 
+Narrator "And I'm sure your Nonna would be too." 
+Narrator "Nina smiled with watery eyes." 
+Nina "Thanks." 
+Narrator "Later, Nina and I ended up on the floor, sitting with our backs against the front of the couch, legs stretched out, shoulders brushing, the quiet hum of the apartment settling around us." 
+Narrator "I helped her pull out a dusty box of old sketchbooks. She hadn't looked at them in a long time. The pages were smudged and creased, some torn, some stained." 
+Narrator "She let me flip through them." 
+Narrator "The pages were filled with her early work - Some were self-portraits. Some were people and places that I didn't recognize. Some were just explosions of colors." 
+Nina "Most of these were done when I was drunk. I look at them now and... I don't know. Part of me wants to tear them up. The other part is proud of them." 
+Nina "And some of them are representations of my emotions. I used to draw my emotions like they were things I could trap on the page. Thought maybe if I could see them, I could control them." 
+Nina "And it worked. Sometimes." 
+Narrator "She laughed softly." 
+Nina "But hey, the drawings are cool, I guess." 
+Narrator "Very expressive." 
+Narrator "She looked at me and smirked." 
+Narrator "Then, quietly, she leaned in and kissed me, quick, warm, and a little awkward. Gentle." 
+Narrator "Then she pulled back and looked me in the eye, blushing." 
+Narrator "That was a surprise." 
+Nina "Guess I'm just full of surprises today, huh?" 
+Narrator "You should surprise me like that more often." 
+Nina "You got it." 
+Narrator "She smiled, her hands finding the hem of her blouse, pulling it over her head effortlessly, exposing her smooth-cup underwire white bra." 
+Narrator "She looked away quickly, her cheeks flushed, almost like she was nervous." 
+Narrator "She then looked back at me." 
+Nina "You know what scares me?" 
+Narrator "What?" 
+Nina "That I might actually be happy." 
+Nina "And have no idea how to handle it." 
+Narrator "I squeezed her hand gently." 
+Narrator "Then I'll help you figure it out. One day at a time." 
+Narrator "She slid her hand on my chest." 
+
+choice "..." 
+{
+	-Are You Sure? 
+		Narrator "Nina, are you sure?" 
+		Nina "She looked at me then nodded." 
+		Nina "I want to know what it's like... When there are feelings behind it." 
+		Narrator "OK." 
+		Narrator "I brushed a stray lock of hair from her face, my fingers lingering against her soft skin as I gently cupped her left cheek." 
+		Narrator "We leaned in simultaneously and our lips softly met."
+		Narrator "It started as a simple kiss, but it evolved into a deep and passionate one."
+		Narrator "Nina wrapped her arms around me while our tongues swirled, pulling me closer every few seconds, feeling her breast cushion my body." 
+		Narrator "Nina and I got up and walked toward her bedroom." 
+		Narrator "We threw each other onto the bed and embraced each other again."
+
+		Narrator "Nina was on top of me." 
+		Narrator "Her messy bun had come undone, and her long auburn hair spilled down around her shoulders like a slow, uncoiling ribbon." 
+		DisableSkip()   
+		Narrator "Before I knew it, our clothes were off, forgotten on the floor." 
+
+	-Not Today 
+		Narrator "I pulled back just enough to meet her eyes." 
+		Narrator "I love being close to you... But tonight, I just want to hold you." 
+		Nina "She blinked, almost like she was surprised." 
+		Nina "That's... Never happened before." 
+		Narrator "A soft smile tugged at her lips." 
+		Nina "But... No pressure. I would actually like that. A lot." 
+		Narrator "We curled up together on the floor beneath the couch, wrapped in each other's warmth." 
+		DisableSkip()   
+		Narrator "No words, no expectations - just quiet, steady comfort." 
+
+} 
+
+HideDB(-spd 1) 
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1)   
+AdvanceDay() 
+Load(ApartmentStart) 
+
+	-Rest Head on Her Lap 
+		Narrator " I shifted, gently laying my head on her lap." 
+		Narrator "At first, she froze." 
+		Narrator "Then I felt her fingers thread awkwardly into my hair, unsure at first - then slowly, deliberately, like she was trying to believe she was allowed to touch my hair." 
+		Nina "You really trust me that much?" 
+		Narrator "I do." 
+		Narrator "She looked down at me, her expression unreadable at first."
+		Narrator "Then something in her cracked - just slightly. Her thumb brushed my temple with a featherlight touch."  
+		Nina "I've spent so long pretending I didn't care. Joking. Drinking. Leaving before things got complicated." 
+		Nina "But I don't want to leave this time."  
+		Nina "No one's ever let me hold them like this before." 
+		Narrator "Her breath hitched, and she began to cry." 
+		Nina "I'm... I'm sorry." 
+		Narrator "She tried to wipe them away with the back of her hand, quick and clumsy, almost like she didn't think she was allowed to cry in front of me." 
+		Nina "I don't know how to be loved without apologizing for it. I don't even know how to let someone do this... Whatever this is." 
+		Narrator "I reached up and placed my hand on her cheek."  
+		Narrator "Then let this be the start." 

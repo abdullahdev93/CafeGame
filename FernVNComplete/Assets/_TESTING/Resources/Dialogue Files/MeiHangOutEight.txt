@@ -1,0 +1,153 @@
+SetLayerMedia(background Apartment_ALT)      
+
+Narrator "I received a message from Mei." 
+Mei "[Player Name], my mom's school is having a career day." 
+Mei "I'm going to be talking about what I do with her class." 
+Mei "Want to come?" 
+Narrator "Sure." 
+Narrator "I got ready, asked for the address, then drove to the local school." 
+Narrator "I walked myself into the office, greeted myself, then I was given directions to Ms. Wu's classroom." 
+Narrator "I knocked on the door. An older woman opened door." 
+Mei's Mom as Older Woman "Why, hello there. You must be <input>." 
+Narrator "I am." 
+Mei's Mom as Older Woman "It's great to finally meet you. I'm Lilith. Mei has mentioned you quite a bit." 
+Lilith "Come on in." 
+Narrator "As I walked into the empty classroom, I noticed colorful artwork adorning the walls." 
+Narrator "The vibrant paintings of fantastical creatures and whimsical landscapes contrasted beautifully with the dark tones of the furniture, creating a unique and inviting atmosphere."  
+Narrator "Encouraging signs hung around the room, featuring motivational quotes and affirmations, adding a touch of positivity to the classroom." 
+Narrator "Where are the kids?" 
+Lilith "They're still at recess." 
+Mei "[Player Name], you ready?"  
+
+choice "..." 
+{
+	-Hell Yeah! 
+		Narrator "Hell yeah!" 
+		Narrator "Are you?" 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "Hell yeah." 
+		Lilith "I understand the excitement, but refrain from using profanity in front of the children." 
+		Mei "Sorry, mom." 
+		Narrator "Same." 
+
+	-I'm Slightly Nervous 
+		Narrator "I'm slightly nervous." 
+		PlaySFX(OnePoint -v 1) 
+		Lilith "That's perfectly normal, dear." 
+		Mei "Don't worry, you'll do good." 
+}  
+
+Narrator "As the bell chimed, we knew it was time." 
+Narrator "Mei's mother left to pick them up." 
+Narrator "As the kids filed the room, we greeted them." 
+Narrator "Lilith greeted them with a fist pump by the door." 
+Narrator "I greeted them with a warm smile. Mei greeted them with a wave, her black-painted nails contrasting with the colorful artwork surrounding the walls." 
+Lilith "I hope you all had a great recess, now let us resume our activities." 
+Lilith "As you guys are aware, today is career day." 
+Narrator "She gestured to us." 
+Lilith "This is my daughter, Mei." 
+Lilith "And this is my daughter's friend, <input>." 
+Narrator "A kid's hand shot up." 
+Lilith "Yes, Harold?" 
+Harlod "Are they dating?" 
+Kids "Ooo." 
+Narrator "Mei blushed. She shifted slightly, clearly caught off guard by the unexpected question." 
+Lilith "Now, now, settle down kids. They're just friends." 
+Lilith "And they're here to tell you about their jobs." 
+Narrator "Mei went first." 
+Mei "I am Mei Wu, the daughter of Ms. Wu. I am a librarian and an aspiring song artist." 
+Mei "I work at Whispering Pages. Growing up, I have always had an interest in literature, including poems." 
+Mei "My love for stories and rhymes slowly nurtured my love for music." 
+Mei "I have a band called Midnight Ghosts. We practice weekly in the garage. I have created a couple of songs with my band." 
+Mei "You guys want to hear a song?" 
+Kids "Yeah!" 
+Narrator "Mei grabs her guitar from across the room then returns to the front of the class." 
+Narrator "She takes a seat." 
+Mei "\"In shadows deep where dreams entwine, Lost in whispers of a moonlit shrine, Hearts beating fierce, a darkened sign, Embracing love, this heart of mine.\""  
+Mei "\"Love in obsidian, so pure and true, In moonlit nights, I dance with you, Acceptance in darkness, a refuge anew, Freedom in shadows, our spirits imbue.\"" 
+Mei "\"Souls in the midnight air, Bound by ties that none can tear, Eyes of ebony, a silent stare, Love's embrace, beyond compare.\"" 
+Mei "\"In every whisper, in every sigh, In every tear from a moonlit eye, Love's embrace beneath the sky, In shadows deep, we'll never die.\"" 
+Mei "In the abyss where shadows grow, Love's eternal flame, a vibrant glow, Embracing darkness, we let it show, In love, we find our flow." 
+Narrator "The class cheered and applauded." 
+Mei "Thank you." 
+Mei "And if you want to hear our music, come to the upcoming music festival." 
+Narrator "Mei looks at me with a thumbs up." 
+Mei "[Player Name], you're up." 
+Narrator "Hello, everyone. I'm [Player Name]." 
+Narrator "I took a breath before telling the kids about Bean Bliss Café." 
+Narrator "Some of them seemed intrigued while some of them seemed uninterested." 
+Narrator "When I was done, I passed out my business cards." 
+Narrator "And don't forget to tell your parents about Bean Bliss." 
+Lilith "Fascinating. Anyone have any questions?" 
+Narrator "Some kids raised their hands. We were able to answer most of the questions." 
+Lilith "All right, class. Get out your Language Arts textbooks and open to page 316." 
+Narrator "The kids groaned." 
+Lilith "I know, I know, but we have to do it." 
+Mei "I think I'll stay and help." 
+Narrator "Same!" 
+Narrator "I can help with..." 
+
+choice "..." 
+{
+	-Math  
+		Narrator "...The math." 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "You're good at math?" 
+		Narrator "As a self-employed business owner, you have to be." 
+
+	-Language Arts 
+		Narrator "... The language arts too." 
+		PlaySFX(ThreePoints -v 1) 
+		Mei "Awesome." 
+		
+	-History 
+		Narrator "... History." 
+		PlaySFX(TwoPoints -v 1) 
+		Mei "You like history?" 
+		Narrator "Yeah." 
+		Mei "Didn't take you for a history lover." 
+		Narrator "It's interesting." 
+		Mei "Somewhat." 
+
+	-Science 
+		Narrator "... Science." 
+		PlaySFX(TwoPoint -v 1) 
+		Mei "You're good at science?" 
+		Narrator "Yeah." 
+		Mei "I wish that I was good at science." 
+} 
+
+Narrator "I spent the rest of the day at the school helping Lilith and Mei." 
+Narrator "When the final bell chimed, it was time to leave." 
+Mei "Bye, mom. I'll see at home." 
+Lilith "Bye, Mei. Thanks for your help today." 
+Narrator "See you later, Mei." 
+Narrator "As I was about to leave, Lilith called to me." 
+Lilith "[Player Name], may I speak with you before leave?" 
+Narrator "Sure." 
+Lilith "What do you think of my daughter?" 
+Lilith "Do you like my daughter?" 
+Narrartor "I think she's a cool person. I like her." 
+Lilith "No, no. Do you like her as more that just a friend?" 
+Narrator "I don't know." 
+Lilith "I have noticed my daughter has taken quite a liking to you. I have no issues with you spending time with daughter, but please don't break her heart." 
+Lilith "She's special to me, and I wouldn't want to see her hurt, not again." 
+Lilith "She's been through a lot." 
+Narrator "I looked back to all of the things that Mei had confided in me - trauma, heartbreak, and loss." 
+Narrator "I understood the weight of what she had been through, I understood her mother's wishes." 
+Narrator "I'll try not to, ma'am." 
+Narrator "Today, I learned more about Mei and finally had the chance to meet her mother, but now, reflecting on everything, I realized that I need to sort out my feelings for Mei." 
+Narrator "As this point, it's evident that she has feelings for me." 
+Narrator "To be honest, I suspected her feelings for me for a while now." 
+Narrator "I have to truly think about how I feel about her. When the time comes, I want to be prepared to give her an honest answer." 
+
+MeiHangOutEightComplete()         
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+AdvanceDay() 
+Load(ApartmentStart -enqueue true)  

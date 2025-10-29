@@ -1,0 +1,37 @@
+SetLayerMedia(background Bar)
+
+Narrator "A Margarita."
+Bartender "Comin' right up." 
+Battender "Salted rim?"
+Narrator "Of course."
+Mei "I'll take a glass of Red Wine."
+Bartender "Got it."
+Narrator "As the bartender prepared our drinks, I leaned against the counter, glancing at Mei, an amused smirk tugging at my lips." 
+Narrator "Playing it safe tonight?"
+Mei "She rolled her eyes, resting her elbow on the counter." 
+Mei "It's not that I don't want to have fun. It's just that one bad tequila night is all it takes to put someone off for life."
+Narrator "Sounds like you're talking with experience."
+Mei "She shook her head with a knowing smirk." 
+Mei "Let's just say... I don't want to make the same mistakes twice." 
+Narrator "Fair enough." 
+Narrator "The bartender eventually slid our drinks in front of us." 
+Narrator "I took a sip, the salted rim brushing my lips as the tangy mix of lime and tequila hit my tongue." 
+Mei "She swirled her wine, inhaling the aroma before taking a slow, contented sip." 
+Mei "Now this is a drink."
+Narrator "I chuckled, setting my glass down." 
+Narrator "You really don't like tequila, huh?"
+Mei "Let's just say, it doesn't like me back." 
+Mei "It got me to makeout with one of my exes." 
+Narrator "She stood quiet for a moment before taking another sip." 
+Narrator "The chatter around us blurred into the background as we began to settle into conversation again."
+Narrator "Time slipped away between sips, stories, and quiet laughter." 
+Narrator "We lost track of time, caught up in conversation until the bar's lively buzz began to mellow." 
+Narrator "Eventually, with a shared glance and final sips, we knew it was time to call it a night. 
+
+HideGalleryImage()
+HideDB(-spd 1)
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience()
+wait(1)
+LoadScene(Bar -enqueue true)

@@ -1,0 +1,82 @@
+SetLayerMedia(background BaywoodSpringsNight)         
+
+Narrator "We left the bar and stepped out into the cool night, the town quieter now, only the occasional car passing by." 
+Narrator "Nina led the way as we walked in near silence." 
+Narrator "Nina's apartment wasn't far, just a few blocks away, nestled between an old bookstore and a closed arcade." 
+Narrator "The building looked a little run-down, but it had a certain charm."  
+Nina "Here it is." 
+Narrator "She stopped in front of a small staircase, leading to the door of her building." 
+Narrator "Mind if you walk me in?" 
+
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1) 
+
+SetLayerMedia(background RunDownHall)     
+
+Narrator "Once we got to her apartment door, she pulled out her keys from her purse." 
+Narrator "She fumbled with her keys for a moment before managing to unlock her apartment door." 
+Nina "You wanna come in? It's not much, but... I got coffee, if you're interested." 
+
+choice "..."  
+{ 
+	-Sure 
+		Narrator "Sure." 
+		Narrator "I could use some coffee. I could use the extra energy to help me get home."  
+		Nina "Great." 
+		SetLayerMedia(background NinaApartment)   
+		Narrator "I walked into her studio apartment." 
+		Narrator "It was small, cluttered with canvases stacked against the walls like dominos, paintbrushes scattered across an area of the floor, and a half-finished painting mounted on an easel." 
+		Narrator "The faint smell of paint and turpentine filled the air. A single lamp by the window casted a warm glow across the space that was supposed to be the living room." 
+		Narrator "A russina blue cat walked up to Nina as Nina kneeled, almost like she anticipated it." 
+		Nina "Luna!"  
+		Narrator "She holds the cat, carassing it for a moment before setting down it." 
+		Narrator "Luna walked away afterward." 
+		Nina "Sorry for the mess. I wasn't expecting company today." 
+		Narrator "Nina shrugged."  
+		Nina "It's a bit of a disaster, but I have a system." 
+		Narrator "It's definitely got character." 
+		Narrator "I continued looking around." 
+		Narrator "Definitely feels like an artist lives here." 
+		Narrator "She smiled sheepishly and moved toward the small kitchenette." 
+		Nina "I wasn't kidding about the coffee, you know. You want some?" 
+		Narrator "Maybe later." 
+		Narrator "I stepped closer to the mounted painting, a chaotic mix of colors swirling on the canvas."  
+		Narrator "This is really cool. You're really talented." 
+		Narrator "Nina paused after sipping her cup of premade and microwaved coffee, looking at me from across the room." 
+		Nina "Thanks. That means a lot to hear." 
+		Narrator "We exchanged a quiet look, and there was a shift in the air - Nina set the cup of coffee down and moved closer to me, her gaze flicking between me and the floor." 
+		Nina "I'm sure you're just saying that to be nice." 
+		Narrator "I'm not." 
+		Nina "You could... Stay, if you want."  
+		Nina "Like you said, it's getting late." 
+		Narrator "Nina's hand rested on my arm, her fingers light, almost hesitant." 
+		Load(NinaHookUp -enqueue true) 
+
+	-It's Late 
+		Narrator "It's getting late." 
+		Narrator "I should get going." 
+		Nina "Oh, uh, right. That... Cafe isn't going to manage itself." 
+		Narrator "Y-Yeah." 
+		Narrator "It was nice meeting you, Nina." 
+		Nina "Likewise." 
+		Nina "Maybe I should exchange contacts?" You got Picstagram?" 
+		Narrator "I do." 
+		Narrator "Nina and I exchanged usernames before I left back to the apartment." 
+		Narrator "As I walked home, I couldn't help think about my time with Nina." 
+		Narrator "There was something about her raw honesty. I feel like she's someone on the edge of something."  
+		Narrator "She's not just another artist. She's has a talent - a talent to turn pain into beauty, even if she hasn't fully realized yet." 
+		Narrator "Whatever it was, she was a fighter, even if she didn't know it yet." 
+		HideGalleryImage()
+		HideDB(-spd 1) 
+		UIHide()
+		wait(0.75)
+		ClearLayerMedia(background), wait(1)
+		StopSong(), StopAmbience() 
+		Wait(1)  
+		AdvanceDay() 
+		Load(ApartmentStart -enqueue true)    
+} 

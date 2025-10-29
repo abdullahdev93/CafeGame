@@ -1,0 +1,21 @@
+SetLayerMedia(background Library)        
+
+Narrator "I'm at the library." 
+
+Narrator "Which section should I go to?" 
+
+choice "Which section?" 
+{
+	-Horror 
+		Load(Library_Horror -enqueue true)
+		
+
+	-Adventure 
+		Load(Library_Adventure -enqueue true)
+	
+	-Mystery 
+		Load(Library_Mystery -enqueue true) 
+		
+	-More 
+		Load(Library_Extra -enqueue true) 
+} 

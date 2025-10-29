@@ -1,0 +1,27 @@
+SetLayerMedia(background Park) 
+
+choice "..." 
+{ 
+	-Nathan 
+		Narrator "The crisp morning air filled my lungs as I jogged along the winding path through the town's local park, my breath steady but already working to keep up with the pace." 
+		Nathan "C'mon, you got this! Push through - mind over matter!" 
+		Narrator "Golden sunlight filtered through some of the trees and casted a warm glow over the dew-kissed grass." 
+		Narrator "Birds chirped a lively melody, their songs blending with the steady rhythm of our footsteps pounding against the pavement." 
+		Nathan: "You're doing great! Just a little further - imagine there's a guy in front of you handing out free smoothies... But he's got one left, and some old lady is gaining on you!"   
+		Narrator "The gentle breeze cooled my skin, carrying the fresh scent of blooming flowers and damp earth. Each breath felt challenging yet invigorating, but Nathan's words kept me going, pushing past the burning sensation in my legs." 
+		Nathan "This is where you grow! This is where you get stronger!" 
+		Narrator "By the time we slowed to a walk near the far end of the park, a satisfying ache settled into my muscles." 
+		Narrator "I wiped the sweat from my forehead as my heartbeat gradually steadied." 
+		Nathan "See? You crushed it!" 
+		Narrator "Feeling fatigue, I collapsed on one of the wooden benches, but I couldn't help but grin." 
+		Narrator "Nathan was right. I felt stronger, faster." 
+		Narrator "Like my Endurance had just improved." 
+} 
+
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+Load(ParkLocation -enqueue true)  

@@ -1,0 +1,200 @@
+SetLayerMedia(background University) 
+
+PhoneEnabled(false)  
+
+Narrator "I was lying in bed, scrolling through Picstagram when I received an unexpected call from Simon." 
+Narrator "My phone buzzed with Simon's caller ID displaying on the screen." 
+Narrator "I answered the call then put the phone to my ear." 
+Narrator "Hey Simon, what's up?" 
+Simon "Hey, [Player Name]. I, um hope... I hope I'm not bothering you, but I really need a huge favor." 
+Narrator "Simon sounded stressed, so I knew that something was wrong." 
+Narrator "What's going on?" 
+Simon "I'm working on a theatre project for one of my classes, and, to be honest, I'm completely stuck."
+Simon "Could you, uh, help me out?" 
+Narrator "Simon is a good friend and knowing how much Simon struggled with expressing his thoughts, I could imagine him struggling with some of his theatre assignments despite his passion for acting." 
+Narrator "With my respect for actors and my interest in storytelling, I agreed to help." 
+Narrator "Sure, when and where?" 
+Narrator "And what do you need help with?" 
+Simon "Everything, well, mostly dialogue and character development... I'm really struggling." 
+Simon "Can you meet me... Meet me at the campus later today?" 
+Narrator "Baywood University?" 
+Simon "Y-Yeah." 
+Narrator "All right."  
+Narrator "After driving for about a half-hour, I made it to the parking lot of Baywood University." 
+Narrator "I parked my car then climbed a nearby staircase, flanked by railings, to the front of the building." 
+Narrator "It was a red-bricked building, giving it a traditional and somewhat historic appearance." 
+Narrator "The architecture was complemented by expansive, mullioned windows." 
+Narrator "The front was a well-maintained lawn surrounded by tall trees and shrubs." 
+Narrator "Winding pathways and sidewalks meandered through the lawn, leading to various parts of the campus." 
+Narrator "In the center of this lawn was a fountain featuring a statue of a bronze horse in the center, rearing up on its hind legs as if preparing to gallop." 
+Narrator "Sitting on the edge of the fountain was Simon." 
+Simon "You made it." 
+Narrator "He looked up as I approached, a relieved smile spreading across his face." 
+Simon "Come on, let's get inside." 
+Narrator "Simon fished out his student ID card from his pocket and scanned it on the fob attached the main entrance door." 
+Narrator "There was a sharp, metallic click, indicating that the doors had unlock." 
+Narrator "Simon pulled the right door open, stepped inside, then held the door for me as I walked in."  
+Narrator "I followed Simon through the halls." 
+Narrator "Well, looks like my parents finally got what they wanted - me walking into a college." 
+Narrator "We walked until we reached a table in the corner of a student center." 
+Narrator "The table was surrounded by books, scripts, and a laptop displaying a chaotic assortment of tabs." 
+Simon "Thanks for coming. I... really need your help." 
+
+choice "..."   
+{ 
+	-It's Whatever 
+		Narrator "It's whatever. Let's get this over with." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseFriendshipD(-fr 1)    
+		Simon "Oh, um, y-yeah, sure." 
+		Simon "I'm so sorry about this, I didn't mean to disrupt your afternoon, I just really need some help."  
+		Narrator "Simon, it's whatever. I chose to come and help." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCourage(-st 1) 
+		Simon "... Yeah." 
+		Narrator "Well, what's the project?" 
+
+	-Anytime 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseKindness(-st 1)   
+		Narrator "Of course, Simon. Anytime." 
+		PlaySFX(ThreePoints -v 1)   
+		IncreaseFriendshipD(-fr 3)    
+		Simon "T-thank you so much."  
+		Narrator "I nodded." 
+		Narrator "So, what's the project?" 
+	
+} 
+
+Narrator "He took a deep breath and launched into an explanation." 
+Narrator "As he spoke, I could see the passion in his eyes, but also the frustration." 
+Narrator "He was overwhelmed, and it was clear he needed a fresh perspective." 
+Simon "We, um, have to create a modern adaptation of Ramlet." 
+Simon "The twist is... It has to be set in a contemporary high school, with all the, um, characters as students and teachers."  
+Narrator "I raised an eyebrow, intrigued." 
+Narrator "That sounds challenging but interesting. What do you need help with?" 
+Simon "I'm having trouble adapting the dialogue and worldbuilding." 
+Narrator "As he talked, he was fidgeting with the edge of her notebook." 
+Simon "I need to, um, come up with some modern equivalents for the, uh, characters and their relationships." 
+Simon "That's the issue, I mean, like, how do you translate the Victorian-era love triangle into something that makes sense today?" 
+Simon "It's just... ugh, so confusing." 
+Simon "It's so difficult to modernize classic stories and change something that's already good." 
+Narrator "Simon groaned as he scratched his head and avoided eye contact." 
+Simon "I mean, what if I totally... Mess it up and people hate it?" 
+Simon "Like, imagine Ramlet holding a smartphone instead of, uh, holding a skull." 
+Simon "What if... It just doesn't work in a modern context?" 
+Simon "And, uh, the relationships? How do you even translate the whole royal family drama into, like, a modern-day context without it being super cringey?" 
+Simon "Oh, and don't even get me started on the, uh, dialogue." 
+Simon "I don't completely understand Shakespearian." 
+Simon "Don't tell my mom that." 
+Simon "What if I misinterpret some of the lines and ruin the flow of the story, you know?" 
+Narrator "He sighed." 
+Simon "I'm just, like, overthinking everything, aren't I?"  
+Narrator "He let out a nervous laugh, then quickly looked down at his shoes." 
+Narrator "I nodded, understanding his dilemma." 
+Narrator "Okay, let's break it down." 
+Narrator "I pulled a nearby chair and sat next to Simon." 
+Narrator "First, we should outline the main plot points and characters." 
+Narrator "Then we can work on the dialogue and worldbuilding."    
+Narrator "The purpose of an adaption is to take inspiration from an original piece, not make it just like the original piece." 
+Narrator "Give it the same core elements as Ramlet, like its themes, emotions, and the characters' struggles and flaws, but make it your own."  
+Narrator "Capture the essence of the original, but don't be afraid to add your spin to it." 
+Narrator "Let your version of Ramlet speak to today's audience in a way that's fresh and relevant, while still honoring the aspects of that made the original story good." 
+Narrator "Simon nodded and smiled." 
+Narrator "We spent the next few hours brainstorming and outlining the modern adaptation." 
+Narrator "Simon was a natural when it came to envisioning the characters and their dynamics, but he struggled with translating Shakespearean language into modern dialogue." 
+Narrator "I will admit that I also struggled a bit with Shakespeare." 
+Narrator "I had to convince Simon to stop looking at Shakespearian language books and just rely on a Shakespeare translator that I found online."  
+Narrator "I helped him rewrite lines, making them sound natural in a modern setting while ensuring that they retained the essence of the original." 
+Narrator "We added a few lines to improve the flow of some scenes." 
+Simon "How should we make Ramlet?" 
+
+choice "..."   
+{ 
+	-Ramlet As A Brooding Senior? 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCreativity(-st 1) 
+		Narrator "How about we make Ramlet a brooding senior who's dealing with the recent death of his father and his mom's new relationship with the principal?" 
+		PlaySFX(TwoPoints -v 1)   
+		IncreaseFriendshipD(-fr 2) 
+		Simon "Oh, that's perfect." 
+		Simon "And Ophelia could be a shy, artistic student who's... Pressured by her overbearing father, the head of the, uh, school board." 
+		Narrator "We continued in this manner, reimagining the characters and their roles within the high school setting." 
+		Narrator "By the time we finished, we had a solid outline and some scenes of dialogue written." 
+		Simon "This is really coming together. I... Couldn't have done it without you." 
+		Narrator "Happy to help, Simon." 
+		Narrator "Now, let's talk about the world." 
+		
+	-Charismatic But Secretly Anxious? 
+		Narrator "Ramlet could be a senior, but instead of the classic brooding, he's this charismatic but secretly anxious honor student, dealing with the loss of his dad while under constant pressure to succeed." 
+		PlaySFX(ThreePoints -v 1)   
+		IncreaseFriendshipD(-fr 3) 
+		Simon "Yeah..." 
+		Narrator "Simon's energy faded, He looked away before his gaze dropped to the floor, lost in thought." 
+		Narrator "I leaned forward, noticing his silence." 
+		Narrator "Simon?" 
+		Narrator "You good?"
+		Narrator "He looked up then blinked, almost like he was snapping back, his smile returning with a flicker of his usual enthusiasm." 
+		Simon "Ooh, yeah! Maybe he's got this 'golden boy' reputation but secretly questions everything." 
+		Narrator "Do you really like the idea?" 
+		Simon "Yeah. I do. It's something that should be written." 
+		Simon "And... what if he keeps feeling like his dad's presence is haunting him, like some inner critic?" 
+		Narrator "All right." 
+		Narrator "And Ophelia? Maybe she's not shy. She's an artist that's actually into science and feels trapped by her family's expectations."  
+		Narrator "People see her as quiet, but deep down, she's fighting to break free." 
+		Simon "So... she's got that inner conflict too, trying to forge her own path. That could connect them in a way that feels... Real." 
+		Narrator "Simon's reaction was questable but I chose not to press him." 
+		PlaySFX(OnePoint -v 1)   
+		IncreasePatience(-st 1)   
+		Narrator "We kept building off each other's ideas, giving each character modern-day struggles that could felt relatable."  
+		Simon "Thanks so much for your help." 
+		Narrator "Of course, Simon. Anytime." 
+	
+} 
+
+Narrator "We continued to discuss ideas, our voices animated and our gestures lively as we brainstormed and bounced concepts off each other." 
+Narrator "The hours slipped away unnoticed as we delved deeper into the intricacies of the story, each suggestion sparking new possibilities." 
+Narrator "The student center around us seemed to fade, the only thing anchoring us to reality being the steady hum of fluorescent lights overhead." 
+Narrator "As we passionately debated how the second act should begin, Simon leaned forward, his eyes bright with inspiration." 
+Simon "What if we, um, start with a dramatic confrontation in the cafeteria?" 
+Narrator "He gestured me to look at his notebook as he sketched out a rough scene." 
+Narrator "Ooo, yes, that could work." 
+Narrator "And we could use the setting to highlight the tension between the characters." 
+Narratir "Maybe there could be a storm brewing outside, adding to the atmosphere?" 
+Narrator "We were so immersed in the unfolding narrative that we lost track of time." 
+Narrator "It wasn't until a sharp knock echoed through the quietness of the student center that we were jolted back to the present." 
+Narrator "The sound reverberated off the walls, breaking our concentration like a sudden burst of cold air." 
+Narrator "Startled, we turned to see a security guard standing at the entrance, his expression a mixture of patience and mild amusement." 
+Security Guard "Sorry to interrupt, but it's past closing time. You two need to wrap things up." 
+Narrator "Glancing at the clock on the wall, we saw that it was past eleven." 
+Simon "Wow, we... Really lost track of time." 
+Narrator "Simon quickly started gathering his notes and sketches, and powered off the computer." 
+Narrator "Yeah, we did."  
+Narrator "I agreed, standing up and stretching, feeling the hours of sitting in one spot catch up to me." 
+Narrator "Sorry, we'll get going now." 
+Narrator "The guard nodded then escorted us to the exit." 
+Narrator "As we stepped out into the cool night air, I already began asking when we could meet again to continue working on the project, if he still needed my help on the project."  
+Simon "Sure, feel free to come by the campus on Mondays and Wednesdays in the afternoon." 
+Simon "Next time, let's make sure to check the time."  
+Narrator "Simon chuckled." 
+Narrator "Yeah." 
+Narrator "But it was worth it. We made some great progress tonight." 
+Narrator "And I had fun." 
+Narrator "With that, we parted ways." 
+Narrator "The campus was now quiet and still as I made my way back to the parking lot." 
+Narrator "As I reached my car, I paused for a moment, soaking in the profound stillness of the night." 
+Narrator "The memories of our creative journey swirled through my mind, each moment replaying like scenes from a movie." 
+Narrator "I felt an exhilarating sense of promise, knowing that this was just the beginning." 
+Narrator "There were countless ideas to be added in the story." 
+DisableSkip()    
+Narrator "And there were endless adventures to be experienced with Simon, and I was excited to experience more of those adventures with him."  
+
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()  
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+AdvanceDay() 
+Load(ApartmentStart -enqueue true)  

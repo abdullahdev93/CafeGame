@@ -1,0 +1,11 @@
+SetLayerMedia(background Convience_Store_Reference)        
+
+Cashier "Oof, that's a bummer." 
+
+Narrator "After scratching the ticket, my excitement drained away, replaced by a sinking feeling of disappointment." 
+Narrator "I placed the ticket on the counter with a faint rustle, and I let out a small sigh." 
+Narrator "The sting of defeat was sharp but not unbearable." 
+PlaySFX(OnePoint -v 1)  
+IncreaseCourage(-st 1)  
+Narrator "Well, at least I had the courage to try in the first place." 
+LoadScene(ConvenientStore)  

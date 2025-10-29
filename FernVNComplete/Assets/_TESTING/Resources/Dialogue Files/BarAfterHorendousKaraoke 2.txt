@@ -1,0 +1,11 @@
+SetLayerMedia(background Bar)        
+
+Narrator "After finishing the song, I hurried off the stage, feeling completely humiliated." 
+Narrator "The bar was eerily quiet, except for a few awkward coughs and a few snickers." 
+Narrator "The music felt completely out of my grasp, and I couldn't connect to my charisma at all."   
+Narrator "Each verse I had sung felt like a leap of courage, but every verse I sang was off-key, and by the end, my voice was barely a whisper." 
+Narrator "The courage it took to get on stage quickly turned into regret as I fumbled through the song."   
+Narrator "There was no joy in performing tonight - just the sinking feeling that I've got a lot to improve on." 
+PlaySFX(ZeroPoints -v 1)    
+Narrator "By the end, my skills haven't improved, and this performance will haunt me for a while." 
+Load(BarLocation)  

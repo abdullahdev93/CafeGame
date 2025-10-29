@@ -1,0 +1,31 @@
+SetLayerMedia(background Bar) 
+
+Narrator "... The Old Fashioned?"
+Bartender "Comin' right up."
+Mei "I'll take a glass of Red Wine."
+Bartender "Got it."
+Narrator "As the bartender prepared our drinks, I leaned against the counter, glancing at Mei." 
+Narrator "Not feeling adventurous tonight?"
+Narrator "She smirked and looked at me while resting her elbow on the counter." 
+Mei "I know what I like, and it's best to play it safe on some days." 
+Mei "Don't want to waste money on something I might not even enjoy when I already have a guaranteed good choice."
+Narrator "Fair enough."
+Narrator "The bartender slid our drinks in front of us." 
+Narrator "I lifted my Old Fashioned, taking a slow sip, the warmth of the whiskey settling deep in my chest." 
+Narrator "Mei, meanwhile, swirled her glass of wine, inhaling the aroma before taking a sip with a content sigh."
+Mei "Now this is a drink."
+Narrator "I chuckled, setting my glass down." 
+Narrator "You really don't like whiskey, huh?"
+Mei "I don't hate it, but if I have a choice between feeling like a refined poet or a detective in a noir film, I'm picking the poet every time."
+Narrator "The bar hummed with low chatter and soft music." 
+Narrator "We talked, our conversation flowing easily."
+Narrator "Time slipped away between sips, stories, and quiet laughter." 
+Narrator "We lost track of time, caught up in conversation until the bar's lively buzz began to mellow." 
+Narrator "Eventually, with a shared glance and final sips, we knew it was time to call it a night. 
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+LoadScene(Bar -enqueue true) 

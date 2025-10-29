@@ -1,0 +1,219 @@
+SetLayerMedia(background NinaApartment)  
+
+PhoneEnabled(false) 
+
+ShowMC()  
+
+Narrator "She met me at the door, one sock on, one sock off, her sweatshirt slouching over one shoulder, her hair pulled back into a half-messy bun." 
+Narrator "The air inside the apartment was warm, dim, and smelled faintly of burnt toast and lavender detergent." 
+Narrator "Her apartment looked... Better than I expected. Still chaotic but tidier. Like she'd made an effort."
+Narrator "She handed me a small toolbox like it was a ceremonial offering." 
+Nina "You're officially my handyman now. Congratulations." 
+Nina "Try not to break anything else while you're at it."
+Narrator "I followed her to the bathroom. The light buzzed overhead, flickering once." 
+Narrator "The bathroom cabinet door was slumped against the tub." 
+Narrator "One hinge was barely hanging on - warped, bent like it had been forced off." 
+Narrator "It seemed odd, but I didn't ask." 
+Narrator "A moment later, I noticed that she kept glancing toward the cabinet like it owed her something."
+Narrator "Regardless, I knelt below the sink, tools in hand, while Nina leaned in the doorway." 
+Narrator "I placed the cabinet door beside me for when it was time to put it back in." 
+Narrator "As I was fixing the hinge, I couldn't help but look inside." 
+Narrator "There was a tea jar with a faded handwritten label in Italian still clinging to the glass." 
+Narrator "Tucked behind a box of bandages and pads was a nearly empty bottle of cheap red wine, cork replaced with a wadded tissue." 
+Narrator "A rolled-up canvas lay beside it, one edge scorched black, still clinging to ashy fragments like it had survived a fire." 
+Narrator "There was an old Polaroid, showing herself with two smiling figures that were scratched out in pen." 
+Narrator "And at the very bottom, half-buried beneath rags and loose screws, sat a warped sketchbook with a broken spine, its edges soft from wear and water damage." 
+Narrator "I noticed that her gaze followed my hands. Not distant - just calculating, like she was still deciding whether or not I was real." 
+Nina "So... Is this what friends do?" 
+Narrator "I looked up from the cabinet, screwdriver still in hand." 
+Nina "Fix each other's broken cabinet doors?" 
+Narrator "I shrugged." 
+Narrator "I guess so." 
+Narrator "That was enough to make her smirk, lips twitching to one side." 
+Narrator "Then she let out a sharp, involuntary sound - something between a laugh and a snort - and instantly slapped her hand over her mouth." 
+Narrator "I laughed." 
+Narrator "She lowered her hands and started to laugh too." 
+Narrator "She slid down the doorframe until she was sitting on the floor near me, legs pulled in." Narrator "She looked at me." 
+Nina "I hated The Gutter Beside The Road." 
+Narrator "What?" 
+Nina "You know, that classic book. I had to read it in high school."
+Nina "My English teacher acted like Hayden was this deep, complex character." 
+Nina "To me, he just sounded like every guy who thinks being emotionally unavailable makes him interesting."
+Nina "But honestly? He just made me want to set the book on fire."
+Narrator "That's a strong opinion about literature."
+Nina "I hate classic literature." 
+Nina "It's an unpopular opinion, but I stand by it." 
+Nina "A lot of it's just sad men whining about their lives.. Written by other sad men."
+Nina "Women barely spoke. Queer people barely existed." 
+Nina "And most of them are just old books full of outdated beliefs, written by people who only saw the world through their own narrow lens."
+Nina "Nobody in those stories ever felt real. It's like the characters were less like people and more like expectations of how people are supposed to be." 
+Nina "How they were supposed to behave. How they were supposed to feel."
+Nina "And everyone's always fainting or dying or staring at the sea or whatever." 
+Nina "It's like they wrote it for ghosts, not people." 
+
+choice "..." 
+{ 
+	-I Disagree But I See Your Point 
+		Narrator "I actually like some classics." 
+		Narrator "But I get what you're saying." 
+		Narrator "A lot of them weren't written for people like us - just for the world the author wanted to exist." 
+		Narrator "The characters feel more like ideals than people." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseIntelligence(-st 1) 
+		Nina "Exactly. It was like they were afraid to write someone real. Someone messy. Someone... Human." 
+		PlaySFX(TwoPoints -v 1) 
+		IncreaseFriendshipC(-fr 2)  
+		Nina "You're allowed to like them. I just won't pretend to like them back." 
+
+	-Finally, Someone That Understands 
+		Narrator "Finally - someone who gets it." 
+		Narrator "I always felt like I was the only one who thought those books were full of people pretending to be human." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseEmpathy(-st 1) 
+		Nina "Right? It's like they all read the same script and no one ever bothered to rewrite it."  
+		Nina "It never felt honest. Just rehearsed grief and recycled love stories." 
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipC(-fr 3)  
+		Narrator "She leans back a little, like the room just got more breathable." 
+
+	-Someone's Being Cynical 
+		Narrator "Damn. So cynical. You gonna punch the next person reading a dusty old paperback?" 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseHumor(-st 1) 
+		Nina "Only if they call it a timeless treasure in my presence." 
+		Narrator "Her eyes glinted with humor, but her voice softens just a touch at the end." 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseFriendshipC(-fr 1)  
+		Nina "I just... Don't like pretending something's meaningful when it doesn't mean anything to me." 
+		Nina "Especially when everyone acts like you're the problem for not relating to something."  
+}
+
+Nina "You know what I do like, though? That one show about the girl with the demon dad and the fake boyfriend." 
+Narrator "The one that got canceled after one season?" 
+Narrator "She pointed at me." 
+Nina "Yes. That one."  
+Nina "You get it." 
+Nina "And I get it." 
+Nina "It was objectively garbage, but it had soul." 
+Narrator "I guess the soul was buried under all the bad CGI and questionable accents." 
+Nina "Exactly. That's what made it fun." 
+Narrator "For someone that hates classic literature because it's bad, you sure like bad media." 
+Narrator "I giggled." 
+Nina "Touche." 
+Nina "But at least that bad media knew it was bad." 
+Nina "That's more than I can say for half the books people pretend to like just to feel smart." 
+Narrator "She laughed." 
+Narrator "Her shoulders began to relax, legs stretching out." 
+Narrator "She leaned her head against the frame behind her, tilting it just enough to glance sideways at me." 
+Nina "And horror movies? If they don't make me laugh, I'm not interested."
+Narrator "Is that your metric for quality?"
+Nina "Absolutely." 
+Nina "If the final girl trips while holding a chainsaw and it's not intentional, I'm in."
+Narrator "She smiled at her own joke, but the smile didn't vanish right away this time." 
+Narrator "Then... Something in her posture shifted." 
+Narrator "Her voice dropped." 
+Nina "You know, I used to break stuff on purpose when I was a kid. Just to get some attention."
+Narrator "I paused. The screwdriver stopped mid-turn." 
+Narrator "Sometimes old habits die hard. Sometimes, they come back."
+Narrator "I looked up at her but she didn't meet my eyes." 
+
+choice "..." 
+{
+	-You Really Broke That Just For Me? 
+		Narrator "Wait... You really broke that cabinet just for me?" 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCharisma(-st 1)  
+		Nina "Never said that." 
+		Narrator "I'm just saying, that's a bold strategy for attention."   
+		Nina "Could've been gravity. Could've been fate. Could've been a screwdriver I accidentally dropped five times." 
+		Nina "Or poor craftsmanship." 
+		Nina "Who knows?"  
+		Nina "And don't flatter yourself." 
+		Nina "I could've texted other people for help." 
+		PlaySFX(OnePoint -v 1) 
+		IncreaseFriendshipC(-fr 1) 
+		Nina "I just... Didn't want to." 
+		Narrator "She looked away, and I let her." 
+		Narrator "I didn't press her. Instead, I just made a simple response." 
+		Narrator "If you say so." 
+		Narrator "She then spoke under her breath." 
+		Nina "And if I did want you to come over, maybe I just didn't know how to say it without sounding weird."  
+
+	-Am I Still Getting Awarded? 
+		Narrator "Well, as long as I'm still getting awarded for saving the day, I don't mind." 
+		Narrator "I'll accept your flimsy cabinet as my heroic origin story." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseHumor(-st 1) 
+		Narrator "She scoffed mockly."
+		Nina "You fixed a door hinge and suddenly think you're entitled to something?"  
+		Narrator "So you lured me here under false pretenses. Damn, that's cold."  
+		Narrator "Nina smiled despite herself." 
+		PlaySFX(TwoPoint -v 1) 
+		IncreaseFriendshipC(-fr 2)
+		Nina "Fine. One reward." 
+		Nina "I won't pretend I didn't want to see you." 
+		Narrator "Oh, is that it?" 
+
+	-If You Wanted Company, You Could've Just Said So 
+		Narrator "You know, I would've come over even if all you needed was someone to keep you company." 
+		Narrator "Nina, if you wanted company, you could've just said so." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCourage(-st 1) 
+		Nina "... You say that like it's simple."  
+		Narrator "It is." 
+		Narrator "With me, it is." 
+		Nina "Yeah, well... Asking someone to come over to fix something is easier than asking them to just... Be there."  
+		Narrator "Nina, you don't need a reason to see me." 
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipC(-fr 3) 
+		Narrator "She looked at me, really looked, like she wasn't sure whether to argue or believe me."  
+		Nina "... OK." 
+}  
+
+Narrator "I returned to screwing the hinge until it clicked back into place." 
+Narrator "It wasn't perfect - one corner still sat a little crooked, but it held. It worked.
+Narrator "I gently pushed the cabinet door shut, testing the fit, then gave it a soft tug, and it closed smoothly.
+Narrator "I set the screwdriver down, brushed a light coat of sawdust from my knees, and sat back on my heels." 
+Nina "...Wow. You actually fixed it."
+Narrator "You sound surprised."
+Nina "I mean... I expected at least minor property damage. Maybe some drywall casualties." 
+Narrator "We both laughed." 
+Narrator "And when it faded, we stayed there, just sitting on the bathroom floor, close to each other, her legs tucked underneath her, my back against the cabinet." 
+Narrator "Close enough to feel the warmth of her arm brushing mine." 
+Narrator "Quiet enough to hear the hum of the fridge from the kitchenette." 
+Narrator "Then the silence was broken." 
+Nina "Well, thanks for coming over." 
+Narrator "She said casually." 
+Narrator "Anytime." 
+Narrator "See ya." 
+Narrator "I pushed off the floor, knees popping a little from crouching so long, and walked to the doorway." 
+Nina "[Player Name], wait." 
+Narrator "I turned around, and she got up, stretching." 
+Narrator "Yeah?" 
+Nina "Want to stay a while?" 
+Nina "And watch that one show... The one about the girl with the demon dad and the fake boyfriend?" 
+Narrator "She didn’t say it casually. Not really." 
+Narrator "More like anxiously, almost like it was difficult for her to ask." 
+Narrator "I smiled." 
+Narrator "Sure." 
+Narrator "We ended up on the couch, watching that ridiculous show about the girl with the demon dad and the fake boyfriend." 
+Narrator "The plot made no sense, the acting was over-the-top, and the special effects looked like someone had animated them in a hurry, but we laughed anyway." 
+Narrator "At the awkward dialogue." 
+Narrator "At the monster that looked like it belonged in a cereal commercial." 
+Narrator "And at each other." 
+Narrator "Somewhere between a possessed prom scene and a dramatic rooftop confession, her head found its way to my shoulder." 
+Narrator "She didn't ask. I didn't flinch. We just stayed like that - close and comfortable." 
+Narrator "By the time the credits of another episode rolled, we decided to call it a night." 
+Narrator "She stayed on the couch, half-asleep and bathed in the glow of the muted credits, as I walked out." 
+Narrator "I drove back to the apartment in the late night, and for once, I didn't mind the silence on the way back." 
+
+
+HideDB(-spd 1) 
+HideGalleryImage()
+HideDB(-spd 1) 
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1)   
+AdvanceDay() 
+Load(ApartmentStart) 

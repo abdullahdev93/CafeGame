@@ -1,0 +1,245 @@
+SetLayerMedia(background NinaApartment)         
+
+PhoneEnabled(false) 
+
+Narrator "After climbing the creaky stairs to her apartment, I knocked on her door then waited." 
+Narrator "When she opened the door, her face lit up with a warm smile." 
+Nina "Heyy." 
+Narrator "She was dressed in paint-streaked overalls, her dark hair tied up in a messy bun." 
+Narrator "A streak of vibrant paint crossed her cheek like an accidental war stripe." 
+
+Nina "You actually came." 
+Narrator "she said with delight, stepping aside to let me in." 
+Narrator "Her Italian accent, softened by years in the States, lingered in her words." 
+
+Narrator "Of course. I told you I'd would, didn't I?" 
+Narrator "I smiled as I stepped inside, taking in her small but cozy apartment." 
+Narrator "It smelled faintly of fresh paint and coffee." 
+Narrator "Paintings covered nearly every wall - abstract pieces filled with bold colors and swirling patterns that seemed to pulse with emotion."
+Nina "Sorry about the mess." 
+Narrator "She said while kicking aside an empty canvas frame." 
+Narrator "And gesturing to the paint-stained drop cloth spread across the living room, where various supplies were scattered - brushes, tubes of paint, and an empty coffee mug balanced precariously on a stack of sketchbooks." 
+Nina "Creative chaos, you know?" 
+Narrator "I chuckled." 
+Narrator "Got too absored in your work?" 
+Nina "Yeah." 
+Narrator "Nina led me to a small couch by the window, where sunlight streamed in, catching dust motes midair." 
+Narrator "She then moved back to her spot on the floor, settling onto her knees in front of an easel propped against the wall." 
+Narrator "What have you been working on?" 
+Nina "Oh, just piece for a client that they may or may not like."  
+Narrator "She picked up a brush and twirled it between her fingers." 
+Nina "It's... Nothing too complicated."  
+Narrator "I watched as she dipped the brush into a palette smeared with colors and began adding soft strokes to the canvas." 
+Narrator "Her movements were fluid, confident, yet there was some level of intensity, as though she were wrestling with the painting itself."  
+
+
+choice "..." 
+{ 
+	-You're Amazing  
+		Narrator "You're amazing." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseKindness(-st 1)  
+		Narrator "Nina glanced at me, and I noticed her cheeks flushing slightly as she looked back down to continue painting." 
+		Nina "You're just saying that." 
+		Narrator "No, I mean it." 
+		Narrator "You're ridiculously talented, Nina." 
+		Narrator "She paused for a moment, the brush hovering over the canvas, before she looked at me with a small, genuine smile." 
+		PlaySFX(ThreePoints -v 1) 
+		IncreaseFriendshipC(-fr 3)  
+		Nina "Thanks."  
+
+		
+	-It's... Unique  
+		Narrator "It's... Unique." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseCourage(-st 1)   
+		Narrator "She smirked, setting her paintbrush down on the edge of the palette."  
+		Nina "That's one way of saying it's a disaster." 
+		Narrator "No. Not at all. It's a wonderful mess. It's you on a canvas."  
+		Narrator "Nina glanced at me, arcrhing an eyebrow at me." 
+		Nina "Are you saying I'm a mess?" 
+		Narrator "Uh." 
+		Nina "I'm kidding." 
+		PlaySFX(TwoPoints -v 1)  
+		IncreaseFriendshipC(-fr 2)  
+		Nina "I appreciate the compliment though." 
+} 
+
+Narrator "Time seemed to pass effortlessly as I stayed, comfortably sprawled on the couch." 
+Narrator "She began to sit cross-legged at one point, leaning closer to the canvas as she brushed bold strokes of blue onto the canvas, I leaned back on the couch, watching her work." 
+Narrator "The room became quiet except for the faint rustle of bristles against fabric and the occasional creak of the old apartment building." 
+Narrator "So, what was it like growing up in Italy?" 
+Narrator "She paused, tilting her head in response to the question." 
+Nina "Chaotic." 
+Narrator "She said with a small laugh, dipping her brush into a jar of water." 
+Nina "But beautiful." 
+Nina "My family lived in this tiny village on the coast." 
+Nina "Everyone knew everyone. If I sneezed in the piazza, my mom would know about it before I even got home."  
+Narrator "I chuckled." 
+Narrator "Sounds charming. Was it one of those postcard-perfect places?" 
+Nina "Pretty much. Stone streets, colorful houses, the smell of fresh bread in the air." 
+Nina "My dad owned a bakery, actually. I used to sneak bites of biscotti before school." 
+Narrator "Biscotti?" 
+Nina "Almond bread." 
+Narrator "I grinned." 
+Narrator "Let me guess, you were the troublemaker." 
+Narrator "Nina smirked, flicking her brush to dry it quicker."  
+Nina "Not on purpose. I just... Didn't really fit in, you know? The whole small-town, follow-the-rules thing just wasn't me." 
+Narrator "That's hard to believe. You? A rebel?" 
+Narrator "She rolled her eyes, but her smile lingered." 
+Nina "Art was my escape. I used to draw on everything - my arms, notebooks, the walls, even the church pews once." 
+Narrator "Did you really?" 
+Nina "Oh, yeah. The priest wasn't too thrilled. My mom nearly fainted and my dad grounded me for a month."  
+Nina "But I couldn't help it. I always had to just create something. Always. Draw whatever came to mind."  
+Narrator "That makes sense. It's who you are after all." 
+Narrator "For a moment, she didn't respond, her focus shifting back to the painting." 
+Narrator "The only sound was the rhythmic strokes of her brush." 
+Nina "I guess I just... Didn't want to give up on myself." 
+Nina "Even when it felt like everyone else had." 
+Narrator "At least you're trying. That's something. A lot of people don't even try or just give up." 
+Narrator "She looked at me." 
+Nina "You're sweet." 
+Narrator "She said, almost shyly." 
+
+Narrator "Later, as the light in the room grew warmer, I broke the silence again."  
+Narrator "So why stay here? In Baywood Springs." 
+Narrator "She paused mid-stroke, setting her brush down carefully on the palette. Her shoulders rose and fell with a deep sigh as she reached for a paint-smeared rag to clean her hands."
+Nina "I... I just wanted to find a place here in the States that felt a little like home." 
+Narrator "But you're struggling here. People usually come to the States looking for something better."
+Narrator "She dropped her brush into a jar of water." 
+Nina "OK." 
+Nina "Honestly? At first, it wasn't by choice. I got kicked out of Baywood Springs University."  
+Narrator "Wait, you actually went to art school?"
+Nina "Yeah. I know I said I wanted to, but the truth is, I did. And I messed it all up."
+Nina "I couldn't keep up with the school's expectations, and when I failed... My parents made it clear that I wasn't welcomed back home." 
+Narrator "Nina..." 
+Nina "It's fine!" 
+Nina "I mean, it wasn't fine at first." 
+Nina "I was scared, broke, and alone." 
+Nina "But I made it work."  
+Nina "Found odd jobs, saved up, started freelancing and rented this little place." 
+Nina "And now..." 
+Narrator "She gestured around the room." 
+Nina "Now, it's mine. My space. My life." 
+Nina "This little apartment... This town... It's all I have got now."  
+Nina "And I have made it mine. Even if it's not much."  
+Narrator "That's a lot to go through on your own."  
+Nina "Yeah, but I guess I'm stubborn like that." 
+Nina "I couldn't let it beat me." 
+Nina "I had to prove to myself - and maybe to them one day - that I could do it." 
+
+choice "..." 
+{ 
+	-You Did Good 
+		Narrator "You did good, Nina." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseEmpathy(-st 1)  
+		Narrator "Her hand paused mid-brushstroke, and she looked at me with a mixture of surprise." 
+		Nina "You think so? You did say that I was struggling and you're not wrong."
+		Narrator "I nodded firmly." 
+		Narrator "Absolutely. You have made it through so much, and you're still here, you still managed." 
+		PlaySFX(TwoPoints -v 1)  
+		IncreaseFriendshipC(-fr 2)  
+		Nina "I did bust my ass to be where I am now." 
+		Nina "Thanks." 
+
+	-Hug Her 
+		Narrator "I stood and stepped toward Nina. Without thinking, I wrapped my arms around her in a gentle hug." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseKindness(-st 1)   
+		Narrator "Nina stiffened for a moment, surprised, before she relaxed."  
+		Nina "... Thanks." 
+		Narrator "Her voice was barely above a whisper." 
+		Narrator "And when I pulled back, she didn't look at me." 
+		Nina "I'm not great at... This, but... That helped." 
+		PlaySFX(ThreePoints -v 1)  
+		IncreaseFriendshipC(-fr 3)  
+		Nina "I didn't know you were the hugging type." 
+		Narrator "Sometimes words aren't enough."  
+		Narrator "Nina's gaze still lingered on her painting."   
+
+	-You Did Your Best 
+		Narrator "You did your best, Nina." 
+		PlaySFX(OnePoint -v 1)   
+		IncreasePatience(-st 1)    
+		Nina "I don't know... Sometimes it doesn't feel like enough." 
+		Nina "Maybe I could have tried harder." 
+		PlaySFX(OnePoint -v 1)  
+		IncreaseFriendshipC(-fr 1)   
+		Nina "Maybe if I conformed to all the expectations back at the University, I wouldn't have gone through all the struggles that I did."    
+		Narrator "College isn't for everyone." 
+		Narrator "And look at the brightside, at least you learned independence." 
+		Narrator "And you have done more than a lot of people ever could."  
+		Narrator "It shows - in your work and your persistence." 
+		Nina "You're too nice to me, you know that?" 
+		Narrator "Just calling it like I see it." 
+
+} 
+
+Narrator "After she was done with the painting, she asked for help with moving some canvases." 
+Narrator "While lifting one of the stacks, our hands brushed."  
+Narrator "Nina hesitated, her fingers lingering for a little longer than necessary before pulling away."  
+Nina "Sorry." 
+Narrator "She started tucking a loose strand of hair behind her ear." 
+Narrator "It's OK." 
+
+choice "..." 
+{ 
+	-Your Hands Are Cold 
+		Narrator "Your hands are cold." 
+		Narrator "Nina's eyes widened slightly before she let out a soft laugh." 
+		Nina "Guess I have been holding that paintbrush too long." 
+		Narrator "No need to apologize. It was just... Unexpected." 
+		PlaySFX(ThreePoints -v 1)   
+		IncreaseFriendshipC(-fr 3)    
+		Narrator "Nina smirked, looking at me with a glint of mischief in her eyes." 
+		Nina "Next time, I'll warm them up first. Just for you."  
+		PlaySFX(OnePoint -v 1)   
+		IncreaseConfidence(-st 1)    
+		Narrator "Bet." 
+
+		
+	-Your Hands Are Hot 
+		Narrator "You're hot."  
+		Narrator "Nina blinked, her cheeks reddening." 
+		Nina "What?" 
+		Narrator "Your hands. They're hot." 
+		Nina "Oh!" 
+		Nina "Oh... Um... Yeah, I guess I have been working too hard." 
+		PlaySFX(TwoPoints -v 1)  
+		IncreaseFriendshipC(-fr 2)   
+		Narrator "Nina looked me." 
+		Nina "What? No compliment?" 
+		Narrator "I would, but I think you already met my quota for today."   
+		Narrator "Too many compliments, and I might start charging." 
+		PlaySFX(OnePoint -v 1)   
+		IncreaseHumor(-st 1)   
+		Narrator "Nina giggled." 
+		Nina "Darn. Can't have that. I'm on a budget."   
+} 
+
+Narrator "These canvases are heavy, we should really move them to where we need to." 
+Nina "Oh, yeah." 
+Nina "Thanks for staying as long as you did, by the way." 
+Nina "I don't have many people I can talk to and I don't have any other in-person friends." 
+Narrator "I'm glad I stayed." 
+Narrator "You're a fun to be around, Nina." 
+Nina "I don't think I'm that fun, but I'll take it."  
+Nina "Well, if you ever get tired of the café or whatever else you have got going on, you're always welcome here." 
+Narrator "I'll hold you to that." 
+Narrator "I should get going before it gets too late." 
+Narrator "Nina walked me to the door, leaning against the frame as I stepped out into the hallway."  
+Nina "See you next time." 
+Narrator "I nodded as I walked down the hall." 
+DisableSkip()  
+Narrator "I walked down the stairs and left the building." 
+
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+AdvanceDay() 
+Load(ApartmentStart -enqueue true) 

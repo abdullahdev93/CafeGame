@@ -1,0 +1,16 @@
+SetLayerMedia(background Bar)        
+
+Narrator "After finishing the song, I stepped off the small stage, my heart still racing from anxiety and excitement." 
+Narrator "The crowd's applause and laughter echoed in the bar, giving me a sense of confidence." 
+PlaySFX(OnePoint -v 1)  
+IncreaseConfidence(-st 1)   
+Narrator "There was a warm feeling, as if the music had unlocked a deeper connection to my own charisma." 
+PlaySFX(OnePoint -v 1)   
+IncreaseCharisma(-st 1)  
+Narrator "Each verse I had sung felt like a leap of courage, pushing me to embrace the mic, and by the end, my voice felt stronger." 
+Narrator "The courage it took to stand before the crowd now felt like a victory." 
+PlaySFX(OnePoint -v 1)   
+IncreaseCourage(-st 1)   
+Narrator "And the joy of performing reminded me about my passion for music, leaving me feeling more vibrant and alive." 
+Narrator "By the end, my skills have slightly increased." 
+Load(BarLocation)  

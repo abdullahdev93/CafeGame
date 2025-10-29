@@ -1,0 +1,67 @@
+SetLayerMedia(background Bar) 
+
+HideIconsIntroduction() 
+
+FakeCalendarInfo(-se "Spring / 12" -dy "Morning" -wk "Thursday" -te "60°F")          
+
+EnableSkip() 
+wait(3.5)    
+Narrator "After hours of driving, I finally arrived to Baywood Springs."   
+Narrator "According to the GPS, I should arrive to my new place in about ten minutes from now." 
+Narrator "Based on the photos from the online advertisement, it looked like a decent place." 
+Narrator "It will definitely need some improvement, but it was nothing I couldn't handle." 
+Narrator "I still can't believe I found a mixed-use property for a decent price." 
+
+Narrator "After meeting the landlords outside the building, they showed me around the place." 
+
+Narrator "Despite the place's worn exterior and outdated interior, I saw potential hidden within its walls." 
+Narrator "It was dusty, fortunately it wasn't destroyed." 
+Narrator "There were a few flaws - cobwebs, peeling paint, a few unpatched walls, and a few other things - but they would be easy fixes." 
+
+Narrator "The upstairs apartment and business floor were furnished and spacious, but they were both in need of love and attention." 
+Narrator "I was given a tablet to view the agreement, diligently reading some sections and skimmed through others until I reached the point where I had to sign it." 
+DisableSkip() 
+Narrator "With a stylus pen now in hand, I began to sign the agreement." 
+Narrator "But not before choosing a color to sign with. My favorite color." 
+ShowColorPickerName() 
+
+$playerName = <input> 
+
+input "Signature" 
+
+EnableSkip()  
+Narrator "I hope you enjoy the place, <firstName>." 
+
+Narrator "Then with unwavering determination, I embarked on a quest to transform the space into my dream home and business." 
+Narrator "I visited nearby stores then drove back to the apartment." 
+DisableSkip()    
+Narrator "Armed with paintbrushes, a toolbox, cleaning supplies, café supplies, and endless enthusiasm, I began the arduous task of cleaning and decorating." 
+
+
+FakeAdvanceDay(315) 
+
+FakeCalendarInfo(-se "Spring / 15" -dy "Afternoon" -wk "Sunday" -te "56°F")    
+
+EnableSkip() 
+HideDB(-spd 1) 
+wait(5.5)     
+Narrator "After days of work, I was able to breath new life into the old café." 
+Narrator "As for the apartment, I just wanted it to be habitable for now." 
+Narrator "The café was my priority. Floors and corners were scrubbed, leaky faucets were repaired, counters, tables, and chairs were dusted." 
+Narrator "Amidst the chaos, I envisioned a cozy café where locals could gather for great food and conversation, and an upstairs area where I could retreat after a long day's work."  
+AdvanceDay() 
+Narrator "I spent the rest of the day putting up posters around the town."  
+
+FakeCalendarInfo(-se "Spring / 15" -dy "Evening" -wk "Sunday" -te "56") 
+
+Narrator "After noticing how late it was getting, I walked home." 
+
+AdvanceDay()  
+Narrator "Lying in bed and staring at the ceiling, I couldn't stop thinking about tomorrow." 
+Narrator "Would the café live up to my vision? Would the locals like it?" 
+Narrator "With a sigh, I reached over to grab my new phone from the nightstand." 
+Narrator "I got a new phone as an early birthday gift last week and hadn't really explored the phone since I got it." 
+DisableSkip() 
+ShowPhone() 
+PhoneEnabled(false)  
+Narrator "Maybe now's a good time to get familiar with it. Messing around with it for a bit would help me relax." 

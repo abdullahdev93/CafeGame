@@ -1,0 +1,32 @@
+SetLayerMedia(background Library)      
+
+PhoneEnabled(false)    
+
+wait(1) 
+
+EnableSkip() 
+Narrator "After spending a few more minutes chatting, I gathered the books Mei had picked out for me, holding them carefully against my chest."
+Narrator "The faint scent of aging paper clung to the covers."
+Mei.SetSprite("Mei_Peace,Mei_Neutral" -spd 1)
+Mei "Take care of those, all right?" 
+Mei "And yourself too, of course."
+FirstName "I will." 
+FirstName "Thanks again for the recommendations." 
+Mei.SetSprite("Mei_Peace,Mei_Happy" -spd 1)
+Narrator "She smiled, her expression calm but warm, the kind of smile that lingered even as I turned away." 
+Mei.Move(1.5 -spd 4.0) 
+Narrator "I made my way down the steps of Whispering Pages, paid for the books, and left the building." 
+Narrator "I tightened my grip on the books as I approached my car, not wanting to drop them." 
+DisableSkip()  
+Narrator "It was nice seeing Mei again and the thought of watching her rehearse at her place lingered in my mind with quiet excitement, leaving me smiling the whole way home." 
+Mei.Hide() 
+ 
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+Wait(1)  
+AdvanceDay() 
+Load(ApartmentStart -enqueue true) 

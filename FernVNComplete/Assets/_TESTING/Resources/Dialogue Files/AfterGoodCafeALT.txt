@@ -1,0 +1,48 @@
+SetLayerMedia(background Bar)            
+
+PhoneEnabled(false) 
+
+FakeCalendarHide()   
+
+Narrator "After a great day running the café, I could feel a transformation within myself." 
+PlaySFX(OnePoint -v 1)   
+IncreaseCharisma(-st 1)  
+Narrator "Interacting with customers, regulars and newcomers alike, I found my Charisma growing." 
+PlaySFX(OnePoint -v 1)   
+IncreaseCreativity(-st 1)  
+Narrator "Crafting new drink combinations brought a spark of Creativity." 
+PlaySFX(OnePoint -v 1)   
+IncreaseKindness(-st 1)  
+Narrator "Writing nice quotes deepened my Kindness." 
+PlaySFX(OnePoint -v 1)   
+IncreaseEmpathy(-st 1)  
+Narrator "Writing meaningful quotes deepened my Empathy." 
+PlaySFX(OnePoint -v 1)        
+IncreaseHumor(-st 1)     
+Narrator "A few witty quotes here and there boosted my Humor." 
+PlaySFX(OnePoint -v 1)        
+IncreaseEndurance(-st 1)    
+Narrator "I can definitely say that keeping up with the pace of a bustling café tested and strengthened my Endurance." 
+PlaySFX(OnePoint -v 1)        
+IncreasePatience(-st 1)   
+Narrator "And Patience." 
+PlaySFX(OnePoint -v 1)        
+IncreaseIntelligence(-st 1)   
+Narrator "Getting tricky orders just right sharpened my Intelligence." 
+PlaySFX(OnePoint -v 1)        
+IncreaseIntelligence(-st 1)   
+Narrator "And I surprised myself with the Courage it took to handle upset customers." 
+DisableSkip()  
+PlaySFX(OnePoint -v 1)        
+IncreaseConfidence(-st 1) 
+Narrator "Finally, I could feel my Confidence soar as I realized how much I'd grown in just one day."  
+
+HideGalleryImage()
+HideDB(-spd 1) 
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience() 
+wait(1) 
+AdvanceDay() 
+Load(ApartmentStart) 

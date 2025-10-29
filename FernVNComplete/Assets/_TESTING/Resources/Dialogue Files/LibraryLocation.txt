@@ -1,0 +1,16 @@
+SetLayerMedia(background Library)        
+
+ShowMC()  
+Narrator "What should I do?" 
+
+choice "What Should I Do?"   
+{
+	-Chat with Mei   
+		Load(Library_Mei -enqueue true)  
+		
+	-Look Around  
+		LoadScene(Library) 
+
+	-Back  
+		Load(LibraryLocation)   
+} 

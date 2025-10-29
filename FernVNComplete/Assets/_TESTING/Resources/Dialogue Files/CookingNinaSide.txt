@@ -1,0 +1,36 @@
+SetLayerMedia(background NinaApartment)                
+
+PhoneEnabled(false) 
+
+Narrator "The scent of garlic sizzling in olive oil filled Nina's apartment as we stood side-by-side in her small kitchen."
+Narrator "The counters were cluttered with ingredients - fresh parsley, ripe tomatoes, a wedge of Parmesan, and bottles of olive oil and balsamic vinegar."
+Narrator "Nina moved with ease, her paint-splattered shirt swapped for a simple apron, her hair was still loosely tied back."
+Nina "Risotto is all about patience." 
+Narrator "She stirred the rice in a pot, her tone steady and confident." 
+Nina "You can't rush it, and you can't stir it for too long."  
+Nina "It's a balancing act - kind of like painting."
+[Player Name] "So, cooking is an art too?"
+Narrator "I teased, watching the rice absorb the chicken stock she ladled in."
+Narrator "She glanced at me, a playful smirk on her lips." 
+Nina "Oh, of course."  
+Nina "Every dish is a canvas, and every ingredient is a color." 
+Nina "You can't just throw anything together and expect it to work."  
+Nina "It takes thought, care, and sometimes... Happy little accidents."
+[Player Name] "Like burning the onions?" 
+Narrator "I teased, gesturing to the pan she had scrapped earlier."
+Narrator "She laughed, the sound light and warm." 
+Nina "Exactly." 
+Nina "But don't remind me of that." 
+Nina "Here, try stirring this. I have to pee."
+Narrator "I took the wooden spoon from her as she left and began stirring the rice."
+
+Narrator "Cooking Mini-Game Outcomes."  
+
+choice "..." 
+{
+	-Success 
+		Load(CookingWithNinaSuccess -enqueue true)    
+
+	-Fail 
+		Load(CookingWithNinaFailure -enqueue true)    
+} 

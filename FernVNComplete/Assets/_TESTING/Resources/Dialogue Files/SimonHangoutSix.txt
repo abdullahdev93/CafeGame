@@ -1,0 +1,313 @@
+SetLayerMedia(background University)
+
+PhoneEnabled(false)
+
+Narrator "Simon invited me out to dinner at a place he referred to as a hidden gem."
+Narrator "Curious, I followed the pin he sent me and soon found myself pulling into a strip mall." 
+Narrator "The lot smelled faintly of fried food, oak trees, and asphalt cooling in the evening air."
+Narrator "Stepping out of my car, I held up my phone to orient myself toward the pin." 
+Narrator "When I looked up from my phone, I spotted a restaurant tucked quietly between a bright boba shop and a weathered convenience store."
+Narrator "The restaurant looked like one of those places you only find if you're not looking for it, and knowing Simon, that was probably exactly how he discovered it." 
+
+Narrator "Its modest exterior had no flashing neon sign or polished host stand, just a wooden sign overhead painted with the name of the restaurant, The Lantern." 
+Narrator "The carved letters caught the glow of a nearby streetlight, casting long shadows that stretched across the bright windows." 
+Narrator "Inside, the place felt like magic." 
+Narrator "Candles glowed in tiny glass jars on each table, flickering gently against walls lined with old black‑and‑white photos, and the scent of garlic, butter, and fresh herbs drifting from the kitchen." 
+Narrator "Simon waved at me, letting me know where he was sitting." 
+Narrator "I approached his table and sat across from him, his fingers nervously picking at the folded cloth napkin, the fabric soft and worn from years of use." 
+Narrator "He twisted and folded it so tightly that I thought it might tear." 
+Narrator "The booths were high‑backed and private, muffling the clink of silverware and low murmur of other diners." 
+Narrator "A waiter arrived just moments after I slid into the booth, balancing a small notepad in his hand."
+Waiter "Would you like to order drinks?"
+Simon "I-I'll t-t-take a w-water."
+FirstName "Same."
+Narrator "The waiter scribbled down the order with a quick nod before disappearing toward the kitchen." 
+Narrator "When he left, Simon's fingers went right back to nervously folding and unfolding the napkin." 
+DisableSkip() 
+Narrator "For a moment, neither of us seemed sure what to say, so I leaned in slightly and tried to break the ice."
+
+choice "..."
+{ 
+	-How Long Have You Known This Place? 
+		EnableSkip() 
+		FirstName "How long have you known this place?"
+		Narrator "I asked, glancing around at the dimly lit photos on the walls."
+		Simon "A w-while."
+		Narrator "He said quietly."
+		Simon "I g-got l-lost on my way home from classes and ended up in th-this strip mall area."
+		Simon "I w-was t-tired, h-hungry, and... w-well, desperate for something other than cafeteria food."
+		Simon "I th-thought the restaurant looked interesting, so I st-stepped inside, tried the f-food, and l-loved it."
+		Narrator "His voice warmed as he spoke."
+		Simon "I th-then c-called a r-rideshare to g-get home." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseCharisma(-st 1) 
+		Narrator "He gave a nervous laugh, rubbing the back of his neck."
+		Simon "A-and th-that was the l-last time my mum let me w-walk to and from school. She sw-swore I'd vanish into some alley and n-never come back." 
+		Simon "Sh-she... sh-she w-worries a l-lot. Al-always has." 
+		FirstName "Everything happens for a reason, right? If you hadn't gotten lost, we wouldn't be sitting here now." 
+		FirstName "And I feel honored to share this secret place with you." 
+		PlaySFX(TwoPoints -v 1)
+		IncreaseFriendshipD(-fr 2)  
+		Narrator "He smiled, small but genuine, as if he loosened up a bit, and for the first time since I sat down, he looked comfortable." 
+
+	-How's School? 
+		EnableSkip() 
+		FirstName "So... how's school going?"
+		Narrator "I asked, leaning forward a little, genuinely curious."
+		Simon "It's... f-f-fine, I g-guess."
+		Simon "C-classes are wh-what you'd expect. S-some l-long, some d-dull, and s-some filled with too many projects." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseIntelligence(-st 1) 
+		Narrator "He rolled his eyes slightly, but there was a small smile tugging at the corner of his lips."
+		Simon "M-my l-literature professor is c-convinced we all secretly w-want to be Sh-shakespeare scholars."
+		Simon "W-we've sp-spent three w-weeks on s-sonnets. Th-three weeks."
+		FirstName "That sounds... intense. Did you at least write a good one?"
+		Simon "I t-tried."
+		Simon "It t-turned out m-more like a b-bad love letter than a s-sonnet."
+		Narrator "He toyed with the rim of his glass, his shoulders loosening as he continued."
+		Simon "Th-the rest of my classes are m-manageable."
+		Simon "H-history's a blur of d-dates, math is math, and th-theatre is... well, theatre."
+		Simon "Theatre is the subject th-that I actually enjoy the m-most."
+		FirstName "Of course you do. That’s your element." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseFriendshipD(-fr 1)  
+		Simon "Y-yeah."
+		Simon "It d-definitely h-helps with my st-stuttering." 
+		Simon "I e-even w-won a s-scholarship for one of my p-performances." 
+		FirstName "That’s amazing, Simon." 
+		Simon "Th-thanks." 
+		Simon "Wh-when Mum and I m-moved to the States, sh-she was w-worried about wh-whether I would th-thrive or not." 
+		Simon "Sh-she... sh-she w-worries a l-lot. Al-always h-has." 
+		FirstName "Sounds like your mother was wrong. You're pretty impressive." 
+		FirstName "Most people can't stand up in front of people without wanting to disappear."
+		Simon "Y-yeah, b-but most p-people d-don’t trip over th-their own l-lines in casual conversation either. It's a tr-trade-off."
+		Narrator "I laughed at his self-deprecating humor, and he blushed faintly but looked pleased that he'd made me laugh." 
+
+	-You OK? 
+		EnableSkip()  
+		FirstName "Hey... you OK?"
+		Narrator "I asked softly, noticing the way Simon's hands wouldn't quite stay still, continuously picking at the edges of the napkin as though it might unravel all his nerves."
+		Simon "Y-y-yeah, I-I'm f-fine."
+		Narrator "He tried to brush it off with a shrug, but his voice lacked conviction."
+		FirstName "You sure? You seem... well, a little more wound up than usual." 
+		Narrator "He sighed." 
+		Simon "To be honest... I-I'm n-not f-feeling the best right now." 
+		FirstName "Why?" 
+		Simon "I f-feel like I'm going to be in-inarticulate t-today - that I w-won't say ev-everything I w-want to say perfectly." 
+		Narrator "He hesitated, his eyes flicking toward me before darting away." 
+		Narrator "He sighed, leaning back against the booth, sinking into it." 
+		FirstName "The fact that you say that shows how much you care." 
+		Narrator "His shoulders eased just a little, and the corners of his mouth lifted." 
+		PlaySFX(OnePoint -v 1)
+		IncreasePatience(-st 1) 
+		Simon "Y-you... y-you th-think so?" 
+		FirstName "Yeah." 
+		Simon "Y-you... al-always kn-know how to s-say the r-right thing. It’s both... f-frustrating and c-comforting." 
+		FirstName "Frustrating?" 
+		Simon "B-because I d-don’t kn-know how you d-do it." 
+		Simon "B-but I-I'm glad you d-do. I just w-wish I c-could do the same." 
+		Narrator "Simon leaned back into the table, meeting my gaze." 
+		Simon "I w-want to always s-say the right thing. I w-want to s-say things r-right." 
+		Simon "W-when I d-don’t, it makes me f-feel incompetent." 
+		FirstName "Simon, I don't think you're incompetent." 
+		FirstName "I actually kind of like this side of you." 
+		Narrator "The words seemed to catch him off guard." 
+		Narrator "He hesitated again, then spoke more quietly." 
+		Simon "Th-the tr-truth is... when I'm with y-you, I w-want to b-be b-better. I w-want to be perfect." 
+		FirstName "Simon... you don’t have to be perfect - not with me." 
+		PlaySFX(ThreePoints -v 1)
+		IncreaseFriendshipD(-fr 3)  
+		Narrator "He smiled." 
+		Simon "I... I app-appreciate th-that." 
+} 
+
+Simon "Y-you know, my m-mum w-worried that I wouldn't m-make m-many fr-friends here." 
+Simon "Sh-she w-worries a l-lot." 
+Simon "I m-may n-not h-have m-many fr-friends, b-but I h-have y-you, a-and th-that's en-enough." 
+Narrator "I smiled." 
+Narrator "We talked about the décor, about how the flickering candles made the whole place feel timeless, and I even cracked a joke about how the old photographs looked like ghosts caught mid-conversation." 
+Narrator "Simon and I laughed softly as the conversation went on." 
+Narrator "The waiter eventually came back and took our orders." 
+Narrator "As we waited for the waiter to return with the food, Simon asked me about my week, and I asked him about his favorite foods." 
+DisableSkip() 
+Simon "I l-like all types of f-food... ex-except p-pizza." 
+
+choice "..." 
+{ 
+	-You Don't Like Pizza!? 
+		EnableSkip()  
+		FirstName "You don't like pizza!?"
+		Narrator "My voice came out louder than I intended, turning a few heads at the nearby tables."
+		Narrator "I lowered it quickly." 
+		FirstName "Sorry." 
+		Narrator "I whispered." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseCourage(-st 1) 
+		Simon "I kn-know, I kn-know. It s-sounds cr-criminal. Ev-everyone l-loves p-pizza." 
+		Simon "B-but I j-just... d-don't."
+		FirstName "That's practically a crime against humanity. How could you not like pizza?" 
+		Firstname "It's gooey cheese, warm bread, endless toppings - what's not to love?"
+		Narrator "I leaned forward, half teasing, half genuinely baffled."
+		Simon "It's t-too m-much. Th-the g-grease, th-the m-mess... and d-don't g-get me st-started on th-the sm-smell. It's ov-overwhelming."
+		FirstName "Overwhelming? Simon, that's the smell of happiness!"
+		Narrator "He gave a sheepish smile, trying not to laugh at my mock outrage."
+		Simon "I g-guess I-I've j-just n-never h-had a g-good ex-experience w-with it."
+		Simon "Th-the l-last t-time I tr-tried p-pizza, th-the ch-cheese sl-slid r-right o-off and b-burned my t-tongue."
+		FirstName "One bad slice and you swore off pizza forever?"
+		Narrator "He shrugged, his expression caught between playful and defensive."
+		Simon "M-maybe."
+		Simon "B-but I'd r-rather st-stick with p-pasta, r-risotto, or j-just ab-about anything else. Th-those I c-can tr-trust."
+		FirstName "I didn't think I'd ever meet anyone that disliked pizza."
+		Narrator "This time he laughed, the sound soft but genuine. The conversation was absurd but it made his shoulders relax even more."
+		Simon "Wh-what c-can I s-say? I-I'm f-full of s-surprises."
+		FirstName "Apparently." 
+		FirstName "But one day, I'm taking you to the best pizza place I can find - a place that will make you change your mind about pizza." 
+		PlaySFX(TwoPoints -v 1)
+		IncreaseFriendshipD(-fr 2)  
+		Narrator "He shook his head, amused." 
+		Simon "I-I ac-accept th-the ch-challenge." 
+
+	-Same 
+		EnableSkip()   
+		FirstName "Same."
+		Narrator "Simon's brows lifted in surprise." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseEmpathy(-st 1) 
+		Simon "R-really? Y-you t-too?"
+		Narrator "He tilted his head, almost amused, clearly not expecting me to agree with him so wholeheartedly."
+		FirstName "Yeah, I don't really like pizza either."
+		FirstName "I know it's supposed to be everyone’s favorite food, but honestly? I can live without it."
+		Simon "Th-thank y-you! F-finally, s-someone und-understands."
+		Simon "P-people usu-ually tr-treat it l-like it's th-the b-best thing in th-the w-world. It's n-not."
+		FirstName "Agreed."
+		Narrator "I laughed, shaking my head at the thought of the two of us rejecting the world’s most popular dish."
+		FirstName "Hey, we can be outcasts together."
+		Narrator "I grinned as I raised my hand toward him, holding it up for a fist pump." 
+		PlaySFX(ThreePoints -v 1)
+		IncreaseFriendshipD(-fr 3)  
+		Simon "T-to b-being o-outcasts." 
+		Narrator "His eyes glinted with amusement as his fist met mine with a soft tap, his grin lingering afterward."  
+} 
+
+Narrator "A moment later, the food arrived - a steaming bowl of mushroom risotto for Simon and a grilled salmon with rice for me." 
+Narrator "The food was good, like really good, and the soft jazz in the background filled the silence when neither of us felt like talking." 
+FirstName "I think this is the fanciest place I’ve ever been in." 
+Narrator "I smirked, spearing a carrot." 
+Narrator "Simon laughed." 
+Simon "P-perhaps, I sh-should've w-worn a t-tie." 
+FirstName "You? In a tie? I'd need photographic proof." 
+Narrator "He grinned."
+Simon "M-my m-mum h-has p-pictures. H-horrible, h-horrible ones. Chr-Christmas d-dinners, ch-choir r-recitals."
+Simon "O-one t-time I dr-dressed as a m-magician f-for H-Halloween... w-wore a b-bowtie and ev-everything." 
+FirstName "A magician? Now that I need to see." 
+Narrator "Simon chuckled, a little shyly, but he was enjoying the teasing."
+Narrator "Then, with a sudden spark of playfulness, he picked up his spoon and twirled it in the air as if it was a magic wand." 
+Simon "B-behold, f-for I sh-shall n-now s-summon th-the f-f-fanciest t-tie in ex-existence!"
+Narrator "He gave the spoon a dramatic wave in the air then pointed it at me, like he was about to cast a spell." 
+Narrator "His grin widened when he saw me laugh at the gesture." 
+Narrator "Then the conversation shifted." 
+Narrator "I leaned back in my seat, letting the last bite of salmon melt in my mouth." 
+FirstName "So, how's your version of Hamlet going?"
+Narrator "Simon's expression changed - his eyes lit up like someone had flipped a switch. He sat straighter, his hands animated." 
+Simon "It’s g-going... s-surprisingly w-well, a-actually."
+Simon "I m-m-managed to wr-write a n-new m-monologue f-for H-Hamlet th-that c-captures his g-guilt..." 
+Simon "B-but thr-through the l-lens of a h-high sch-school s-senior wh-who just... f-feels tr-trapped in g-grief." 
+Simon "N-not an-angry, n-not v-vengeful - j-just st-stuck."
+FirstName "Sounds interesting." 
+Narrator "Simon continued explaining his version of the famous story and I noticed that he wasn't stuttering as much anymore."
+Narrator "His voice, usually soft and hesitant, had smoothed into something steady and bright."
+Narrator "He talked with his hands, painting the picture of his adaptation with every flourish - the classroom as the throne room, the guidance counselor as Polonius, the morning announcements as soliloquies."
+Narrator "And it was clear, as he spoke, how passionate he was about it." 
+Narrator "I smiled."
+Narrator "This was the version of him most people didn't get to see." 
+Narrator "Simon's phone buzzed on the table." 
+Narrator "He glanced down. His face fell just slightly when he saw the contact name." 
+Simon "It's m‑m-my m-mum." 
+Simon "S-s-sorry, I sh-should t-take th-this."
+Narrator "He pressed the phone to his ear right there in the booth." 
+Narrator "At first, his tone was steady." 
+Simon "H-hey, M-Mum… I-I'm j-just h-having d-dinner w-with a fr-friend." 
+Narrator "His free hand gestured lightly as if explaining something simple." 
+Narrator "Then his shoulders sank." 
+Simon "W-with $PlayerStats.FirstName. Th-the fr-friend I t-told y-you ab-about..." 
+Narrator "His voice grew tight, and he turned slightly, angling his face toward the wall." 
+Narrator "The call lasted barely two minutes, but when he set the phone back down, the spark from earlier was dimmed, his mouth pressed into a thin line."
+FirstName "Everything OK?" 
+Narrator "Simon gave a small nod, staring at the empty plate in front of him."  
+Simon "Sh-she... uh... s-she w-wants to m-meet y-you." 
+Simon "Sh-she s-said if I-I'm g-going to k-keep sp-spending s-so much t-time w-with y-you, sh-she w-wants to kn-know wh-who y-you a-are."
+FirstName "All right, cool. Where and when?" 
+Narrator "Simon stood quiet for a moment."  
+Simon "D-dinner at m-my p-place? S-sometime th-this w-week?"
+Narrator "I smiled."
+FirstName "I'd like that."
+Narrator "He let out a soft breath - half relief, half concern."
+Simon "O-OK. C-cool. C-cool."
+Simon "I-I'll l-let h-her kn-know."
+Narrator "The check arrived not long after, and we both reached for it at the same time." 
+DisableSkip() 
+Narrator "I looked at him and he looked at me." 
+
+choice "..."
+{ 
+	-Split The Bill 
+		EnableSkip()  
+		FirstName "How about we split the bill?" 
+		PlaySFX(OnePoint -v 1)
+		IncreaseCreativity(-st 1) 
+		Simon "Th-that's f-fair."
+		Narrator "We both reached for our wallets at the same time." 
+		PlaySFX(TwoPoints -v 1)
+		IncreaseFriendshipD(-fr 2)
+		Narrator "I slid a few bills onto the check, and Simon carefully added his own." 
+
+	-Pay The Bill 
+		EnableSkip()  
+		FirstName "I'll pay."
+		Simon "You don't have to." 
+		Narrator "He waved his hand slightly." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseCharisma(-st 1) 
+		Narrator "Before he could protest further, I slid the check toward me and tucked my card inside."
+		Narrator "He let out a soft sigh, then smiled." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseFriendshipD(-fr 1)
+		Simon "Y-you're quite s-stubborn, y-uou know that?" 
+		FirstName "Maybe."
+		FirstName "But I wanted to do this. Call it my treat. Even though you invited me out."
+		Narrator "He chuckled quietly, shaking his head." 
+
+	-Let Him Pay 
+		EnableSkip() 
+		FirstName "You did invite me. It's all yours." 
+		PlaySFX(OnePoint -v 1)
+		IncreaseConfidence(-st 1) 
+		Narrator "I leaned back." 
+		Simon "Y-yeah, tr-true." 
+		PlaySFX(ThreePoints -v 1)
+		IncreaseFriendshipD(-fr 3)
+		Narrator "He slipped his card into the check with a small, confident motion." 
+		Simon "M-my m-mum al-always t-told me to n-never in-invite s-someone out un-unless I w-was r-ready to c-cover th-the b-bill."
+		FirstName "Wise advice." 
+} 
+
+Narrator "As we stepped out of The Lantern, the night air was cool and crisp, carrying the faint scent of the oak trees." 
+Narrator "We walked side-by-side toward our cars, steps slow, as if we wanted to make the night last as long as we could."
+Narrator "I paused by my car, turning to him with a smile and small wave." 
+FirstName "Goodnight, Simon."
+Narrator "He returned the smile, his voice low but warm."
+Simon "G-goodnight, $PlayerStats.FirstName." 
+Narrator "I opened the door and slipped into my car." 
+Narrator "I waited until he climbed into his own car, and only then did I start the engine and drive away." 
+DisableSkip() 
+Narrator "As I drove off, I saw the glow of his headlights shrinking in my rearview mirror." 
+
+HideGalleryImage()
+HideDB(-spd 1)
+UIHide()
+wait(0.75)
+ClearLayerMedia(background), wait(1)
+StopSong(), StopAmbience()
+wait(1)
+AdvanceDay()
+Load(ApartmentStart -enqueue true)
